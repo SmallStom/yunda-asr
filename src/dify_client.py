@@ -104,11 +104,45 @@ class DifyClient:
                 parts.append(content)
         return "\n".join(parts)
 
-    def fetch_hotwords(self, dataset_id: str) -> List[Dict]:
+    @staticmethod
+    def _matches_version(doc_name: str, version: Optional[str]) -> bool:
+        """判断文档是否属于指定版本.
+
+        约定：文档名（去扩展名）等于版本名，或以 `{版本}_` 开头。
+        例如 version="调度" 匹配 "调度.txt"、"调度_机车.txt"、"调度.json"。
+        version 为 None 时匹配所有文档。
+        """
+        if version is None:
+            return True
+        stem = Path(doc_name).stem if doc_name else ""
+        return stem == version or stem.startswith(f"{version}_")
+
+    @staticmethod
+    def _extract_category(doc_name: str, version: Optional[str]) -> str:
+        """从文档名提取分类.
+
+        无版本时：用完整 stem 作为分类（向后兼容）。
+        有版本时：若 stem == 版本名，分类为 "default"；否则去掉 `{版本}_` 前缀。
+        """
+        stem = Path(doc_name).stem if doc_name else "default"
+        if version is None:
+            return stem
+        if stem == version:
+            return "default"
+        if stem.startswith(f"{version}_"):
+            return stem[len(version) + 1:]
+        return stem
+
+    def fetch_hotwords(self, dataset_id: str, version: Optional[str] = None) -> List[Dict]:
         """从 Dify 知识库拉取热词.
 
         约定：每个文档为一个分类，文档中每个分片为一行热词。
         文档名作为 category（去掉 .txt 后缀），metadata 中 enabled 可覆盖。
+
+        Args:
+            dataset_id: Dify 知识库 ID。
+            version: 可选版本名。若指定，仅拉取文档名匹配该版本的文档，
+                     例如 version="调度" 会匹配 "调度.txt"、"调度_机车.txt"。
         """
         documents = self.list_documents(dataset_id)
         words = []
@@ -116,7 +150,11 @@ class DifyClient:
             doc_data = doc.dict() if hasattr(doc, "dict") else doc
             doc_id = doc_data.get("id") or doc_data.get("document", {}).get("id")
             doc_name = doc_data.get("name") or doc_data.get("document", {}).get("name", "")
-            category = Path(doc_name).stem if doc_name else "default"
+
+            if not self._matches_version(doc_name, version):
+                continue
+
+            category = self._extract_category(doc_name, version)
 
             content = self.get_document_content(dataset_id, doc_id)
             for line in content.splitlines():
@@ -135,13 +173,15 @@ class DifyClient:
                         pass
                 words.append({"word": line, "category": category, "enabled": True})
 
-        logger.info(f"fetched {len(words)} hotwords from Dify dataset {dataset_id}")
+        logger.info(f"fetched {len(words)} hotwords from Dify dataset {dataset_id} (version={version})")
         return words
 
-    def fetch_prompts(self, dataset_id: str) -> List[Dict]:
+    def fetch_prompts(self, dataset_id: str, version: Optional[str] = None) -> List[Dict]:
         """从 Dify 知识库拉取 Prompt.
 
         约定：文档名格式为 `{version}_system.txt` 或 `{version}_user_template.txt`。
+        version 参数可指定只拉取某个版本，例如 version="调度" 只拉取
+        "调度_system.txt" 和 "调度_user_template.txt"。
         """
         documents = self.list_documents(dataset_id)
         prompts = []
@@ -152,27 +192,33 @@ class DifyClient:
 
             stem = Path(doc_name).stem
             if "_system" in stem:
-                version = stem.replace("_system", "")
+                prompt_version = stem.replace("_system", "")
                 role = "system"
             elif "_user_template" in stem:
-                version = stem.replace("_user_template", "")
+                prompt_version = stem.replace("_user_template", "")
                 role = "user"
             else:
                 continue
 
-            content = self.get_document_content(dataset_id, doc_id)
-            prompts.append({"version": version, "role": role, "content": content})
+            # 版本过滤
+            if version is not None and prompt_version != version:
+                continue
 
-        logger.info(f"fetched {len(prompts)} prompt files from Dify dataset {dataset_id}")
+            content = self.get_document_content(dataset_id, doc_id)
+            prompts.append({"version": prompt_version, "role": role, "content": content})
+
+        logger.info(f"fetched {len(prompts)} prompt files from Dify dataset {dataset_id} (version={version})")
         return prompts
 
-    def fetch_aliases(self, dataset_id: str) -> Dict[str, str]:
+    def fetch_aliases(self, dataset_id: str, version: Optional[str] = None) -> Dict[str, str]:
         """从 Dify 知识库拉取正别名映射.
 
         约定：
         - 文档名为 `aliases.json` 时，内容解析为完整的 JSON 字典。
         - 其他文档每行一个映射，支持 `alias -> canonical` 或 `alias|canonical`。
         - 以 `#` 开头的行为注释。
+        - version 参数可指定只拉取某个版本的文档，例如 version="调度"
+          会匹配 "调度.json"、"调度.txt"、"调度_*.txt"。
         """
         import json
 
@@ -182,6 +228,16 @@ class DifyClient:
             doc_data = doc.dict() if hasattr(doc, "dict") else doc
             doc_id = doc_data.get("id") or doc_data.get("document", {}).get("id")
             doc_name = doc_data.get("name") or doc_data.get("document", {}).get("name", "")
+
+            # 版本过滤：无版本时匹配所有；有版本时匹配 "调度.json"、"调度.txt"、"调度_*.txt"
+            if version is not None:
+                stem = Path(doc_name).stem if doc_name else ""
+                # 兼容旧格式 aliases.json（无版本前缀）只在无版本过滤时加载
+                if stem == "aliases":
+                    continue
+                if stem != version and not stem.startswith(f"{version}_"):
+                    continue
+
             content = self.get_document_content(dataset_id, doc_id)
 
             if doc_name.lower().endswith(".json"):
@@ -208,7 +264,7 @@ class DifyClient:
                 if alias and canonical:
                     aliases[alias] = canonical
 
-        logger.info(f"fetched {len(aliases)} aliases from Dify dataset {dataset_id}")
+        logger.info(f"fetched {len(aliases)} aliases from Dify dataset {dataset_id} (version={version})")
         return aliases
 
     def fetch_knowledge(self, dataset_id: str) -> List[Dict]:

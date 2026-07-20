@@ -42,9 +42,22 @@ DIFY_SYNC_INTERVAL_SECONDS=300
 
 ### 3.1 Dify 侧
 
-1. 创建知识库 `asr-hotwords`。
-2. 每个文档代表一个分类，例如 `locomotives.txt`、`procedures.txt`。
-3. 文档内容每行一个热词，例如：
+1. 创建知识库 `asr-hotwords`（**只需一个知识库**）。
+2. 在知识库内通过**文档名区分版本/场景**，命名规则：
+   - `{版本名}.txt` - 一个文档即一个版本，内容为该版本全部热词
+   - `{版本名}_{分类}.txt` - 一个版本拆成多个分类文档
+
+   例如同时管理"调度"、"检修"、"行车"三套热词：
+
+   | 文档名 | 说明 |
+   |---|---|
+   | `调度.txt` | 调度场景全部热词 |
+   | `检修.txt` | 检修场景全部热词 |
+   | `行车.txt` | 行车场景全部热词 |
+   | `调度_机车.txt` | 调度场景-机车分类（可选拆分） |
+   | `调度_信号.txt` | 调度场景-信号分类（可选拆分） |
+
+3. 文档内容每行一个热词：
 
 ```text
 DF11G型内燃机车
@@ -54,11 +67,16 @@ SS9型电力机车
 
 ### 3.2 同步
 
-手动触发：
+**同步指定版本**（只拉取该版本的文档，保存为版本文件，不影响线上）：
 
 ```bash
-curl -X POST "http://localhost:8000/api/v1/dify-sync/hotwords/pull" \
-  -H "Content-Type: application/json"
+curl -X POST "http://localhost:8000/api/v1/dify-sync/hotwords/pull?version=调度"
+```
+
+**同步全部**（不指定 version，拉取知识库内所有文档并合并为活跃文件）：
+
+```bash
+curl -X POST "http://localhost:8000/api/v1/dify-sync/hotwords/pull"
 ```
 
 返回示例：
@@ -67,6 +85,7 @@ curl -X POST "http://localhost:8000/api/v1/dify-sync/hotwords/pull" \
 {
   "status": "ok",
   "dataset_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+  "version": "调度",
   "updated": 12,
   "deleted": 0,
   "skipped": 0
@@ -77,16 +96,23 @@ curl -X POST "http://localhost:8000/api/v1/dify-sync/hotwords/pull" \
 
 ### 4.1 Dify 侧
 
-1. 创建知识库 `asr-prompts`。
-2. 每个 Prompt 版本拆成两个文档：
-   - `{version}_system.txt`，例如 `v2_system.txt`
-   - `{version}_user_template.txt`，例如 `v2_user_template.txt`
+1. 创建知识库 `asr-prompts`（**只需一个知识库**）。
+2. 每个 Prompt 版本拆成两个文档，**文档名即为版本名**：
+   - `{版本名}_system.txt`，例如 `调度_system.txt`、`检修_system.txt`
+   - `{版本名}_user_template.txt`，例如 `调度_user_template.txt`、`检修_user_template.txt`
 
 ### 4.2 同步
 
+**同步指定版本**：
+
 ```bash
-curl -X POST "http://localhost:8000/api/v1/dify-sync/prompts/pull" \
-  -H "Content-Type: application/json"
+curl -X POST "http://localhost:8000/api/v1/dify-sync/prompts/pull?version=调度"
+```
+
+**同步全部版本**：
+
+```bash
+curl -X POST "http://localhost:8000/api/v1/dify-sync/prompts/pull"
 ```
 
 同步后可通过 `/api/v1/prompts` 查看版本，通过 `/api/v1/prompts/{version}/set-default` 切换默认版本。
@@ -95,14 +121,21 @@ curl -X POST "http://localhost:8000/api/v1/dify-sync/prompts/pull" \
 
 ### 5.1 Dify 侧
 
-1. 创建知识库 `asr-aliases`。
-2. 上传文档，支持两种格式：
+1. 创建知识库 `asr-aliases`（**只需一个知识库**）。
+2. 通过**文档名区分版本**，命名规则：
+   - `{版本名}.json` - JSON 格式，内容为完整的别名字典
+   - `{版本名}.txt` - 文本格式，每行一个映射
+   - `{版本名}_{子集}.txt` - 版本内拆分多个文档（可选）
 
-**格式 A：JSON 文件**（推荐批量管理）
+   例如：
 
-文档名：`aliases.json`
+   | 文档名 | 格式 | 说明 |
+   |---|---|---|
+   | `调度.json` | JSON | 调度场景别名映射 |
+   | `检修.json` | JSON | 检修场景别名映射 |
+   | `行车.txt` | 文本 | 行车场景别名映射 |
 
-内容：
+**JSON 格式**内容示例：
 
 ```json
 {
@@ -112,9 +145,7 @@ curl -X POST "http://localhost:8000/api/v1/dify-sync/prompts/pull" \
 }
 ```
 
-**格式 B：文本文件**
-
-每行一个映射，支持 `->` 或 `|` 分隔：
+**文本格式**每行一个映射，支持 `->` 或 `|` 分隔：
 
 ```text
 # 道岔相关
@@ -128,9 +159,16 @@ curl -X POST "http://localhost:8000/api/v1/dify-sync/prompts/pull" \
 
 ### 5.2 同步
 
+**同步指定版本**（只拉取该版本的文档，保存为版本文件，不影响线上）：
+
 ```bash
-curl -X POST "http://localhost:8000/api/v1/dify-sync/aliases/pull" \
-  -H "Content-Type: application/json"
+curl -X POST "http://localhost:8000/api/v1/dify-sync/aliases/pull?version=调度"
+```
+
+**同步全部**（不指定 version，拉取知识库内所有文档并合并为活跃文件）：
+
+```bash
+curl -X POST "http://localhost:8000/api/v1/dify-sync/aliases/pull"
 ```
 
 返回示例：
@@ -139,16 +177,13 @@ curl -X POST "http://localhost:8000/api/v1/dify-sync/aliases/pull" \
 {
   "status": "ok",
   "dataset_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+  "version": "调度",
   "count": 1384,
-  "path": "data/lexicon/aliases.json"
+  "path": "data/lexicon/aliases_调度.json"
 }
 ```
 
-同步后会：
-
-- 备份原 `aliases.json` 到 `data/lexicon/backups/aliases.json.bak`
-- 覆盖本地 `data/lexicon/aliases.json`
-- 运行时热重载 `DictionaryCorrector`、`PhoneticCandidateGenerator` 以及 Pipeline 中的 `RAGRefiner` / `HarnessRefiner` 术语索引
+指定 `version` 时保存为版本文件（如 `aliases_调度.json`），不覆盖活跃文件；不指定 `version` 时覆盖活跃 `aliases.json` 并热重载。
 
 无需重启服务即可生效。
 
@@ -302,77 +337,108 @@ Dify Workflow 目前主要依赖手动点击运行。如果希望定时同步，
 
 ## 10. 版本管理（热词 / 别名 / Prompt）
 
-当热词、别名、Prompt 存在多个版本时，可以保存为版本文件，运行时切换激活的版本。
+**核心设计：一共 3 个知识库（热词/提示词/正别名），通过文档名区分版本。**
 
-### 10.1 Prompt 版本
+版本名可以是任意字符串，例如 `调度`、`检修`、`行车`，或 `v1`、`v2`。
 
-Prompt 通过 `src/prompts/v1/`、`src/prompts/v2/` 等目录管理，Dify 同步时按 `{version}_system.txt` / `{version}_user_template.txt` 命名文档。
+### 10.1 文档命名规范总览
 
-切换默认版本：
+| 知识库 | 文档名格式 | 示例 |
+|---|---|---|
+| `asr-hotwords` | `{版本}.txt` 或 `{版本}_{分类}.txt` | `调度.txt`、`调度_机车.txt` |
+| `asr-prompts` | `{版本}_system.txt` + `{版本}_user_template.txt` | `调度_system.txt`、`调度_user_template.txt` |
+| `asr-aliases` | `{版本}.json` 或 `{版本}.txt` | `调度.json`、`检修.txt` |
+
+### 10.2 同步指定版本
+
+`?version=` 参数控制两件事：
+1. **从 Dify 拉取哪些文档**：只拉取文档名匹配该版本的文档
+2. **本地保存为版本文件**：如 `hotwords_调度.json`，不覆盖活跃文件
 
 ```bash
-curl -X POST "http://localhost:8000/api/v1/prompts/v2/set-default"
+# 同步"调度"版本的热词
+curl -X POST "http://localhost:8000/api/v1/dify-sync/hotwords/pull?version=调度"
+
+# 同步"检修"版本的别名
+curl -X POST "http://localhost:8000/api/v1/dify-sync/aliases/pull?version=检修"
+
+# 同步"行车"版本的 Prompt
+curl -X POST "http://localhost:8000/api/v1/dify-sync/prompts/pull?version=行车"
 ```
 
-或通过环境变量 `LLM_PROMPT_VERSION=v2` 在启动时指定。
+### 10.3 列出与切换版本
 
-### 10.2 热词版本
-
-**保存为版本文件**（不覆盖当前活跃文件）：
+**热词**：
 
 ```bash
-curl -X POST "http://localhost:8000/api/v1/dify-sync/hotwords/pull?version=v2"
-```
-
-会生成 `data/lexicon/hotwords_v2.json`，不影响当前运行的 `hotwords.json`。
-
-**列出所有版本**：
-
-```bash
+# 列出所有本地版本
 curl "http://localhost:8000/api/v1/hotwords/versions"
+
+# 切换激活版本（热重载，无需重启）
+curl -X POST "http://localhost:8000/api/v1/hotwords/switch-version?version=调度"
 ```
 
-**切换激活版本**：
+**别名**：
 
 ```bash
-curl -X POST "http://localhost:8000/api/v1/hotwords/switch-version?version=v2"
+curl "http://localhost:8000/api/v1/aliases/versions"
+curl -X POST "http://localhost:8000/api/v1/aliases/switch-version?version=调度"
 ```
 
-会将 `hotwords_v2.json` 复制为 `hotwords.json` 并热重载。
+**Prompt**：
 
-**启动时自动激活指定版本**：
+```bash
+# 查看所有版本
+curl "http://localhost:8000/api/v1/prompts"
+
+# 设置默认版本
+curl -X POST "http://localhost:8000/api/v1/prompts/调度/set-default"
+```
+
+### 10.4 启动时自动激活指定版本
 
 在 `.env` 中配置：
 
 ```ini
-HOTWORDS_VERSION=v2
+HOTWORDS_VERSION=调度
+ALIASES_VERSION=调度
+LLM_PROMPT_VERSION=调度
 ```
 
-### 10.3 别名版本
+### 10.5 典型版本管理流程
 
-与热词类似：
+以"调度"场景为例：
 
-```bash
-# 保存为版本文件
-curl -X POST "http://localhost:8000/api/v1/dify-sync/aliases/pull?version=v2"
+1. **在 Dify 知识库中编辑**：上传/修改 `调度.txt`（热词）、`调度.json`（别名）、`调度_system.txt` + `调度_user_template.txt`（Prompt）
+2. **同步到本地版本文件**：
+   ```bash
+   curl -X POST "http://localhost:8000/api/v1/dify-sync/hotwords/pull?version=调度"
+   curl -X POST "http://localhost:8000/api/v1/dify-sync/aliases/pull?version=调度"
+   curl -X POST "http://localhost:8000/api/v1/dify-sync/prompts/pull?version=调度"
+   ```
+3. **验证效果**：
+   ```bash
+   curl -X POST "http://localhost:8000/api/v1/correct" -d '{"text":"十八号道差开通反位"}'
+   ```
+4. **激活"调度"版本**：
+   ```bash
+   curl -X POST "http://localhost:8000/api/v1/hotwords/switch-version?version=调度"
+   curl -X POST "http://localhost:8000/api/v1/aliases/switch-version?version=调度"
+   curl -X POST "http://localhost:8000/api/v1/prompts/调度/set-default"
+   ```
+5. **如需回滚**：把 `version=` 改成其他版本名重新激活即可。
 
-# 列出所有版本
-curl "http://localhost:8000/api/v1/aliases/versions"
+### 10.6 Dify Workflow 配置（以"调度"为例）
 
-# 切换激活版本
-curl -X POST "http://localhost:8000/api/v1/aliases/switch-version?version=v2"
-```
+为每个场景创建一个 Workflow，固定 `version` 参数：
 
-启动时自动激活：
+**Workflow: `asr-sync-调度`**
 
-```ini
-ALIASES_VERSION=v2
-```
+- Start Node：无输入变量
+- HTTP Request Node（可串联 3 个，或用条件分支）：
+  - `POST http://<asr-host>:8000/api/v1/dify-sync/hotwords/pull?version=调度`
+  - `POST http://<asr-host>:8000/api/v1/dify-sync/aliases/pull?version=调度`
+  - `POST http://<asr-host>:8000/api/v1/dify-sync/prompts/pull?version=调度`
+- End Node：返回结果
 
-### 10.4 典型版本管理流程
-
-1. 在 Dify 知识库中编辑新版本内容。
-2. 调用 `?version=v2` 同步，生成版本文件（不影响线上）。
-3. 在测试环境验证 `v2` 效果。
-4. 验证通过后调用 `switch-version?v2` 激活。
-5. 如需回滚，调用 `switch-version?v1` 即可。
+运营人员编辑完"调度"文档后，运行该 Workflow 即可同步全部三类配置。

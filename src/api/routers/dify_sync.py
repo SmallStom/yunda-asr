@@ -52,7 +52,7 @@ async def sync_hotwords_from_dify(
     ds_id = _get_dataset_id("dify_hotwords_dataset_id", dataset_id)
     try:
         client = DifyClient()
-        words = client.fetch_hotwords(ds_id)
+        words = client.fetch_hotwords(ds_id, version=version)
         manager = get_hotword_manager()
         result = manager.reload_from_dify(words, version=version)
         client.close()
@@ -67,9 +67,15 @@ async def sync_hotwords_from_dify(
 @router.post("/prompts/pull")
 async def sync_prompts_from_dify(
     dataset_id: Optional[str] = None,
+    version: Optional[str] = None,
     _=Depends(verify_api_key),
 ) -> dict:
-    """从 Dify 拉取 Prompt 并同步到本地."""
+    """从 Dify 拉取 Prompt 并同步到本地.
+
+    Args:
+        dataset_id: 可选，覆盖 .env 中的 DIFY_PROMPTS_DATASET_ID。
+        version: 可选版本名（如 "调度"），仅拉取该版本的 system/user_template 文档。
+    """
     settings = get_settings()
     if not settings.dify_enabled:
         raise HTTPException(status_code=403, detail="Dify integration is disabled")
@@ -77,11 +83,11 @@ async def sync_prompts_from_dify(
     ds_id = _get_dataset_id("dify_prompts_dataset_id", dataset_id)
     try:
         client = DifyClient()
-        prompts = client.fetch_prompts(ds_id)
+        prompts = client.fetch_prompts(ds_id, version=version)
         manager = get_prompt_manager()
         updated = manager.reload_from_dify(prompts)
         client.close()
-        return {"status": "ok", "dataset_id": ds_id, "updated": updated}
+        return {"status": "ok", "dataset_id": ds_id, "version": version, "updated": updated}
     except DifyClientError as e:
         raise HTTPException(status_code=400, detail=str(e))
     except Exception as e:
@@ -110,7 +116,7 @@ async def sync_aliases_from_dify(
 
     try:
         client = DifyClient()
-        aliases = client.fetch_aliases(ds_id)
+        aliases = client.fetch_aliases(ds_id, version=version)
         client.close()
 
         from src.alias_manager import get_alias_manager
