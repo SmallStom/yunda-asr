@@ -32,3 +32,21 @@ tools/
 # Backups
 *.bak
 data/lexicon/backups/
+
+# === 上线部署：仅保留核心 FastAPI 实现，排除测试与脚本 ===
+
+# 测试文件与测试数据
+tests/
+conftest.py
+data/asr_testset/
+
+# 脚本目录（仅保留 API 启动脚本 start_api.py）
+scripts/*
+!scripts/start_api.py
+
+# 语料原始文件（运行时使用 ngram_model.json，无需原始语料）
+data/corpus/railway_corpus.txt
+data/corpus/railway_corpus_raw.txt
+
+# Prompt 设计草稿（非运行时依赖）
+识别修正.md
