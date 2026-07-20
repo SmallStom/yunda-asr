@@ -1,0 +1,199 @@
+{
+  "initial": {
+    "zh": [
+      "z"
+    ],
+    "z": [
+      "zh"
+    ],
+    "sh": [
+      "s",
+      "ch"
+    ],
+    "s": [
+      "sh"
+    ],
+    "ch": [
+      "c",
+      "sh"
+    ],
+    "c": [
+      "ch"
+    ],
+    "n": [
+      "l"
+    ],
+    "l": [
+      "r"
+    ],
+    "f": [
+      "h"
+    ],
+    "h": [
+      "f"
+    ],
+    "r": [
+      "l"
+    ],
+    "d": [
+      "t"
+    ],
+    "t": [
+      "d"
+    ],
+    "b": [
+      "p"
+    ],
+    "p": [
+      "b"
+    ]
+  },
+  "final": {
+    "an": [
+      "ang"
+    ],
+    "ang": [
+      "an"
+    ],
+    "en": [
+      "eng"
+    ],
+    "eng": [
+      "en"
+    ],
+    "in": [
+      "ing"
+    ],
+    "ing": [
+      "in"
+    ],
+    "ian": [
+      "iang"
+    ],
+    "iang": [
+      "ian"
+    ],
+    "uan": [
+      "uang"
+    ],
+    "uang": [
+      "uan"
+    ],
+    "a": [
+      "ao"
+    ],
+    "ao": [
+      "a"
+    ],
+    "e": [
+      "ei"
+    ],
+    "ei": [
+      "e"
+    ],
+    "ou": [
+      "u"
+    ],
+    "u": [
+      "ou"
+    ]
+  },
+  "whole": {
+    "si": [
+      "shi",
+      "shi"
+    ],
+    "shi": [
+      "si",
+      "shi"
+    ],
+    "zi": [
+      "zhi",
+      "zhi"
+    ],
+    "zhi": [
+      "zi",
+      "zhi"
+    ],
+    "ci": [
+      "chi",
+      "chi"
+    ],
+    "chi": [
+      "ci",
+      "chi"
+    ],
+    "cao": [
+      "cha"
+    ],
+    "cha": [
+      "cao"
+    ],
+    "che": [
+      "shei"
+    ],
+    "shei": [
+      "che"
+    ],
+    "yi": [
+      "yao"
+    ],
+    "yao": [
+      "yi"
+    ],
+    "su": [
+      "suo"
+    ],
+    "suo": [
+      "su"
+    ],
+    "fan": [
+      "ban"
+    ],
+    "ban": [
+      "fan"
+    ],
+    "tong": [
+      "dong"
+    ],
+    "dong": [
+      "tong"
+    ],
+    "wei": [
+      "hui"
+    ],
+    "hui": [
+      "wei"
+    ],
+    "tie": [
+      "tie"
+    ],
+    "jian": [
+      "jian"
+    ],
+    "xing": [
+      "xu"
+    ],
+    "xu": [
+      "xing"
+    ],
+    "reng": [
+      "ren"
+    ],
+    "ren": [
+      "reng"
+    ],
+    "lu": [
+      "ru"
+    ],
+    "ru": [
+      "lu"
+    ],
+    "qin": [
+      "qian"
+    ],
+    "qian": [
+      "qin"
+    ]
+  }
+}

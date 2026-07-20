@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# pytest
+.pytest_cache/
+
+# IDE
+.trae/
+.vscode/
+.idea/
+
+# Reports & generated data
+reports/
+data/feedback/
+
+# Environment
+.env
+.venv/
+venv/
+
+# Large/generated artifacts
+.gradio/
+dataset/
+outputs/
+tools/
+
+# Backups
+*.bak
+data/lexicon/backups/

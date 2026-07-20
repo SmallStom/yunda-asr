@@ -1,0 +1,30 @@
+{
+  "versions": {
+    "v1": {
+      "system": "v1/system.txt",
+      "user_template": "v1/user_template.txt",
+      "created_at": "2026-06-23",
+      "description": "原则引导式提示词，明确纠错范围和严禁操作，增加判断流程"
+    },
+    "v2": {
+      "system": "v2/system.txt",
+      "user_template": "v2/user_template.txt",
+      "created_at": "2026-07-01",
+      "description": "铁路车站行车作业术语规范化专家提示词，含角色定义、术语体系、推理铁律、场景分类、Few-shot示例"
+    },
+    "v3_qwen3": {
+      "system": "v3_qwen3/system.txt",
+      "user_template": "v2/user_template.txt",
+      "created_at": "2026-07-06",
+      "description": "qwen3-asr 真实错误 few-shot，其余规则同 v2"
+    },
+    "v4_qwen3_opt": {
+      "system": "v4_qwen3_opt/system.txt",
+      "user_template": "v2/user_template.txt",
+      "created_at": "2026-07-07",
+      "description": "v2 + qwen3常见误识别补充 + 标点/数字规则强化"
+    }
+  },
+  "default": "v1",
+  "evaluations": {}
+}

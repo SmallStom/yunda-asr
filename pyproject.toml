@@ -1,0 +1,59 @@
+[project]
+name = "railway-asr-correction"
+version = "0.1.0"
+description = "轨道交通领域ASR后处理文本纠错系统"
+requires-python = ">=3.9"
+dependencies = [
+    "jieba>=0.42",
+    "pypinyin>=0.51",
+    "cn2an>=0.5",
+    "pytest>=8.0",
+    "openai>=1.30,<2.0",
+    "rapidfuzz>=3.0",
+    "gradio>=4.0",
+    "pandas>=2.0",
+    "openpyxl>=3.1",
+    "python-dotenv>=1.0",
+    "fastapi>=0.111",
+    "uvicorn[standard]>=0.30",
+    "pydantic-settings>=2.0",
+    "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+audio = [
+    "noisereduce>=3.0",
+    "librosa>=0.10",
+    "soundfile>=0.12",
+    "imageio-ffmpeg>=0.4",
+]
+audio-gpu = [
+    "noisereduce>=3.0",
+    "librosa>=0.10",
+    "soundfile>=0.12",
+    "imageio-ffmpeg>=0.4",
+    "deepfilternet>=0.5",
+]
+gpu = [
+    "torch>=2.0",
+    "transformers>=4.40",
+    "datasets>=2.18",
+    "accelerate>=0.28",
+]
+lora = [
+    "peft>=0.10",
+]
+eval = [
+    "memory-profiler>=0.61",
+    "matplotlib>=3.7",
+]
+dify = [
+    "dify-dataset-sdk>=0.6",
+    "apscheduler>=3.10",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]

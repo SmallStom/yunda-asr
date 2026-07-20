@@ -1,0 +1,44 @@
+version: "3.8"
+
+services:
+  asr-correction:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: railway-asr-correction:0.1.0
+    container_name: railway-asr-correction
+    restart: unless-stopped
+    ports:
+      - "${API_PORT:-8000}:8000"
+    env_file:
+      - .env
+    volumes:
+      # 挂载配置与数据，便于运行时更新而无需重建镜像
+      - ./.env:/app/.env:ro
+      - ./data:/app/data
+      - ./src/prompts:/app/src/prompts
+    environment:
+      # 容器内使用绝对路径或保持默认
+      - DATA_DIR=/app/data
+      - PROMPTS_DIR=/app/src/prompts
+      - HOTWORDS_PATH=/app/data/lexicon/hotwords.json
+    networks:
+      - asr-correction-net
+    deploy:
+      resources:
+        limits:
+          cpus: "4"
+          memory: 4G
+        reservations:
+          cpus: "1"
+          memory: 1G
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+networks:
+  asr-correction-net:
+    driver: bridge

@@ -1,0 +1,5297 @@
+[
+  {
+    "canonical": "动车组司机",
+    "aliases": [
+      "动车司机",
+      "高铁司机",
+      "CRH司机",
+      "复兴号司机",
+      "动车组驾驶员"
+    ],
+    "category": "一、工种/岗位类 (JobType)"
+  },
+  {
+    "canonical": "电力机车司机",
+    "aliases": [
+      "电车司机",
+      "电力机车乘务员",
+      "电力司机",
+      "电力牵引司机"
+    ],
+    "category": "一、工种/岗位类 (JobType)"
+  },
+  {
+    "canonical": "内燃机车司机",
+    "aliases": [
+      "内燃司机",
+      "柴油机车司机",
+      "内燃机车乘务员",
+      "燃油机车司机"
+    ],
+    "category": "一、工种/岗位类 (JobType)"
+  },
+  {
+    "canonical": "动力集中动车组司机",
+    "aliases": [
+      "动集司机",
+      "绿巨人司机",
+      "CR200J司机",
+      "动力集中式司机"
+    ],
+    "category": "一、工种/岗位类 (JobType)"
+  },
+  {
+    "canonical": "机车乘务员",
+    "aliases": [
+      "机车司机",
+      "火车司机",
+      "大车",
+      "乘务员（狭义）",
+      "正司机"
+    ],
+    "category": "一、工种/岗位类 (JobType)"
+  },
+  {
+    "canonical": "学习司机",
+    "aliases": [
+      "副司机",
+      "随乘司机",
+      "学员司机",
+      "副驾驶",
+      "实习司机"
+    ],
+    "category": "一、工种/岗位类 (JobType)"
+  },
+  {
+    "canonical": "指导司机",
+    "aliases": [
+      "司机长",
+      "司机教练",
+      "乘务指导",
+      "技术指导司机"
+    ],
+    "category": "一、工种/岗位类 (JobType)"
+  },
+  {
+    "canonical": "调车司机",
+    "aliases": [
+      "调车机司机",
+      "调车乘务员",
+      "调车机车司机"
+    ],
+    "category": "一、工种/岗位类 (JobType)"
+  },
+  {
+    "canonical": "运用车间主任",
+    "aliases": [
+      "车间主任",
+      "运用主任",
+      "乘务主任"
+    ],
+    "category": "一、工种/岗位类 (JobType)"
+  },
+  {
+    "canonical": "行车调度员",
+    "aliases": [
+      "调度员",
+      "行调",
+      "列车调度员",
+      "调度指挥",
+      "列车调度"
+    ],
+    "category": "一、工种/岗位类 (JobType)"
+  },
+  {
+    "canonical": "随车机械师",
+    "aliases": [
+      "随车机师",
+      "动车机械师",
+      "列车机械师",
+      "随车检修员"
+    ],
+    "category": "一、工种/岗位类 (JobType)"
+  },
+  {
+    "canonical": "地勤机械师",
+    "aliases": [
+      "地勤机师",
+      "检修机械师",
+      "地勤检修员"
+    ],
+    "category": "一、工种/岗位类 (JobType)"
+  },
+  {
+    "canonical": "车站值班员",
+    "aliases": [
+      "值班员",
+      "车站值班",
+      "助理值班员",
+      "行车值班员"
+    ],
+    "category": "一、工种/岗位类 (JobType)"
+  },
+  {
+    "canonical": "电务人员",
+    "aliases": [
+      "电务",
+      "信号工",
+      "电务段职工",
+      "信号维修工"
+    ],
+    "category": "一、工种/岗位类 (JobType)"
+  },
+  {
+    "canonical": "工务人员",
+    "aliases": [
+      "工务段职工",
+      "线路工",
+      "养路工",
+      "巡道工"
+    ],
+    "category": "一、工种/岗位类 (JobType)"
+  },
+  {
+    "canonical": "接触网工",
+    "aliases": [
+      "网工",
+      "供电工",
+      "接触网检修员",
+      "供电检修工"
+    ],
+    "category": "一、工种/岗位类 (JobType)"
+  },
+  {
+    "canonical": "列车长",
+    "aliases": [
+      "车长",
+      "列车长员",
+      "乘务长"
+    ],
+    "category": "一、工种/岗位类 (JobType)"
+  },
+  {
+    "canonical": "客运值班员",
+    "aliases": [
+      "客运员",
+      "客运值班",
+      "站台值班员"
+    ],
+    "category": "一、工种/岗位类 (JobType)"
+  },
+  {
+    "canonical": "复兴号动车组",
+    "aliases": [
+      "CR系列",
+      "复兴号",
+      "Fuxing",
+      "复兴号系列动车组"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "和谐号动车组",
+    "aliases": [
+      "CRH系列",
+      "和谐号",
+      "Hexie",
+      "CRH动车组"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "CR400AF",
+    "aliases": [
+      "CR400AF型",
+      "复兴号AF型",
+      "红神龙",
+      "CR400AF动车组"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "CR400BF",
+    "aliases": [
+      "CR400BF型",
+      "复兴号BF型",
+      "金凤凰",
+      "CR400BF动车组"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "CR300AF",
+    "aliases": [
+      "CR300AF型",
+      "复兴号AF型（250km/h）",
+      "蓝海豚"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "CR300BF",
+    "aliases": [
+      "CR300BF型",
+      "复兴号BF型（250km/h）",
+      "蓝精灵"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "CR200J",
+    "aliases": [
+      "CR200J型",
+      "复兴号动集",
+      "绿巨人",
+      "动力集中动车组"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "CRH380A",
+    "aliases": [
+      "CRH380A型",
+      "380A",
+      "CRH380AL/CRH380A统型"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "CRH380B",
+    "aliases": [
+      "CRH380B型",
+      "380B",
+      "CRH380BL/CRH380B统型"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "CRH380D",
+    "aliases": [
+      "CRH380D型",
+      "380D"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "CRH5A",
+    "aliases": [
+      "CRH5A型",
+      "5A型动车组"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "CRH2A",
+    "aliases": [
+      "CRH2A型",
+      "2A型动车组"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "CRH1A",
+    "aliases": [
+      "CRH1A型",
+      "1A型动车组",
+      "大地铁"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "CRH6A",
+    "aliases": [
+      "CRH6A型",
+      "6A型动车组",
+      "城际动车组"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "CRH380BJ",
+    "aliases": [
+      "CRH380BJ型",
+      "综合检测车",
+      "黄医生"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "HXD1型电力机车",
+    "aliases": [
+      "和谐电1",
+      "HXD1",
+      "和电1"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "HXD2型电力机车",
+    "aliases": [
+      "和谐电2",
+      "HXD2",
+      "和电2"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "HXD3型电力机车",
+    "aliases": [
+      "和谐电3",
+      "HXD3",
+      "和电3"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "HXD3C型电力机车",
+    "aliases": [
+      "和谐电3C",
+      "HXD3C"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "HXD3D型电力机车",
+    "aliases": [
+      "和谐电3D",
+      "HXD3D",
+      "电狒狒"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "HXD1D型电力机车",
+    "aliases": [
+      "和谐电1D",
+      "HXD1D",
+      "小红猩猩"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "HXD2B型电力机车",
+    "aliases": [
+      "和谐电2B",
+      "HXD2B"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "SS4型电力机车",
+    "aliases": [
+      "韶山4",
+      "SS4",
+      "SS4改"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "SS7E型电力机车",
+    "aliases": [
+      "韶山7E",
+      "SS7E"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "SS8型电力机车",
+    "aliases": [
+      "韶山8",
+      "SS8"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "SS9型电力机车",
+    "aliases": [
+      "韶山9",
+      "SS9",
+      "韶山9改"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "HXD3CA型电力机车",
+    "aliases": [
+      "和谐电3CA",
+      "HXD3CA"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "HXN3型内燃机车",
+    "aliases": [
+      "和谐内3",
+      "HXN3",
+      "和內3"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "HXN5型内燃机车",
+    "aliases": [
+      "和谐内5",
+      "HXN5",
+      "和內5"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "DF4B型内燃机车",
+    "aliases": [
+      "东风4B",
+      "DF4B",
+      "东风4B型"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "DF4D型内燃机车",
+    "aliases": [
+      "东风4D",
+      "DF4D",
+      "东风4D型"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "DF5型内燃机车",
+    "aliases": [
+      "东风5",
+      "DF5",
+      "东风5型"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "DF7型内燃机车",
+    "aliases": [
+      "东风7",
+      "DF7",
+      "东风7型"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "DF11型内燃机车",
+    "aliases": [
+      "东风11",
+      "DF11",
+      "东风11型"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "DF11G型内燃机车",
+    "aliases": [
+      "东风11G",
+      "DF11G",
+      "小猪"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "DF8B型内燃机车",
+    "aliases": [
+      "东风8B",
+      "DF8B",
+      "东风8B型"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "NJ2型内燃机车",
+    "aliases": [
+      "NJ2",
+      "雪域神舟（替代）"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "FXD1-J型动力车",
+    "aliases": [
+      "FXD1J",
+      "复兴型动力车1型"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "FXD3-J型动力车",
+    "aliases": [
+      "FXD3J",
+      "复兴型动力车3型"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "HXD1G型动力车",
+    "aliases": [
+      "复兴1",
+      "HXD1G"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "HXD3G型动力车",
+    "aliases": [
+      "复兴3",
+      "HXD3G"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "主断路器",
+    "aliases": [
+      "主断",
+      "主开关",
+      "高压断路器",
+      "VCB"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "牵引变压器",
+    "aliases": [
+      "主变压器",
+      "主变",
+      "牵引变"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "牵引变流器",
+    "aliases": [
+      "变流器",
+      "牵引逆变器",
+      "逆变器",
+      "整流器"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "牵引电机",
+    "aliases": [
+      "牵引电动机",
+      "主电机",
+      "电机"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "制动系统",
+    "aliases": [
+      "制动机",
+      "制动装置",
+      "刹车系统"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "空气制动系统",
+    "aliases": [
+      "空气制动机",
+      "风闸",
+      "气制动",
+      "列车管制动"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "电空制动系统",
+    "aliases": [
+      "电空制动机",
+      "电气指令制动",
+      "EP制动"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "再生制动系统",
+    "aliases": [
+      "再生制动",
+      "回馈制动",
+      "发电制动"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "电阻制动系统",
+    "aliases": [
+      "电阻制动",
+      "能耗制动",
+      "动力制动"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "基础制动装置",
+    "aliases": [
+      "闸瓦",
+      "刹车片",
+      "盘形制动",
+      "轮盘制动"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "自动制动手柄",
+    "aliases": [
+      "自阀",
+      "大闸",
+      "自动制动阀",
+      "手柄",
+      "自阀手柄"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "单独制动手柄",
+    "aliases": [
+      "单阀",
+      "小闸",
+      "单独制动阀",
+      "单阀手柄"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "列车管",
+    "aliases": [
+      "制动管",
+      "风管",
+      "制动风管",
+      "总风管"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "总风缸",
+    "aliases": [
+      "总风缸",
+      "主风缸",
+      "主储气罐"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "受电弓控制装置",
+    "aliases": [
+      "升弓装置",
+      "降弓按钮",
+      "弓控"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "辅助变流器",
+    "aliases": [
+      "辅助逆变器",
+      "辅变"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "空气压缩机",
+    "aliases": [
+      "空压机",
+      "压缩机",
+      "打风泵"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "车速表",
+    "aliases": [
+      "速度表",
+      "速度计",
+      "速度显示",
+      "DMI速度显示"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "力矩表",
+    "aliases": [
+      "牵引力表",
+      "电流表",
+      "牵引电流表",
+      "手柄级位表"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "风压表",
+    "aliases": [
+      "压力表",
+      "列车管压力表",
+      "风压表"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "电度表",
+    "aliases": [
+      "电量表",
+      "电能表",
+      "耗电表"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "警惕装置",
+    "aliases": [
+      "警惕按钮",
+      "无人警惕",
+      "死手柄",
+      "警报装置",
+      "DSD装置"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "机车自动信号系统",
+    "aliases": [
+      "机车信号",
+      "车内信号",
+      "接近连续式机车信号"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "轴温检测装置",
+    "aliases": [
+      "轴温报警",
+      "轴温系统",
+      "轴承温度检测"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "自动过分相装置",
+    "aliases": [
+      "过分相装置",
+      "过分相检测器",
+      "自动过分相",
+      "GFX装置"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "撒砂装置",
+    "aliases": [
+      "撒砂器",
+      "砂箱",
+      "撒砂阀"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "空调系统",
+    "aliases": [
+      "空调",
+      "HVAC",
+      "列车空调",
+      "驾驶室空调"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "车门控制系统",
+    "aliases": [
+      "车门",
+      "塞拉门",
+      "屏蔽门",
+      "门控器"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "列车广播系统",
+    "aliases": [
+      "广播",
+      "PA系统",
+      "列车广播",
+      "自动广播"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "制动手柄",
+    "aliases": [
+      "制动控制器",
+      "制动阀",
+      "制动闸把"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "紧急制动手柄",
+    "aliases": [
+      "紧急制动",
+      "非常制动拉手",
+      "UB手柄"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "停放制动",
+    "aliases": [
+      "驻车制动",
+      "停放制动",
+      "停车制动"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "主控手柄",
+    "aliases": [
+      "牵引手柄",
+      "主手柄",
+      "牵引制动手柄",
+      "司控器手柄"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "恒速手柄",
+    "aliases": [
+      "恒速",
+      "定速手柄",
+      "速度设定手柄"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "换向手柄",
+    "aliases": [
+      "换向器",
+      "方向手柄",
+      "换向开关"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "主控钥匙",
+    "aliases": [
+      "司机钥匙",
+      "主控开关钥匙",
+      "操纵台钥匙"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "遮阳帘",
+    "aliases": [
+      "遮阳",
+      "窗帘",
+      "前窗遮阳",
+      "侧窗遮阳"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "头灯",
+    "aliases": [
+      "机车头灯",
+      "前照灯",
+      "大灯",
+      "前灯"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "副灯",
+    "aliases": [
+      "辅助灯",
+      "标志灯",
+      "辅照灯"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "风笛",
+    "aliases": [
+      "鸣笛",
+      "喇叭",
+      "风喇叭",
+      "空气笛"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "刮雨器",
+    "aliases": [
+      "雨刷",
+      "雨刮",
+      "前窗雨刮器"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "空气制动可用性图标",
+    "aliases": [
+      "制动图标",
+      "蓝色图标",
+      "空气制动指示"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "控制电压",
+    "aliases": [
+      "控制电压表",
+      "控制回路电压",
+      "蓄电池电压"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "网压",
+    "aliases": [
+      "接触网电压",
+      "供电电压",
+      "受电电压"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "闸缸压力",
+    "aliases": [
+      "制动缸压力",
+      "BC压力",
+      "制动压力"
+    ],
+    "category": "二、车型与列车部件 (TrainType & TrainComponent)"
+  },
+  {
+    "canonical": "列车运行控制系统",
+    "aliases": [
+      "列控系统",
+      "CTCS",
+      "中国列车运行控制系统"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "CTCS-3级列控系统",
+    "aliases": [
+      "C3",
+      "CTCS3",
+      "CTCS-3",
+      "300T列控系统",
+      "300S列控系统"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "CTCS-2级列控系统",
+    "aliases": [
+      "C2",
+      "CTCS2",
+      "CTCS-2",
+      "200H/C列控系统",
+      "200K列控系统"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "CTCS-0级列控系统",
+    "aliases": [
+      "C0",
+      "CTCS0",
+      "CTCS-0"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "CTCS-1级列控系统",
+    "aliases": [
+      "C1",
+      "CTCS1",
+      "CTCS-1"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "列车自动防护系统",
+    "aliases": [
+      "ATP",
+      "自动防护系统",
+      "列车超速防护系统"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "列车自动运行系统",
+    "aliases": [
+      "ATO",
+      "自动驾驶系统",
+      "自动运行系统"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "列车自动监控系统",
+    "aliases": [
+      "ATS",
+      "自动监控系统",
+      "行车监控系统"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "列车自动控制系统",
+    "aliases": [
+      "ATC",
+      "自动控制系统"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "机车信号",
+    "aliases": [
+      "车内信号",
+      "机车信号机",
+      "驾驶室信号"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "地面信号机",
+    "aliases": [
+      "色灯信号机",
+      "信号灯",
+      "进站信号机",
+      "出站信号机",
+      "通过信号机"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "进站信号机",
+    "aliases": [
+      "进站",
+      "站外信号机"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "出站信号机",
+    "aliases": [
+      "出站",
+      "站内信号机"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "通过信号机",
+    "aliases": [
+      "通过",
+      "区间信号机",
+      "自动闭塞信号机"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "调车信号机",
+    "aliases": [
+      "调车信号",
+      "调车信"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "预告信号机",
+    "aliases": [
+      "预告",
+      "预告信号"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "铁路信号显示颜色",
+    "aliases": [
+      "红灯",
+      "绿灯",
+      "黄灯",
+      "绿黄灯",
+      "双黄灯",
+      "白灯",
+      "蓝灯"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "红灯信号",
+    "aliases": [
+      "红灯",
+      "停车信号",
+      "禁止信号"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "绿灯信号",
+    "aliases": [
+      "绿灯",
+      "允许信号",
+      "进行信号"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "黄灯信号",
+    "aliases": [
+      "黄灯",
+      "注意信号",
+      "减速信号"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "绿黄灯信号",
+    "aliases": [
+      "绿黄灯",
+      "绿黄",
+      "预告减速"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "双黄灯信号",
+    "aliases": [
+      "双黄灯",
+      "黄2灯",
+      "侧线信号"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "白灯信号",
+    "aliases": [
+      "白灯",
+      "调车允许信号"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "蓝灯信号",
+    "aliases": [
+      "蓝灯",
+      "调车禁止信号"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "自动闭塞",
+    "aliases": [
+      "自动闭塞区间",
+      "自动闭塞制式"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "半自动闭塞",
+    "aliases": [
+      "半自动闭塞区间",
+      "半自闭"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "移动闭塞",
+    "aliases": [
+      "移动闭塞区间"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "计算机联锁",
+    "aliases": [
+      "计算机联锁系统",
+      "CBI",
+      "微机联锁"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "6502电气集中联锁",
+    "aliases": [
+      "6502",
+      "电气集中联锁",
+      "继电联锁"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "应答器",
+    "aliases": [
+      "点式应答器",
+      "地面应答器",
+      "信标",
+      "Balise"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "轨道电路",
+    "aliases": [
+      "轨道区段",
+      "轨枕电路",
+      "无绝缘轨道电路",
+      "ZPW-2000"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "无线闭塞中心",
+    "aliases": [
+      "RBC",
+      "Radio Block Center"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "临时限速服务器",
+    "aliases": [
+      "TSRS",
+      "TSR服务器",
+      "临时限速系统"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "调度集中系统",
+    "aliases": [
+      "CTC",
+      "调度集中",
+      "CTC调度集中"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "信号安全数据网",
+    "aliases": [
+      "信号网络",
+      "安全数据网",
+      "信号以太网"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "车地无线通信系统",
+    "aliases": [
+      "GSM-R",
+      "铁路移动通信",
+      "机车综合无线通信设备"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "轨道车运行控制设备",
+    "aliases": [
+      "GYK",
+      "轨道车监控装置"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "列车运行控制系统车载设备",
+    "aliases": [
+      "ATP车载",
+      "列控车载",
+      "DMI",
+      "列控人机界面"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "ATP完全监控模式",
+    "aliases": [
+      "完全监控",
+      "FS模式",
+      "Full Supervision"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "ATP部分监控模式",
+    "aliases": [
+      "部分监控",
+      "PS模式",
+      "Partial Supervision"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "ATP引导模式",
+    "aliases": [
+      "引导模式",
+      "CO模式",
+      "Call On"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "ATP目视行车模式",
+    "aliases": [
+      "目视模式",
+      "OS模式",
+      "On Sight"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "ATP隔离模式",
+    "aliases": [
+      "隔离模式",
+      "IS模式",
+      "Isolation"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "ATP待机模式",
+    "aliases": [
+      "待机模式",
+      "SB模式",
+      "Stand By"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "ATP休眠模式",
+    "aliases": [
+      "休眠模式",
+      "SL模式",
+      "Sleeping"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "ATP调车模式",
+    "aliases": [
+      "调车模式",
+      "SH模式",
+      "Shunting"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "LKJ降级模式",
+    "aliases": [
+      "降级模式",
+      "降级运行",
+      "LKJ降级"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "LKJ通常工作模式",
+    "aliases": [
+      "通常模式",
+      "LKJ正常模式"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "LKJ调车模式",
+    "aliases": [
+      "LKJ调车",
+      "调车控制模式"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "LKJ非正常行车模式",
+    "aliases": [
+      "非正常模式",
+      "LKJ特殊模式"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "自动驾驶模式",
+    "aliases": [
+      "无人驾驶模式",
+      "全自动运行",
+      "GoA3/GoA4"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "临时慢行",
+    "aliases": [
+      "临时限速",
+      "慢行区段",
+      "施工限速",
+      "雨量限速"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "恒速区",
+    "aliases": [
+      "恒速运行区",
+      "恒速段"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "加速区",
+    "aliases": [
+      "加速区段",
+      "提速区"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "降速区",
+    "aliases": [
+      "减速区段",
+      "降速区"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "起模点",
+    "aliases": [
+      "制动起模点",
+      "控速起模点"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "变速点",
+    "aliases": [
+      "速度变化点",
+      "限速变化点"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "限速值",
+    "aliases": [
+      "限速",
+      "限制速度",
+      "速度上限"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "目标速度",
+    "aliases": [
+      "目标速",
+      "目标限速",
+      "下一限速"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "控制速度",
+    "aliases": [
+      "控速",
+      "允许速度",
+      "列控允许速度"
+    ],
+    "category": "三、信号与驾驶模式 (SignalingSystem & DrivingMode)"
+  },
+  {
+    "canonical": "铁路技术管理规程",
+    "aliases": [
+      "技规",
+      "铁路技术规程",
+      "行車技术规程"
+    ],
+    "category": "四、规章制度类 (Regulation)"
+  },
+  {
+    "canonical": "铁路行车组织规则",
+    "aliases": [
+      "行规",
+      "行车规则",
+      "局规"
+    ],
+    "category": "四、规章制度类 (Regulation)"
+  },
+  {
+    "canonical": "铁路机车操作规程",
+    "aliases": [
+      "操规",
+      "机车操纵规则",
+      "司机操纵规则"
+    ],
+    "category": "四、规章制度类 (Regulation)"
+  },
+  {
+    "canonical": "铁路交通事故调查处理规则",
+    "aliases": [
+      "事规",
+      "事故处理规则",
+      "铁路交通事故处理规则"
+    ],
+    "category": "四、规章制度类 (Regulation)"
+  },
+  {
+    "canonical": "铁路运输调度规则",
+    "aliases": [
+      "调规",
+      "调度规则",
+      "调度规程"
+    ],
+    "category": "四、规章制度类 (Regulation)"
+  },
+  {
+    "canonical": "铁路营业线施工安全管理办法",
+    "aliases": [
+      "施工管理办法",
+      "营业线施工规定"
+    ],
+    "category": "四、规章制度类 (Regulation)"
+  },
+  {
+    "canonical": "高速铁路行车组织细则",
+    "aliases": [
+      "高铁行细",
+      "高速铁路行规",
+      "高铁行车细则"
+    ],
+    "category": "四、规章制度类 (Regulation)"
+  },
+  {
+    "canonical": "铁路机车运用管理规则",
+    "aliases": [
+      "机车运用规则",
+      "机车管理规程"
+    ],
+    "category": "四、规章制度类 (Regulation)"
+  },
+  {
+    "canonical": "铁路机车车辆驾驶人员资格许可实施细则",
+    "aliases": [
+      "驾驶证管理办法",
+      "司机驾照规定"
+    ],
+    "category": "四、规章制度类 (Regulation)"
+  },
+  {
+    "canonical": "铁路安全管理条例",
+    "aliases": [
+      "安全管理条例",
+      "铁路安全条例"
+    ],
+    "category": "四、规章制度类 (Regulation)"
+  },
+  {
+    "canonical": "铁路交通事故应急救援规则",
+    "aliases": [
+      "应急救援规则",
+      "事故救援规则"
+    ],
+    "category": "四、规章制度类 (Regulation)"
+  },
+  {
+    "canonical": "铁路电气化安全规则",
+    "aliases": [
+      "电气化安全",
+      "电化安全规则",
+      "接触网安全规则"
+    ],
+    "category": "四、规章制度类 (Regulation)"
+  },
+  {
+    "canonical": "铁路防寒过冬工作规则",
+    "aliases": [
+      "防寒过冬规则",
+      "冬季行车安全规则"
+    ],
+    "category": "四、规章制度类 (Regulation)"
+  },
+  {
+    "canonical": "铁路防洪工作规则",
+    "aliases": [
+      "防洪规则",
+      "汛期行车规则"
+    ],
+    "category": "四、规章制度类 (Regulation)"
+  },
+  {
+    "canonical": "非正常行车应急处置办法",
+    "aliases": [
+      "非正常行车办法",
+      "应急处理办法",
+      "非正常预案"
+    ],
+    "category": "四、规章制度类 (Regulation)"
+  },
+  {
+    "canonical": "车机联控作业标准",
+    "aliases": [
+      "车机联控标准",
+      "联控作业标准",
+      "车机联控规范"
+    ],
+    "category": "四、规章制度类 (Regulation)"
+  },
+  {
+    "canonical": "铁路车站行车作业细则",
+    "aliases": [
+      "站细",
+      "车站行车细则",
+      "车站作业细则"
+    ],
+    "category": "四、规章制度类 (Regulation)"
+  },
+  {
+    "canonical": "铁路区间行车作业细则",
+    "aliases": [
+      "区间细则",
+      "区间作业细则"
+    ],
+    "category": "四、规章制度类 (Regulation)"
+  },
+  {
+    "canonical": "一次出乘作业标准",
+    "aliases": [
+      "出乘作业标准",
+      "一次乘务作业标准",
+      "标准化出乘"
+    ],
+    "category": "五、作业规程类 (OperatingProcedure)"
+  },
+  {
+    "canonical": "呼唤应答制度",
+    "aliases": [
+      "呼唤应答",
+      "手比眼看",
+      "标准化呼唤",
+      "联控呼唤"
+    ],
+    "category": "五、作业规程类 (OperatingProcedure)"
+  },
+  {
+    "canonical": "出勤作业",
+    "aliases": [
+      "出勤",
+      "待乘报到",
+      "乘务报到"
+    ],
+    "category": "五、作业规程类 (OperatingProcedure)"
+  },
+  {
+    "canonical": "接车作业",
+    "aliases": [
+      "接车",
+      "上车检查",
+      "机车整备"
+    ],
+    "category": "五、作业规程类 (OperatingProcedure)"
+  },
+  {
+    "canonical": "发车作业",
+    "aliases": [
+      "发车",
+      "起车",
+      "发车准备",
+      "动车准备"
+    ],
+    "category": "五、作业规程类 (OperatingProcedure)"
+  },
+  {
+    "canonical": "运行作业",
+    "aliases": [
+      "途中运行",
+      "区间运行",
+      "值乘作业"
+    ],
+    "category": "五、作业规程类 (OperatingProcedure)"
+  },
+  {
+    "canonical": "调车作业",
+    "aliases": [
+      "调车",
+      "转线",
+      "连挂",
+      "摘解"
+    ],
+    "category": "五、作业规程类 (OperatingProcedure)"
+  },
+  {
+    "canonical": "终到作业",
+    "aliases": [
+      "终到",
+      "到达作业",
+      "退勤作业"
+    ],
+    "category": "五、作业规程类 (OperatingProcedure)"
+  },
+  {
+    "canonical": "过分相作业",
+    "aliases": [
+      "过分相",
+      "分相区通过",
+      "电分相作业"
+    ],
+    "category": "五、作业规程类 (OperatingProcedure)"
+  },
+  {
+    "canonical": "防坡停作业",
+    "aliases": [
+      "坡停防护",
+      "防坡停操作",
+      "坡道起车"
+    ],
+    "category": "五、作业规程类 (OperatingProcedure)"
+  },
+  {
+    "canonical": "防冒进作业",
+    "aliases": [
+      "防冒进",
+      "防止冒进信号",
+      "防冒措施"
+    ],
+    "category": "五、作业规程类 (OperatingProcedure)"
+  },
+  {
+    "canonical": "防溜逸作业",
+    "aliases": [
+      "防溜",
+      "防溜逸措施",
+      "防溜措施"
+    ],
+    "category": "五、作业规程类 (OperatingProcedure)"
+  },
+  {
+    "canonical": "列车制动试验",
+    "aliases": [
+      "试闸",
+      "制动机试验",
+      "全部试验",
+      "简略试验"
+    ],
+    "category": "五、作业规程类 (OperatingProcedure)"
+  },
+  {
+    "canonical": "贯通试验",
+    "aliases": [
+      "贯通检查",
+      "列车贯通试验",
+      "贯通试风"
+    ],
+    "category": "五、作业规程类 (OperatingProcedure)"
+  },
+  {
+    "canonical": "电阻制动试验",
+    "aliases": [
+      "电制动试验",
+      "再生制动试验",
+      "动力制动试验"
+    ],
+    "category": "五、作业规程类 (OperatingProcedure)"
+  },
+  {
+    "canonical": "接触网供电系统",
+    "aliases": [
+      "接触网",
+      "供电网",
+      "接触线",
+      "架空接触网"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "受电弓",
+    "aliases": [
+      "弓",
+      "集电弓",
+      "滑板",
+      "受电弓滑板"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "正线",
+    "aliases": [
+      "正线轨道",
+      "上行线",
+      "下行线",
+      "区间正线",
+      "站内正线"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "到发线",
+    "aliases": [
+      "到发线轨道",
+      "接发车线"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "调车线",
+    "aliases": [
+      "调车线",
+      "编组线",
+      "分类线",
+      "存车线"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "安全线",
+    "aliases": [
+      "安全线",
+      "避难线"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "牵出线",
+    "aliases": [
+      "牵出线",
+      "牵出轨道"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "道岔",
+    "aliases": [
+      "转辙器",
+      "岔道",
+      "道岔设备",
+      "单开道岔",
+      "对称道岔",
+      "交分道岔"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "道岔定位",
+    "aliases": [
+      "定位",
+      "道岔定位状态"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "道岔反位",
+    "aliases": [
+      "反位",
+      "道岔反位状态"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "接触网分段绝缘器",
+    "aliases": [
+      "分段绝缘器",
+      "分相绝缘器",
+      "电分相",
+      "分相区"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "锚段关节",
+    "aliases": [
+      "锚段",
+      "锚段关节",
+      "接触网锚段"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "闭塞分区",
+    "aliases": [
+      "闭塞分区",
+      "分区",
+      "闭塞区间分区"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "站台",
+    "aliases": [
+      "站台",
+      "站台面",
+      "旅客站台",
+      "基本站台",
+      "中间站台"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "天窗",
+    "aliases": [
+      "天窗时间",
+      "施工天窗",
+      "维修天窗",
+      "行车天窗"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "限速区段",
+    "aliases": [
+      "限速区",
+      "慢行区段",
+      "施工慢行区段",
+      "临时限速区"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "坡道",
+    "aliases": [
+      "坡度",
+      "坡道区段",
+      "千分率坡度",
+      "上坡",
+      "下坡"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "曲线",
+    "aliases": [
+      "曲线区段",
+      "弯道",
+      "铁路曲线",
+      "缓和曲线"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "桥梁",
+    "aliases": [
+      "铁路桥",
+      "铁路桥梁",
+      "桥梁段"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "隧道",
+    "aliases": [
+      "铁路隧道",
+      "隧洞",
+      "山岭隧道"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "涵洞",
+    "aliases": [
+      "涵管",
+      "排水涵"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "电气化区段",
+    "aliases": [
+      "电气化线路",
+      "电化区段",
+      "接触网区段"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "非电气化区段",
+    "aliases": [
+      "非电气化线路",
+      "非电化区段"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "高站台",
+    "aliases": [
+      "高站台",
+      "高铁站台"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "存车场",
+    "aliases": [
+      "存车线",
+      "停放线",
+      "存车场线"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "尽头线",
+    "aliases": [
+      "尽头线",
+      "断头线",
+      "死线"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "无车线",
+    "aliases": [
+      "空线",
+      "无车股道",
+      "空闲线"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "有车线",
+    "aliases": [
+      "占用线",
+      "有车股道",
+      "被占用线"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "非封闭线路",
+    "aliases": [
+      "非封闭区段",
+      "开放线路"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "限制鸣笛区段",
+    "aliases": [
+      "限鸣区",
+      "禁鸣区段",
+      "限制鸣笛区"
+    ],
+    "category": "六、线路基础设施类 (Infrastructure)"
+  },
+  {
+    "canonical": "列车运行监控记录装置",
+    "aliases": [
+      "LKJ2000",
+      "LKJ-2000型",
+      "LKJ监控装置",
+      "黑匣子"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "机车综合无线通信设备",
+    "aliases": [
+      "CIR",
+      "机车电台",
+      "无线通信设备",
+      "MMI（人机界面终端）"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "列车尾部安全防护装置",
+    "aliases": [
+      "列尾装置",
+      "列尾",
+      "列尾主机"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "机车车载安全防护系统",
+    "aliases": [
+      "6A系统",
+      "6A",
+      "机车6A"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "机车自动灭火装置",
+    "aliases": [
+      "灭火装置",
+      "自动灭火",
+      "防火系统"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "机车视频监控系统",
+    "aliases": [
+      "视频监控",
+      "车内录像",
+      "行车记录仪（广义）"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "列车运行状态信息系统",
+    "aliases": [
+      "LAIS",
+      "列车信息系统",
+      "运行信息传输系统"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "铁路线路安全保护区",
+    "aliases": [
+      "安全保护区",
+      "铁路安全保护区",
+      "线路安全保护区"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "防撞土挡",
+    "aliases": [
+      "土挡",
+      "止档",
+      "车挡",
+      "脱轨器"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "脱轨器",
+    "aliases": [
+      "脱轨器",
+      "表示器",
+      "脱轨表示器"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "响墩",
+    "aliases": [
+      "响墩",
+      "信号响墩",
+      "听觉信号"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "火炬",
+    "aliases": [
+      "火炬信号",
+      "火炬",
+      "视觉听觉信号"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "信号旗",
+    "aliases": [
+      "信号旗",
+      "红黄旗",
+      "信号旗"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "信号灯（便携）",
+    "aliases": [
+      "手信号灯",
+      "便携信号灯",
+      "信号灯"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "短路铜线",
+    "aliases": [
+      "短路铜线",
+      "短接线",
+      "信号短路线"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "行安装备",
+    "aliases": [
+      "安全装备",
+      "行车安全装备",
+      "车载安全设备"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "电子运统1",
+    "aliases": [
+      "运统1",
+      "运统1APP",
+      "电子运统一",
+      "运统1手持终端"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "GSM-R手持终端",
+    "aliases": [
+      "G网手持机",
+      "GSM-R手持机",
+      "铁路手机",
+      "G网手机"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "无线电手持机",
+    "aliases": [
+      "无线手持机",
+      "对讲机",
+      "无线列调手持台"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "值乘状态预警仪",
+    "aliases": [
+      "预警仪",
+      "状态预警",
+      "值乘预警",
+      "防盹睡预警"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "值乘平板",
+    "aliases": [
+      "平板",
+      "平板电脑",
+      "值乘终端",
+      "乘务平板"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "移动音视频设备",
+    "aliases": [
+      "音视频设备",
+      "记录仪",
+      "执法记录仪",
+      "音视频记录仪"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "平调装置",
+    "aliases": [
+      "平调",
+      "平面调车设备",
+      "平调系统"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "STP装置",
+    "aliases": [
+      "STP",
+      "无线调车监控",
+      "调车安全监控"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "调防装置",
+    "aliases": [
+      "调防",
+      "调车防护",
+      "调车安全防护"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "MON屏",
+    "aliases": [
+      "MON",
+      "显示器",
+      "IDU",
+      "智能显示单元"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "HMI屏",
+    "aliases": [
+      "HMI",
+      "人机界面",
+      "DMI",
+      "列控人机界面"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "司机室摄像头",
+    "aliases": [
+      "摄像头",
+      "车内监控",
+      "司机室录像",
+      "视频监控"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "蓝灭灯假设",
+    "aliases": [
+      "蓝灯假设",
+      "灭灯假设",
+      "调车假设"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "调车检字牌",
+    "aliases": [
+      "检字牌",
+      "调车检字",
+      "检查牌"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "运行揭示假设",
+    "aliases": [
+      "揭示假设",
+      "假设揭示",
+      "四核对假设"
+    ],
+    "category": "七、安全装备类 (SafetyEquipment)"
+  },
+  {
+    "canonical": "列车管不充风",
+    "aliases": [
+      "不充风",
+      "充风故障",
+      "风管不进气"
+    ],
+    "category": "八、故障术语类 (FaultTerm)"
+  },
+  {
+    "canonical": "列车管泄漏",
+    "aliases": [
+      "漏风",
+      "风管漏泄",
+      "制动管泄漏",
+      "风压下降"
+    ],
+    "category": "八、故障术语类 (FaultTerm)"
+  },
+  {
+    "canonical": "受电弓故障",
+    "aliases": [
+      "弓故障",
+      "受电弓降弓",
+      "弓网故障",
+      "受电弓升不起"
+    ],
+    "category": "八、故障术语类 (FaultTerm)"
+  },
+  {
+    "canonical": "主断路器跳闸",
+    "aliases": [
+      "主断跳",
+      "主断故障",
+      "主断路器故障",
+      "主断合不上"
+    ],
+    "category": "八、故障术语类 (FaultTerm)"
+  },
+  {
+    "canonical": "牵引无流",
+    "aliases": [
+      "无牵引力",
+      "牵引丢失",
+      "牵引切断",
+      "不牵引"
+    ],
+    "category": "八、故障术语类 (FaultTerm)"
+  },
+  {
+    "canonical": "制动不缓解",
+    "aliases": [
+      "不缓解",
+      "制动抱闸",
+      "闸瓦抱死",
+      "制动卡滞"
+    ],
+    "category": "八、故障术语类 (FaultTerm)"
+  },
+  {
+    "canonical": "走行部异响",
+    "aliases": [
+      "异响",
+      "走行部异音",
+      "车轮异响",
+      "轴箱异响"
+    ],
+    "category": "八、故障术语类 (FaultTerm)"
+  },
+  {
+    "canonical": "轴温过高",
+    "aliases": [
+      "轴温报警",
+      "轴温超标",
+      "热轴",
+      "轴承过热"
+    ],
+    "category": "八、故障术语类 (FaultTerm)"
+  },
+  {
+    "canonical": "电机故障",
+    "aliases": [
+      "牵引电机故障",
+      "电机接地",
+      "电机过载"
+    ],
+    "category": "八、故障术语类 (FaultTerm)"
+  },
+  {
+    "canonical": "变压器故障",
+    "aliases": [
+      "主变故障",
+      "变压器异响",
+      "变压器温过高"
+    ],
+    "category": "八、故障术语类 (FaultTerm)"
+  },
+  {
+    "canonical": "辅助变流器故障",
+    "aliases": [
+      "辅变故障",
+      "辅助逆变器故障",
+      "ACU故障"
+    ],
+    "category": "八、故障术语类 (FaultTerm)"
+  },
+  {
+    "canonical": "ATP系统故障",
+    "aliases": [
+      "ATP故障",
+      "ATP宕机",
+      "列控故障",
+      "ATP死机"
+    ],
+    "category": "八、故障术语类 (FaultTerm)"
+  },
+  {
+    "canonical": "LKJ故障",
+    "aliases": [
+      "LKJ故障",
+      "LKJ死机",
+      "监控装置故障"
+    ],
+    "category": "八、故障术语类 (FaultTerm)"
+  },
+  {
+    "canonical": "CIR通信故障",
+    "aliases": [
+      "CIR故障",
+      "电台故障",
+      "无线通信中断",
+      "MMI通信故障"
+    ],
+    "category": "八、故障术语类 (FaultTerm)"
+  },
+  {
+    "canonical": "信号突变",
+    "aliases": [
+      "信号突变",
+      "信号跳变",
+      "信号异常变化"
+    ],
+    "category": "八、故障术语类 (FaultTerm)"
+  },
+  {
+    "canonical": "轨道电路分路不良",
+    "aliases": [
+      "分路不良",
+      "轨道电路分路不良",
+      "红转白"
+    ],
+    "category": "八、故障术语类 (FaultTerm)"
+  },
+  {
+    "canonical": "弓网故障",
+    "aliases": [
+      "弓网故障",
+      "接触网故障",
+      "弓网异常",
+      "打弓",
+      "钻弓"
+    ],
+    "category": "八、故障术语类 (FaultTerm)"
+  },
+  {
+    "canonical": "轮对擦伤",
+    "aliases": [
+      "车轮擦伤",
+      "轮对踏面损伤",
+      "轮对剥离",
+      "滑行"
+    ],
+    "category": "八、故障术语类 (FaultTerm)"
+  },
+  {
+    "canonical": "列车分离",
+    "aliases": [
+      "分离",
+      "列车脱钩",
+      "车辆分离",
+      "车钩分离"
+    ],
+    "category": "八、故障术语类 (FaultTerm)"
+  },
+  {
+    "canonical": "坡停",
+    "aliases": [
+      "坡停",
+      "坡起困难",
+      "坡道停车"
+    ],
+    "category": "八、故障术语类 (FaultTerm)"
+  },
+  {
+    "canonical": "冒进信号",
+    "aliases": [
+      "冒进",
+      "冒进信号机",
+      "越过信号"
+    ],
+    "category": "八、故障术语类 (FaultTerm)"
+  },
+  {
+    "canonical": "追尾",
+    "aliases": [
+      "追尾事故",
+      "尾部冲突",
+      "列车追尾"
+    ],
+    "category": "八、故障术语类 (FaultTerm)"
+  },
+  {
+    "canonical": "路外伤亡",
+    "aliases": [
+      "路外事故",
+      "道口事故",
+      "人员伤亡（路外）"
+    ],
+    "category": "八、故障术语类 (FaultTerm)"
+  },
+  {
+    "canonical": "信号显示",
+    "aliases": [
+      "信号",
+      "信号显示",
+      "信号指示",
+      "信号示意"
+    ],
+    "category": "九、行车凭证类 (RunningCredential)"
+  },
+  {
+    "canonical": "路票",
+    "aliases": [
+      "路票",
+      "绿色路票",
+      "红色路票"
+    ],
+    "category": "九、行车凭证类 (RunningCredential)"
+  },
+  {
+    "canonical": "调度命令",
+    "aliases": [
+      "调度令",
+      "调度命令",
+      "调度指令",
+      "司调命令"
+    ],
+    "category": "九、行车凭证类 (RunningCredential)"
+  },
+  {
+    "canonical": "绿色许可证",
+    "aliases": [
+      "绿证",
+      "绿色许可证",
+      "绿许可"
+    ],
+    "category": "九、行车凭证类 (RunningCredential)"
+  },
+  {
+    "canonical": "红色许可证",
+    "aliases": [
+      "红证",
+      "红色许可证",
+      "红许可"
+    ],
+    "category": "九、行车凭证类 (RunningCredential)"
+  },
+  {
+    "canonical": "出站调车通知书",
+    "aliases": [
+      "调车通知单",
+      "出站调车通知书"
+    ],
+    "category": "九、行车凭证类 (RunningCredential)"
+  },
+  {
+    "canonical": "行车凭证",
+    "aliases": [
+      "凭证",
+      "行车凭证",
+      "行车许可",
+      "运行许可"
+    ],
+    "category": "九、行车凭证类 (RunningCredential)"
+  },
+  {
+    "canonical": "机车信号显示",
+    "aliases": [
+      "车内信号显示",
+      "机车灯光显示"
+    ],
+    "category": "九、行车凭证类 (RunningCredential)"
+  },
+  {
+    "canonical": "引导信号",
+    "aliases": [
+      "引导信号",
+      "引导手信号",
+      "引导接车"
+    ],
+    "category": "九、行车凭证类 (RunningCredential)"
+  },
+  {
+    "canonical": "半自动闭塞发车权",
+    "aliases": [
+      "发车权",
+      "路签（旧）",
+      "路牌（旧）"
+    ],
+    "category": "九、行车凭证类 (RunningCredential)"
+  },
+  {
+    "canonical": "列车运行预告",
+    "aliases": [
+      "运行预告",
+      "调度预告",
+      "列车运行计划"
+    ],
+    "category": "九、行车凭证类 (RunningCredential)"
+  },
+  {
+    "canonical": "车机联控",
+    "aliases": [
+      "车机联控",
+      "联控",
+      "列车无线调度通信"
+    ],
+    "category": "十、联控用语类 (CommunicationTerm)"
+  },
+  {
+    "canonical": "列车车次",
+    "aliases": [
+      "车次",
+      "列车编号",
+      "列车号码"
+    ],
+    "category": "十、联控用语类 (CommunicationTerm)"
+  },
+  {
+    "canonical": "出站信号开放",
+    "aliases": [
+      "信号开放",
+      "出站好",
+      "信号好"
+    ],
+    "category": "十、联控用语类 (CommunicationTerm)"
+  },
+  {
+    "canonical": "进站信号开放",
+    "aliases": [
+      "进站好",
+      "站外信号好"
+    ],
+    "category": "十、联控用语类 (CommunicationTerm)"
+  },
+  {
+    "canonical": "通过信号开放",
+    "aliases": [
+      "通过信号好",
+      "区间信号好"
+    ],
+    "category": "十、联控用语类 (CommunicationTerm)"
+  },
+  {
+    "canonical": "信号好了",
+    "aliases": [
+      "信号好了",
+      "信号好",
+      "信号开放好了"
+    ],
+    "category": "十、联控用语类 (CommunicationTerm)"
+  },
+  {
+    "canonical": "信号关闭",
+    "aliases": [
+      "信号关闭",
+      "信号停了",
+      "信号变红"
+    ],
+    "category": "十、联控用语类 (CommunicationTerm)"
+  },
+  {
+    "canonical": "站内停车",
+    "aliases": [
+      "站内停车",
+      "站停",
+      "停站"
+    ],
+    "category": "十、联控用语类 (CommunicationTerm)"
+  },
+  {
+    "canonical": "通过",
+    "aliases": [
+      "通过",
+      "发车通过",
+      "正线通过"
+    ],
+    "category": "十、联控用语类 (CommunicationTerm)"
+  },
+  {
+    "canonical": "机外停车",
+    "aliases": [
+      "机外停车",
+      "站外停车",
+      "信号机外停车"
+    ],
+    "category": "十、联控用语类 (CommunicationTerm)"
+  },
+  {
+    "canonical": "路票交付",
+    "aliases": [
+      "路票",
+      "给路票",
+      "路票交付司机"
+    ],
+    "category": "十、联控用语类 (CommunicationTerm)"
+  },
+  {
+    "canonical": "调度命令交付",
+    "aliases": [
+      "调度命令",
+      "给命令",
+      "命令交付"
+    ],
+    "category": "十、联控用语类 (CommunicationTerm)"
+  },
+  {
+    "canonical": "列车到达",
+    "aliases": [
+      "到达",
+      "到站",
+      "列车到达"
+    ],
+    "category": "十、联控用语类 (CommunicationTerm)"
+  },
+  {
+    "canonical": "列车出发",
+    "aliases": [
+      "发车",
+      "开出",
+      "出发",
+      "列车出发"
+    ],
+    "category": "十、联控用语类 (CommunicationTerm)"
+  },
+  {
+    "canonical": "调车联控",
+    "aliases": [
+      "调车联控",
+      "调车信令"
+    ],
+    "category": "十、联控用语类 (CommunicationTerm)"
+  },
+  {
+    "canonical": "动车",
+    "aliases": [
+      "动车",
+      "动车作业",
+      "开始动车"
+    ],
+    "category": "十、联控用语类 (CommunicationTerm)"
+  },
+  {
+    "canonical": "停车",
+    "aliases": [
+      "停车",
+      "停车信号",
+      "立即停车"
+    ],
+    "category": "十、联控用语类 (CommunicationTerm)"
+  },
+  {
+    "canonical": "慢行",
+    "aliases": [
+      "慢行",
+      "注意慢行",
+      "施工慢行",
+      "限速慢行"
+    ],
+    "category": "十、联控用语类 (CommunicationTerm)"
+  },
+  {
+    "canonical": "确认",
+    "aliases": [
+      "明白",
+      "收到",
+      "确认",
+      "抄收"
+    ],
+    "category": "十、联控用语类 (CommunicationTerm)"
+  },
+  {
+    "canonical": "呼唤",
+    "aliases": [
+      "呼唤应答",
+      "标准呼唤",
+      "联控呼唤"
+    ],
+    "category": "十、联控用语类 (CommunicationTerm)"
+  },
+  {
+    "canonical": "复诵",
+    "aliases": [
+      "复诵",
+      "复述",
+      "回述"
+    ],
+    "category": "十、联控用语类 (CommunicationTerm)"
+  },
+  {
+    "canonical": "车调联控",
+    "aliases": [
+      "车调联控",
+      "调车联控（广义）"
+    ],
+    "category": "十、联控用语类 (CommunicationTerm)"
+  },
+  {
+    "canonical": "站车联控",
+    "aliases": [
+      "站车联控",
+      "站车通信"
+    ],
+    "category": "十、联控用语类 (CommunicationTerm)"
+  },
+  {
+    "canonical": "制动距离",
+    "aliases": [
+      "制动距离",
+      "紧急制动距离",
+      "常用制动距离",
+      "停车距离"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "牵引力",
+    "aliases": [
+      "牵引力",
+      "轮周牵引力",
+      "车钩牵引力"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "制动力",
+    "aliases": [
+      "制动力",
+      "制动率",
+      "制动效能"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "粘着系数",
+    "aliases": [
+      "粘着率",
+      "轮轨粘着系数",
+      "轮轨粘着力"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "轮轨关系",
+    "aliases": [
+      "轮轨关系",
+      "轮轨相互作用",
+      "轮轨动力学"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "列车阻力",
+    "aliases": [
+      "运行阻力",
+      "基本阻力",
+      "附加阻力",
+      "起动阻力"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "基本阻力",
+    "aliases": [
+      "基本运行阻力",
+      "列车基本阻力"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "附加阻力",
+    "aliases": [
+      "附加阻力",
+      "坡道附加阻力",
+      "曲线附加阻力"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "坡道阻力",
+    "aliases": [
+      "坡道附加阻力",
+      "坡度阻力"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "曲线阻力",
+    "aliases": [
+      "曲线附加阻力",
+      "弯道阻力"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "起动阻力",
+    "aliases": [
+      "起动阻力",
+      "起车阻力"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "粘着牵引力",
+    "aliases": [
+      "粘着牵引力",
+      "可用牵引力"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "空转",
+    "aliases": [
+      "空转",
+      "轮对空转",
+      "动轮空转"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "滑行",
+    "aliases": [
+      "滑行",
+      "轮对滑行",
+      "车轮滑行"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "加速度",
+    "aliases": [
+      "加速度",
+      "起动加速度",
+      "制动减速度",
+      "加速率"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "坡道起动",
+    "aliases": [
+      "坡道起动",
+      "坡起",
+      "坡道起车"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "惰行",
+    "aliases": [
+      "惰行",
+      "惰力运行",
+      "滑行运行",
+      "遛车"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "电阻制动特性",
+    "aliases": [
+      "电阻制动特性",
+      "电阻制动曲线"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "再生制动特性",
+    "aliases": [
+      "再生制动特性",
+      "回馈制动曲线"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "列车重量",
+    "aliases": [
+      "牵引重量",
+      "列车总重",
+      "牵引定数",
+      "编组吨位"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "牵引定数",
+    "aliases": [
+      "牵引定数",
+      "固定牵引重量",
+      "牵引吨位"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "列车长度",
+    "aliases": [
+      "列车长度",
+      "换长",
+      "换算长度"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "换算长度",
+    "aliases": [
+      "换长",
+      "折算长度"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "限界",
+    "aliases": [
+      "限界",
+      "建筑限界",
+      "机车车辆限界",
+      "接近限界"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "信号显示距离",
+    "aliases": [
+      "显示距离",
+      "信号视认距离"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "制动距离限值",
+    "aliases": [
+      "制动标尺",
+      "紧急制动限界"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "追踪间隔",
+    "aliases": [
+      "追踪间隔时间",
+      "追踪间隔",
+      "行车密度"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "闭塞分区长度",
+    "aliases": [
+      "分区长度",
+      "闭塞分区长度设计"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "列车控制曲线",
+    "aliases": [
+      "控制曲线",
+      "速度控制曲线",
+      "一次连续制动曲线"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "动力制动",
+    "aliases": [
+      "动力制动",
+      "电制动",
+      "电力制动"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "紧急制动",
+    "aliases": [
+      "紧急制动",
+      "非常制动",
+      "急刹",
+      "直排制动"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "常用制动",
+    "aliases": [
+      "常用制动",
+      "常规制动",
+      "分级制动"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "快速制动",
+    "aliases": [
+      "快速制动",
+      "快制"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "保持制动",
+    "aliases": [
+      "保持制动",
+      "停放制动",
+      "停车制动",
+      "防溜制动"
+    ],
+    "category": "十一、专业基础知识类 (BasicKnowledge)"
+  },
+  {
+    "canonical": "呼唤应答类违章",
+    "aliases": [
+      "呼唤应答问题",
+      "联控用语违章",
+      "呼唤漏错",
+      "呼唤用语不规范"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "停车对标类违章",
+    "aliases": [
+      "对标不准",
+      "对标误差",
+      "停车越标",
+      "对标欠标"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "速度控制类违章",
+    "aliases": [
+      "超速违章",
+      "控速不当",
+      "防超速违章",
+      "限速违章"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "制动操作类违章",
+    "aliases": [
+      "制动违章",
+      "制动机违章",
+      "制动试验违章",
+      "减压不当"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "出退勤管理类违章",
+    "aliases": [
+      "出勤违章",
+      "退勤违章",
+      "派班室违章",
+      "出退勤不规范"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "待乘间休类违章",
+    "aliases": [
+      "待乘违章",
+      "间休违章",
+      "入寓违章",
+      "休息管理违章"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "行安装备操作类违章",
+    "aliases": [
+      "行安装备违章",
+      "LKJ违章",
+      "ATP违章",
+      "监控装置违章"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "调车作业类违章",
+    "aliases": [
+      "调车违章",
+      "调车联控违章",
+      "调车信号违章",
+      "调车模式违章"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "文书表报类违章",
+    "aliases": [
+      "手帐违章",
+      "报单违章",
+      "揭示抄写违章",
+      "卡控表违章"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "交接班类违章",
+    "aliases": [
+      "交接违章",
+      "对口交接违章",
+      "继乘站交接违章",
+      "交接不清"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "信息汇报类违章",
+    "aliases": [
+      "汇报违章",
+      "信息反馈违章",
+      "途中汇报违章",
+      "异常报告违章"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "劳动安全类违章",
+    "aliases": [
+      "劳动安全违章",
+      "人身安全违章",
+      "防护用品违章",
+      "径路违章"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "值乘纪律类违章",
+    "aliases": [
+      "纪律违章",
+      "精神违章",
+      "做无关事",
+      "盹睡违章"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "过分相弓网类违章",
+    "aliases": [
+      "过分相违章",
+      "弓网违章",
+      "降弓违章",
+      "分相操作违章"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "机车灯光鸣笛类违章",
+    "aliases": [
+      "灯光违章",
+      "鸣笛违章",
+      "遮阳帘违章",
+      "头灯违章"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "手柄操作类违章",
+    "aliases": [
+      "手柄违章",
+      "回零违章",
+      "恒速违章",
+      "牵引手柄违章"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "防溜安全类违章",
+    "aliases": [
+      "防溜违章",
+      "铁鞋违章",
+      "溜逸违章",
+      "防溜漏项"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "信号确认类违章",
+    "aliases": [
+      "信号违章",
+      "行车凭证违章",
+      "确认信号违章",
+      "发车凭证违章"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "瞭望管理类违章",
+    "aliases": [
+      "瞭望违章",
+      "间断瞭望",
+      "分段瞭望违章",
+      "后部瞭望违章"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "车门操作类违章",
+    "aliases": [
+      "车门违章",
+      "开关门违章",
+      "擅自开门",
+      "车门确认违章"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "非正常应急类违章",
+    "aliases": [
+      "应急违章",
+      "非正常处置违章",
+      "故障处置违章",
+      "处置不当"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "树标塑形类违章",
+    "aliases": [
+      "树标塑形违章",
+      "着装违章",
+      "形象违章",
+      "礼仪违章"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "运行时刻类违章",
+    "aliases": [
+      "运缓违章",
+      "早点违章",
+      "运行图违章",
+      "时刻违章"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "机车检查类违章",
+    "aliases": [
+      "检查违章",
+      "走行部检查违章",
+      "巡检违章",
+      "检车违章"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "双人值乘类违章",
+    "aliases": [
+      "互控违章",
+      "双人值乘违章",
+      "机班互控违章"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "红线严重违章",
+    "aliases": [
+      "红线违章",
+      "严重违章",
+      "安全红线",
+      "重大违章"
+    ],
+    "category": "十二、两违考核类别 (ViolationCategory)"
+  },
+  {
+    "canonical": "\"4112\"制度",
+    "aliases": [
+      "四指四呼两确认两查询",
+      "4112作业标准",
+      "四指四呼"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "\"112\"制度",
+    "aliases": [
+      "一问一答两确认",
+      "调车112制度",
+      "一问一答两确认制度"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "确认-操作-再确认流程",
+    "aliases": [
+      "确认操作再确认",
+      "三步确认法",
+      "确认操作确认"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "指呼唤动作业标准",
+    "aliases": [
+      "指呼唤动",
+      "手指呼唤动作",
+      "标准化指呼唤"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "运行揭示四核对",
+    "aliases": [
+      "揭示四核对",
+      "四核对制度",
+      "运行揭示核对",
+      "四核对"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "分段式瞭望",
+    "aliases": [
+      "分段瞭望",
+      "分段式瞭望制度",
+      "分段瞭望法"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "钩钩唱票",
+    "aliases": [
+      "唱票制度",
+      "调车唱票",
+      "逐钩唱票"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "同侧手指确认",
+    "aliases": [
+      "同侧手指",
+      "同侧确认",
+      "同侧手比"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "\"十必停\"规定",
+    "aliases": [
+      "十必停",
+      "机务十必停",
+      "十必停措施"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "防超速固化操纵措施",
+    "aliases": [
+      "防超速措施",
+      "防超速固化",
+      "防超速操纵法"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "早制动小级位",
+    "aliases": [
+      "早制动",
+      "小级位制动",
+      "早减早小"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "\"一回二降三停车\"措施",
+    "aliases": [
+      "回降停",
+      "一回二降三停",
+      "防洪呼叫措施"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "\"一站二看三确认四通过\"",
+    "aliases": [
+      "一站二看三通过",
+      "站看确认通过",
+      "道口通过制度"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "询问式发车联控",
+    "aliases": [
+      "询问式联控",
+      "询问发车",
+      "发车询问联控"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "\"三站两区间\"查询规定",
+    "aliases": [
+      "三站两区间",
+      "列尾查询规定",
+      "三站两区间查询"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "防错办措施",
+    "aliases": [
+      "防错办",
+      "防错办制度",
+      "错办预防"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "\"瞭降停\"措施",
+    "aliases": [
+      "瞭降停",
+      "汛期瞭降停",
+      "防洪瞭降停"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "树标塑形管理规定",
+    "aliases": [
+      "树标塑形",
+      "塑形规定",
+      "司机形象标准"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "保压停车",
+    "aliases": [
+      "保压",
+      "保压停车",
+      "保压制动"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "一度停车",
+    "aliases": [
+      "一度停车制度",
+      "一度停",
+      "一度停再动"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "安全红线",
+    "aliases": [
+      "红线",
+      "安全红线管理",
+      "安全底线"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "防溜逸安全措施",
+    "aliases": [
+      "防溜措施",
+      "防溜",
+      "防溜逸"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "防超速措施",
+    "aliases": [
+      "防超速",
+      "防超措施",
+      "超速预防"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "防冒进措施",
+    "aliases": [
+      "防冒进",
+      "防冒措施",
+      "防冒进信号"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "防临时限速超速措施",
+    "aliases": [
+      "防临限超速",
+      "临时限速卡控",
+      "防慢行超速"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "防撞线措施",
+    "aliases": [
+      "防撞线",
+      "防撞",
+      "撞击预防"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "非正常行车预案",
+    "aliases": [
+      "非正常预案",
+      "异常预案",
+      "行车应急处置预案"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "冬季防寒过冬措施",
+    "aliases": [
+      "防寒措施",
+      "冬季行车措施",
+      "防寒过冬"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "防洪应急预案",
+    "aliases": [
+      "防洪预案",
+      "汛期预案",
+      "防汛预案"
+    ],
+    "category": "十三、专项作业规定 (OperationRegulation & SafetyProtocol)"
+  },
+  {
+    "canonical": "司机手帐",
+    "aliases": [
+      "手帐",
+      "司机手册",
+      "乘务员手帐",
+      "行车手帐"
+    ],
+    "category": "十四、行车文书与表报 (OperatingDocument)"
+  },
+  {
+    "canonical": "运行揭示",
+    "aliases": [
+      "揭示",
+      "调度命令揭示",
+      "运行揭示命令",
+      "限速揭示"
+    ],
+    "category": "十四、行车文书与表报 (OperatingDocument)"
+  },
+  {
+    "canonical": "司机报单",
+    "aliases": [
+      "报单",
+      "乘务报单",
+      "司机值乘报单"
+    ],
+    "category": "十四、行车文书与表报 (OperatingDocument)"
+  },
+  {
+    "canonical": "调车作业通知单",
+    "aliases": [
+      "调车通知单",
+      "调车计划单",
+      "调车单"
+    ],
+    "category": "十四、行车文书与表报 (OperatingDocument)"
+  },
+  {
+    "canonical": "小组计划",
+    "aliases": [
+      "机班小组计划",
+      "乘务小组计划",
+      "出乘小组计划"
+    ],
+    "category": "十四、行车文书与表报 (OperatingDocument)"
+  },
+  {
+    "canonical": "关键作业环节卡控表",
+    "aliases": [
+      "卡控表",
+      "关键环节表",
+      "作业卡控表",
+      "环节卡控表"
+    ],
+    "category": "十四、行车文书与表报 (OperatingDocument)"
+  },
+  {
+    "canonical": "过分相提示卡",
+    "aliases": [
+      "分相提示卡",
+      "过分相卡",
+      "分相区提示卡"
+    ],
+    "category": "十四、行车文书与表报 (OperatingDocument)"
+  },
+  {
+    "canonical": "固定提示卡",
+    "aliases": [
+      "固定提示",
+      "固定提示卡片",
+      "行车提示卡"
+    ],
+    "category": "十四、行车文书与表报 (OperatingDocument)"
+  },
+  {
+    "canonical": "进路提示牌",
+    "aliases": [
+      "进路牌",
+      "进路提示",
+      "进路标识牌"
+    ],
+    "category": "十四、行车文书与表报 (OperatingDocument)"
+  },
+  {
+    "canonical": "防临时限速提示卡",
+    "aliases": [
+      "临时限速卡",
+      "防超速提示卡",
+      "临时慢行卡"
+    ],
+    "category": "十四、行车文书与表报 (OperatingDocument)"
+  },
+  {
+    "canonical": "施工行车安全明示图",
+    "aliases": [
+      "施工明示图",
+      "安全明示图",
+      "施工行车图"
+    ],
+    "category": "十四、行车文书与表报 (OperatingDocument)"
+  },
+  {
+    "canonical": "施工机务段相关安排一览表",
+    "aliases": [
+      "施工安排表",
+      "机务施工表",
+      "施工一览表"
+    ],
+    "category": "十四、行车文书与表报 (OperatingDocument)"
+  },
+  {
+    "canonical": "电务车载设备信息反馈单",
+    "aliases": [
+      "电务反馈单",
+      "设备故障反馈单",
+      "车载设备反馈单"
+    ],
+    "category": "十四、行车文书与表报 (OperatingDocument)"
+  },
+  {
+    "canonical": "地勤司机工作日志",
+    "aliases": [
+      "地勤日志",
+      "地勤工作日志",
+      "地勤司机日志"
+    ],
+    "category": "十四、行车文书与表报 (OperatingDocument)"
+  },
+  {
+    "canonical": "三乘信息登记表",
+    "aliases": [
+      "三乘登记",
+      "三乘信息",
+      "机务登记表"
+    ],
+    "category": "十四、行车文书与表报 (OperatingDocument)"
+  },
+  {
+    "canonical": "LKJ临时数据录入登记簿",
+    "aliases": [
+      "LKJ登记簿",
+      "临时数据登记簿",
+      "LKJ数据登记"
+    ],
+    "category": "十四、行车文书与表报 (OperatingDocument)"
+  },
+  {
+    "canonical": "运行揭示条",
+    "aliases": [
+      "揭示条",
+      "调度命令条",
+      "限速命令条"
+    ],
+    "category": "十四、行车文书与表报 (OperatingDocument)"
+  },
+  {
+    "canonical": "点牌",
+    "aliases": [
+      "点牌",
+      "停车位置牌",
+      "对标牌",
+      "营业站点牌"
+    ],
+    "category": "十四、行车文书与表报 (OperatingDocument)"
+  },
+  {
+    "canonical": "动车组钥匙",
+    "aliases": [
+      "动车钥匙",
+      "司机室钥匙",
+      "动车组司机室钥匙"
+    ],
+    "category": "十四、行车文书与表报 (OperatingDocument)"
+  },
+  {
+    "canonical": "行车异常信息报告",
+    "aliases": [
+      "异常报告",
+      "行车异常汇报",
+      "异常信息反馈"
+    ],
+    "category": "十五、信息汇报类型 (InformationReport)"
+  },
+  {
+    "canonical": "途中信息汇报",
+    "aliases": [
+      "途中汇报",
+      "运行汇报",
+      "中途信息报告"
+    ],
+    "category": "十五、信息汇报类型 (InformationReport)"
+  },
+  {
+    "canonical": "公寓信息汇报",
+    "aliases": [
+      "公寓汇报",
+      "入住汇报",
+      "候班信息汇报"
+    ],
+    "category": "十五、信息汇报类型 (InformationReport)"
+  },
+  {
+    "canonical": "无电停放信息汇报",
+    "aliases": [
+      "无电停放汇报",
+      "停放汇报",
+      "防溜汇报"
+    ],
+    "category": "十五、信息汇报类型 (InformationReport)"
+  },
+  {
+    "canonical": "过夜停放信息汇报",
+    "aliases": [
+      "过夜汇报",
+      "过夜停放汇报",
+      "停放信息反馈"
+    ],
+    "category": "十五、信息汇报类型 (InformationReport)"
+  },
+  {
+    "canonical": "机车设备故障提票",
+    "aliases": [
+      "提票",
+      "故障提票",
+      "机故提票",
+      "下班提票"
+    ],
+    "category": "十五、信息汇报类型 (InformationReport)"
+  },
+  {
+    "canonical": "LKJ数据转储上传",
+    "aliases": [
+      "数据转储",
+      "LKJ转储",
+      "行车数据上传"
+    ],
+    "category": "十五、信息汇报类型 (InformationReport)"
+  },
+  {
+    "canonical": "临时慢行汇报",
+    "aliases": [
+      "慢行汇报",
+      "临时限速汇报",
+      "雨量限速汇报"
+    ],
+    "category": "十五、信息汇报类型 (InformationReport)"
+  },
+  {
+    "canonical": "区间行人牲畜报告",
+    "aliases": [
+      "行人报告",
+      "路外报告",
+      "牲畜报告",
+      "闲杂人员报告"
+    ],
+    "category": "十五、信息汇报类型 (InformationReport)"
+  },
+  {
+    "canonical": "行安装备故障反馈",
+    "aliases": [
+      "行安装备反馈",
+      "设备故障反馈",
+      "装备异常反馈"
+    ],
+    "category": "十五、信息汇报类型 (InformationReport)"
+  },
+  {
+    "canonical": "运统1终端反馈",
+    "aliases": [
+      "运统1反馈",
+      "电子运统1反馈",
+      "签收异常反馈"
+    ],
+    "category": "十五、信息汇报类型 (InformationReport)"
+  },
+  {
+    "canonical": "出勤作业",
+    "aliases": [
+      "出勤",
+      "派班室出勤",
+      "乘务出勤"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "退勤作业",
+    "aliases": [
+      "退勤",
+      "派班室退勤",
+      "乘务退勤"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "待乘休息",
+    "aliases": [
+      "待乘",
+      "强制待乘",
+      "待乘候班",
+      "间休"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "接车作业",
+    "aliases": [
+      "接车",
+      "库内接车",
+      "出库接车",
+      "站接"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "始发作业",
+    "aliases": [
+      "始发",
+      "始发站作业",
+      "列车始发"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "站内停车对标",
+    "aliases": [
+      "对标停车",
+      "靠标停车",
+      "对标",
+      "停车对标"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "进站作业",
+    "aliases": [
+      "进站",
+      "进站停车",
+      "进站通过"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "出站作业",
+    "aliases": [
+      "出站",
+      "站内发车",
+      "出站运行"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "区间运行",
+    "aliases": [
+      "区间",
+      "途中运行",
+      "区段运行"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "过分相作业",
+    "aliases": [
+      "过分相",
+      "电分相通过",
+      "接触网分相"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "调车转线作业",
+    "aliases": [
+      "调车",
+      "转线",
+      "调车转线"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "出入库作业",
+    "aliases": [
+      "出库",
+      "入库",
+      "动车所出入库"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "换端作业",
+    "aliases": [
+      "换端",
+      "换端操纵",
+      "司机室换端"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "继乘站交接",
+    "aliases": [
+      "继乘",
+      "继乘交接",
+      "继乘站交接"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "终到作业",
+    "aliases": [
+      "终到",
+      "到达终到",
+      "列车终到"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "洗车作业",
+    "aliases": [
+      "洗车",
+      "清洗作业",
+      "列车清洗"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "升弓降弓作业",
+    "aliases": [
+      "升弓",
+      "降弓",
+      "弓网操作",
+      "升降弓作业"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "断电降弓作业",
+    "aliases": [
+      "断电降弓",
+      "断电降弓拉电池",
+      "高压断电"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "上电作业",
+    "aliases": [
+      "上电",
+      "高压上电",
+      "升弓供电"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "关门作业",
+    "aliases": [
+      "关门",
+      "关闭车门",
+      "发车关门"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "制动机试验",
+    "aliases": [
+      "试闸",
+      "制动试验",
+      "制动检查",
+      "机能试验"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "贯通试验",
+    "aliases": [
+      "贯通检查",
+      "贯通试风",
+      "列车管贯通试验"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "走行部检查",
+    "aliases": [
+      "走行部检查",
+      "机车检查",
+      "走行部巡检"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "调车信号确认",
+    "aliases": [
+      "调车信号确认",
+      "逐架确认",
+      "信号呼唤"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "一度停车确认",
+    "aliases": [
+      "一度停车",
+      "一度停确认",
+      "一度停"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "挂头作业",
+    "aliases": [
+      "挂头",
+      "连挂作业",
+      "机车连挂"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "摘解作业",
+    "aliases": [
+      "摘解",
+      "摘头",
+      "机车摘解",
+      "解钩"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "站台换端行走",
+    "aliases": [
+      "站台行走",
+      "换端行走",
+      "司机室切换行走"
+    ],
+    "category": "十六、作业场景与环节 (OperationPhase)"
+  },
+  {
+    "canonical": "呼唤应答",
+    "aliases": [
+      "呼唤",
+      "应答",
+      "呼唤确认",
+      "标准化呼唤"
+    ],
+    "category": "十七、操作行为动词 (OperationVerb)"
+  },
+  {
+    "canonical": "手指确认",
+    "aliases": [
+      "手指",
+      "手比",
+      "手指呼唤",
+      "手指口呼"
+    ],
+    "category": "十七、操作行为动词 (OperationVerb)"
+  },
+  {
+    "canonical": "对标按开车键",
+    "aliases": [
+      "对标",
+      "按开车键",
+      "开车对标",
+      "按压开车键"
+    ],
+    "category": "十七、操作行为动词 (OperationVerb)"
+  },
+  {
+    "canonical": "勾划卡控表",
+    "aliases": [
+      "勾划",
+      "打勾",
+      "卡控表勾划",
+      "逐项确认"
+    ],
+    "category": "十七、操作行为动词 (OperationVerb)"
+  },
+  {
+    "canonical": "核对运行揭示",
+    "aliases": [
+      "核对揭示",
+      "揭示四核对",
+      "四核对"
+    ],
+    "category": "十七、操作行为动词 (OperationVerb)"
+  },
+  {
+    "canonical": "转储数据",
+    "aliases": [
+      "转储",
+      "下载数据",
+      "LKJ数据转储"
+    ],
+    "category": "十七、操作行为动词 (OperationVerb)"
+  },
+  {
+    "canonical": "设置恒速",
+    "aliases": [
+      "恒速设置",
+      "设定恒速",
+      "恒速值设定"
+    ],
+    "category": "十七、操作行为动词 (OperationVerb)"
+  },
+  {
+    "canonical": "查询列尾风压",
+    "aliases": [
+      "查询风压",
+      "列尾查询",
+      "风压查询"
+    ],
+    "category": "十七、操作行为动词 (OperationVerb)"
+  },
+  {
+    "canonical": "鸣笛",
+    "aliases": [
+      "鸣笛",
+      "风笛",
+      "喇叭鸣示"
+    ],
+    "category": "十七、操作行为动词 (OperationVerb)"
+  },
+  {
+    "canonical": "手动过分相防护",
+    "aliases": [
+      "手动防护",
+      "手动断电",
+      "过分相手操"
+    ],
+    "category": "十七、操作行为动词 (OperationVerb)"
+  },
+  {
+    "canonical": "调速手柄回零",
+    "aliases": [
+      "手柄回零",
+      "回零位",
+      "调速回零"
+    ],
+    "category": "十七、操作行为动词 (OperationVerb)"
+  },
+  {
+    "canonical": "撤除铁鞋",
+    "aliases": [
+      "撤铁鞋",
+      "撤除防溜铁鞋",
+      "取铁鞋"
+    ],
+    "category": "十七、操作行为动词 (OperationVerb)"
+  },
+  {
+    "canonical": "施加防溜",
+    "aliases": [
+      "上铁鞋",
+      "放置铁鞋",
+      "防溜措施"
+    ],
+    "category": "十七、操作行为动词 (OperationVerb)"
+  },
+  {
+    "canonical": "注销G网手持机",
+    "aliases": [
+      "注销手持机",
+      "G网机注销",
+      "手持台注销"
+    ],
+    "category": "十七、操作行为动词 (OperationVerb)"
+  },
+  {
+    "canonical": "签收电子运统1",
+    "aliases": [
+      "签收运统1",
+      "电子签收",
+      "运统1签认"
+    ],
+    "category": "十七、操作行为动词 (OperationVerb)"
+  },
+  {
+    "canonical": "扫描二维码",
+    "aliases": [
+      "扫码",
+      "扫描出勤码",
+      "二维码登录"
+    ],
+    "category": "十七、操作行为动词 (OperationVerb)"
+  },
+  {
+    "canonical": "拍照汇报",
+    "aliases": [
+      "水印拍照",
+      "定位拍照",
+      "钉钉拍照"
+    ],
+    "category": "十七、操作行为动词 (OperationVerb)"
+  },
+  {
+    "canonical": "酒测",
+    "aliases": [
+      "酒精测试",
+      "出勤酒测",
+      "退勤酒测",
+      "酒精检测"
+    ],
+    "category": "十七、操作行为动词 (OperationVerb)"
+  },
+  {
+    "canonical": "指纹确认",
+    "aliases": [
+      "指纹确认",
+      "指纹打卡",
+      "指纹考勤"
+    ],
+    "category": "十七、操作行为动词 (OperationVerb)"
+  },
+  {
+    "canonical": "立岗瞭望",
+    "aliases": [
+      "立岗",
+      "站立瞭望",
+      "进站立岗"
+    ],
+    "category": "十七、操作行为动词 (OperationVerb)"
+  },
+  {
+    "canonical": "防护黄背心",
+    "aliases": [
+      "黄背心",
+      "防护背心",
+      "反光背心",
+      "安全背心"
+    ],
+    "category": "十八、劳动安全防护用品 (SafetyProtection)"
+  },
+  {
+    "canonical": "反光带",
+    "aliases": [
+      "反光条",
+      "反光标识",
+      "反光贴"
+    ],
+    "category": "十八、劳动安全防护用品 (SafetyProtection)"
+  },
+  {
+    "canonical": "防护帽盖",
+    "aliases": [
+      "防护帽",
+      "主断防护帽盖",
+      "车门防护帽盖"
+    ],
+    "category": "十八、劳动安全防护用品 (SafetyProtection)"
+  },
+  {
+    "canonical": "安全带",
+    "aliases": [
+      "安全绳",
+      "防护安全带",
+      "高空安全带"
+    ],
+    "category": "十八、劳动安全防护用品 (SafetyProtection)"
+  },
+  {
+    "canonical": "手电筒",
+    "aliases": [
+      "电筒",
+      "检查手电",
+      "检车手电"
+    ],
+    "category": "十八、劳动安全防护用品 (SafetyProtection)"
+  },
+  {
+    "canonical": "检车锤",
+    "aliases": [
+      "检查锤",
+      "检点锤",
+      "机车检查锤"
+    ],
+    "category": "十八、劳动安全防护用品 (SafetyProtection)"
+  },
+  {
+    "canonical": "手套",
+    "aliases": [
+      "防护手套",
+      "作业手套",
+      "劳保手套"
+    ],
+    "category": "十八、劳动安全防护用品 (SafetyProtection)"
+  },
+  {
+    "canonical": "领带",
+    "aliases": [
+      "制服领带",
+      "标准化领带",
+      "司机领带"
+    ],
+    "category": "十八、劳动安全防护用品 (SafetyProtection)"
+  },
+  {
+    "canonical": "对讲机",
+    "aliases": [
+      "手持台",
+      "无线电对讲机",
+      "列调对讲机"
+    ],
+    "category": "十八、劳动安全防护用品 (SafetyProtection)"
+  },
+  {
+    "canonical": "停车状态",
+    "aliases": [
+      "停车",
+      "静止状态",
+      "站内停车",
+      "停稳状态"
+    ],
+    "category": "十九、状态描述与条件 (StatusCondition)"
+  },
+  {
+    "canonical": "运行中",
+    "aliases": [
+      "运行",
+      "途中",
+      "行驶中",
+      "在线运行"
+    ],
+    "category": "十九、状态描述与条件 (StatusCondition)"
+  },
+  {
+    "canonical": "精神不振",
+    "aliases": [
+      "疲劳",
+      "精神状态不佳",
+      "萎靡不振",
+      "盹睡"
+    ],
+    "category": "十九、状态描述与条件 (StatusCondition)"
+  },
+  {
+    "canonical": "做与行车无关的事",
+    "aliases": [
+      "干无关事",
+      "做无关事",
+      "与行车无关"
+    ],
+    "category": "十九、状态描述与条件 (StatusCondition)"
+  },
+  {
+    "canonical": "间休",
+    "aliases": [
+      "间歇休息",
+      "间休时间",
+      "短休"
+    ],
+    "category": "十九、状态描述与条件 (StatusCondition)"
+  },
+  {
+    "canonical": "交接班",
+    "aliases": [
+      "交班",
+      "接班",
+      "值乘交接"
+    ],
+    "category": "十九、状态描述与条件 (StatusCondition)"
+  },
+  {
+    "canonical": "非正常情况",
+    "aliases": [
+      "非正常",
+      "异常情况",
+      "特殊情况"
+    ],
+    "category": "十九、状态描述与条件 (StatusCondition)"
+  },
+  {
+    "canonical": "天气恶劣",
+    "aliases": [
+      "恶劣天气",
+      "雨雪冰霜",
+      "大雾暴雨"
+    ],
+    "category": "十九、状态描述与条件 (StatusCondition)"
+  },
+  {
+    "canonical": "后半夜",
+    "aliases": [
+      "深夜",
+      "凌晨",
+      "夜间行车",
+      "夜班时段"
+    ],
+    "category": "十九、状态描述与条件 (StatusCondition)"
+  },
+  {
+    "canonical": "太阳光强烈",
+    "aliases": [
+      "强光",
+      "刺眼阳光",
+      "逆光",
+      "炫光"
+    ],
+    "category": "十九、状态描述与条件 (StatusCondition)"
+  },
+  {
+    "canonical": "未造成后果",
+    "aliases": [
+      "未造成影响",
+      "无后果",
+      "未出事故",
+      "一般违章"
+    ],
+    "category": "十九、状态描述与条件 (StatusCondition)"
+  },
+  {
+    "canonical": "造成后果",
+    "aliases": [
+      "造成影响",
+      "产生后果",
+      "已出影响",
+      "严重违章"
+    ],
+    "category": "十九、状态描述与条件 (StatusCondition)"
+  },
+  {
+    "canonical": "停车对标误差2米以内",
+    "aliases": [
+      "对标2米",
+      "误差2米内",
+      "靠标2米"
+    ],
+    "category": "二十、数值参数与阈值 (ParameterThreshold)"
+  },
+  {
+    "canonical": "停车对标误差2-5米",
+    "aliases": [
+      "对标2-5米",
+      "误差超2米"
+    ],
+    "category": "二十、数值参数与阈值 (ParameterThreshold)"
+  },
+  {
+    "canonical": "停车对标误差5米以上",
+    "aliases": [
+      "对标超5米",
+      "误差5米以上"
+    ],
+    "category": "二十、数值参数与阈值 (ParameterThreshold)"
+  },
+  {
+    "canonical": "停车对标误差10-20米",
+    "aliases": [
+      "对标10-20米",
+      "误差超10米"
+    ],
+    "category": "二十、数值参数与阈值 (ParameterThreshold)"
+  },
+  {
+    "canonical": "停车对标误差20米以上",
+    "aliases": [
+      "对标超20米",
+      "误差20米以上"
+    ],
+    "category": "二十、数值参数与阈值 (ParameterThreshold)"
+  },
+  {
+    "canonical": "减压100kpa",
+    "aliases": [
+      "减压100",
+      "100kpa减压",
+      "百千帕减压"
+    ],
+    "category": "二十、数值参数与阈值 (ParameterThreshold)"
+  },
+  {
+    "canonical": "30kPa单阀缓解量",
+    "aliases": [
+      "单阀30kpa",
+      "30千帕缓解放风"
+    ],
+    "category": "二十、数值参数与阈值 (ParameterThreshold)"
+  },
+  {
+    "canonical": "充风时间不足",
+    "aliases": [
+      "充风不足",
+      "充风时间不够"
+    ],
+    "category": "二十、数值参数与阈值 (ParameterThreshold)"
+  },
+  {
+    "canonical": "B5级制动",
+    "aliases": [
+      "B5级",
+      "五级制动",
+      "B5制动"
+    ],
+    "category": "二十、数值参数与阈值 (ParameterThreshold)"
+  },
+  {
+    "canonical": "B7级制动",
+    "aliases": [
+      "B7级",
+      "七级制动",
+      "B7制动"
+    ],
+    "category": "二十、数值参数与阈值 (ParameterThreshold)"
+  },
+  {
+    "canonical": "OC位",
+    "aliases": [
+      "OC位",
+      "过充位",
+      "快速缓解位"
+    ],
+    "category": "二十、数值参数与阈值 (ParameterThreshold)"
+  },
+  {
+    "canonical": "B4级制动",
+    "aliases": [
+      "B4级",
+      "四级制动"
+    ],
+    "category": "二十、数值参数与阈值 (ParameterThreshold)"
+  },
+  {
+    "canonical": "15km/h一度停车限速",
+    "aliases": [
+      "15公里",
+      "一度停车速度",
+      "15公里限速"
+    ],
+    "category": "二十、数值参数与阈值 (ParameterThreshold)"
+  },
+  {
+    "canonical": "信号显示距离200米",
+    "aliases": [
+      "显示200米",
+      "信号视距200米"
+    ],
+    "category": "二十、数值参数与阈值 (ParameterThreshold)"
+  },
+  {
+    "canonical": "接触网终点10米",
+    "aliases": [
+      "终点10米",
+      "距接触网终点10米"
+    ],
+    "category": "二十、数值参数与阈值 (ParameterThreshold)"
+  },
+  {
+    "canonical": "车挡距离10米",
+    "aliases": [
+      "距土挡10米",
+      "车挡10米"
+    ],
+    "category": "二十、数值参数与阈值 (ParameterThreshold)"
+  },
+  {
+    "canonical": "遮阳帘关闭超过1/3",
+    "aliases": [
+      "遮阳帘1/3",
+      "帘关超三分之一"
+    ],
+    "category": "二十、数值参数与阈值 (ParameterThreshold)"
+  },
+  {
+    "canonical": "10分钟未制动",
+    "aliases": [
+      "10分钟制动机",
+      "停车10分"
+    ],
+    "category": "二十、数值参数与阈值 (ParameterThreshold)"
+  },
+  {
+    "canonical": "摄像头监控范围",
+    "aliases": [
+      "监控范围",
+      "摄像头覆盖",
+      "监控视野"
+    ],
+    "category": "二十、数值参数与阈值 (ParameterThreshold)"
+  },
+  {
+    "canonical": "换长",
+    "aliases": [
+      "换算长度",
+      "折算长度",
+      "列长"
+    ],
+    "category": "二十、数值参数与阈值 (ParameterThreshold)"
+  },
+  {
+    "canonical": "牵引力60%-70%",
+    "aliases": [
+      "牵引力60",
+      "牵引70",
+      "防超速牵引"
+    ],
+    "category": "二十、数值参数与阈值 (ParameterThreshold)"
+  },
+  {
+    "canonical": "驾驶",
+    "aliases": [
+      "驾驶",
+      "操纵",
+      "执乘",
+      "值乘"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "持有",
+    "aliases": [
+      "持有",
+      "拥有",
+      "具备"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "准驾车型",
+    "aliases": [
+      "准驾",
+      "可驾",
+      "准驾范围"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "需要掌握",
+    "aliases": [
+      "需要掌握",
+      "需要学习",
+      "应知应会",
+      "须掌握"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "包含",
+    "aliases": [
+      "包含",
+      "包括",
+      "涵盖"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "属于",
+    "aliases": [
+      "属于",
+      "归属于",
+      "是—部分"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "执行",
+    "aliases": [
+      "执行",
+      "实施",
+      "施行",
+      "按照"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "依据",
+    "aliases": [
+      "依据",
+      "根据",
+      "按照",
+      "遵循"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "约束",
+    "aliases": [
+      "约束",
+      "约束条件",
+      "限制"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "前置条件",
+    "aliases": [
+      "前置条件",
+      "前提",
+      "先决条件",
+      "前驱"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "导致",
+    "aliases": [
+      "导致",
+      "引发",
+      "引起",
+      "造成"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "处置方法",
+    "aliases": [
+      "处置方法",
+      "处理方法",
+      "应对措施",
+      "处理方式"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "适用场景",
+    "aliases": [
+      "适用场景",
+      "适用条件",
+      "适用范围"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "考试内容",
+    "aliases": [
+      "考试内容",
+      "考核内容",
+      "考纲"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "培训课程",
+    "aliases": [
+      "课程",
+      "培训内容",
+      "训练项目"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "关联故障",
+    "aliases": [
+      "关联故障",
+      "关联失效",
+      "连带故障"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "需要检查",
+    "aliases": [
+      "需要检查",
+      "需要确认",
+      "须检视"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "联控对象",
+    "aliases": [
+      "联控对象",
+      "联控方",
+      "通信方"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "安全要求",
+    "aliases": [
+      "安全要求",
+      "安全规定",
+      "必须"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "优先顺序",
+    "aliases": [
+      "优先顺序",
+      "优先级",
+      "执行顺序"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "信号含义",
+    "aliases": [
+      "信号含义",
+      "信号意义",
+      "信号指示"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "显示与条件",
+    "aliases": [
+      "显示条件",
+      "信号开放条件"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "防护对象",
+    "aliases": [
+      "防护对象",
+      "安全防护",
+      "保护对象"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "替代关系",
+    "aliases": [
+      "替代关系",
+      "可替代",
+      "替换"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "对应关系",
+    "aliases": [
+      "对应关系",
+      "映射",
+      "对应"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "兼容关系",
+    "aliases": [
+      "兼容关系",
+      "兼容",
+      "可配合"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "隶属关系",
+    "aliases": [
+      "隶属关系",
+      "属于",
+      "归口"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "历史版本",
+    "aliases": [
+      "历史版本",
+      "历史沿革",
+      "版本迭代"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "培训要求",
+    "aliases": [
+      "培训要求",
+      "培训需求",
+      "训练要求"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "考核标准",
+    "aliases": [
+      "考核标准",
+      "评分标准",
+      "通过标准"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "违反",
+    "aliases": [
+      "违反",
+      "触犯",
+      "违背",
+      "未遵守"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "被考核",
+    "aliases": [
+      "被考核",
+      "受到考核",
+      "被处罚",
+      "被追责"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "属于类别",
+    "aliases": [
+      "归类",
+      "属于",
+      "分类为"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "触发",
+    "aliases": [
+      "触发",
+      "引发",
+      "导致",
+      "造成"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "未执行",
+    "aliases": [
+      "未执行",
+      "漏执行",
+      "未落实",
+      "未实施"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "漏项",
+    "aliases": [
+      "漏项",
+      "遗漏",
+      "缺失项目",
+      "不完整"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "误操作",
+    "aliases": [
+      "误操作",
+      "错操作",
+      "操作失误",
+      "误碰"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "假确认",
+    "aliases": [
+      "假确认",
+      "走形式",
+      "虚确认",
+      "表面确认"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "对标不准",
+    "aliases": [
+      "对标误差",
+      "欠标",
+      "越标",
+      "停车不准"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "汇报不及时",
+    "aliases": [
+      "汇报迟延",
+      "延迟报告",
+      "反馈滞后",
+      "晚汇报"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "交接不清",
+    "aliases": [
+      "交接不清",
+      "交接遗漏",
+      "未交接清楚"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "未携带",
+    "aliases": [
+      "未携带",
+      "遗漏携带",
+      "缺失",
+      "忘带"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "未按规定",
+    "aliases": [
+      "未按规",
+      "未照规定",
+      "不合规",
+      "不符合标准"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "操作不当",
+    "aliases": [
+      "操作失误",
+      "操纵不当",
+      "使用错误"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "填写错误",
+    "aliases": [
+      "填错",
+      "错填",
+      "错误填写",
+      "写错"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "控速不当",
+    "aliases": [
+      "速度控制不当",
+      "控速失误",
+      "调速不准"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "未确认",
+    "aliases": [
+      "漏确认",
+      "未核实",
+      "未检查",
+      "未核对"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "反馈信息错误",
+    "aliases": [
+      "反馈错误",
+      "汇报不准",
+      "信息不对"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "处置错误",
+    "aliases": [
+      "错误处置",
+      "处置不当",
+      "应对失误"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "未反馈",
+    "aliases": [
+      "未汇报",
+      "漏反馈",
+      "未通报",
+      "未告知"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "越标",
+    "aliases": [
+      "越过对标",
+      "停车越标",
+      "对标过头"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "欠标",
+    "aliases": [
+      "停欠",
+      "对标不足",
+      "未到停车标"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  },
+  {
+    "canonical": "未回零",
+    "aliases": [
+      "手柄未回零",
+      "未归零",
+      "不在零位"
+    ],
+    "category": "一、关系类型类 (RelationType)"
+  }
+]

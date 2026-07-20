@@ -1,0 +1,5246 @@
+[
+  {
+    "id": "880bb5fa-2e71-4cc3-a9e4-873609b4c34e",
+    "word": "10分钟未制动",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "84fe0c77-c897-47f6-ac97-b6357e954a5a",
+    "word": "120km",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "537cd9e2-2a05-42a9-a2cb-b597addd4b72",
+    "word": "134km800m",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1fac7f42-6fe3-40df-9f4e-3deddac40f43",
+    "word": "30kPa单阀缓解量",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "cebeba18-148c-432c-9371-90144ffc77a3",
+    "word": "6502电气集中联锁",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d9b5725c-5e72-4fc7-9567-215d29ce5004",
+    "word": "80km",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b3411e21-3a0f-479e-82bb-f05e5bf7543e",
+    "word": "ATP休眠模式",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "03bb9909-0ed4-4db6-bbd0-c3bc1a15bc7e",
+    "word": "ATP完全监控模式",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e9ab7dc1-7d7b-4bb1-b3c0-c65c599b0a44",
+    "word": "ATP引导模式",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "5a9b00d0-a79d-43b4-808a-0f6a4c55d9d6",
+    "word": "ATP待机模式",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "cac62d4d-22a1-4b3b-9976-8f270d8d5ec0",
+    "word": "ATP目视行车模式",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "065408ac-d652-47a1-a373-62d6da3d64c9",
+    "word": "ATP系统故障",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "79bb7d03-a4ab-44a4-a79f-0af4f866bd22",
+    "word": "ATP调车模式",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c2b09216-137d-434a-9656-388913dab08a",
+    "word": "ATP部分监控模式",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e14cbef6-f119-4eac-a85a-855b89cdbbf9",
+    "word": "ATP隔离模式",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2ed43bfe-1664-47bc-b701-36362e89084d",
+    "word": "B4级制动",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "86b5f9fa-2b0f-4c5f-ab19-3dbbdd9dd494",
+    "word": "B5级制动",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "51f8baa2-27fe-4b3b-b81c-42f265d62f9e",
+    "word": "B7级制动",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "dd725b4d-c498-434a-afed-c3d7acce03e5",
+    "word": "CIR通信故障",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e9dbd28a-2375-4bf6-8943-7dcb179ef025",
+    "word": "CR200J",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ac4c1d9e-2e86-4b83-a4a9-8ebdd7830aa7",
+    "word": "CR300AF",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1508b413-1760-47ba-8a88-d2b754f18719",
+    "word": "CR300BF",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d556f061-171c-40c7-98d9-6a69dc297fb7",
+    "word": "CR400AF",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "be7a13d3-4003-4d05-a4eb-81b040248d89",
+    "word": "CR400BF",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7821bdff-779e-4b80-9517-cf56cbc8fd48",
+    "word": "CRH1A",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "50f1f9be-a559-4109-bc81-4f5ee30e47c4",
+    "word": "CRH2A",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "144c7453-9f8c-49aa-a7d4-9b1aa6b09367",
+    "word": "CRH380A",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "85d6ee74-6a03-48f8-a496-5cfa3a10044e",
+    "word": "CRH380B",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7372beeb-2822-4d69-ae86-fa245312f9df",
+    "word": "CRH380BJ",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ba651cf3-3483-4ba9-ab3a-74abce203014",
+    "word": "CRH380D",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1d315259-cdd4-432f-ab93-f8f2241870de",
+    "word": "CRH5A",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ce8f6c53-c6b5-4bcb-8ec4-5ee2babe6ff7",
+    "word": "CRH6A",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f2a10277-38a9-4186-a6cb-542a5a592504",
+    "word": "D12",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "454e4adb-bae1-4a4b-b732-e66dd5a3c82b",
+    "word": "D18",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e98f449b-cfef-4a99-adc2-36df694fdedf",
+    "word": "DF11G型内燃机车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "dccc3d65-0329-4881-abc3-64e6532c9fb8",
+    "word": "DF11型内燃机车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "fad7c83c-2556-42e9-8210-dd7db18c6657",
+    "word": "DF4B型内燃机车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2fe750dc-0dcd-43c5-bf6c-02890fc5b455",
+    "word": "DF4D型内燃机车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a2f79921-fc28-455e-9562-a58dd59f5ed3",
+    "word": "DF5型内燃机车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7ea0194a-4a1b-44d8-9bf0-566eb5d1ea87",
+    "word": "DF7型内燃机车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "71807b60-af2b-4cbd-b3ef-dd5d6cc47792",
+    "word": "DF8B型内燃机车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2c040016-0afb-43b2-a039-2dc28085245e",
+    "word": "G534",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "06d5bbac-2dce-4e8d-8596-9a19d46f28cf",
+    "word": "G541",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9d1386a2-9a6c-4025-a2cc-85dd0c0e1a56",
+    "word": "G542",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "25246844-d12f-4553-af54-d7f4544e14ce",
+    "word": "G543",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0692ebe6-ee9c-4db9-bc2a-1f3890131420",
+    "word": "G544",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "4e78b95c-3579-4dca-8cda-5856792ed6ea",
+    "word": "HMI屏",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b6c5e55e-fede-4561-99f0-229d917ec710",
+    "word": "HXD1D型电力机车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f544f9bc-0a14-4fab-8150-bccc83fed8bc",
+    "word": "HXD1G型动力车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "72ccfb7c-c1be-42eb-9066-6c65c9e2dac6",
+    "word": "HXD1型电力机车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "42216b5b-81ac-41f8-ac45-e3217e0dc139",
+    "word": "HXD2B型电力机车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ae40b777-0a14-43b2-8206-fc702decea19",
+    "word": "HXD2型电力机车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "6b58d796-0577-457a-a483-51be0adbd06d",
+    "word": "HXD3C型电力机车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0bd46c75-e98d-4fa7-aa8e-3bf639a52a99",
+    "word": "HXD3D型电力机车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "df9e4743-67e7-4cfd-8643-17089d89bb7a",
+    "word": "HXD3G型动力车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "24f039c7-dbb1-4b1a-b80e-dae60d7d2d15",
+    "word": "HXD3型电力机车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0e649437-c3db-4827-8302-9d3f3f022a00",
+    "word": "HXN3型内燃机车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2ccb20b3-46ed-47d9-a9a7-2ea471099985",
+    "word": "HXN5型内燃机车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ea99c2f1-7a80-4750-830a-81dfb29f07a0",
+    "word": "II",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f82bc538-c145-4883-aa1e-119a49ff2a92",
+    "word": "LKJ故障",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "6faa5ef0-6910-4106-a846-a4fbf55c4d40",
+    "word": "LKJ数据转储上传",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c65c037f-57cb-4958-b197-82068192d59a",
+    "word": "LKJ调车模式",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7f73c46b-2001-4c28-8efb-4aa0f231b1e6",
+    "word": "LKJ通常工作模式",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "899bf510-197d-40d7-994a-9b244f70e2b0",
+    "word": "LKJ降级模式",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "642f713c-e1ea-4fc0-aa11-ba31b4c6f851",
+    "word": "LKJ非正常行车模式",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b4301a48-44d7-43b7-8c57-03f73a580d04",
+    "word": "MON屏",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7e91ed89-73f0-44ad-9224-a6f356281a28",
+    "word": "NJ2型内燃机车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "04aa5ffe-dc02-4961-9942-b8218dc3cfd9",
+    "word": "OC位",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "5027d47e-2304-45b3-b104-1a2d265bfd9c",
+    "word": "SS4型电力机车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e8f23ec9-2dcf-4906-abe7-a20863e2fd16",
+    "word": "SS7E型电力机车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "83c6770d-940c-4752-be45-7ba45dbc26be",
+    "word": "SS8型电力机车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1568a453-9fd2-4559-a8ea-24aa6c328a1d",
+    "word": "SS9型电力机车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d0189b80-3451-4cba-8ff3-e716a075858a",
+    "word": "STP装置",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9dc24018-fd3b-46dd-b4ff-8e00147b8a4a",
+    "word": "X3",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2651e347-d612-4bfa-8dd4-58a3a08f71ef",
+    "word": "XX",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "81a6cfce-985b-461e-ae04-a1a816fe9676",
+    "word": "fireworks",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c1d53e44-2bcb-4a50-9749-bcef796a459c",
+    "word": "一度停车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "432c1050-e6c0-428e-bb23-1135b38af7dc",
+    "word": "一度停车确认",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c401ee1f-20be-4b0a-ac38-be7265896658",
+    "word": "一次",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3d34fbab-0647-4ba0-a9c7-801e2f604e6b",
+    "word": "一次出乘作业标准",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "81d66334-6d09-4826-b399-f28011bede9f",
+    "word": "三乘信息登记表",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d6486095-ba51-42ed-a26d-8a7e9948449a",
+    "word": "三次",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "da2dea6c-e064-462d-bcb4-ad00be5ffd6d",
+    "word": "上岗",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "73dfac04-f28e-475d-a57a-4353be54d306",
+    "word": "上电作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "64c8180a-31b0-4896-afd6-939f7b3ebb0c",
+    "word": "上行",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "45314b99-fa87-4cad-b4be-7bb56edb1bb1",
+    "word": "上道",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8ba2cab6-6545-470a-bfbb-6b0b2028bbf2",
+    "word": "下行",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "76335fc7-7f9c-489a-9472-e4c79aae70e9",
+    "word": "下车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "cb92b1f6-7616-448e-8a14-d237dbb27903",
+    "word": "下道",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b6e425eb-ee9a-4e2e-9066-07429c88fdc6",
+    "word": "专用线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b4cb1ef3-b4aa-464f-94ae-dc50b311703f",
+    "word": "两把",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "43482033-d33c-471c-846c-a9ac92f82cc8",
+    "word": "中间站",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ab384885-df35-4660-95d9-1456c63e9d1b",
+    "word": "临时慢行",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "655fe095-c2e6-4cf1-8ba9-3eca7fb901e9",
+    "word": "临时慢行汇报",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "49178010-a944-48d2-873b-7922c92a8ac5",
+    "word": "临时限速服务器",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "6375acbc-58fc-42b4-82a5-57a807c4dfde",
+    "word": "主控手柄",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b5e95fdc-3326-4389-a7f2-bb544a751b70",
+    "word": "主控钥匙",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "be1c080d-c36c-4f86-b420-3f802094d6dc",
+    "word": "主断路器",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c7604a5d-20b9-431c-a282-f30f751ae911",
+    "word": "主断路器跳闸",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b347c2db-bee2-465e-a182-40db20ed9a44",
+    "word": "乘务员",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7b599b93-2102-41eb-8e19-94cec23f8852",
+    "word": "乘降所",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e2beeb79-84f3-4131-9fe9-a4bb020d05e7",
+    "word": "书面通知",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "6af860db-d546-4b13-aaff-da7ee6850937",
+    "word": "互检",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "5d7173bf-3016-46e1-8975-2e7217f81fb9",
+    "word": "交付",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f5d3e600-66be-4805-96c5-2ca259e8d9ec",
+    "word": "交接不清",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "31da11f7-febc-434a-8082-99ead54b8bb8",
+    "word": "交接班",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "16945c1f-1b67-4c04-a4f4-170138644a33",
+    "word": "交接班类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "98cf17ef-ae71-46a0-b05c-d8887fcb931f",
+    "word": "人员",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "af34ac8e-2e24-4764-b757-ee5d502c19bd",
+    "word": "人工",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e5fb4333-16c4-4a88-a818-25d2103712d7",
+    "word": "人标",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "05c37d75-9e21-47fd-a0a8-8832eb7b19db",
+    "word": "企业规定",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d754452d-7466-4828-8f58-2dcbf8ac3d26",
+    "word": "优先顺序",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c48d0d9f-de94-43b5-a7f7-dc7811771f64",
+    "word": "会让站",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "12f478df-175d-4aa1-94cd-8d447fbfa465",
+    "word": "位置",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "af142e69-c011-440c-9e3a-23fc6e0ca367",
+    "word": "作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8ca2fc12-fd1b-448e-ab19-f8cf684df857",
+    "word": "使用",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "6f80e60e-cec6-4747-b582-3cf0b823d611",
+    "word": "供电段",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b55826b6-f092-40c9-9935-43df2b618308",
+    "word": "依据",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "031052bf-3a2d-4720-93a5-84f4f901e8ce",
+    "word": "保压停车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e5c8d43f-95ea-48f0-8704-78a9d2cfd08e",
+    "word": "保持制动",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "957ee85c-c31c-4ff5-bd65-6d0a1bf9ae91",
+    "word": "信号",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "4a796cf9-ba91-4bb3-8f22-36bd948ec71f",
+    "word": "信号关闭",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "293fb0a7-ab35-4604-8c22-1107d81d16e1",
+    "word": "信号含义",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2411cfca-c139-4add-a00c-1812eb7adf0a",
+    "word": "信号好了",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a451ca9f-f3aa-4b51-a0c0-cf028fea7a04",
+    "word": "信号安全数据网",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "fc56f12d-7226-4288-a166-ae5a4277d073",
+    "word": "信号开放",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "fc061cf9-1329-420f-bb39-29bfc260194a",
+    "word": "信号旗",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1d0438d0-7c2e-4906-88a3-821f0c0d5f48",
+    "word": "信号显示",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "411d8855-0bc7-419b-9ab4-57c2ea1ea6e1",
+    "word": "信号显示距离",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "345af2e1-fc84-4e22-9932-74aad4660822",
+    "word": "信号显示距离200米",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8c15941b-63bd-47ac-aa9a-b3846c68f252",
+    "word": "信号机",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "40dec831-33df-495a-b17e-0a3dac2f016d",
+    "word": "信号楼",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "909916d3-efce-46f6-9ace-cfcadb1159e5",
+    "word": "信号确认类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8566fe0d-3848-4409-877b-bad854137563",
+    "word": "信号突变",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "dbf71a80-b2a4-44ce-ae41-58258b8ae1e6",
+    "word": "信息汇报类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "87780cc3-a59c-4a9b-a3bb-1d10b0626e22",
+    "word": "修复",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "407ef438-5dd6-4d2d-9fb0-2cd24c97b587",
+    "word": "值乘平板",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e5f0bb73-5925-417a-b37b-343496677bd3",
+    "word": "值乘状态预警仪",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "658176b4-4c6f-4aaa-9b89-c7dafe343baf",
+    "word": "值乘纪律类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "76bd8a14-78d5-43ca-a5b8-f7dd5f38d897",
+    "word": "值班",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2ae14c2b-7c80-42f7-ab8b-5e98661bada7",
+    "word": "值班员",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "638407b2-8c96-47a1-8a85-8f9d6d7b0b51",
+    "word": "假确认",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "afc74d0c-519e-47f8-b1bc-127dc9753597",
+    "word": "做与行车无关的事",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f503516f-5bbf-4afe-aede-4355658497a9",
+    "word": "停于",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d48bf039-66ed-459b-8f4e-e42207767b2c",
+    "word": "停放制动",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0b505ec2-7041-49e9-9c22-99cf0a39c89b",
+    "word": "停电",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "24f4e161-761a-4a2d-a63b-7809a7f78130",
+    "word": "停车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "6e01daed-d125-41df-a4cf-dfd7664e3f16",
+    "word": "停车对标类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ecab4c61-46f4-48b9-85fa-563068a73888",
+    "word": "停车对标误差2米以内",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "bb65052b-2f0c-40f3-97e9-ad5c8a1c37ef",
+    "word": "停车对标误差5米以上",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f44d63e6-4840-4b0b-bd6f-d3ca1aee680f",
+    "word": "停车状态",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b66a4ce5-254b-4f77-b865-32488d8b44f2",
+    "word": "允许",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "356796ba-04cc-4c5c-9100-02dde492da66",
+    "word": "充风时间不足",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "162a1381-6258-40f9-9795-402aca88941c",
+    "word": "光带",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "57438f85-c368-439a-8458-7647c9c45d31",
+    "word": "公寓信息汇报",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a2af05d0-9507-45a6-baaa-446f56c4f653",
+    "word": "共同",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "187a8885-c30a-4b62-9996-f8772503542d",
+    "word": "关联故障",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b211bfed-df6b-460e-b8b5-0b85b1995335",
+    "word": "关键作业环节卡控表",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "46c643f1-ea2b-48f7-8061-4ddff192d3c3",
+    "word": "关门作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "81b1c1ef-4a69-4b84-8384-295ea7e34eee",
+    "word": "关闭",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0c4aa0a3-552d-47d8-87e3-894e1b101c2e",
+    "word": "兼容关系",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ae572276-db01-4c72-8ff5-b3dc3dc1f8c8",
+    "word": "内勤",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7944a32a-89b9-4405-911f-ede1cc91d625",
+    "word": "内方",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7f2319c8-81c5-43b5-8ff8-2215d756aea5",
+    "word": "内燃机车司机",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "cc2cbf62-e5d6-41e9-ada3-8d32965de607",
+    "word": "再次",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c0b252be-42b4-47e1-8254-5d65f87ad922",
+    "word": "再生制动特性",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f26251a5-1ab4-41da-9d15-a78f7df06174",
+    "word": "再生制动系统",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "601a0fbc-225e-4aac-930a-d7f84852d3c0",
+    "word": "冒进信号",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "71ddaf17-e075-4cd4-832b-589bb470f3b8",
+    "word": "冬季防寒过冬措施",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "71ace6bb-d648-4b9f-ace3-5c24ac0d9dad",
+    "word": "准备",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f7cf84b1-76fe-4f34-8b97-c51e0c5992e6",
+    "word": "准许",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a3be62a9-0d01-4361-b18f-3748e0cf9552",
+    "word": "准驾车型",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a1802bdb-b427-47cf-8a98-748c036c4b76",
+    "word": "减压100kpa",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "36e7eebd-774a-482f-9642-1bcc2a62cfe8",
+    "word": "凭证",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b1787fbd-91b2-42d0-abff-211ed419df20",
+    "word": "出入库作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "47473be6-33d6-4e0c-89db-30905b6ed77a",
+    "word": "出务",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d43f31b0-8cc5-4f77-a910-dbe1854c279b",
+    "word": "出勤作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7275b130-6fda-4c36-83cc-8b7963923d0b",
+    "word": "出发",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ba3ba74f-eeb1-4d80-b05e-91028398069b",
+    "word": "出现",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "89f4a711-1122-49fe-944e-656806fbf7ff",
+    "word": "出站",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0c2217c5-6477-402b-ad85-7a0aa5a7b270",
+    "word": "出站作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1db6cfd9-8988-4513-bad1-2770024b761c",
+    "word": "出站信号开放",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a03088a2-3dd7-475b-9016-b2d5cfdab8bf",
+    "word": "出站信号机",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "363f9aa0-3123-4eea-a866-9820e260f354",
+    "word": "出站调车通知书",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a9f157ea-0ccf-4042-80a4-2b6562341d53",
+    "word": "出退勤管理类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3c1d819d-e9ac-492b-b3c1-3b6e9f947fe6",
+    "word": "分开",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "21b1b687-a835-4b1f-a812-1ce2f9e3f25e",
+    "word": "分段式瞭望",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "26055b15-a11b-4363-a428-a98a16d31265",
+    "word": "列尾",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e53c1b96-627c-4de6-8add-e2ec039ab892",
+    "word": "列车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "61061cba-8843-435b-acce-377a6fd684ad",
+    "word": "列车出发",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1a0df6f6-2a95-4182-8e26-22a2b55647ab",
+    "word": "列车分离",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "eb8c6776-30c6-4591-a5c3-7d28c28a210a",
+    "word": "列车到达",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "6e814b3f-613e-46dd-ba3c-3fdddf43cc36",
+    "word": "列车制动试验",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9f83c3f9-b357-4405-8b43-a0c6a19a3637",
+    "word": "列车尾部安全防护装置",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "de974743-1f13-48c8-a749-8a07b0688083",
+    "word": "列车广播系统",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "affeb5eb-b662-4c7b-8cf9-5b8b3f2e18fe",
+    "word": "列车控制曲线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "307a7ec1-9d47-427a-9050-4d6c3f13bc55",
+    "word": "列车管",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "941002f6-4ab8-437e-8588-2d49e95b6e31",
+    "word": "列车管不充风",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "50ec6da2-4be9-4d15-a180-9dccb8d1d377",
+    "word": "列车管泄漏",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7ce2d28c-0bd1-4af9-979f-c23c1243ad19",
+    "word": "列车自动控制系统",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8afd8b81-8fc4-4c21-8b60-09f6172c3af6",
+    "word": "列车自动监控系统",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d96968e2-a54f-421b-a517-1fbeb77e2b7a",
+    "word": "列车自动运行系统",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "be492b43-9dcb-4d43-a827-a7a380c28ec8",
+    "word": "列车自动防护系统",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a7f877af-c63a-4650-8cf5-bf17e56cc663",
+    "word": "列车调度",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "28067525-8030-4fa5-ae16-90c753aa3acc",
+    "word": "列车车次",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "225bcd3b-b087-4824-9873-67072f14f70c",
+    "word": "列车运行",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9d2e86e3-3661-4fe3-9174-c25fb2e94fd6",
+    "word": "列车运行控制系统",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f45a19a3-05d0-45d5-8c52-f7aa6c9e7621",
+    "word": "列车运行状态信息系统",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3bcebc9e-376f-430e-9e30-0be6b46cdf46",
+    "word": "列车运行监控记录装置",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c83091dc-b625-4494-a80a-ead3a9578e58",
+    "word": "列车运行计划",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e1e3c471-46a8-49aa-9bd2-940316dbeba4",
+    "word": "列车运行预告",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0763f02d-e784-4665-8d5d-61573fe71903",
+    "word": "列车重量",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0d13d530-fe18-4d16-984f-1f934a7efe3e",
+    "word": "列车长",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c4b2c9ab-ca3f-493e-9b66-2b996f3ed4fe",
+    "word": "列车长度",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ef9dbc95-483b-4538-a649-e44b0b10f27e",
+    "word": "列车阻力",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0e2243bc-bf40-419b-af4c-da91fbc46934",
+    "word": "刮雨器",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c94f33fb-6443-44ea-9034-33add2b5a114",
+    "word": "到发线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "5036874d-30cd-4176-83eb-9dfb5a265df3",
+    "word": "到站",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f2cce827-b6cb-407d-893c-11acb7ed6ba5",
+    "word": "到达",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "edf09832-cb40-4a17-9e58-fee664a3e336",
+    "word": "制动",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "77c6edca-525d-4dc3-aef7-afd32f20cb64",
+    "word": "制动不缓解",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "6135e936-0c04-4359-a413-e4f9f17bf020",
+    "word": "制动力",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "fa802b7d-694b-4d3e-9a63-af2e01a3a21f",
+    "word": "制动手柄",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e3e5a18b-bef4-44f5-9e5b-01fbb1f743fd",
+    "word": "制动操作类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "faf5fc33-0ce9-4580-8db8-99f9b058bf6f",
+    "word": "制动机试验",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "040cf71b-f9d8-4a42-b074-858018a482ea",
+    "word": "制动系统",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0d165227-0615-43e1-81d5-7b5105d8f8b3",
+    "word": "制动距离",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c272a94d-5432-4273-8683-f18fae71fd91",
+    "word": "制动距离限值",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "46a9c57b-91ec-4291-9c75-0a50db03c473",
+    "word": "前方",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2bd0bd0b-81c0-4efc-8bbe-80a507513e87",
+    "word": "前置条件",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3dfffc28-b448-4cb0-adb8-fbc0323a9b35",
+    "word": "副灯",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "dd13ea3a-1f91-4bdb-a4f2-52fb4b19497b",
+    "word": "力矩表",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "08d4c723-d79e-4744-8ee7-650429e61c39",
+    "word": "办理",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "76eb4792-ab69-4b94-ae05-b6c802aca5c3",
+    "word": "加岗",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ca68e12c-3665-461e-b5ae-4104298dda6b",
+    "word": "加强",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ec7e4964-4f3c-4a4f-9bf2-16a0659fc1a5",
+    "word": "加强瞭望",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "de88b967-f5ac-429e-ad48-bc01cfacd0f7",
+    "word": "加速区",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7d49fad3-4ba2-46c3-b680-3db85ba70f3c",
+    "word": "加速度",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "46bb9dfd-dda6-49ec-af90-024cfbb2eb9d",
+    "word": "加锁",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "bfc53d1f-4c61-46ac-acd5-fdfbc0c450ab",
+    "word": "动力制动",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "fab08df2-ccf4-49bd-ba5b-a5463881935b",
+    "word": "动力集中动车组司机",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "155f448b-94d3-40bd-b8ce-c0df644105dc",
+    "word": "动车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2e2944a8-b4db-4b2a-81cb-8dcc226bea72",
+    "word": "动车所",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1817a9eb-f1c3-4dbf-a827-3b2c4052a395",
+    "word": "动车段",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "932c33ee-1656-47db-85b2-7ea007d776a7",
+    "word": "动车组司机",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c0d6227a-35c5-4b56-8260-5501bbe78a8d",
+    "word": "动车组钥匙",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3211584d-8486-4ee5-a6bc-17b176539504",
+    "word": "助理",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3d0bc5e0-1644-43b2-81f5-ee49cbd224d4",
+    "word": "劳动安全类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d6353ad6-11c7-49b5-976c-d715403190ee",
+    "word": "勾划卡控表",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "94be0b2b-819c-4f87-9a16-f02da643a000",
+    "word": "包含",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "401a451c-829f-4206-b282-14552d6d9d6e",
+    "word": "北站",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "4eb8074d-4d0c-4aa4-a207-8a2582e49f3b",
+    "word": "区段站",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "de8079ae-d975-435e-acdd-0629bff0b395",
+    "word": "区间",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "cd547d44-d76e-43b7-a82f-d5ad4b7dc247",
+    "word": "区间正线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "bd4571d1-92b0-4a23-9801-0e424c1d2867",
+    "word": "区间行人牲畜报告",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d510165e-7d35-45d4-be4b-0ca516b43c17",
+    "word": "区间运行",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2ed7113f-52dd-484b-9c74-a5e485f2d090",
+    "word": "区间逻辑",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d3733f92-ea77-4fed-9b44-e73f973cb9ef",
+    "word": "区间逻辑检查",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c40ab49a-70fc-4786-8799-644d1fe54449",
+    "word": "升弓降弓作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b67d36e4-0e67-4704-b199-019081bda5ed",
+    "word": "半自动闭塞",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9392ae87-8079-42b0-9e4c-1eb8173cf67f",
+    "word": "半自动闭塞发车权",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ac1f1069-9603-4ebc-b104-68b7e38983a6",
+    "word": "单独制动手柄",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e8a0b18f-9a60-4562-9b90-035319e32966",
+    "word": "单锁",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "122d77fc-bc5e-429a-bf11-79bba9feed66",
+    "word": "占用",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1f0d320d-f894-4514-b922-74f2b10bc502",
+    "word": "占线簿",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "01a36e6c-c170-41bc-82d3-58900c92b4ab",
+    "word": "历史版本",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ebd0732b-b57b-4cf3-9202-8f274ce59aff",
+    "word": "压上",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1c037d3a-2d3c-4dcc-a5ba-6714e87c58a3",
+    "word": "双人值乘类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a8e0657d-c406-4dfa-9dc3-8fd054dc67d8",
+    "word": "双黄灯",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "813a288f-4361-4d25-8c7d-bcf22afbf2a4",
+    "word": "双黄灯信号",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "50772334-1e71-4c57-882d-dde044625c7c",
+    "word": "反位",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ed066eff-b036-43c5-b0b9-0eccb93c40b0",
+    "word": "反光带",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "21123a61-2bfb-49ba-9b51-8356d9d9d54a",
+    "word": "反馈信息错误",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2e3d08e3-2fe7-46f5-bd9e-c76f3b65082c",
+    "word": "发生",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "648ae60f-37ab-49bf-bcba-6013b916fea4",
+    "word": "发车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "382d3f0a-2e68-46e3-970a-c3d6ad8f7de5",
+    "word": "发车作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "78e906ec-4737-4c35-a7a9-d3f52403f396",
+    "word": "取消",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b8f4014c-9557-4222-b69d-ebcd485ea83a",
+    "word": "取用",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2c1ac125-422b-4c40-8d12-9db912d8b55b",
+    "word": "受电弓",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "025db45a-65d2-4049-b973-6d9045846c16",
+    "word": "受电弓控制装置",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "84723610-3d38-42c8-b14b-31d88ea43621",
+    "word": "受电弓故障",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "27b08126-fa7d-4f14-8929-709ff0f32549",
+    "word": "变为",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "55314d9c-ad4c-447b-9e97-b6c95eaf0ff5",
+    "word": "变压器故障",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d320ee39-e9aa-4a0b-931e-6d46c8372ba1",
+    "word": "变更",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c948c82e-6071-4ef5-9697-89d4d9a15e01",
+    "word": "变速点",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d6f3a039-c7ea-4531-aff3-1d0dd5d26e14",
+    "word": "司机",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9afb7edf-ce25-4d41-abaa-1dbe1622e4fc",
+    "word": "司机室摄像头",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c8e242eb-1b0b-4557-834d-9aca85b5ebb0",
+    "word": "司机手帐",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c7a47318-6f12-462c-81fc-a8eb3ef4e4ae",
+    "word": "司机报单",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "399f769a-45e8-48c4-9725-32edf372f108",
+    "word": "同侧手指确认",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "cb689b28-8210-4d4b-b4d7-c2c37143ab34",
+    "word": "同意",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "779c6449-42f9-4ea6-9399-29090082181d",
+    "word": "后半夜",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c67dd0e4-1a02-4429-ac1e-b37953604cbe",
+    "word": "后方",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f279218a-3285-4561-ad4e-1e142e883479",
+    "word": "后续列车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8616fed9-95fb-4d4f-bd95-a46144749350",
+    "word": "呼唤",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8621d56c-ebf4-4af8-b92c-19792cd7e644",
+    "word": "呼唤应答",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "eb623172-1eac-4358-9ca4-109949a305f0",
+    "word": "呼唤应答制度",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "227e240f-20ee-4580-bbd6-2f4c51ba5a1c",
+    "word": "呼唤应答类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "6454abf6-634b-4918-ac42-1ba23e99d3aa",
+    "word": "命令指示",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "fdda8822-b09a-4ec1-a1c2-4f1169441e23",
+    "word": "和谐号动车组",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2a25ea7a-5af8-42fc-9a77-464b7557decc",
+    "word": "咽喉区",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c98321bd-e598-4b99-8fc2-9d9f48cbe840",
+    "word": "响墩",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a159b49f-582f-4611-a978-df7120de1f41",
+    "word": "固定提示卡",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "314b640a-d815-4498-bb35-595df3c138a4",
+    "word": "地勤司机工作日志",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ba9d0b9f-2dcd-404d-ab0e-2faa00c320cf",
+    "word": "地勤机械师",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "6d243b6e-a8bd-4fde-afce-3ef79f368095",
+    "word": "地点",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7710b587-7e0e-4990-b264-279da4c85b1e",
+    "word": "地面信号机",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "314addf5-7360-47a4-be3a-a6a46894af50",
+    "word": "场至",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1229ccc3-e1ab-49ac-b483-5e3af6aa4a59",
+    "word": "坡停",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "42705aaa-f3e3-4ea1-a608-8edbc5d5a933",
+    "word": "坡道",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "fe135c66-4076-478b-9046-e3bea9b5cd95",
+    "word": "坡道起动",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f7e2b90c-a8f6-4533-a91c-781ecfb792fc",
+    "word": "坡道阻力",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "5f48cfc0-0776-4b74-addc-7261c0f9985e",
+    "word": "培训要求",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "38b77ace-3d22-43da-93a6-d9ff0ecea2e6",
+    "word": "培训课程",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ab97615c-a052-4dea-9b58-3e4f363964db",
+    "word": "基本轨",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c9e37482-c2a6-4cce-a5e7-5d5766d12d0e",
+    "word": "基本阻力",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "641d2886-ef15-4997-a4dd-1da58da2080b",
+    "word": "基础制动装置",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "4f183dc0-2df1-409d-a252-68f8c019a1f6",
+    "word": "填写",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "29445e6c-72a2-4e53-ac92-7924b48512a2",
+    "word": "填写错误",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d908cc0f-1613-4d1f-b794-7a2e033c52eb",
+    "word": "处理",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3aa25e79-4e87-493b-b98b-7f89a5c40ee7",
+    "word": "处理完毕",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "75da5c26-0a03-448b-b73d-a79dea24cae1",
+    "word": "处理情况",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9ddc8a7f-dbfe-4b57-b977-ca0bdf007284",
+    "word": "处置方法",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "5617682f-f14d-475a-b0ac-754db77e0dac",
+    "word": "处置错误",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "6faeaa53-54db-4f28-863a-d244dd62104e",
+    "word": "复兴号动车组",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9d7dd4c1-fcba-49b2-a573-b38663bc3ec5",
+    "word": "复诵",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8a2301c9-d9b7-49fd-b132-4ceb20c18102",
+    "word": "外勤",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "81599d0a-dca5-404c-8687-b36e8d78bb4a",
+    "word": "外方",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "25b1aa3f-65c9-44bc-9b37-6b109f472dac",
+    "word": "天气恶劣",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "6acb75ae-7a38-4a42-b5c7-a54625e196c5",
+    "word": "天窗",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "bba6e881-9f4a-4259-a73c-366ab72ce394",
+    "word": "太阳光强烈",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "4fa5ce4d-655a-4158-9a54-09d20e1fc6a3",
+    "word": "头灯",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "fcbc0c81-da01-4026-8c7f-b04231301b23",
+    "word": "头部",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "27605324-9b48-4924-869b-57dca8403190",
+    "word": "妥当",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a28c510b-ac71-4929-b159-99f9417dea88",
+    "word": "始发作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "427a4d91-f08d-4753-8e11-9ffae06f969d",
+    "word": "始发站",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d3f19c52-8dcc-4ae5-ab19-df83e3e020dd",
+    "word": "存车场",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "5931799c-58e8-4744-a041-06910ea94f94",
+    "word": "学习司机",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "beec56c4-6ff7-4406-9681-239e6ac87cd0",
+    "word": "安全",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d4ec41a7-8eca-4098-93a2-499cb76f3c7d",
+    "word": "安全区域",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0f378599-97bb-4280-86ff-79b77a99fb2a",
+    "word": "安全带",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2c5c7b90-0587-404b-abca-a997aef2b377",
+    "word": "安全红线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a9ed1e6f-5044-4553-ba8a-0f5d150e5844",
+    "word": "安全线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3b435e04-7dfb-4845-b2a9-0e3439a3ba1d",
+    "word": "安全要求",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1aa33971-0200-49e2-9d32-7ac72dff92b2",
+    "word": "完毕",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "23f407c9-1f12-4233-a9e9-7aa28dc27162",
+    "word": "定位",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3011bd8f-6982-4251-83dc-f9a18670df18",
+    "word": "实施",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2d44d51b-f5ea-4fb2-adae-6021838bd581",
+    "word": "实验",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0cc18411-9e76-4331-947e-62befd59606b",
+    "word": "客货运站",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "14840fa0-9530-4d35-85fe-c0e57dd1e49b",
+    "word": "客运值班员",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d48113b8-49b6-4a88-bcb7-a5e9f8727ef5",
+    "word": "客运段",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "14891a1a-6b51-4d92-b65d-aec7bb81f322",
+    "word": "客运站",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e07e4f15-3cfe-4979-9624-4c0dac0c1204",
+    "word": "密贴",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3d85daab-f9f0-443f-8f5c-69e439948c95",
+    "word": "对应关系",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b0d80e63-1796-4d5c-904b-bb0f4639d94c",
+    "word": "对标不准",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a88abdaf-a71f-4203-adb1-45921eb306ce",
+    "word": "对标按开车键",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "5686e8e6-50c6-460f-ad8c-69f83ee4041b",
+    "word": "对讲机",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8fce5a06-22ee-4369-a677-50257d53021e",
+    "word": "导致",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2ff1410c-6bc3-4929-be80-92ec3a0a55d5",
+    "word": "封锁",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "4f53e09c-e618-453d-a3a6-ad87ab0098be",
+    "word": "小组计划",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c36a7581-9ed2-4751-8e93-ebcfad14248e",
+    "word": "尖轨",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f73d08c0-f762-4cdd-aa30-858c46688892",
+    "word": "尽头线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c0f75084-b84b-4aee-974b-6b5d15d1a8ed",
+    "word": "尾部",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a8f6068a-5682-48de-bd07-20ffa6b16ea9",
+    "word": "尾部标志",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "4d7a3c56-fc6b-40f6-a0fa-d7a1de997df7",
+    "word": "属于",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "53c6d72b-6f1a-4fc4-8212-bfa8a563d723",
+    "word": "属于类别",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "79787389-6077-44fb-b254-abeb0f91f9c7",
+    "word": "岔线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e11b5da0-e3eb-4b44-8d1c-c32e96752b02",
+    "word": "巡线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "206ae0ad-98fa-47e8-9a16-6f0f885e5b69",
+    "word": "工务",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "95143ced-4108-495f-ab42-d27b3690f5dd",
+    "word": "工务人员",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d2120a3b-c00d-4a90-9a83-cb2039bbcb73",
+    "word": "工务段",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "db7b5311-b8f9-443c-a601-8b630c428bfd",
+    "word": "工区",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e68afbdb-422c-4a89-b194-ee34c45daea1",
+    "word": "已扣",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d3fd0d52-cdbf-4043-b84e-99fb42d1eb2a",
+    "word": "带到",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ca959e79-9437-463d-a79c-f116e3bb2c98",
+    "word": "带至",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2bf6b7f8-14b4-4227-8dc9-894fb2a5877a",
+    "word": "常用制动",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2d384866-ed62-4cf7-adaa-23a6863e9a7e",
+    "word": "干部",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ea255588-681d-49c5-869b-bdc707a18172",
+    "word": "平调装置",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "48a58421-35f3-47d0-a412-aa38dfc8400a",
+    "word": "序列",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "09cba617-4a38-497f-b55f-2add13b4f716",
+    "word": "应答器",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "cd9bc97e-bee6-4197-af9d-96c10de6f811",
+    "word": "开放",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f6f43c37-53f9-4a71-8d0d-ea0f06d29705",
+    "word": "开箱",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8905a73f-5d61-4508-8990-3eec584a6b60",
+    "word": "开通",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a5f19b02-2783-4a2b-bf59-8552bd547b17",
+    "word": "开锁",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "33de41db-2edf-46ed-878c-250ff57bd11d",
+    "word": "异常",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e5e3ec8f-54c0-4eb5-ac7f-a72241ef4710",
+    "word": "异状",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "805e99b2-2fcc-4e6e-9932-2afb4cd946bc",
+    "word": "弓网故障",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a41ed9f1-5ab1-464d-b8b7-2aba775aa364",
+    "word": "引导",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "afbf3826-ae71-4087-a4ba-372ea84b8c16",
+    "word": "引导信号",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "bf29b49d-a5fc-4d3c-9825-d9cbb49c823a",
+    "word": "引导接车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "53c690c8-ba31-4fce-93e3-ba23d087a4d9",
+    "word": "影响",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ef1fc756-879e-47d6-9a30-2a1d87c2c4d7",
+    "word": "待乘休息",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8d62976b-c15d-47df-a829-9c99ae52d83d",
+    "word": "待乘间休类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d031ddb1-bb8c-4caf-8662-5032a3417082",
+    "word": "待发",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "cb7433c7-c3db-48d7-bbdc-cef4bc5e3339",
+    "word": "待发列车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "50754ac4-8970-4352-8446-bf675fa9721e",
+    "word": "快速制动",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "48e654bd-0f65-4e84-876f-2e6682cac570",
+    "word": "总人解",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2097a89d-2f1e-462a-81d3-8bd71cbcd8f4",
+    "word": "总锁闭",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a9d23879-1a87-4eb1-bb98-916cd5eb3492",
+    "word": "总风缸",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b304a739-6a7a-4b1b-b81e-86f265897f10",
+    "word": "恒速区",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "5fc2d5ad-87be-4de7-a53b-ef59c7cfb317",
+    "word": "恒速手柄",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "4a70f6e6-fb23-4fa4-a5e6-9440fc44a06a",
+    "word": "恢复",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c39e5c80-4922-4602-a30a-7ce36464b8a2",
+    "word": "恢复使用",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0a83ae67-c3f2-4ce1-97e8-80880045ace4",
+    "word": "恢复正常",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3bd97439-b21f-4c5e-bf5d-ddcaa7e4ef9a",
+    "word": "情况",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "05c7a26f-392c-4f16-949d-4e1cc604e608",
+    "word": "惰行",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "47e3946a-c685-49e5-a451-99f24066d605",
+    "word": "慢行",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8edd6d49-94ea-461c-adf9-65209d0b440b",
+    "word": "成渝",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a9d4fae2-6bc1-4b00-bb68-01a3afd83074",
+    "word": "房建段",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8fe74ab9-7ae6-4c30-a71a-a4842f054b21",
+    "word": "手动过分相防护",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f60e487b-a35f-4d02-9523-a289820a0b62",
+    "word": "手套",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "6087a691-b864-4c1d-b222-001e96a6ef20",
+    "word": "手指确认",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "4124942a-9bdb-490f-9694-fd9263261929",
+    "word": "手摇把",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "09300806-37b1-41ff-b6e3-38189c4f3291",
+    "word": "手柄操作类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a74a21a6-dfb3-42d8-9551-067957c1c33f",
+    "word": "手电筒",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "77afa0ab-a5dd-4f3f-871b-ea9ccab99296",
+    "word": "执行",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "daedd78d-f4f3-4e3f-a4a7-5ffb01e80393",
+    "word": "扫描二维码",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "310a2316-8d68-4dad-a1c4-deeb71501d3a",
+    "word": "扳动",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "18b4fc3b-ca55-4a7d-a23d-6a9a75caf75d",
+    "word": "扳道员",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "43bfb8df-db88-46c9-a382-bd1b09f94c72",
+    "word": "技术站",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "4a6d4074-bc39-4949-8ae7-4bb8d7d95cef",
+    "word": "抢修",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c05b5c27-451d-469b-9667-985598c19441",
+    "word": "报告",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "eb6fa0ef-7f87-4a82-bbd8-aba5f6abdc94",
+    "word": "报点",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2350dcf4-029d-4382-a636-6b98736f61f9",
+    "word": "报警",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9cfdc085-ff97-4128-ad9d-981ea328f414",
+    "word": "抹消",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0a696bcd-4c48-4af5-b669-f6e51c3eacde",
+    "word": "拍照汇报",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d3ce4bbc-505c-450b-a71e-812b0a48067f",
+    "word": "持有",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1e361fa2-43d6-4b91-83d2-a16586b8974e",
+    "word": "挂头作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0cbff04c-45b9-43c7-a0b0-74d15c1bcc62",
+    "word": "指呼唤动作业标准",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b8bab83c-23e0-46a7-86d5-a2fbb0d76f9f",
+    "word": "指导司机",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1d530ba4-19ce-459d-852a-f68e52e176b1",
+    "word": "指尖",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c2c11a61-8a70-4a3a-9baf-97637cc3ab32",
+    "word": "指挥中心",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "39767ec2-6944-492b-82d4-a8c37cf9b5e3",
+    "word": "指纹确认",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "64870b27-4c25-4804-ac09-da786aa9d65c",
+    "word": "按压",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "656b0d5a-4057-4694-8a56-6cef24c7b50b",
+    "word": "按照",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b3263410-61e4-4b55-ba15-bb328c6247e5",
+    "word": "按规定",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "339a6516-6823-4897-a673-954e209c3891",
+    "word": "按钮",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f93c28ab-3a0d-4dfa-bef9-9ec2a7c82ef3",
+    "word": "换向手柄",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d43f60d8-2d9d-40ce-a7c1-de7b897ac3d9",
+    "word": "换端作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a9de9223-fa77-4519-ad89-7404f3633404",
+    "word": "换算长度",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "86511fbe-f7be-41b4-ad36-3d452726d229",
+    "word": "换长",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "01d06eae-e59e-4a50-89f4-e5be8529c630",
+    "word": "排列",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "69081c36-f45d-4154-a675-4cf4b7fc8ac2",
+    "word": "接发",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8f8abec0-c9fa-4e15-b900-78acc1e78846",
+    "word": "接触网",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c4424b47-f29c-4d68-8b6b-4dcccaac4c94",
+    "word": "接触网供电系统",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "6863f7e2-8f6c-4a88-9bd9-8fc899e34c45",
+    "word": "接触网分段绝缘器",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0e54728b-cd93-4808-afec-fdc3082a16f1",
+    "word": "接触网工",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "20872540-f3fb-456f-8c2e-13c102a83053",
+    "word": "接触网终点10米",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "5e848625-30eb-4831-aff0-58ed4ab40276",
+    "word": "接车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "95f092f1-f2cb-4d39-8e82-cbf7e1eff484",
+    "word": "接车作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "6300489f-01aa-4d00-afd6-d2a293dd3e1c",
+    "word": "接轨站",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "45fc0895-7dc8-4679-a23f-4239aa8d6e1f",
+    "word": "接近",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d20f7964-7021-40eb-afbb-5bcfc8078256",
+    "word": "控制台",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "67154883-a670-45b5-8902-3aa882b60c94",
+    "word": "控制电压",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2cf1b374-93de-4349-89a4-a47443e73873",
+    "word": "控制速度",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e688b73c-e646-4a80-b2d0-fef800869e39",
+    "word": "控显",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7edd0a90-ee39-4257-a908-c71719cf72a0",
+    "word": "控速不当",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "632ff719-eee0-4fd7-a1da-e8c0eb7e242a",
+    "word": "摄像头监控范围",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "68d1e252-bb4d-48cd-b4cc-76dd17706130",
+    "word": "摘解作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1bc13b53-e890-43e6-b63f-feed5bd9764c",
+    "word": "撒砂装置",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c81f3cc0-2b08-49a8-ba45-e3ef26d857e3",
+    "word": "撤回",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "fa0da600-a8b2-4d7f-9c5d-1e2f2674e77d",
+    "word": "撤除铁鞋",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7817e61c-1290-40c7-b29a-f00598785614",
+    "word": "操作不当",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f1f15f1f-7832-4b4b-89e8-759157440fac",
+    "word": "操纵",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7eb6b2a5-c7aa-41fe-bff3-6716eb25cf6f",
+    "word": "收到",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "4222150c-b81a-46f9-8c0f-4e810438b3aa",
+    "word": "收回",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "19b195e0-1682-494a-b33d-34fe09bd408e",
+    "word": "改为",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8597e494-2c30-42b0-ae1b-5edcac4b22f4",
+    "word": "改方",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "77b8a353-ddc1-444a-b402-586bf4b89521",
+    "word": "故障",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "740ea7de-a440-4cc2-a03f-b8575cde1454",
+    "word": "故障通知按钮",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7750e1f6-3609-4739-9df7-fb789e337a29",
+    "word": "整列",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3071efba-e051-4206-9ea7-813fb966d5f2",
+    "word": "文书表报类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "160ada2a-e1c3-4489-8838-4a78caf064b5",
+    "word": "断电降弓作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0bd57ddc-6d50-4705-b619-53b1eef7e7dc",
+    "word": "方向",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "813290aa-f417-4e4c-8bf0-f99f4ca62eff",
+    "word": "方式",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "952359f8-5624-477c-bf2d-43675985b8a1",
+    "word": "方面",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8dafd648-2d7e-41b4-ac9c-9b351e90f9cf",
+    "word": "施加防溜",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "5223efb5-ac79-4aba-897a-c61b9419731e",
+    "word": "施工行车安全明示图",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3c4f828e-8223-478c-890c-4017b24aafb2",
+    "word": "无异常",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "09c98630-fa52-46b5-bb52-a41eaf632f05",
+    "word": "无电停放信息汇报",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f9fbe01a-9f63-4ebf-bdb6-6097690b7d84",
+    "word": "无线电手持机",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "03c408dc-eb39-40b3-8d29-8777fa8e6cbf",
+    "word": "无线闭塞中心",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d27bfc0c-c2a6-4397-b978-422a4fb98110",
+    "word": "无车线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "44c37730-1035-4860-91be-d5b197591026",
+    "word": "早制动小级位",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9e7c52e5-8c0d-4e56-be78-267bf3a70703",
+    "word": "时刻",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "daf8bcf0-e084-427a-ace5-599307639775",
+    "word": "明白",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7688c635-2110-4680-8773-81e9802df222",
+    "word": "显示",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c5fd33e7-72ad-4bfa-be70-d2024973abbc",
+    "word": "显示与条件",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b38e0c7d-4dab-48fd-9e87-a1c5d5dd370e",
+    "word": "曲线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a99cf540-27a5-4bd2-84fb-824af00e8f70",
+    "word": "曲线阻力",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0c3e9e72-aa05-43b1-8b38-84f42bcc7367",
+    "word": "替代关系",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3c65d7f3-a841-4918-9b9b-a4f29cabb789",
+    "word": "有关",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0e1e57fd-9ebe-4c2b-b420-ef07093c2900",
+    "word": "有车线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2a955cd6-43ce-45da-905c-865342e28b64",
+    "word": "未反馈",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "583c2cb2-0fee-4bf8-b120-477c2d3d4fca",
+    "word": "未回零",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b3a29979-8458-43a0-a1ba-51cd1ad5f37a",
+    "word": "未执行",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "53ea3cdd-261f-4693-8785-63755bb821e1",
+    "word": "未按规定",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "5603521a-ad4f-48c6-b8c7-00ddf99dd1fd",
+    "word": "未携带",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c31b9de0-53ca-4bf4-adf2-b0f29032f42c",
+    "word": "未确认",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "db74825d-7686-443a-a6db-d479d0aca530",
+    "word": "未造成后果",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "77a64bec-62be-401b-8c87-f0afb5fb8e9f",
+    "word": "本站",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "4556fb15-cf6a-48c7-858a-64f5a7f0b51b",
+    "word": "机务段",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "6a9bc8a7-06c5-4dec-a192-eb9dacd71710",
+    "word": "机外停车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8f119b29-8414-411a-b41d-1c01545a7147",
+    "word": "机待线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "12b39592-1d7d-48fd-918f-b3c24e713829",
+    "word": "机车乘务员",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9f95a234-3762-4e68-8861-12645e4721ee",
+    "word": "机车信号",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3d033c50-f5ce-4206-9023-4afe8613b7f1",
+    "word": "机车信号显示",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "07c9453b-62df-4e5c-ad94-e7bd9e9cc4d6",
+    "word": "机车检查类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b9efed6a-bc83-4d4a-a8d6-64b756b1e043",
+    "word": "机车灯光鸣笛类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "88af0cd1-5877-4d4d-aa8c-ad474c8bbcd9",
+    "word": "机车综合无线通信设备",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "bb21ea85-4029-469e-9dc0-527ed0114e06",
+    "word": "机车自动信号系统",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2d107646-9271-4c03-8b7f-41b8507e0bb4",
+    "word": "机车自动灭火装置",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "217fe8b3-5e5d-49f9-bd13-57831f74579a",
+    "word": "机车视频监控系统",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3e3db601-23cb-4a90-8f46-691de6813edd",
+    "word": "机车设备故障提票",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ee1c7572-3e47-4872-b08e-a1306610e46b",
+    "word": "机车走行线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "bcba49a5-14c4-402e-b5ae-20bf27b45703",
+    "word": "机车车载安全防护系统",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2fc526da-b435-403c-a445-4aedc34e2894",
+    "word": "机车车辆",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8feb4c21-b949-42b8-b900-61cbdfb8c64c",
+    "word": "来回",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9622ac9d-93d2-4fd1-8746-d46ac4761f44",
+    "word": "查询列尾风压",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "44139d4f-e708-47c6-9e11-cee904b1d07e",
+    "word": "树标塑形管理规定",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "5f43f683-320d-41ab-b291-7933d2516eaa",
+    "word": "树标塑形类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "4182c7be-82c5-4968-b9b7-f946d8360710",
+    "word": "核对",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "5538d926-4772-43c3-b61a-d02c798bf581",
+    "word": "核对编号",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f9e5db3a-f86b-47ce-b795-e10fa77b9984",
+    "word": "核对运行揭示",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "6e3fd87c-e8da-43b9-963f-3285cbde6940",
+    "word": "桥梁",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "fdfa70c2-79cf-4fc7-94a6-9d320f6c0a5a",
+    "word": "检查",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "77a1331d-c0a5-4dbc-b695-34bec09ebafa",
+    "word": "检车锤",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3df88c9b-62e4-45ea-a49f-cf23b5118467",
+    "word": "欠标",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b780a3de-445f-4f3c-b267-c2b5b0c283a6",
+    "word": "次列车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9e70d553-7b06-41c3-892e-09a04975fd13",
+    "word": "正常",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "88b27765-9ab1-4602-bc22-5013eb97776c",
+    "word": "正排",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2a75bceb-2085-4469-824d-b088e68f823a",
+    "word": "正确",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "bf474d43-ffb4-40b7-9354-e5708642f624",
+    "word": "正线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "6bcd9548-bd04-4769-8a6c-4dc061dc559c",
+    "word": "段管线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b2dcfeba-709a-4f24-9c33-109f5fab7035",
+    "word": "汇报",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ff875e3d-d40a-45fa-a6ef-844004d1cde8",
+    "word": "汇报不及时",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "42da6d1c-666b-4bab-8c94-800b7c9c5cbf",
+    "word": "江北",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d2108a2d-3011-4219-9226-5567aeb06b5b",
+    "word": "注意",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "345f4794-8d0f-42b6-a03e-5cd55f4606c3",
+    "word": "注意安全",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1352dce4-168a-48ae-b4a7-a7829db6b537",
+    "word": "注意确认",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7af6321e-6256-4eb9-929b-0e4257a87b47",
+    "word": "注销G网手持机",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3e13c058-5c05-450d-a7e6-989100a22a6b",
+    "word": "洗车作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "08585685-ffc0-4a86-a2ce-2afb4dc2c97f",
+    "word": "消失",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "6d3476f2-619f-43f1-a799-c9722e671cb5",
+    "word": "涵洞",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e360ea4b-bb62-46ba-8cdc-3a02b10c9c9d",
+    "word": "添乘",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "44a428cf-1d2f-4804-893c-5478f6e71be9",
+    "word": "清楚了",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "92762583-f371-43d2-99c1-5a51cac085e2",
+    "word": "清点",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "4200ffb8-a329-42e7-a6b6-9c2af261cbcf",
+    "word": "滑行",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "16ba9d33-2f7a-4eef-9514-2e6a2896f967",
+    "word": "漏项",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "60cc5dcb-a0cc-4fa1-bf28-0b1370000242",
+    "word": "火炬",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "cf532b2d-1d7d-460d-a94d-c786d33b2605",
+    "word": "灭灯",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "57320d0c-212b-4a93-99e3-36389cdafb59",
+    "word": "灯光",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "6e038e31-22de-4fdc-894e-38556a8680e9",
+    "word": "点击",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "db1ba3ae-5110-4897-8e8f-2123350a67e0",
+    "word": "点灯",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d4335192-98c0-4958-99d7-45b153ff1a1d",
+    "word": "点牌",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0ecac47b-827e-492e-a74c-881032ad94ae",
+    "word": "热备",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "bd673a1e-c43b-4fad-bae4-ad3532e7d47b",
+    "word": "熄灭",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3f639dc3-1c19-40e8-b92b-4736d63e2ea8",
+    "word": "牵出线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ea31adb0-722b-4b8c-a30d-db798620ef7d",
+    "word": "牵引力",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "4c3adbcb-dcaf-4235-b1d5-0d8e2b08ea3b",
+    "word": "牵引变压器",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "164107dc-d71c-4dda-9fb8-40fe53dac198",
+    "word": "牵引变流器",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "315ce21b-52f7-4087-8623-c9b5db6b352a",
+    "word": "牵引定数",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ae925687-5548-444a-b6de-8825ff2654d0",
+    "word": "牵引无流",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "4ae07ba6-f945-44ab-9891-1f0cdd57f695",
+    "word": "牵引电机",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "29ef680b-45ec-4622-ad4e-d8bf1a02a494",
+    "word": "特别用途线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f146d030-4eeb-44a1-a1d1-99b58f2ee120",
+    "word": "现场",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f9e4852d-bec5-4144-87db-4d297dfd2ca5",
+    "word": "生产",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "154e00cf-55e6-477d-885a-f90c95df5ee8",
+    "word": "由加",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "28f2a218-579d-42d1-b439-65d4b4d52aff",
+    "word": "申请",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "19d0d841-0e17-4584-b118-0b79ad991ae6",
+    "word": "电力机车司机",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8f16757f-1a40-40c0-b8ef-9ab47e2243b6",
+    "word": "电务",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "248dfe2b-21de-4eeb-a429-b273ba3a3294",
+    "word": "电务人员",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "677080e0-7cc4-4a4e-9bdd-f88189618f88",
+    "word": "电务段",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "888fe32f-3133-46ee-8735-c285cf2c4cf9",
+    "word": "电子运统1",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3b0fa31d-a72b-44c4-b6e6-5693f4b5664f",
+    "word": "电度表",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "fdfc0000-dde4-48a9-9e1c-92c30bceb73d",
+    "word": "电机故障",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b34cb50f-645d-4d9d-8e34-eb6b4903c78a",
+    "word": "电气化区段",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1cb423f1-b0ca-4bb0-ad8d-fc09016804f7",
+    "word": "电空制动系统",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "35a446f4-a2a5-4efd-9a30-f605c860b6e5",
+    "word": "电阻制动特性",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "61e46592-b2a9-477b-8b83-f827df77b8a5",
+    "word": "电阻制动系统",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ba43e7b3-fbf7-4293-be05-ecdc1701f4b3",
+    "word": "电阻制动试验",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "823303cf-98fe-454a-ad53-aa895792fba5",
+    "word": "疏散",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "4a77331a-b37b-4da5-801f-c789f1204bc4",
+    "word": "登记",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a6ecacf8-9eae-4857-af6a-b7a30b7eb1c5",
+    "word": "登销记",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0db4d4a1-0458-498f-b748-cbbfa3d4feab",
+    "word": "白灯",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8634ad33-445e-45a0-b4b9-6e07965c87cc",
+    "word": "白灯信号",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a48a5272-6f34-44cc-8e80-a02643a1441a",
+    "word": "监控",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8ee56676-5f1a-4179-bdc2-5773ad8d0ff9",
+    "word": "监视",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c94afe02-679f-4340-9a7e-15264930ca70",
+    "word": "目标速度",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "abed10cc-3b72-4820-9ba9-4256c35fae31",
+    "word": "相关列车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1a073250-2477-421c-906b-1d24b20c4988",
+    "word": "瞭望管理类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1c4880fd-a602-4923-945d-5e15573d2fc9",
+    "word": "知道",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8ce70880-9721-495a-86de-022e1ded79ee",
+    "word": "短路铜线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "78df0df4-b5c1-449d-b207-d275fd74ae11",
+    "word": "破封",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7b44abaf-b8e0-4155-866c-a712a85ed81b",
+    "word": "确认",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9481d7fe-1992-42c4-ad79-4355243b3dfe",
+    "word": "移动闭塞",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b200d3c5-f5c7-4c64-b06a-d1061a582452",
+    "word": "移动音视频设备",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "4a6e5b6a-59a0-4168-843a-9c819b46f61e",
+    "word": "空气制动可用性图标",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ddcfd948-90d1-485a-9736-d39122ce162f",
+    "word": "空气制动系统",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "31c5f4cb-ba1c-486b-bbb9-c2af50d68ca0",
+    "word": "空气压缩机",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "188201ac-ac5b-45c5-8400-98144eb09067",
+    "word": "空调系统",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "77dbab3f-f6b4-4d6b-95d5-c0871585d15a",
+    "word": "空转",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "93adcf99-234d-4a89-b52d-d29c574609f8",
+    "word": "空闲",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c05a679c-0780-472d-b80e-cab1f3b00b4e",
+    "word": "立即",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9382dbfa-8e4f-4e58-80be-9070de2052b6",
+    "word": "立岗",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8109a587-3338-4f1a-b4b3-58c049286841",
+    "word": "立岗瞭望",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "6c90b1ab-60ba-4440-96b3-e45891e641ec",
+    "word": "站内停车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "350945e2-4857-448c-8538-2105d628b000",
+    "word": "站内停车对标",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "14a4f61e-c1fb-4144-b90d-010045b29e55",
+    "word": "站内正线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3b430c7b-059a-4d09-b6e0-6256b49337ca",
+    "word": "站内线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c9f2911f-df21-4314-a75c-6bdc199190aa",
+    "word": "站内设备故障",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2f5bda4a-ee2f-4816-be71-0e1887a6d6b1",
+    "word": "站台",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "215b64a1-df60-4bf9-bf7f-0456a08a1652",
+    "word": "站台换端行走",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "36d934f6-9b78-4648-9d84-155804719c00",
+    "word": "站界",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e69ba8c7-d2f6-4deb-a323-6abef820e669",
+    "word": "站线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "03f601dd-368a-4f89-98d5-4ffbb7238883",
+    "word": "站细",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8f541c0b-9912-413a-81e1-468dc1b38f0b",
+    "word": "站车联控",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "28066ceb-0b04-4218-8445-9d49ed1b7344",
+    "word": "签收电子运统1",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7156092f-66b2-4332-84a7-ab5b95221fcc",
+    "word": "签认",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3a46c823-db4f-4e6c-9bcb-6abfa6792adb",
+    "word": "粘着牵引力",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a553fd0e-31fe-4c62-a589-a1ad21befaa5",
+    "word": "粘着系数",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ae4ed971-6f3a-49e6-b994-b641446cf803",
+    "word": "精神不振",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f6a57b15-0a5b-4ce0-a1b0-4f65806ae935",
+    "word": "紧急停车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "24f881d7-c1a8-45b2-a66d-52f6b6d702c0",
+    "word": "紧急制动",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "831003df-cdbc-48a1-a96f-61e2f1150f54",
+    "word": "紧急制动手柄",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "192803ce-51e9-4853-821f-46477691e8b6",
+    "word": "红光带",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "636be41c-f3bd-401f-98ac-c3e49b2dd5df",
+    "word": "红灯",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7bba3c4d-60de-49fe-860e-06bfcc3dc6eb",
+    "word": "红灯信号",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0133161f-076d-4ab0-9585-ed5c7ca73b00",
+    "word": "红线严重违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "441d3428-f05b-4bd1-84f3-4bf41f571338",
+    "word": "红色许可证",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7fd1de98-11a7-43b7-a42b-de39ccccfef8",
+    "word": "约束",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "25717aa3-0dba-4fdf-9aad-4f00b0c60140",
+    "word": "线路",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2557706f-5c35-4117-8233-4b71f069696b",
+    "word": "线路所",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3e3822c6-c714-44f2-bed0-8d8148faec84",
+    "word": "组织",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "88136014-1ce4-45e9-9e41-6625b33b510d",
+    "word": "终到作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e38b431a-3dff-4089-9df3-c1fd94ccd8de",
+    "word": "终到站",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "25b4d977-f79a-4abe-8ee9-72cba9db4c5d",
+    "word": "经由",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "36ffd8e3-d628-4188-8feb-53759978364a",
+    "word": "绝缘节",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "66586770-4839-48a7-96b1-a1bdfdebd108",
+    "word": "继乘站交接",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f75d23c0-8a5a-406f-9e39-46080fc86a0f",
+    "word": "维持运行",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "65b8ecba-c422-4bcb-bc11-be5a60946c37",
+    "word": "绿灯",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3bab5af3-1e65-49e7-ad86-14e3cd2f8161",
+    "word": "绿灯信号",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8f785715-41d2-479b-81f1-f3e30ceb7e48",
+    "word": "绿色许可证",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "36c35d73-7ee2-40c0-ba5c-20997f3d0171",
+    "word": "绿黄灯",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "91987c44-1b7c-4105-9461-c5bff5fe71e8",
+    "word": "绿黄灯信号",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "80d8512d-fb45-4ddc-87dd-287514d4fd55",
+    "word": "编号",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0bd5dd31-0a17-454f-adaf-6c3ab417dad4",
+    "word": "编组站",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8324cc98-f3ff-43b2-bbba-9f72be27176a",
+    "word": "网压",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "370c8cb9-c2b9-4fca-b61f-a6d4f720c259",
+    "word": "考核标准",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1dcde6a8-daf1-4896-8b50-a597f604c61f",
+    "word": "考试内容",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7d29c683-e61b-4737-8639-f787dab9408c",
+    "word": "联合试验",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "089edeff-cd8f-4b21-9880-9df44d6b904b",
+    "word": "联控对象",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d041b68e-a63a-4ff5-b104-7966adc71a3c",
+    "word": "联锁",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b3e5d1ec-22c0-49b4-a326-eaf74eb1806e",
+    "word": "股道",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "513cedcd-18dd-4199-8c75-118f93940ca5",
+    "word": "脱轨器",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0add706a-3b89-4365-bf30-1394297b8978",
+    "word": "自动",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "4cba7a63-9862-424e-8ea9-c87c2682dc30",
+    "word": "自动制动手柄",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "5d0a2938-7fb6-4b8f-ae6c-4dfc12c1c08b",
+    "word": "自动过分相装置",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d08af2ce-4314-4bb4-8b1d-8352547969de",
+    "word": "自动闭塞",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8ecc80f0-ee42-4725-b7bb-16841c21980c",
+    "word": "自动驾驶模式",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b7d3c6f8-8699-4510-9987-aed81227f513",
+    "word": "良好",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1d692f28-c240-43dc-a535-e1859ca7e2dc",
+    "word": "营业站",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "4087ce06-4e15-4ec5-89ee-58da960e9531",
+    "word": "蓝灭灯假设",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9680942c-7c7c-4ca0-bf16-be7b41fac77f",
+    "word": "蓝灯",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ff11c44c-96cc-421a-abbd-1c784e7b4b98",
+    "word": "蓝灯信号",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c62bf5ad-6a7f-4140-91d7-3557d5ca380b",
+    "word": "行安装备",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "20a129c0-2df3-4621-8b1f-8104f142a1e5",
+    "word": "行安装备操作类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ce3b4745-276d-4491-953a-5d543c1a21d8",
+    "word": "行安装备故障反馈",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8f701689-2ddc-4f05-9ea1-705ae9edec40",
+    "word": "行车凭证",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "fa60e94f-506c-4874-b24e-5274f415cfed",
+    "word": "行车异常信息报告",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ce29f543-9cde-4dd8-9211-ab70f3cbefda",
+    "word": "行车日志",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c998d8d4-f9dd-45ef-8d0d-5009fbe836b4",
+    "word": "行车设备检查登记簿",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "97bb90cc-2a1f-4f24-a67d-0cfdfecf6d17",
+    "word": "行车调度员",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1ab63b05-1fb2-412b-8abd-3613af69c25a",
+    "word": "行车限制卡",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "aad2d4ba-aee8-4b15-8c45-7c67db099bac",
+    "word": "行进",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1b85f52f-b427-4b8b-a0e5-92111a3888a8",
+    "word": "表示",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9907d78b-fd0b-4dc8-bea7-e00b5545560e",
+    "word": "被考核",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "20576eb0-4615-4063-81e3-224fdd9e84fa",
+    "word": "解锁",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "fd52076c-a6c9-401d-9c74-f481ed6461d4",
+    "word": "触发",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "103a0d19-1228-409a-9a01-3456c32fce57",
+    "word": "警冲标",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "36987440-76f9-456c-974e-1b03b70b202b",
+    "word": "警惕装置",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ca275d92-a035-4f73-9020-11f4438abb1d",
+    "word": "计数器",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "dac760d0-a955-48e8-a01a-99f1598a29f7",
+    "word": "计算机联锁",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "16010b61-86ac-4a83-92f0-2da0fea402bc",
+    "word": "记录仪",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "825ecbfa-8301-4d7e-9163-649971582f5c",
+    "word": "设备",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f61f5bff-e949-49ae-a34a-5f9deffb220a",
+    "word": "设备管理单位",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "14c31c6e-7f47-4fde-b150-3b96452dc335",
+    "word": "设置恒速",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "781ae429-a037-4ffb-88cc-d26be8988f5e",
+    "word": "试验",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "5ca18c7c-c0b2-4668-8305-ceaa1814c370",
+    "word": "询问式发车联控",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0feae8b4-2cab-48ad-b96c-f4c247c49112",
+    "word": "误操作",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8fa84a7e-5b2a-4e8c-afba-cffd01e64946",
+    "word": "请求",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "419038f5-b06f-4c21-986b-164ba24203fc",
+    "word": "请立即",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "57173d10-231c-4db0-8a2b-3f269af292f8",
+    "word": "调度员",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ede204bf-e011-464c-a4f5-8b72b382f72c",
+    "word": "调度命令",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f3872b18-501a-405d-82b7-b56514a64cd1",
+    "word": "调度命令交付",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ba965121-0915-471f-a4b9-bf0a77545d26",
+    "word": "调度所",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9fea6ddd-e5a6-4dd6-9eb3-cfbae7a63438",
+    "word": "调度集中系统",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2359e1e6-5f6d-4787-be95-69e0497cc217",
+    "word": "调车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7e15f008-dff3-48c1-8c5e-63bf227c4e62",
+    "word": "调车作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "228d4967-642d-4ae8-8d2d-0bb7b01f8df8",
+    "word": "调车作业类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3ae983f4-df68-4c67-b71c-c5415cb7792e",
+    "word": "调车作业通知单",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "fd3c4bad-fa07-4995-bad1-a9bea33812b1",
+    "word": "调车信号机",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d4e6352f-f951-4097-8058-4d42476bbd73",
+    "word": "调车信号确认",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9dea554b-7e16-4036-a778-5538506ade66",
+    "word": "调车司机",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "6ca13571-b0f7-4906-aa2e-590ce63095f8",
+    "word": "调车检字牌",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "39401f2d-d530-4b0a-bbff-99e7bab8de30",
+    "word": "调车线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "fd70ff90-ae02-42b0-807a-ac369c84c6e5",
+    "word": "调车联控",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2e17a053-7dcf-4de8-9cee-31b3f36e13f3",
+    "word": "调车转线作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "32ef999c-7498-4060-a6b9-ef29ec82108c",
+    "word": "调速手柄回零",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "546134ec-0fe9-4597-aa76-89cd9c729d52",
+    "word": "调防装置",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "dc4408fb-f5bf-44e0-9b7a-b95491a112b8",
+    "word": "货物线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "63fde489-1b08-4507-99d5-63db76948c51",
+    "word": "货运站",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2241c986-ee9a-4757-8599-1e5cd0619ced",
+    "word": "贯通试验",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e77e1337-a550-455c-b42c-ac82a5122df8",
+    "word": "资中",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a45fbb3a-7efa-4ea5-b47e-343eeeb790dc",
+    "word": "资阳",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0a8cd7f1-f356-4bb5-9c23-a0f607d066ac",
+    "word": "走行径路",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "bda0a62a-9848-4423-aa8d-eb799d192196",
+    "word": "走行部异响",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e058e29b-3757-4bfc-8328-7dc516a7dd0e",
+    "word": "走行部检查",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "4abab63a-b0fa-4e65-a57e-75500cd40d52",
+    "word": "起动阻力",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d581732f-0332-414e-9e0d-de7b7070c94f",
+    "word": "起模点",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d39d5a34-3d52-435e-ae15-1053178b4b45",
+    "word": "超长",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "90d9e83c-26fe-43d2-acb7-6440241ac62f",
+    "word": "越标",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "052c80e0-9579-47b9-829e-1c88a6a90dfe",
+    "word": "越行站",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0c85690f-bfcb-4ef7-997e-6e75bb8d357b",
+    "word": "越过",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e286d151-66a3-4928-88d6-aff05ca14031",
+    "word": "路外伤亡",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b8a1ab6d-b5e3-44ae-a9db-99de60602295",
+    "word": "路票",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "bf536716-763f-444a-9906-372f2acbbb3b",
+    "word": "路票交付",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "bc52dbbf-9ef3-49b4-93cf-cc1234c4afc0",
+    "word": "车务段",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1af243e5-469e-4e16-bcb2-aa684ba45577",
+    "word": "车地无线通信系统",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "cfcf6b5c-756d-404d-b79d-d0b7a2523d0d",
+    "word": "车挡距离10米",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "39de51bb-4c10-4fe7-ab25-067347a768d4",
+    "word": "车机联控",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3b978751-aa8c-4083-9365-1e5420ca08c8",
+    "word": "车机联控作业标准",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "149f76b3-750a-49b8-9c90-4be730a4c098",
+    "word": "车次",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "bc020ba4-770d-4f65-8bc8-37729ad0abf4",
+    "word": "车站",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a9ec4194-8c5f-4efa-85b1-cf92212a5521",
+    "word": "车站值班员",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e6ef00dd-422e-4e10-b688-88fce79a58db",
+    "word": "车调联控",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "40c3968c-e6f3-4c02-8de6-c494524d46f5",
+    "word": "车辆段",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "750e382b-0174-470a-af00-cbc2bd7df79a",
+    "word": "车速表",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1fabb056-6aee-4171-a02b-a9f25291e4c2",
+    "word": "车门控制系统",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b0db7255-0826-4e9b-bec7-24659eedbb65",
+    "word": "车门操作类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d0aa42ad-953f-46b2-9d03-15a74bc39185",
+    "word": "轨道电路",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8e64e134-f1dd-4f6c-9373-48146943c381",
+    "word": "轨道电路分路不良",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "4a1d837f-5f09-4429-9de4-b245db8874e4",
+    "word": "轨道车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2d70d3e0-70fe-4d9c-8fa8-72d500cf042b",
+    "word": "轨道车运行控制设备",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9d7032d9-95a3-4819-ad6c-e5da17342aa1",
+    "word": "转储数据",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0357372b-ab7b-41df-a747-67e8100f6645",
+    "word": "转辙机",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "36363775-c02f-41d0-a569-c91ff31ba4d3",
+    "word": "轮对擦伤",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "6e9032b6-b657-43ee-8158-b97f49804450",
+    "word": "轮轨关系",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7a6edd96-34fb-4ce6-b1d0-1f7f3f50e258",
+    "word": "轴温检测装置",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2073bedf-eaad-412d-834a-12e4964e48d2",
+    "word": "轴温过高",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2845f318-a9b0-4661-8fee-73f0bc7af1e1",
+    "word": "辅助变流器",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "5ef6db35-151d-49f2-bc0b-2a40747b9f5c",
+    "word": "辅助变流器故障",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1730c610-1391-4401-93fe-080493234005",
+    "word": "辅助所",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d6fa49b6-1115-4936-b4a1-35849e8a802e",
+    "word": "过分相作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "cd32b415-b68a-4b7c-9206-c161186eacf8",
+    "word": "过分相弓网类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f124920a-df09-42b6-9b37-7fdfb623d0c2",
+    "word": "过分相提示卡",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7ae4cabe-beb5-41e0-b922-f2d459d7a69f",
+    "word": "过夜停放信息汇报",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "8623fea1-1ea1-4bf9-bd92-f0b75b4707b5",
+    "word": "过标",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b38f93d9-158e-4fde-9b73-cf62f6ea8cad",
+    "word": "运用车间主任",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9f1da34c-0d06-4bc6-b7fb-41a70d149421",
+    "word": "运统1终端反馈",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2431c2f6-466d-47ef-9c8b-2add550caa84",
+    "word": "运行",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "471001b1-bd7a-4fd5-ae83-84d684fe0629",
+    "word": "运行中",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "947a7d01-9cde-48b3-b5e7-5d30410ad3d2",
+    "word": "运行作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "43b5ffe4-a133-4132-80fd-edb086e260a0",
+    "word": "运行揭示",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b67c6c07-e894-47c3-abbf-bc2ba4491f80",
+    "word": "运行揭示假设",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2d148ce5-11fd-442f-990b-966a85c5d9e8",
+    "word": "运行揭示四核对",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "fa9fe2ae-8bd2-4f06-8517-81b27c04b94b",
+    "word": "运行揭示条",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "fa1140fa-ff10-44b4-b4a1-340633424312",
+    "word": "运行时刻类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "17e6fb1f-a268-4a2c-b005-ed5789570fb4",
+    "word": "运行计划",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "32dbd28a-eee4-4498-aea4-eb74fa342e44",
+    "word": "进站作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "aabe0d61-6d1d-42bb-9820-08cd07874dcb",
+    "word": "进站信号开放",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7d69edf6-4529-417d-89ea-a88cbb350be8",
+    "word": "进站信号机",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3f57aa0a-ffbb-4679-88f5-f9a90d961898",
+    "word": "进路",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "dfee9550-7524-4a70-86ec-fb58258f9096",
+    "word": "进路提示牌",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e3af798e-83f6-4ef8-9a0d-3b05a545db45",
+    "word": "违反",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7845e3e2-176b-4d17-af0a-a33b5caf8387",
+    "word": "追尾",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "bc82ca32-51bc-4da1-8d02-c2803e464884",
+    "word": "追踪间隔",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7baa0229-b7cb-4f63-9560-610b277ad5dc",
+    "word": "退勤作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a98f6c7b-00a0-4784-b9c6-0c4926d097f1",
+    "word": "送至",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "68a22fb0-3d80-45ec-bfbe-6a6ad9fe243a",
+    "word": "适用场景",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a1671f15-8ed8-4eac-9beb-e4daf72896fa",
+    "word": "途中信息汇报",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "dea40d59-9bd8-4a82-b4c7-a7a0f935395d",
+    "word": "通信段",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "05d14d23-784a-43e5-8f11-e0d542480e83",
+    "word": "通知",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3ccd3a50-4fc6-4f3a-93f4-4180ebb5c0e4",
+    "word": "通过",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b33596b6-a1fb-4c9d-be89-403e44cb5216",
+    "word": "通过信号开放",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f2e32468-a755-4d10-83ca-1958a43069d4",
+    "word": "通过信号机",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "70a6ffb8-4b94-43c3-83e7-7c1658d6d9fc",
+    "word": "通道",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a3c60010-cba0-4056-860b-53036fdc98f1",
+    "word": "速度控制类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "cb53248a-cf73-4313-8afc-f300b8c0d2b9",
+    "word": "造成后果",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "eee6c5ca-1164-49c5-a500-d7440fbe0bb7",
+    "word": "道岔",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "20e34348-b394-4c2b-a5d9-aff2334e4108",
+    "word": "道岔区段",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9c8d61b7-74da-4117-a62b-842c8ff4676b",
+    "word": "道岔反位",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2d70608d-7e1d-4da4-97c2-95836b358152",
+    "word": "道岔定位",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "09e47df7-f6e5-408f-8801-2ced0f1d08c7",
+    "word": "遮阳帘",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c8aa977c-9e2c-4bcb-b446-ba91d78e56ba",
+    "word": "避难线",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "15c6d4fc-d2a0-4fbe-83b5-7e82e456abb0",
+    "word": "酒测",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "565de224-3e38-48e1-95c3-e8764bf55c71",
+    "word": "钥匙",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "82773e5f-baad-4040-8b28-d88073b3012d",
+    "word": "钩钩唱票",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "bf6458f8-2b69-4827-ae7b-c9ebc5aee78a",
+    "word": "钩锁器",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "36eb1156-f48f-44fd-bf12-7829fbda936d",
+    "word": "铁路信号显示颜色",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "758ef3dc-1f07-483d-94c8-897a8ca5e458",
+    "word": "铁路区间行车作业细则",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "bfe84138-e939-402c-8e58-5cccf26975af",
+    "word": "铁路安全管理条例",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "c08c207f-bcf4-4e8b-b0bf-3379300448ea",
+    "word": "铁路技术管理规程",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e33bf5a9-1443-4639-9518-36e68db56ecc",
+    "word": "铁路机车操作规程",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "89d74a38-bdc6-4338-8f18-25833adfbd0e",
+    "word": "铁路机车运用管理规则",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "64fb2780-e70e-4671-a505-bf1c74ecb6d8",
+    "word": "铁路电气化安全规则",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e61d4d6e-3179-4269-b5a3-105ab0ba9df5",
+    "word": "铁路线路安全保护区",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9a44107b-2992-4515-8fea-d19387ff0652",
+    "word": "铁路行车组织规则",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b7cbb14e-7d9e-48ae-a1a2-69c00c0128c7",
+    "word": "铁路车站行车作业细则",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ce2aae7e-5c73-4e69-91ad-5f4a75bc59fe",
+    "word": "铁路运输调度规则",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a28257a5-58b8-4b13-abf9-eeb42867e03d",
+    "word": "铁路防寒过冬工作规则",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1739b805-5457-4e04-b63f-850b57a800bd",
+    "word": "铁路防洪工作规则",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e8368d60-be26-4eb3-85f7-b08505bb33aa",
+    "word": "销记",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "aa32694e-09cb-45eb-8820-4b1569355e52",
+    "word": "锚段关节",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9e88ed39-03fe-43a5-a9d0-2a3ac2a296e3",
+    "word": "闭塞",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ff5d2ba1-11d9-4198-a9a8-78f07ad02e1e",
+    "word": "闭塞分区",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "57a144d8-859e-4f5e-9ae1-3cf5afaf12b1",
+    "word": "闭塞分区长度",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "d28c307b-320c-4b0a-96cc-914f254ae95a",
+    "word": "间休",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "90526dba-fae3-4a96-b775-878bc5482a32",
+    "word": "闸缸压力",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e7d96893-4268-41cc-a249-f6afb68589ee",
+    "word": "防临时限速提示卡",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "4e265016-dd63-4f76-83ca-cd119a0effba",
+    "word": "防临时限速超速措施",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "274b6117-8bcd-4769-88c8-35b82c5da342",
+    "word": "防冒进作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "71e5cb07-922d-41d3-9740-70ddef688725",
+    "word": "防冒进措施",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0b24eecd-8746-4d91-989f-f049b5504751",
+    "word": "防坡停作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "4078c311-4142-49a1-abef-32fe9ee72292",
+    "word": "防护",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "345c8acc-61e1-4b3c-a205-3010e655ada3",
+    "word": "防护对象",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3a8a50c1-fb4e-4ae2-b4bf-e5dd37336aa1",
+    "word": "防护帽盖",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "89ae825a-fdff-4b51-91b8-a6c8d2e6b971",
+    "word": "防护措施",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "10a44d57-1204-4e09-84a1-60cb76d6394c",
+    "word": "防护黄背心",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "fce448be-c635-475e-abf1-d46d2208e13c",
+    "word": "防撞土挡",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "cd0905c3-ba20-4222-8fb8-48ade9ca465f",
+    "word": "防撞线措施",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2aeb43d8-a14e-41d3-b273-068f23773679",
+    "word": "防洪应急预案",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0b328ae8-a44b-44ea-9ea8-5533c01e8e89",
+    "word": "防溜安全类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "71dae8f3-06c0-419f-b295-70aae251921c",
+    "word": "防溜逸作业",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a98eda2e-8216-494c-a51a-fbaa2c4abff8",
+    "word": "防溜逸安全措施",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f7acf773-d1c0-4d05-80a3-94d8b661b74f",
+    "word": "防灾救援",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "bd5fdeb2-f2d5-4faf-bb14-f3a003533f86",
+    "word": "防超速固化操纵措施",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2a902685-9fcf-4409-9970-ba9428b9bef6",
+    "word": "防超速措施",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "01805c61-6dd5-4212-ac0d-43f5f145d625",
+    "word": "防错办措施",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e6d4ddad-80b0-43d5-b6d3-62238b9472c3",
+    "word": "附加阻力",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "08bf3892-f87c-4896-b589-eea1139e1102",
+    "word": "降速",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a7527ca4-0793-4bc4-ac24-c821ee091732",
+    "word": "降速区",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "7767ca1d-b39b-4ec3-94a4-1508a6e32daa",
+    "word": "限制鸣笛区段",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "47bd7e94-2576-4e2f-a7d3-09848b2057da",
+    "word": "限界",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "96c3ae80-8fd2-45f6-a120-e69814ed3adf",
+    "word": "限速",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "bcc9a857-f5a0-439a-85df-76d727d03675",
+    "word": "限速值",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "9218bda5-f214-4a4e-b58c-f3e5f2d8c08d",
+    "word": "限速区段",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0701213d-3332-44af-8afe-6031feb8dda7",
+    "word": "限速运行",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "14d896fc-e002-4f78-ab86-8bed922bddb2",
+    "word": "随时停车",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "06ea7b09-0873-4313-b172-58fc673f6607",
+    "word": "随车机械师",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "ff97c0e7-e01e-453b-b90d-da9d8da7b408",
+    "word": "障碍物",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "a0455b9d-9761-4070-9dc1-dc2819184433",
+    "word": "隧道",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "e0f4703a-3222-444a-9045-57d3f1c9f4d9",
+    "word": "隶属关系",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "b6e1dab2-a3eb-4133-8779-23b2a03ce8f0",
+    "word": "需要掌握",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f459ee98-7e49-4dac-a03a-34674902e139",
+    "word": "需要检查",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2ada9e8d-3e9d-4b17-b1cc-bc6aee7bd3ee",
+    "word": "非封闭线路",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "f3203d6e-06f5-4fd3-8746-82cf78131937",
+    "word": "非正常",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "57bbdee8-4213-4219-9baa-3f7daa7d21a8",
+    "word": "非正常应急类违章",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "320f8d16-e61d-4e5c-bb1b-dc238bb563bb",
+    "word": "非正常情况",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1f1179d7-7b19-4f97-81b9-54d166eabd82",
+    "word": "非正常行车预案",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "70d72fa7-222f-4028-9fd5-19624c9af614",
+    "word": "非电气化区段",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "36286f59-fb5f-4949-a8c3-99b9eeeb4ee9",
+    "word": "非营业站",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "dabb484f-a86a-4741-8f76-f829f0170132",
+    "word": "面向",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "86d229c8-ecda-4fe2-8839-15e6758c9939",
+    "word": "预告",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "92d1ff6c-9bff-40f3-8ef9-bafa769ac310",
+    "word": "预告信号机",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "3d5dbad9-d871-4f74-801b-cffc3ea94b5b",
+    "word": "领带",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "261ea51f-ecda-450c-aa6f-e6ded1943f0f",
+    "word": "风压表",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "382c1f58-a9f2-4418-a687-bc06865b5f15",
+    "word": "风笛",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "2ced652d-5ccb-4c0f-867d-682cf6e99c28",
+    "word": "驾驶",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "37f63cb7-ba6d-4f8d-b439-2d58b5291c0d",
+    "word": "高站台",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "5bd611a1-7e63-4d83-aae8-2893adbf5e1e",
+    "word": "高速铁路行车组织细则",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "72cd12a8-82c2-4bb7-ab8f-d258c2139493",
+    "word": "鸣笛",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "1a87c732-a7ce-4144-bc25-3798addb4bff",
+    "word": "黄灯",
+    "category": null,
+    "enabled": true
+  },
+  {
+    "id": "0405b4f6-2fcb-4d47-bb70-34683a64ac6b",
+    "word": "黄灯信号",
+    "category": null,
+    "enabled": true
+  }
+]

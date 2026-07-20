@@ -1,0 +1,1110 @@
+{"id": "1/train_0001", "audio_id": "train_0001", "asr": "", "correct": "预告", "raw": "[{\"Start\":0,\"End\":3.48,\"Content\":\"[Silence]\"}]"}
+{"id": "1/train_0002", "audio_id": "train_0002", "asr": "", "correct": "48015次", "raw": "[{\"Start\":0.0,\"End\":2.96,\"Content\":\"[Silence]\"}]"}
+{"id": "1/train_0003", "audio_id": "train_0003", "asr": "丝瓜冬药六次。", "correct": "48016次", "raw": "[{\"Start\":0.0,\"End\":2.68,\"Speaker\":0,\"Content\":\"丝瓜冬药六次。\"}]"}
+{"id": "1/train_0004", "audio_id": "train_0004", "asr": "свадон, якоець.", "correct": "48017次", "raw": "[{\"Start\":0.0,\"End\":2.6,\"Speaker\":0,\"Content\":\"свадон, якоець.\"}]"}
+{"id": "1/train_0005", "audio_id": "train_0005", "asr": "สวัสดีครับ", "correct": "48018次", "raw": "[{\"Start\":0.0,\"End\":2.84,\"Speaker\":0,\"Content\":\"สวัสดีครับ\"}]"}
+{"id": "1/train_0006", "audio_id": "train_0006", "asr": "Hey, Aris, how it's...", "correct": "K235次", "raw": "[{\"Start\":0,\"End\":2.52,\"Speaker\":0,\"Content\":\"Hey, Aris, how it's...\"}]"}
+{"id": "1/train_0007", "audio_id": "train_0007", "asr": "K R 三六四。", "correct": "K236次", "raw": "[{\"Start\":0.0,\"End\":1.8,\"Speaker\":0,\"Content\":\"K R 三六四。\"}]"}
+{"id": "1/train_0008", "audio_id": "train_0008", "asr": "按照列车运行计划，核对车次时刻、命名、指示、标识、与列车调度员联系。", "correct": "按照列车运行计划核对车次、时刻、命令、指示，必要时与列车调度员联系", "raw": "[{\"Start\":0.0,\"End\":7.76,\"Speaker\":0,\"Content\":\"按照列车运行计划，核对车次时刻、命名、指示、标识、与列车调度员联系。\"}]"}
+{"id": "1/train_0009", "audio_id": "train_0009", "asr": "同意。", "correct": "同意", "raw": "[{\"Start\":0,\"End\":1.8,\"Speaker\":0,\"Content\":\"同意。\"}]"}
+{"id": "1/train_0010", "audio_id": "train_0010", "asr": "听谁？", "correct": "停车", "raw": "[{\"Start\":0.0,\"End\":1.48,\"Speaker\":0,\"Content\":\"听谁？\"}]"}
+{"id": "1/train_0011", "audio_id": "train_0011", "asr": "要打呼。", "correct": "1道", "raw": "[{\"Start\":0,\"End\":1.76,\"Speaker\":0,\"Content\":\"要打呼。\"}]"}
+{"id": "1/train_0012", "audio_id": "train_0012", "asr": "要的。", "correct": "I道", "raw": "[{\"Start\":0.0,\"End\":1.96,\"Speaker\":0,\"Content\":\"要的。\"}]"}
+{"id": "1/train_0013", "audio_id": "train_0013", "asr": "เริ่มต่อ", "correct": "2道", "raw": "[{\"Start\":0.0,\"End\":2.12,\"Speaker\":0,\"Content\":\"เริ่มต่อ\"}]"}
+{"id": "1/train_0014", "audio_id": "train_0014", "asr": "量到。", "correct": "II道", "raw": "[{\"Start\":0,\"End\":1.72,\"Speaker\":0,\"Content\":\"量到。\"}]"}
+{"id": "1/train_0015", "audio_id": "train_0015", "asr": "", "correct": "3道", "raw": "[{\"Start\":0.0,\"End\":2.24,\"Content\":\"[Silence]\"}]"}
+{"id": "1/train_0016", "audio_id": "train_0016", "asr": "三到。", "correct": "III道", "raw": "[{\"Start\":0.0,\"End\":1.36,\"Speaker\":0,\"Content\":\"三到。\"}]"}
+{"id": "1/train_0017", "audio_id": "train_0017", "asr": "是的。", "correct": "4道", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"是的。\"}]"}
+{"id": "1/train_0018", "audio_id": "train_0018", "asr": "14.", "correct": "IV道", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"14.\"}]"}
+{"id": "1/train_0019", "audio_id": "train_0019", "asr": "[Unintelligible Speech]", "correct": "5道", "raw": "[{\"Start\":0,\"End\":2.04,\"Speaker\":0,\"Content\":\"[Unintelligible Speech]\"}]"}
+{"id": "1/train_0020", "audio_id": "train_0020", "asr": "五五打。", "correct": "VI道", "raw": "[{\"Start\":0,\"End\":1.8,\"Speaker\":0,\"Content\":\"五五打。\"}]"}
+{"id": "1/train_0021", "audio_id": "train_0021", "asr": "一号稻草。", "correct": "1号道岔", "raw": "[{\"Start\":0,\"End\":1.56,\"Speaker\":0,\"Content\":\"一号稻草。\"}]"}
+{"id": "1/train_0022", "audio_id": "train_0022", "asr": "二号到场。", "correct": "2号道岔", "raw": "[{\"Start\":0.0,\"End\":1.48,\"Speaker\":0,\"Content\":\"二号到场。\"}]"}
+{"id": "1/train_0023", "audio_id": "train_0023", "asr": "三号到场。", "correct": "3号道岔", "raw": "[{\"Start\":0,\"End\":1.52,\"Speaker\":0,\"Content\":\"三号到场。\"}]"}
+{"id": "1/train_0024", "audio_id": "train_0024", "asr": "四号到场。", "correct": "4号道岔", "raw": "[{\"Start\":0.0,\"End\":1.16,\"Speaker\":0,\"Content\":\"四号到场。\"}]"}
+{"id": "1/train_0025", "audio_id": "train_0025", "asr": "五号道岔。", "correct": "5号道岔", "raw": "[{\"Start\":0.0,\"End\":1.72,\"Speaker\":0,\"Content\":\"五号道岔。\"}]"}
+{"id": "1/train_0026", "audio_id": "train_0026", "asr": "给我好大草。", "correct": "6号道岔", "raw": "[{\"Start\":0.0,\"End\":1.32,\"Speaker\":0,\"Content\":\"给我好大草。\"}]"}
+{"id": "1/train_0027", "audio_id": "train_0027", "asr": "下到下。", "correct": "7号道岔", "raw": "[{\"Start\":0.0,\"End\":1.48,\"Speaker\":0,\"Content\":\"下到下。\"}]"}
+{"id": "1/train_0028", "audio_id": "train_0028", "asr": "八号到此。", "correct": "8号道岔", "raw": "[{\"Start\":0.0,\"End\":1.48,\"Speaker\":0,\"Content\":\"八号到此。\"}]"}
+{"id": "1/train_0029", "audio_id": "train_0029", "asr": "九号到场。", "correct": "9号道岔", "raw": "[{\"Start\":0,\"End\":1.32,\"Speaker\":0,\"Content\":\"九号到场。\"}]"}
+{"id": "1/train_0030", "audio_id": "train_0030", "asr": "要动好打算。", "correct": "10号道岔", "raw": "[{\"Start\":0,\"End\":1.84,\"Speaker\":0,\"Content\":\"要动好打算。\"}]"}
+{"id": "1/train_0031", "audio_id": "train_0031", "asr": "大家好，我是大成。", "correct": "11号道岔", "raw": "[{\"Start\":0,\"End\":1.32,\"Speaker\":0,\"Content\":\"大家好，我是大成。\"}]"}
+{"id": "1/train_0032", "audio_id": "train_0032", "asr": "[Unintelligible Speech]", "correct": "12号道岔", "raw": "[{\"Start\":0.0,\"End\":1.96,\"Speaker\":0,\"Content\":\"[Unintelligible Speech]\"}]"}
+{"id": "1/train_0033", "audio_id": "train_0033", "asr": "13,000.", "correct": "13号道岔", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"13,000.\"}]"}
+{"id": "1/train_0034", "audio_id": "train_0034", "asr": "要四号导出吗？", "correct": "14号道岔", "raw": "[{\"Start\":0.0,\"End\":1.56,\"Speaker\":0,\"Content\":\"要四号导出吗？\"}]"}
+{"id": "1/train_0035", "audio_id": "train_0035", "asr": "要五号套餐。", "correct": "15号道岔", "raw": "[{\"Start\":0,\"End\":1.72,\"Speaker\":0,\"Content\":\"要五号套餐。\"}]"}
+{"id": "1/train_0036", "audio_id": "train_0036", "asr": "16, hadda, hadda.", "correct": "16号道岔", "raw": "[{\"Start\":0,\"End\":1.44,\"Speaker\":0,\"Content\":\"16, hadda, hadda.\"}]"}
+{"id": "1/train_0037", "audio_id": "train_0037", "asr": "如果喺后座。", "correct": "17号道岔", "raw": "[{\"Start\":0,\"End\":1.76,\"Speaker\":0,\"Content\":\"如果喺后座。\"}]"}
+{"id": "1/train_0038", "audio_id": "train_0038", "asr": "18号早上", "correct": "18号道岔", "raw": "[{\"Start\":0,\"End\":2.08,\"Speaker\":0,\"Content\":\"18号早上\"}]"}
+{"id": "1/train_0039", "audio_id": "train_0039", "asr": "要求好打草。", "correct": "19号道岔", "raw": "[{\"Start\":0,\"End\":1.44,\"Speaker\":0,\"Content\":\"要求好打草。\"}]"}
+{"id": "1/train_0040", "audio_id": "train_0040", "asr": "二东好，早上。", "correct": "20号道岔", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"二东好，早上。\"}]"}
+{"id": "1/train_0041", "audio_id": "train_0041", "asr": "二月一号到厂。", "correct": "21号道岔", "raw": "[{\"Start\":0.0,\"End\":1.48,\"Speaker\":0,\"Content\":\"二月一号到厂。\"}]"}
+{"id": "1/train_0042", "audio_id": "train_0042", "asr": "2号到场。", "correct": "22号道岔", "raw": "[{\"Start\":0,\"End\":1.44,\"Speaker\":0,\"Content\":\"2号到场。\"}]"}
+{"id": "1/train_0043", "audio_id": "train_0043", "asr": "二十三号到厂。", "correct": "23号道岔", "raw": "[{\"Start\":0.0,\"End\":1.56,\"Speaker\":0,\"Content\":\"二十三号到厂。\"}]"}
+{"id": "1/train_0044", "audio_id": "train_0044", "asr": "二十四号到厂。", "correct": "24号道岔", "raw": "[{\"Start\":0.0,\"End\":1.36,\"Speaker\":0,\"Content\":\"二十四号到厂。\"}]"}
+{"id": "1/train_0045", "audio_id": "train_0045", "asr": "下行1号。", "correct": "X1", "raw": "[{\"Start\":0,\"End\":1.88,\"Speaker\":0,\"Content\":\"下行1号。\"}]"}
+{"id": "1/train_0046", "audio_id": "train_0046", "asr": "校型二号。", "correct": "X2", "raw": "[{\"Start\":0.0,\"End\":1.6,\"Speaker\":0,\"Content\":\"校型二号。\"}]"}
+{"id": "1/train_0047", "audio_id": "train_0047", "asr": "下雪三号。", "correct": "X3", "raw": "[{\"Start\":0,\"End\":1.16,\"Speaker\":0,\"Content\":\"下雪三号。\"}]"}
+{"id": "1/train_0048", "audio_id": "train_0048", "asr": "相信四号。", "correct": "X4", "raw": "[{\"Start\":0.0,\"End\":1.48,\"Speaker\":0,\"Content\":\"相信四号。\"}]"}
+{"id": "1/train_0049", "audio_id": "train_0049", "asr": "上行1号", "correct": "S1", "raw": "[{\"Start\":0,\"End\":1.36,\"Speaker\":0,\"Content\":\"上行1号\"}]"}
+{"id": "1/train_0050", "audio_id": "train_0050", "asr": "上行二号。", "correct": "S2", "raw": "[{\"Start\":0.0,\"End\":1.4,\"Speaker\":0,\"Content\":\"上行二号。\"}]"}
+{"id": "1/train_0051", "audio_id": "train_0051", "asr": "上旬三号。", "correct": "S3", "raw": "[{\"Start\":0.0,\"End\":1.64,\"Speaker\":0,\"Content\":\"上旬三号。\"}]"}
+{"id": "1/train_0052", "audio_id": "train_0052", "asr": "上去四号。", "correct": "S4", "raw": "[{\"Start\":0,\"End\":1.2,\"Speaker\":0,\"Content\":\"上去四号。\"}]"}
+{"id": "1/train_0053", "audio_id": "train_0053", "asr": "调一。", "correct": "D1", "raw": "[{\"Start\":0.0,\"End\":1.92,\"Speaker\":0,\"Content\":\"调一。\"}]"}
+{"id": "1/train_0054", "audio_id": "train_0054", "asr": "12.", "correct": "D2", "raw": "[{\"Start\":0,\"End\":1.56,\"Speaker\":0,\"Content\":\"12.\"}]"}
+{"id": "1/train_0055", "audio_id": "train_0055", "asr": "调三。", "correct": "D3", "raw": "[{\"Start\":0,\"End\":1.48,\"Speaker\":0,\"Content\":\"调三。\"}]"}
+{"id": "1/train_0056", "audio_id": "train_0056", "asr": "调色。", "correct": "D4", "raw": "[{\"Start\":0.0,\"End\":1.12,\"Speaker\":0,\"Content\":\"调色。\"}]"}
+{"id": "1/train_0057", "audio_id": "train_0057", "asr": "Tchau.", "correct": "D5", "raw": "[{\"Start\":0,\"End\":1.2,\"Speaker\":0,\"Content\":\"Tchau.\"}]"}
+{"id": "1/train_0058", "audio_id": "train_0058", "asr": "16", "correct": "D6", "raw": "[{\"Start\":0.0,\"End\":2.04,\"Speaker\":0,\"Content\":\"16\"}]"}
+{"id": "1/train_0059", "audio_id": "train_0059", "asr": "调过来。", "correct": "D7", "raw": "[{\"Start\":0.0,\"End\":1.48,\"Speaker\":0,\"Content\":\"调过来。\"}]"}
+{"id": "1/train_0060", "audio_id": "train_0060", "asr": "调吧。", "correct": "D8", "raw": "[{\"Start\":0,\"End\":1.76,\"Speaker\":0,\"Content\":\"调吧。\"}]"}
+{"id": "1/train_0061", "audio_id": "train_0061", "asr": "调酒。", "correct": "D9", "raw": "[{\"Start\":0.0,\"End\":1.64,\"Speaker\":0,\"Content\":\"调酒。\"}]"}
+{"id": "1/train_0062", "audio_id": "train_0062", "asr": "", "correct": "D10", "raw": "[{\"Start\":0.0,\"End\":2.08,\"Content\":\"[Silence]\"}]"}
+{"id": "1/train_0063", "audio_id": "train_0063", "asr": "111", "correct": "D11", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"111\"}]"}
+{"id": "1/train_0064", "audio_id": "train_0064", "asr": "调一下二。", "correct": "D12", "raw": "[{\"Start\":0,\"End\":1.16,\"Speaker\":0,\"Content\":\"调一下二。\"}]"}
+{"id": "1/train_0065", "audio_id": "train_0065", "asr": "113", "correct": "D13", "raw": "[{\"Start\":0,\"End\":1.8,\"Speaker\":0,\"Content\":\"113\"}]"}
+{"id": "1/train_0066", "audio_id": "train_0066", "asr": "幺幺四。", "correct": "D14", "raw": "[{\"Start\":0,\"End\":1.36,\"Speaker\":0,\"Content\":\"幺幺四。\"}]"}
+{"id": "1/train_0067", "audio_id": "train_0067", "asr": "加油！", "correct": "D15", "raw": "[{\"Start\":0,\"End\":1.28,\"Speaker\":0,\"Content\":\"加油！\"}]"}
+{"id": "1/train_0068", "audio_id": "train_0068", "asr": "116.", "correct": "D16", "raw": "[{\"Start\":0,\"End\":1.44,\"Speaker\":0,\"Content\":\"116.\"}]"}
+{"id": "1/train_0069", "audio_id": "train_0069", "asr": "叫妖怪。", "correct": "D17", "raw": "[{\"Start\":0,\"End\":1.48,\"Speaker\":0,\"Content\":\"叫妖怪。\"}]"}
+{"id": "1/train_0070", "audio_id": "train_0070", "asr": "[Unintelligible Speech]", "correct": "D18", "raw": "[{\"Start\":0,\"End\":1.88,\"Speaker\":0,\"Content\":\"[Unintelligible Speech]\"}]"}
+{"id": "1/train_0071", "audio_id": "train_0071", "asr": "1889", "correct": "D19", "raw": "[{\"Start\":0,\"End\":1.32,\"Speaker\":0,\"Content\":\"1889\"}]"}
+{"id": "1/train_0072", "audio_id": "train_0072", "asr": "第二道。", "correct": "D20", "raw": "[{\"Start\":0,\"End\":1.48,\"Speaker\":0,\"Content\":\"第二道。\"}]"}
+{"id": "1/train_0073", "audio_id": "train_0073", "asr": "Dario.", "correct": "D21", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"Dario.\"}]"}
+{"id": "1/train_0074", "audio_id": "train_0074", "asr": "yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah,", "correct": "D22", "raw": "[{\"Start\":0,\"End\":1.92,\"Speaker\":0,\"Content\":\"yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah,\"}]"}
+{"id": "1/train_0075", "audio_id": "train_0075", "asr": "Dorsa.", "correct": "D23", "raw": "[{\"Start\":0,\"End\":1.96,\"Speaker\":0,\"Content\":\"Dorsa.\"}]"}
+{"id": "1/train_0076", "audio_id": "train_0076", "asr": "Darsa.", "correct": "D24", "raw": "[{\"Start\":0.0,\"End\":1.6,\"Speaker\":0,\"Content\":\"Darsa.\"}]"}
+{"id": "1/train_0077", "audio_id": "train_0077", "asr": "Garou.", "correct": "D25", "raw": "[{\"Start\":0,\"End\":1.4,\"Speaker\":0,\"Content\":\"Garou.\"}]"}
+{"id": "1/train_0078", "audio_id": "train_0078", "asr": "126.", "correct": "D26", "raw": "[{\"Start\":0,\"End\":1.36,\"Speaker\":0,\"Content\":\"126.\"}]"}
+{"id": "1/train_0079", "audio_id": "train_0079", "asr": "第二拐。", "correct": "D27", "raw": "[{\"Start\":0,\"End\":1.48,\"Speaker\":0,\"Content\":\"第二拐。\"}]"}
+{"id": "1/train_0080", "audio_id": "train_0080", "asr": "128.", "correct": "D28", "raw": "[{\"Start\":0,\"End\":1.2,\"Speaker\":0,\"Content\":\"128.\"}]"}
+{"id": "1/train_0081", "audio_id": "train_0081", "asr": "Garchomp.", "correct": "D29", "raw": "[{\"Start\":0,\"End\":1.36,\"Speaker\":0,\"Content\":\"Garchomp.\"}]"}
+{"id": "1/train_0082", "audio_id": "train_0082", "asr": "调三动。", "correct": "D30", "raw": "[{\"Start\":0.0,\"End\":1.44,\"Speaker\":0,\"Content\":\"调三动。\"}]"}
+{"id": "1/train_0083", "audio_id": "train_0083", "asr": "背景助理是翻译员。", "correct": "内勤助理值班员", "raw": "[{\"Start\":0.0,\"End\":2.4,\"Speaker\":0,\"Content\":\"背景助理是翻译员。\"}]"}
+{"id": "1/train_0084", "audio_id": "train_0084", "asr": "外星人住里边儿。", "correct": "外勤助理值班员", "raw": "[{\"Start\":0.0,\"End\":2.0,\"Speaker\":0,\"Content\":\"外星人住里边儿。\"}]"}
+{"id": "1/train_0085", "audio_id": "train_0085", "asr": "注意，西班牙外企。", "correct": "助理值班员外勤", "raw": "[{\"Start\":0,\"End\":2.08,\"Speaker\":0,\"Content\":\"注意，西班牙外企。\"}]"}
+{"id": "1/train_0086", "audio_id": "train_0086", "asr": "注意，这边要来车。", "correct": "助理值班员内勤", "raw": "[{\"Start\":0.0,\"End\":2.2,\"Speaker\":0,\"Content\":\"注意，这边要来车。\"}]"}
+{"id": "1/train_0087", "audio_id": "train_0087", "asr": "车站值班员", "correct": "车站值班员", "raw": "[{\"Start\":0,\"End\":2.0,\"Speaker\":0,\"Content\":\"车站值班员\"}]"}
+{"id": "1/train_0088", "audio_id": "train_0088", "asr": "值班干部", "correct": "值班干部", "raw": "[{\"Start\":0,\"End\":1.72,\"Speaker\":0,\"Content\":\"值班干部\"}]"}
+{"id": "1/train_0089", "audio_id": "train_0089", "asr": "列车调度。", "correct": "列车调度员", "raw": "[{\"Start\":0.0,\"End\":1.64,\"Speaker\":0,\"Content\":\"列车调度。\"}]"}
+{"id": "1/train_0090", "audio_id": "train_0090", "asr": "一号班到员。", "correct": "1号扳道员", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"一号班到员。\"}]"}
+{"id": "1/train_0091", "audio_id": "train_0091", "asr": "2号分堂员。", "correct": "2号扳道员", "raw": "[{\"Start\":0,\"End\":1.92,\"Speaker\":0,\"Content\":\"2号分堂员。\"}]"}
+{"id": "1/train_0092", "audio_id": "train_0092", "asr": "钻洞安全，生产调度指挥中心。", "correct": "站段安全生产调度指挥中心", "raw": "[{\"Start\":0.0,\"End\":3.6,\"Speaker\":0,\"Content\":\"钻洞安全，生产调度指挥中心。\"}]"}
+{"id": "1/train_0093", "audio_id": "train_0093", "asr": "电务工程。", "correct": "电务工区", "raw": "[{\"Start\":0.0,\"End\":1.52,\"Speaker\":0,\"Content\":\"电务工程。\"}]"}
+{"id": "1/train_0094", "audio_id": "train_0094", "asr": "公務工具", "correct": "工务工区", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"公務工具\"}]"}
+{"id": "1/train_0095", "audio_id": "train_0095", "asr": "玷污人虐。", "correct": "电务人员", "raw": "[{\"Start\":0,\"End\":1.84,\"Speaker\":0,\"Content\":\"玷污人虐。\"}]"}
+{"id": "1/train_0096", "audio_id": "train_0096", "asr": "工作人员。", "correct": "工务人员", "raw": "[{\"Start\":0.0,\"End\":1.64,\"Speaker\":0,\"Content\":\"工作人员。\"}]"}
+{"id": "1/train_0097", "audio_id": "train_0097", "asr": "[Unintelligible Speech]", "correct": "胜任人员", "raw": "[{\"Start\":0,\"End\":1.76,\"Speaker\":0,\"Content\":\"[Unintelligible Speech]\"}]"}
+{"id": "1/train_0098", "audio_id": "train_0098", "asr": "4G", "correct": "司机", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"4G\"}]"}
+{"id": "1/train_0099", "audio_id": "train_0099", "asr": "Aja.", "correct": "A站", "raw": "[{\"Start\":0,\"End\":1.32,\"Speaker\":0,\"Content\":\"Aja.\"}]"}
+{"id": "1/train_0100", "audio_id": "train_0100", "asr": "Pisa.", "correct": "B站", "raw": "[{\"Start\":0,\"End\":1.76,\"Speaker\":0,\"Content\":\"Pisa.\"}]"}
+{"id": "1/train_0101", "audio_id": "train_0101", "asr": "Seja", "correct": "C站", "raw": "[{\"Start\":0,\"End\":1.68,\"Speaker\":0,\"Content\":\"Seja\"}]"}
+{"id": "1/train_0102", "audio_id": "train_0102", "asr": "去外停车。", "correct": "机外停车", "raw": "[{\"Start\":0.0,\"End\":1.52,\"Speaker\":0,\"Content\":\"去外停车。\"}]"}
+{"id": "1/train_0103", "audio_id": "train_0103", "asr": "知道了。", "correct": "知道了", "raw": "[{\"Start\":0.0,\"End\":1.44,\"Speaker\":0,\"Content\":\"知道了。\"}]"}
+{"id": "1/train_0104", "audio_id": "train_0104", "asr": "Bye.", "correct": "明白", "raw": "[{\"Start\":0,\"End\":1.56,\"Speaker\":0,\"Content\":\"Bye.\"}]"}
+{"id": "1/train_0105", "audio_id": "train_0105", "asr": "好啊。", "correct": "好", "raw": "[{\"Start\":0,\"End\":1.52,\"Speaker\":0,\"Content\":\"好啊。\"}]"}
+{"id": "1/train_0106", "audio_id": "train_0106", "asr": "好了。", "correct": "好了", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"好了。\"}]"}
+{"id": "1/train_0107", "audio_id": "train_0107", "asr": "收到。", "correct": "收到", "raw": "[{\"Start\":0,\"End\":1.64,\"Speaker\":0,\"Content\":\"收到。\"}]"}
+{"id": "1/train_0108", "audio_id": "train_0108", "asr": "课程后续列车。", "correct": "扣停后续列车", "raw": "[{\"Start\":0.0,\"End\":2.36,\"Speaker\":0,\"Content\":\"课程后续列车。\"}]"}
+{"id": "1/train_0109", "audio_id": "train_0109", "asr": "准许放学后去练车。", "correct": "准许放行后续列车", "raw": "[{\"Start\":0.0,\"End\":2.52,\"Speaker\":0,\"Content\":\"准许放学后去练车。\"}]"}
+{"id": "1/train_0110", "audio_id": "train_0110", "asr": "吓醒。", "correct": "下行", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"吓醒。\"}]"}
+{"id": "1/train_0111", "audio_id": "train_0111", "asr": "上行。", "correct": "上行", "raw": "[{\"Start\":0.0,\"End\":1.2,\"Speaker\":0,\"Content\":\"上行。\"}]"}
+{"id": "1/train_0112", "audio_id": "train_0112", "asr": "进站。", "correct": "进站", "raw": "[{\"Start\":0,\"End\":1.4,\"Speaker\":0,\"Content\":\"进站。\"}]"}
+{"id": "1/train_0113", "audio_id": "train_0113", "asr": "出站", "correct": "出站", "raw": "[{\"Start\":0,\"End\":1.28,\"Speaker\":0,\"Content\":\"出站\"}]"}
+{"id": "1/train_0114", "audio_id": "train_0114", "asr": "信号机。", "correct": "信号机", "raw": "[{\"Start\":0,\"End\":1.64,\"Speaker\":0,\"Content\":\"信号机。\"}]"}
+{"id": "1/train_0115", "audio_id": "train_0115", "asr": "灯光熄灭。", "correct": "灯光熄灭", "raw": "[{\"Start\":0.0,\"End\":1.64,\"Speaker\":0,\"Content\":\"灯光熄灭。\"}]"}
+{"id": "1/train_0116", "audio_id": "train_0116", "asr": "顾着。", "correct": "故障", "raw": "[{\"Start\":0.0,\"End\":1.24,\"Speaker\":0,\"Content\":\"顾着。\"}]"}
+{"id": "1/train_0117", "audio_id": "train_0117", "asr": "零下。", "correct": "影响", "raw": "[{\"Start\":0,\"End\":1.36,\"Speaker\":0,\"Content\":\"零下。\"}]"}
+{"id": "1/train_0118", "audio_id": "train_0118", "asr": "接受。", "correct": "接车", "raw": "[{\"Start\":0,\"End\":1.56,\"Speaker\":0,\"Content\":\"接受。\"}]"}
+{"id": "1/train_0119", "audio_id": "train_0119", "asr": "发车。", "correct": "发车", "raw": "[{\"Start\":0,\"End\":1.72,\"Speaker\":0,\"Content\":\"发车。\"}]"}
+{"id": "1/train_0120", "audio_id": "train_0120", "asr": "按规定办理。", "correct": "按规定办理", "raw": "[{\"Start\":0.0,\"End\":1.64,\"Speaker\":0,\"Content\":\"按规定办理。\"}]"}
+{"id": "1/train_0121", "audio_id": "train_0121", "asr": "多岗监控作用。", "correct": "到岗监控作业", "raw": "[{\"Start\":0,\"End\":2.12,\"Speaker\":0,\"Content\":\"多岗监控作用。\"}]"}
+{"id": "1/train_0122", "audio_id": "train_0122", "asr": "调转监控作业。", "correct": "到站监控作业", "raw": "[{\"Start\":0.0,\"End\":1.8,\"Speaker\":0,\"Content\":\"调转监控作业。\"}]"}
+{"id": "1/train_0123", "audio_id": "train_0123", "asr": "到站处理。", "correct": "到站处理", "raw": "[{\"Start\":0,\"End\":1.88,\"Speaker\":0,\"Content\":\"到站处理。\"}]"}
+{"id": "1/train_0124", "audio_id": "train_0124", "asr": "到岗处理。", "correct": "到岗处理", "raw": "[{\"Start\":0.0,\"End\":1.64,\"Speaker\":0,\"Content\":\"到岗处理。\"}]"}
+{"id": "1/train_0125", "audio_id": "train_0125", "asr": "上港监控。", "correct": "上岗监控", "raw": "[{\"Start\":0.0,\"End\":1.56,\"Speaker\":0,\"Content\":\"上港监控。\"}]"}
+{"id": "1/train_0126", "audio_id": "train_0126", "asr": "按下故障键。", "correct": "按下故障通知按钮", "raw": "[{\"Start\":0.0,\"End\":2.16,\"Speaker\":0,\"Content\":\"按下故障键。\"}]"}
+{"id": "1/train_0127", "audio_id": "train_0127", "asr": "已到达。", "correct": "已到岗", "raw": "[{\"Start\":0,\"End\":1.56,\"Speaker\":0,\"Content\":\"已到达。\"}]"}
+{"id": "1/train_0128", "audio_id": "train_0128", "asr": "电路设备检查情况。", "correct": "电务设备检查情况", "raw": "[{\"Start\":0.0,\"End\":2.12,\"Speaker\":0,\"Content\":\"电路设备检查情况。\"}]"}
+{"id": "1/train_0129", "audio_id": "train_0129", "asr": "电务设备暂不能恢复。", "correct": "电务设备暂不能恢复", "raw": "[{\"Start\":0,\"End\":2.52,\"Speaker\":0,\"Content\":\"电务设备暂不能恢复。\"}]"}
+{"id": "1/train_0130", "audio_id": "train_0130", "asr": "这样不能修。", "correct": "暂不能修复", "raw": "[{\"Start\":0,\"End\":2.04,\"Speaker\":0,\"Content\":\"这样不能修。\"}]"}
+{"id": "1/train_0131", "audio_id": "train_0131", "asr": "线路设备检查情况。", "correct": "线路设备检查情况", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"线路设备检查情况。\"}]"}
+{"id": "1/train_0132", "audio_id": "train_0132", "asr": "公務員証別証", "correct": "工务设备正常", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"公務員証別証\"}]"}
+{"id": "1/train_0133", "audio_id": "train_0133", "asr": "请求使用引导信号接收。", "correct": "请求使用引导信号接车", "raw": "[{\"Start\":0.0,\"End\":3.28,\"Speaker\":0,\"Content\":\"请求使用引导信号接收。\"}]"}
+{"id": "1/train_0134", "audio_id": "train_0134", "asr": "同意引导信号解除。", "correct": "同意使用引导信号接车", "raw": "[{\"Start\":0.0,\"End\":2.56,\"Speaker\":0,\"Content\":\"同意引导信号解除。\"}]"}
+{"id": "1/train_0135", "audio_id": "train_0135", "asr": "取消。", "correct": "取消", "raw": "[{\"Start\":0.0,\"End\":1.48,\"Speaker\":0,\"Content\":\"取消。\"}]"}
+{"id": "1/train_0136", "audio_id": "train_0136", "asr": "接受进入。", "correct": "接车进路", "raw": "[{\"Start\":0.0,\"End\":1.56,\"Speaker\":0,\"Content\":\"接受进入。\"}]"}
+{"id": "1/train_0137", "audio_id": "train_0137", "asr": "发射进入。", "correct": "发车进路", "raw": "[{\"Start\":0.0,\"End\":1.68,\"Speaker\":0,\"Content\":\"发射进入。\"}]"}
+{"id": "1/train_0138", "audio_id": "train_0138", "asr": "记录解锁。", "correct": "进路解锁", "raw": "[{\"Start\":0.0,\"End\":1.68,\"Speaker\":0,\"Content\":\"记录解锁。\"}]"}
+{"id": "1/train_0139", "audio_id": "train_0139", "asr": "准备进入。", "correct": "准备进路", "raw": "[{\"Start\":0.0,\"End\":1.68,\"Speaker\":0,\"Content\":\"准备进入。\"}]"}
+{"id": "1/train_0140", "audio_id": "train_0140", "asr": "执行。", "correct": "执行", "raw": "[{\"Start\":0.0,\"End\":1.44,\"Speaker\":0,\"Content\":\"执行。\"}]"}
+{"id": "1/train_0141", "audio_id": "train_0141", "asr": "记录准备好。", "correct": "进路准备好", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"记录准备好。\"}]"}
+{"id": "1/train_0142", "audio_id": "train_0142", "asr": "进入准备完毕。", "correct": "进路准备完毕", "raw": "[{\"Start\":0.0,\"End\":2.36,\"Speaker\":0,\"Content\":\"进入准备完毕。\"}]"}
+{"id": "1/train_0143", "audio_id": "train_0143", "asr": "进入准备妥当。", "correct": "进路准备妥当", "raw": "[{\"Start\":0.0,\"End\":1.92,\"Speaker\":0,\"Content\":\"进入准备妥当。\"}]"}
+{"id": "1/train_0144", "audio_id": "train_0144", "asr": "去日。", "correct": "确认", "raw": "[{\"Start\":0,\"End\":1.12,\"Speaker\":0,\"Content\":\"去日。\"}]"}
+{"id": "1/train_0145", "audio_id": "train_0145", "asr": "记录好。", "correct": "进路好", "raw": "[{\"Start\":0,\"End\":1.16,\"Speaker\":0,\"Content\":\"记录好。\"}]"}
+{"id": "1/train_0146", "audio_id": "train_0146", "asr": "信号好。", "correct": "信号好", "raw": "[{\"Start\":0.0,\"End\":1.24,\"Speaker\":0,\"Content\":\"信号好。\"}]"}
+{"id": "1/train_0147", "audio_id": "train_0147", "asr": "记录正确。", "correct": "进路正确", "raw": "[{\"Start\":0.0,\"End\":1.8,\"Speaker\":0,\"Content\":\"记录正确。\"}]"}
+{"id": "1/train_0148", "audio_id": "train_0148", "asr": "领导总说话。", "correct": "引导总锁", "raw": "[{\"Start\":0.0,\"End\":1.68,\"Speaker\":0,\"Content\":\"领导总说话。\"}]"}
+{"id": "1/train_0149", "audio_id": "train_0149", "asr": "开放引导信号。", "correct": "开放引导信号", "raw": "[{\"Start\":0.0,\"End\":1.96,\"Speaker\":0,\"Content\":\"开放引导信号。\"}]"}
+{"id": "1/train_0150", "audio_id": "train_0150", "asr": "开放信号。", "correct": "开放信号", "raw": "[{\"Start\":0.0,\"End\":1.28,\"Speaker\":0,\"Content\":\"开放信号。\"}]"}
+{"id": "1/train_0151", "audio_id": "train_0151", "asr": "领导。", "correct": "引导", "raw": "[{\"Start\":0.0,\"End\":1.4,\"Speaker\":0,\"Content\":\"领导。\"}]"}
+{"id": "1/train_0152", "audio_id": "train_0152", "asr": "引导信号好了。", "correct": "引导信号好了", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"引导信号好了。\"}]"}
+{"id": "1/train_0153", "audio_id": "train_0153", "asr": "领导接受。", "correct": "引导接车", "raw": "[{\"Start\":0.0,\"End\":1.56,\"Speaker\":0,\"Content\":\"领导接受。\"}]"}
+{"id": "1/train_0154", "audio_id": "train_0154", "asr": "注意引导信号啊。", "correct": "注意引导信号", "raw": "[{\"Start\":0.0,\"End\":2.16,\"Speaker\":0,\"Content\":\"注意引导信号啊。\"}]"}
+{"id": "1/train_0155", "audio_id": "train_0155", "asr": "接近。", "correct": "接近", "raw": "[{\"Start\":0,\"End\":1.36,\"Speaker\":0,\"Content\":\"接近。\"}]"}
+{"id": "1/train_0156", "audio_id": "train_0156", "asr": "按规定着装佩戴防护用品，按固定走行进路，出入到达企业规定地点，检查接车线路、空闲。", "correct": "按规定着装佩戴防护用品按固定走行径路出务，到达企业规定地点检查接车线路空闲", "raw": "[{\"Start\":0.0,\"End\":11.08,\"Speaker\":0,\"Content\":\"按规定着装佩戴防护用品，按固定走行进路，出入到达企业规定地点，检查接车线路、空闲。\"}]"}
+{"id": "1/train_0157", "audio_id": "train_0157", "asr": "通过信号操作终端监视进入信号及列车进站。", "correct": "通过信号操作终端监视进路、信号及列车进站", "raw": "[{\"Start\":0.0,\"End\":5.04,\"Speaker\":0,\"Content\":\"通过信号操作终端监视进入信号及列车进站。\"}]"}
+{"id": "1/train_0158", "audio_id": "train_0158", "asr": "面向来车方向接车，与列车头部到达立岗地点转向，面向列车，与列车车尾月部立岗地点转向，确认列车尾部标志正确。", "correct": "面向来车方向接车，于列车头部到达立岗地点转向、面向列车，于列车尾部越过立岗地点转向、确认列车尾部标志正确", "raw": "[{\"Start\":0.0,\"End\":11.32,\"Speaker\":0,\"Content\":\"面向来车方向接车，与列车头部到达立岗地点转向，面向列车，与列车车尾月部立岗地点转向，确认列车尾部标志正确。\"}]"}
+{"id": "1/train_0159", "audio_id": "train_0159", "asr": "面向来车方向，接车与列车到达立岗地点，转向面向列车，监视列车运行。", "correct": "面向来车方向接车，于列车到达立岗地点转向，面向列车，监视列车运行", "raw": "[{\"Start\":0.0,\"End\":6.96,\"Speaker\":0,\"Content\":\"面向来车方向，接车与列车到达立岗地点，转向面向列车，监视列车运行。\"}]"}
+{"id": "1/train_0160", "audio_id": "train_0160", "asr": "这里要打。", "correct": "整列到达", "raw": "[{\"Start\":0.0,\"End\":1.4,\"Speaker\":0,\"Content\":\"这里要打。\"}]"}
+{"id": "1/train_0161", "audio_id": "train_0161", "asr": "准备出战。", "correct": "整列出站", "raw": "[{\"Start\":0.0,\"End\":1.64,\"Speaker\":0,\"Content\":\"准备出战。\"}]"}
+{"id": "1/train_0162", "audio_id": "train_0162", "asr": "喂，Google表。", "correct": "尾部过标", "raw": "[{\"Start\":0.0,\"End\":1.48,\"Speaker\":0,\"Content\":\"喂，Google表。\"}]"}
+{"id": "1/train_0163", "audio_id": "train_0163", "asr": "네, 저 칠호.", "correct": "列车起动", "raw": "[{\"Start\":0,\"End\":1.32,\"Speaker\":0,\"Content\":\"네, 저 칠호.\"}]"}
+{"id": "1/train_0164", "audio_id": "train_0164", "asr": "解锁引导进入。", "correct": "解锁引导进路", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"解锁引导进入。\"}]"}
+{"id": "1/train_0165", "audio_id": "train_0165", "asr": "先说好。", "correct": "解锁好", "raw": "[{\"Start\":0.0,\"End\":1.12,\"Speaker\":0,\"Content\":\"先说好。\"}]"}
+{"id": "1/train_0166", "audio_id": "train_0166", "asr": "业务设备处理情况。", "correct": "电务设备处理情况", "raw": "[{\"Start\":0.0,\"End\":2.56,\"Speaker\":0,\"Content\":\"业务设备处理情况。\"}]"}
+{"id": "1/train_0167", "audio_id": "train_0167", "asr": "Сейчас, ну, соберусь, подожди.", "correct": "线路设备处理情况", "raw": "[{\"Start\":0,\"End\":2.12,\"Speaker\":0,\"Content\":\"Сейчас, ну, соберусь, подожди.\"}]"}
+{"id": "1/train_0168", "audio_id": "train_0168", "asr": "切入故障处理。", "correct": "线路故障处理完毕", "raw": "[{\"Start\":0.0,\"End\":2.0,\"Speaker\":0,\"Content\":\"切入故障处理。\"}]"}
+{"id": "1/train_0169", "audio_id": "train_0169", "asr": "业务故障处理。", "correct": "电务故障处理完毕", "raw": "[{\"Start\":0.0,\"End\":2.16,\"Speaker\":0,\"Content\":\"业务故障处理。\"}]"}
+{"id": "1/train_0170", "audio_id": "train_0170", "asr": "故障处理完毕。", "correct": "故障处理完毕", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"故障处理完毕。\"}]"}
+{"id": "1/train_0171", "audio_id": "train_0171", "asr": "Pues, oh.", "correct": "恢复", "raw": "[{\"Start\":0,\"End\":1.08,\"Speaker\":0,\"Content\":\"Pues, oh.\"}]"}
+{"id": "1/train_0172", "audio_id": "train_0172", "asr": "正常使用。", "correct": "正常使用", "raw": "[{\"Start\":0.0,\"End\":1.56,\"Speaker\":0,\"Content\":\"正常使用。\"}]"}
+{"id": "1/train_0173", "audio_id": "train_0173", "asr": "开过来了。", "correct": "开过来了", "raw": "[{\"Start\":0.0,\"End\":1.36,\"Speaker\":0,\"Content\":\"开过来了。\"}]"}
+{"id": "1/train_0174", "audio_id": "train_0174", "asr": "按暂时规定通知有关人员。", "correct": "按站细规定通知有关人员", "raw": "[{\"Start\":0.0,\"End\":2.36,\"Speaker\":0,\"Content\":\"按暂时规定通知有关人员。\"}]"}
+{"id": "1/train_0175", "audio_id": "train_0175", "asr": "空心。", "correct": "空闲", "raw": "[{\"Start\":0.0,\"End\":1.2,\"Speaker\":0,\"Content\":\"空心。\"}]"}
+{"id": "1/train_0176", "audio_id": "train_0176", "asr": "停止影像进入标志，落地。", "correct": "停止影响进路的调车作业", "raw": "[{\"Start\":0.0,\"End\":2.48,\"Speaker\":0,\"Content\":\"停止影像进入标志，落地。\"}]"}
+{"id": "1/train_0177", "audio_id": "train_0177", "asr": "本章无调操作员。", "correct": "本站无调车作业", "raw": "[{\"Start\":0.0,\"End\":2.64,\"Speaker\":0,\"Content\":\"本章无调操作员。\"}]"}
+{"id": "1/train_0178", "audio_id": "train_0178", "asr": "影响经络的要去做一个停止。", "correct": "影响进路的调车作业已停止", "raw": "[{\"Start\":0.0,\"End\":3.08,\"Speaker\":0,\"Content\":\"影响经络的要去做一个停止。\"}]"}
+{"id": "1/train_0179", "audio_id": "train_0179", "asr": "倒插失去表示。", "correct": "道岔失去表示", "raw": "[{\"Start\":0,\"End\":2.0,\"Speaker\":0,\"Content\":\"倒插失去表示。\"}]"}
+{"id": "1/train_0180", "audio_id": "train_0180", "asr": "到场失去定反位同时", "correct": "道岔失去定反位表示", "raw": "[{\"Start\":0.0,\"End\":2.4,\"Speaker\":0,\"Content\":\"到场失去定反位同时\"}]"}
+{"id": "1/train_0181", "audio_id": "train_0181", "asr": "倒茶师表。", "correct": "道岔失表", "raw": "[{\"Start\":0.0,\"End\":1.64,\"Speaker\":0,\"Content\":\"倒茶师表。\"}]"}
+{"id": "1/train_0182", "audio_id": "train_0182", "asr": "现场检查。", "correct": "现场检查", "raw": "[{\"Start\":0.0,\"End\":1.28,\"Speaker\":0,\"Content\":\"现场检查。\"}]"}
+{"id": "1/train_0183", "audio_id": "train_0183", "asr": "道岔区段。", "correct": "道岔区段", "raw": "[{\"Start\":0.0,\"End\":1.36,\"Speaker\":0,\"Content\":\"道岔区段。\"}]"}
+{"id": "1/train_0184", "audio_id": "train_0184", "asr": "回到电路。", "correct": "轨道电路", "raw": "[{\"Start\":0.0,\"End\":1.08,\"Speaker\":0,\"Content\":\"回到电路。\"}]"}
+{"id": "1/train_0185", "audio_id": "train_0185", "asr": "稻草。", "correct": "道岔", "raw": "[{\"Start\":0.0,\"End\":1.16,\"Speaker\":0,\"Content\":\"稻草。\"}]"}
+{"id": "1/train_0186", "audio_id": "train_0186", "asr": "请求上到检查。", "correct": "请求上道检查", "raw": "[{\"Start\":0.0,\"End\":2.12,\"Speaker\":0,\"Content\":\"请求上到检查。\"}]"}
+{"id": "1/train_0187", "audio_id": "train_0187", "asr": "请求上道过瘾。", "correct": "请求上道作业", "raw": "[{\"Start\":0.0,\"End\":1.32,\"Speaker\":0,\"Content\":\"请求上道过瘾。\"}]"}
+{"id": "1/train_0188", "audio_id": "train_0188", "asr": "同意上道作业。", "correct": "同意上道作业", "raw": "[{\"Start\":0.0,\"End\":1.44,\"Speaker\":0,\"Content\":\"同意上道作业。\"}]"}
+{"id": "1/train_0189", "audio_id": "train_0189", "asr": "同意上岛检查。", "correct": "同意上道检查", "raw": "[{\"Start\":0.0,\"End\":1.68,\"Speaker\":0,\"Content\":\"同意上岛检查。\"}]"}
+{"id": "1/train_0190", "audio_id": "train_0190", "asr": "Kocher", "correct": "空闲", "raw": "[{\"Start\":0,\"End\":1.04,\"Speaker\":0,\"Content\":\"Kocher\"}]"}
+{"id": "1/train_0191", "audio_id": "train_0191", "asr": "通过。", "correct": "通过", "raw": "[{\"Start\":0,\"End\":1.16,\"Speaker\":0,\"Content\":\"通过。\"}]"}
+{"id": "1/train_0192", "audio_id": "train_0192", "asr": "五一节啊。", "correct": "无异状", "raw": "[{\"Start\":0.0,\"End\":1.36,\"Speaker\":0,\"Content\":\"五一节啊。\"}]"}
+{"id": "1/train_0193", "audio_id": "train_0193", "asr": "你笑到", "correct": "已下道", "raw": "[{\"Start\":0,\"End\":1.2,\"Speaker\":0,\"Content\":\"你笑到\"}]"}
+{"id": "1/train_0194", "audio_id": "train_0194", "asr": "返回安全区。", "correct": "返回安全区域", "raw": "[{\"Start\":0.0,\"End\":1.6,\"Speaker\":0,\"Content\":\"返回安全区。\"}]"}
+{"id": "1/train_0195", "audio_id": "train_0195", "asr": "今现场检查。", "correct": "经现场检查", "raw": "[{\"Start\":0.0,\"End\":1.52,\"Speaker\":0,\"Content\":\"今现场检查。\"}]"}
+{"id": "1/train_0196", "audio_id": "train_0196", "asr": "Cheer up.", "correct": "确认", "raw": "[{\"Start\":0,\"End\":1.08,\"Speaker\":0,\"Content\":\"Cheer up.\"}]"}
+{"id": "1/train_0197", "audio_id": "train_0197", "asr": "That is true.", "correct": "再次确认", "raw": "[{\"Start\":0,\"End\":1.08,\"Speaker\":0,\"Content\":\"That is true.\"}]"}
+{"id": "1/train_0198", "audio_id": "train_0198", "asr": "确认好。", "correct": "确认好", "raw": "[{\"Start\":0.0,\"End\":1.08,\"Speaker\":0,\"Content\":\"确认好。\"}]"}
+{"id": "1/train_0199", "audio_id": "train_0199", "asr": "不影响正常行车。", "correct": "不影响正常行车", "raw": "[{\"Start\":0.0,\"End\":1.6,\"Speaker\":0,\"Content\":\"不影响正常行车。\"}]"}
+{"id": "1/train_0200", "audio_id": "train_0200", "asr": "公路线路设备正常，不影响正常行车。", "correct": "工务线路设备正常不影响正常行车", "raw": "[{\"Start\":0.0,\"End\":3.12,\"Speaker\":0,\"Content\":\"公路线路设备正常，不影响正常行车。\"}]"}
+{"id": "1/train_0201", "audio_id": "train_0201", "asr": "临时手摇把，勾锁器。", "correct": "领取手摇把、钩锁器", "raw": "[{\"Start\":0.0,\"End\":2.16,\"Speaker\":0,\"Content\":\"临时手摇把，勾锁器。\"}]"}
+{"id": "1/train_0202", "audio_id": "train_0202", "asr": "桂花瘦芽吧，都是小溪。", "correct": "归还手摇把、钩锁器", "raw": "[{\"Start\":0.0,\"End\":2.4,\"Speaker\":0,\"Content\":\"桂花瘦芽吧，都是小溪。\"}]"}
+{"id": "1/train_0203", "audio_id": "train_0203", "asr": "倒车开动。", "correct": "道岔开通", "raw": "[{\"Start\":0.0,\"End\":1.64,\"Speaker\":0,\"Content\":\"倒车开动。\"}]"}
+{"id": "1/train_0204", "audio_id": "train_0204", "asr": "现场教学。", "correct": "现场加锁", "raw": "[{\"Start\":0.0,\"End\":1.44,\"Speaker\":0,\"Content\":\"现场教学。\"}]"}
+{"id": "1/train_0205", "audio_id": "train_0205", "asr": "Chasso.", "correct": "加锁", "raw": "[{\"Start\":0,\"End\":1.12,\"Speaker\":0,\"Content\":\"Chasso.\"}]"}
+{"id": "1/train_0206", "audio_id": "train_0206", "asr": "已加速。", "correct": "已加锁", "raw": "[{\"Start\":0,\"End\":1.0,\"Speaker\":0,\"Content\":\"已加速。\"}]"}
+{"id": "1/train_0207", "audio_id": "train_0207", "asr": "以车子安全第一。", "correct": "已撤至安全地点", "raw": "[{\"Start\":0.0,\"End\":2.2,\"Speaker\":0,\"Content\":\"以车子安全第一。\"}]"}
+{"id": "1/train_0208", "audio_id": "train_0208", "asr": "立港切车。", "correct": "立岗接车", "raw": "[{\"Start\":0.0,\"End\":1.28,\"Speaker\":0,\"Content\":\"立港切车。\"}]"}
+{"id": "1/train_0209", "audio_id": "train_0209", "asr": "准备飞库上道岔区段进入。", "correct": "准备非故障道岔区段进路", "raw": "[{\"Start\":0.0,\"End\":3.12,\"Speaker\":0,\"Content\":\"准备飞库上道岔区段进入。\"}]"}
+{"id": "1/train_0210", "audio_id": "train_0210", "asr": "准备好了。", "correct": "准备好", "raw": "[{\"Start\":0,\"End\":1.2,\"Speaker\":0,\"Content\":\"准备好了。\"}]"}
+{"id": "1/train_0211", "audio_id": "train_0211", "asr": "正牌。", "correct": "正排", "raw": "[{\"Start\":0.0,\"End\":1.24,\"Speaker\":0,\"Content\":\"正牌。\"}]"}
+{"id": "1/train_0212", "audio_id": "train_0212", "asr": "调车信号。", "correct": "调车信号", "raw": "[{\"Start\":0.0,\"End\":1.56,\"Speaker\":0,\"Content\":\"调车信号。\"}]"}
+{"id": "1/train_0213", "audio_id": "train_0213", "asr": "倒插电的问题。", "correct": "道岔定位", "raw": "[{\"Start\":0.0,\"End\":1.48,\"Speaker\":0,\"Content\":\"倒插电的问题。\"}]"}
+{"id": "1/train_0214", "audio_id": "train_0214", "asr": "照常返回。", "correct": "道岔反位", "raw": "[{\"Start\":0.0,\"End\":1.6,\"Speaker\":0,\"Content\":\"照常返回。\"}]"}
+{"id": "1/train_0215", "audio_id": "train_0215", "asr": "解除除单锁。", "correct": "解除单锁", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"解除除单锁。\"}]"}
+{"id": "1/train_0216", "audio_id": "train_0216", "asr": "进入消息。", "correct": "电务销记", "raw": "[{\"Start\":0.0,\"End\":1.56,\"Speaker\":0,\"Content\":\"进入消息。\"}]"}
+{"id": "1/train_0217", "audio_id": "train_0217", "asr": "公务消息。", "correct": "工务销记", "raw": "[{\"Start\":0.0,\"End\":1.48,\"Speaker\":0,\"Content\":\"公务消息。\"}]"}
+{"id": "1/train_0218", "audio_id": "train_0218", "asr": "设备单位消息。", "correct": "设备单位销记", "raw": "[{\"Start\":0.0,\"End\":1.64,\"Speaker\":0,\"Content\":\"设备单位消息。\"}]"}
+{"id": "1/train_0219", "audio_id": "train_0219", "asr": "小鸡", "correct": "销记", "raw": "[{\"Start\":0,\"End\":1.28,\"Speaker\":0,\"Content\":\"小鸡\"}]"}
+{"id": "1/train_0220", "audio_id": "train_0220", "asr": "列车超车。", "correct": "列车超长", "raw": "[{\"Start\":0.0,\"End\":1.52,\"Speaker\":0,\"Content\":\"列车超车。\"}]"}
+{"id": "1/train_0221", "audio_id": "train_0221", "asr": "操场历程。", "correct": "超长列车", "raw": "[{\"Start\":0.0,\"End\":1.44,\"Speaker\":0,\"Content\":\"操场历程。\"}]"}
+{"id": "1/train_0222", "audio_id": "train_0222", "asr": "车头越过出站信号器。", "correct": "车头越过出站信号机", "raw": "[{\"Start\":0.0,\"End\":1.92,\"Speaker\":0,\"Content\":\"车头越过出站信号器。\"}]"}
+{"id": "1/train_0223", "audio_id": "train_0223", "asr": "亚商出站方面，比较便利。", "correct": "压上出站方面轨道电路", "raw": "[{\"Start\":0.0,\"End\":2.16,\"Speaker\":0,\"Content\":\"亚商出站方面，比较便利。\"}]"}
+{"id": "1/train_0224", "audio_id": "train_0224", "asr": "不能开放出站信号。", "correct": "不能开放出站信号", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"不能开放出站信号。\"}]"}
+{"id": "1/train_0225", "audio_id": "train_0225", "asr": "请求使用绿色许可证发车。", "correct": "请求使用绿色许可证发车", "raw": "[{\"Start\":0.0,\"End\":2.68,\"Speaker\":0,\"Content\":\"请求使用绿色许可证发车。\"}]"}
+{"id": "1/train_0226", "audio_id": "train_0226", "asr": "同意使用绿色许可证发车。", "correct": "同意使用绿色许可证发车", "raw": "[{\"Start\":0.0,\"End\":2.68,\"Speaker\":0,\"Content\":\"同意使用绿色许可证发车。\"}]"}
+{"id": "1/train_0227", "audio_id": "train_0227", "asr": "倒插开通。", "correct": "道岔开通", "raw": "[{\"Start\":0.0,\"End\":1.24,\"Speaker\":0,\"Content\":\"倒插开通。\"}]"}
+{"id": "1/train_0228", "audio_id": "train_0228", "asr": "Sopir.", "correct": "锁闭", "raw": "[{\"Start\":0,\"End\":1.32,\"Speaker\":0,\"Content\":\"Sopir.\"}]"}
+{"id": "1/train_0229", "audio_id": "train_0229", "asr": "绿色许可证一号。", "correct": "绿色许可证1号", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"绿色许可证一号。\"}]"}
+{"id": "1/train_0230", "audio_id": "train_0230", "asr": "在列车头部越过出站信号机的情况下，", "correct": "在列车头部越过出站信号机的情况下", "raw": "[{\"Start\":0.0,\"End\":3.24,\"Speaker\":0,\"Content\":\"在列车头部越过出站信号机的情况下，\"}]"}
+{"id": "1/train_0231", "audio_id": "train_0231", "asr": "纯许。", "correct": "准许", "raw": "[{\"Start\":0.0,\"End\":1.36,\"Speaker\":0,\"Content\":\"纯许。\"}]"}
+{"id": "1/train_0232", "audio_id": "train_0232", "asr": "没错。", "correct": "列车", "raw": "[{\"Start\":0,\"End\":1.24,\"Speaker\":0,\"Content\":\"没错。\"}]"}
+{"id": "1/train_0233", "audio_id": "train_0233", "asr": "1, 2, 3, 4, 5.", "correct": "线上发车", "raw": "[{\"Start\":0,\"End\":2.16,\"Speaker\":0,\"Content\":\"1, 2, 3, 4, 5.\"}]"}
+{"id": "1/train_0234", "audio_id": "train_0234", "asr": "在未受触动机的情况下。", "correct": "在未设出站信号机的情况下", "raw": "[{\"Start\":0.0,\"End\":2.88,\"Speaker\":0,\"Content\":\"在未受触动机的情况下。\"}]"}
+{"id": "1/train_0235", "audio_id": "train_0235", "asr": "在出站，出站信号机故障的情况下。", "correct": "在出站信号机故障的情况下", "raw": "[{\"Start\":0.0,\"End\":2.8,\"Speaker\":0,\"Content\":\"在出站，出站信号机故障的情况下。\"}]"}
+{"id": "1/train_0236", "audio_id": "train_0236", "asr": "在进入信号机故障的情况下", "correct": "在进路信号机故障的情况下", "raw": "[{\"Start\":0.0,\"End\":2.48,\"Speaker\":0,\"Content\":\"在进入信号机故障的情况下\"}]"}
+{"id": "1/train_0237", "audio_id": "train_0237", "asr": "在列车头部越过进入信号机的情况下", "correct": "在列车头部越过进路信号机的情况下", "raw": "[{\"Start\":0.0,\"End\":3.32,\"Speaker\":0,\"Content\":\"在列车头部越过进入信号机的情况下\"}]"}
+{"id": "1/train_0238", "audio_id": "train_0238", "asr": "交付绿色区块链。", "correct": "交付绿色许可证", "raw": "[{\"Start\":0.0,\"End\":1.8,\"Speaker\":0,\"Content\":\"交付绿色区块链。\"}]"}
+{"id": "1/train_0239", "audio_id": "train_0239", "asr": "我带绿色去，可以。", "correct": "核对绿色许可证", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"我带绿色去，可以。\"}]"}
+{"id": "1/train_0240", "audio_id": "train_0240", "asr": "好，队伍。", "correct": "核对无误", "raw": "[{\"Start\":0.0,\"End\":1.28,\"Speaker\":0,\"Content\":\"好，队伍。\"}]"}
+{"id": "1/train_0241", "audio_id": "train_0241", "asr": "你所选择的已交付。", "correct": "绿色许可证已交付", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"你所选择的已交付。\"}]"}
+{"id": "1/train_0242", "audio_id": "train_0242", "asr": "Je viens de lui laisser, je suis pas en train de faire ça.", "correct": "使用绿色许可证发车", "raw": "[{\"Start\":0,\"End\":2.12,\"Speaker\":0,\"Content\":\"Je viens de lui laisser, je suis pas en train de faire ça.\"}]"}
+{"id": "1/train_0243", "audio_id": "train_0243", "asr": "注意确认。", "correct": "注意确认", "raw": "[{\"Start\":0.0,\"End\":1.48,\"Speaker\":0,\"Content\":\"注意确认。\"}]"}
+{"id": "1/train_0244", "audio_id": "train_0244", "asr": "body.", "correct": "报点", "raw": "[{\"Start\":0,\"End\":1.12,\"Speaker\":0,\"Content\":\"body.\"}]"}
+{"id": "1/train_0245", "audio_id": "train_0245", "asr": "同光大", "correct": "红光带", "raw": "[{\"Start\":0.0,\"End\":1.24,\"Speaker\":0,\"Content\":\"同光大\"}]"}
+{"id": "1/train_0246", "audio_id": "train_0246", "asr": "立即停车。", "correct": "立即停车", "raw": "[{\"Start\":0.0,\"End\":1.28,\"Speaker\":0,\"Content\":\"立即停车。\"}]"}
+{"id": "1/train_0247", "audio_id": "train_0247", "asr": "请进，请坐。", "correct": "紧急停车", "raw": "[{\"Start\":0,\"End\":1.28,\"Speaker\":0,\"Content\":\"请进，请坐。\"}]"}
+{"id": "1/train_0248", "audio_id": "train_0248", "asr": "请坐。", "correct": "停车", "raw": "[{\"Start\":0,\"End\":1.04,\"Speaker\":0,\"Content\":\"请坐。\"}]"}
+{"id": "1/train_0249", "audio_id": "train_0249", "asr": "走前步。", "correct": "走行部", "raw": "[{\"Start\":0.0,\"End\":1.12,\"Speaker\":0,\"Content\":\"走前步。\"}]"}
+{"id": "1/train_0250", "audio_id": "train_0250", "asr": "爆炸", "correct": "抱闸", "raw": "[{\"Start\":0,\"End\":1.08,\"Speaker\":0,\"Content\":\"爆炸\"}]"}
+{"id": "1/train_0251", "audio_id": "train_0251", "asr": "我是", "correct": "火星", "raw": "[{\"Start\":0.0,\"End\":1.12,\"Speaker\":0,\"Content\":\"我是\"}]"}
+{"id": "1/train_0252", "audio_id": "train_0252", "asr": "灵活。", "correct": "明火", "raw": "[{\"Start\":0.0,\"End\":1.08,\"Speaker\":0,\"Content\":\"灵活。\"}]"}
+{"id": "1/train_0253", "audio_id": "train_0253", "asr": "同步搜索脱落。", "correct": "篷布绳索脱落", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"同步搜索脱落。\"}]"}
+{"id": "1/train_0254", "audio_id": "train_0254", "asr": "对开门打牌。", "correct": "对开门打开", "raw": "[{\"Start\":0.0,\"End\":1.6,\"Speaker\":0,\"Content\":\"对开门打牌。\"}]"}
+{"id": "1/train_0255", "audio_id": "train_0255", "asr": "下次我们再来。", "correct": "下侧门打开", "raw": "[{\"Start\":0.0,\"End\":1.72,\"Speaker\":0,\"Content\":\"下次我们再来。\"}]"}
+{"id": "1/train_0256", "audio_id": "train_0256", "asr": "", "correct": "门打开", "raw": "[{\"Start\":0.0,\"End\":2.08,\"Content\":\"[Silence]\"}]"}
+{"id": "1/train_0257", "audio_id": "train_0257", "asr": "接受项目。", "correct": "接车线路", "raw": "[{\"Start\":0,\"End\":1.32,\"Speaker\":0,\"Content\":\"接受项目。\"}]"}
+{"id": "1/train_0258", "audio_id": "train_0258", "asr": "归星区。", "correct": "轨行区", "raw": "[{\"Start\":0.0,\"End\":1.44,\"Speaker\":0,\"Content\":\"归星区。\"}]"}
+{"id": "1/train_0259", "audio_id": "train_0259", "asr": "Игру.", "correct": "异物", "raw": "[{\"Start\":0,\"End\":1.32,\"Speaker\":0,\"Content\":\"Игру.\"}]"}
+{"id": "1/train_0260", "audio_id": "train_0260", "asr": "行啊。", "correct": "行人", "raw": "[{\"Start\":0,\"End\":1.2,\"Speaker\":0,\"Content\":\"行啊。\"}]"}
+{"id": "1/train_0261", "audio_id": "train_0261", "asr": "东", "correct": "动物", "raw": "[{\"Start\":0,\"End\":1.2,\"Speaker\":0,\"Content\":\"东\"}]"}
+{"id": "1/train_0262", "audio_id": "train_0262", "asr": "小猫。", "correct": "小猫", "raw": "[{\"Start\":0.0,\"End\":1.24,\"Speaker\":0,\"Content\":\"小猫。\"}]"}
+{"id": "1/train_0263", "audio_id": "train_0263", "asr": "Shagor.", "correct": "小狗", "raw": "[{\"Start\":0,\"End\":1.52,\"Speaker\":0,\"Content\":\"Shagor.\"}]"}
+{"id": "1/train_0264", "audio_id": "train_0264", "asr": "技术啊。", "correct": "接触网", "raw": "[{\"Start\":0.0,\"End\":1.24,\"Speaker\":0,\"Content\":\"技术啊。\"}]"}
+{"id": "1/train_0265", "audio_id": "train_0265", "asr": "唱着。", "correct": "敞车", "raw": "[{\"Start\":0,\"End\":1.16,\"Speaker\":0,\"Content\":\"唱着。\"}]"}
+{"id": "1/train_0266", "audio_id": "train_0266", "asr": "房车。", "correct": "棚车", "raw": "[{\"Start\":0,\"End\":1.36,\"Speaker\":0,\"Content\":\"房车。\"}]"}
+{"id": "1/train_0267", "audio_id": "train_0267", "asr": "[Unintelligible Speech]", "correct": "货物列车", "raw": "[{\"Start\":0,\"End\":1.48,\"Speaker\":0,\"Content\":\"[Unintelligible Speech]\"}]"}
+{"id": "1/train_0268", "audio_id": "train_0268", "asr": "与克里说。", "correct": "旅客列车", "raw": "[{\"Start\":0.0,\"End\":1.6,\"Speaker\":0,\"Content\":\"与克里说。\"}]"}
+{"id": "1/train_0269", "audio_id": "train_0269", "asr": "货物倾斜。", "correct": "货物倾斜", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"货物倾斜。\"}]"}
+{"id": "1/train_0270", "audio_id": "train_0270", "asr": "10.", "correct": "石头", "raw": "[{\"Start\":0,\"End\":1.04,\"Speaker\":0,\"Content\":\"10.\"}]"}
+{"id": "1/train_0271", "audio_id": "train_0271", "asr": "多时", "correct": "落石", "raw": "[{\"Start\":0,\"End\":1.4,\"Speaker\":0,\"Content\":\"多时\"}]"}
+{"id": "1/train_0272", "audio_id": "train_0272", "asr": "数字", "correct": "树枝", "raw": "[{\"Start\":0,\"End\":1.4,\"Speaker\":0,\"Content\":\"数字\"}]"}
+{"id": "1/train_0273", "audio_id": "train_0273", "asr": "数目", "correct": "树木", "raw": "[{\"Start\":0,\"End\":1.36,\"Speaker\":0,\"Content\":\"数目\"}]"}
+{"id": "1/train_0274", "audio_id": "train_0274", "asr": "彩色编织袋。", "correct": "彩色编织袋", "raw": "[{\"Start\":0.0,\"End\":2.36,\"Speaker\":0,\"Content\":\"彩色编织袋。\"}]"}
+{"id": "1/train_0275", "audio_id": "train_0275", "asr": "五条。", "correct": "布条", "raw": "[{\"Start\":0.0,\"End\":1.52,\"Speaker\":0,\"Content\":\"五条。\"}]"}
+{"id": "1/train_0276", "audio_id": "train_0276", "asr": "공주야", "correct": "风筝", "raw": "[{\"Start\":0,\"End\":1.4,\"Speaker\":0,\"Content\":\"공주야\"}]"}
+{"id": "1/train_0277", "audio_id": "train_0277", "asr": "气球。", "correct": "气球", "raw": "[{\"Start\":0.0,\"End\":1.56,\"Speaker\":0,\"Content\":\"气球。\"}]"}
+{"id": "1/train_0278", "audio_id": "train_0278", "asr": "拉车人员。", "correct": "扒车人员", "raw": "[{\"Start\":0.0,\"End\":1.44,\"Speaker\":0,\"Content\":\"拉车人员。\"}]"}
+{"id": "1/train_0279", "audio_id": "train_0279", "asr": "六位标志。", "correct": "列尾标志", "raw": "[{\"Start\":0.0,\"End\":1.44,\"Speaker\":0,\"Content\":\"六位标志。\"}]"}
+{"id": "1/train_0280", "audio_id": "train_0280", "asr": "フォロー", "correct": "脱落", "raw": "[{\"Start\":0,\"End\":1.32,\"Speaker\":0,\"Content\":\"フォロー\"}]"}
+{"id": "1/train_0281", "audio_id": "train_0281", "asr": "И увидел, что", "correct": "列尾丢失", "raw": "[{\"Start\":0,\"End\":1.48,\"Speaker\":0,\"Content\":\"И увидел, что\"}]"}
+{"id": "1/train_0282", "audio_id": "train_0282", "asr": "上岗举手。", "correct": "上岗值守", "raw": "[{\"Start\":0.0,\"End\":1.24,\"Speaker\":0,\"Content\":\"上岗举手。\"}]"}
+{"id": "1/train_0283", "audio_id": "train_0283", "asr": "车站值班员上场。", "correct": "车站值班员上岗", "raw": "[{\"Start\":0.0,\"End\":2.0,\"Speaker\":0,\"Content\":\"车站值班员上场。\"}]"}
+{"id": "1/train_0284", "audio_id": "train_0284", "asr": "到场是否来三个来回操作？", "correct": "道岔是否三个来回的操作", "raw": "[{\"Start\":0.0,\"End\":3.16,\"Speaker\":0,\"Content\":\"到场是否来三个来回操作？\"}]"}
+{"id": "1/train_0285", "audio_id": "train_0285", "asr": "是否扣题？", "correct": "是否扣停", "raw": "[{\"Start\":0,\"End\":1.84,\"Speaker\":0,\"Content\":\"是否扣题？\"}]"}
+{"id": "1/train_0286", "audio_id": "train_0286", "asr": "三个来回已操作。", "correct": "三个来回已操作", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"三个来回已操作。\"}]"}
+{"id": "1/train_0287", "audio_id": "train_0287", "asr": "请稍等啊。", "correct": "请到岗", "raw": "[{\"Start\":0.0,\"End\":1.64,\"Speaker\":0,\"Content\":\"请稍等啊。\"}]"}
+{"id": "1/train_0288", "audio_id": "train_0288", "asr": "请处理一下。", "correct": "请处理", "raw": "[{\"Start\":0,\"End\":1.28,\"Speaker\":0,\"Content\":\"请处理一下。\"}]"}
+{"id": "1/train_0289", "audio_id": "train_0289", "asr": "上行封，上行线封锁。", "correct": "上行线封锁", "raw": "[{\"Start\":0.0,\"End\":2.76,\"Speaker\":0,\"Content\":\"上行封，上行线封锁。\"}]"}
+{"id": "1/train_0290", "audio_id": "train_0290", "asr": "下行先封锁。", "correct": "下行线封锁", "raw": "[{\"Start\":0.0,\"End\":1.28,\"Speaker\":0,\"Content\":\"下行先封锁。\"}]"}
+{"id": "1/train_0291", "audio_id": "train_0291", "asr": "下星期。", "correct": "下行线", "raw": "[{\"Start\":0.0,\"End\":1.4,\"Speaker\":0,\"Content\":\"下星期。\"}]"}
+{"id": "1/train_0292", "audio_id": "train_0292", "asr": "上行线。", "correct": "上行线", "raw": "[{\"Start\":0.0,\"End\":1.32,\"Speaker\":0,\"Content\":\"上行线。\"}]"}
+{"id": "1/train_0293", "audio_id": "train_0293", "asr": "结束。", "correct": "限速", "raw": "[{\"Start\":0,\"End\":1.0,\"Speaker\":0,\"Content\":\"结束。\"}]"}
+{"id": "1/train_0294", "audio_id": "train_0294", "asr": "哎，今儿个就录，上道检查。", "correct": "上道检查", "raw": "[{\"Start\":0.0,\"End\":3.44,\"Speaker\":0,\"Content\":\"哎，今儿个就录，上道检查。\"}]"}
+{"id": "1/train_0295", "audio_id": "train_0295", "asr": "请求转为车站操作方式。", "correct": "请求转为车站操作方式", "raw": "[{\"Start\":0.0,\"End\":3.08,\"Speaker\":0,\"Content\":\"请求转为车站操作方式。\"}]"}
+{"id": "1/train_0296", "audio_id": "train_0296", "asr": "你好，小顾，早上好。", "correct": "道岔故障", "raw": "[{\"Start\":0,\"End\":1.08,\"Speaker\":0,\"Content\":\"你好，小顾，早上好。\"}]"}
+{"id": "1/train_0297", "audio_id": "train_0297", "asr": "Turn lighting goes off.", "correct": "站内停留车", "raw": "[{\"Start\":0,\"End\":1.84,\"Speaker\":0,\"Content\":\"Turn lighting goes off.\"}]"}
+{"id": "1/train_0298", "audio_id": "train_0298", "asr": "列车运行计划。", "correct": "列车运行计划", "raw": "[{\"Start\":0.0,\"End\":1.84,\"Speaker\":0,\"Content\":\"列车运行计划。\"}]"}
+{"id": "1/train_0299", "audio_id": "train_0299", "asr": "领站控制模式。", "correct": "邻站控制模式", "raw": "[{\"Start\":0,\"End\":1.84,\"Speaker\":0,\"Content\":\"领站控制模式。\"}]"}
+{"id": "1/train_0300", "audio_id": "train_0300", "asr": "分散自律。", "correct": "中心操作", "raw": "[{\"Start\":0.0,\"End\":1.68,\"Speaker\":0,\"Content\":\"分散自律。\"}]"}
+{"id": "1/train_0301", "audio_id": "train_0301", "asr": "分散之旅。", "correct": "分散自律", "raw": "[{\"Start\":0.0,\"End\":2.36,\"Speaker\":0,\"Content\":\"分散之旅。\"}]"}
+{"id": "1/train_0302", "audio_id": "train_0302", "asr": "车专调车。", "correct": "车站调车", "raw": "[{\"Start\":0.0,\"End\":1.16,\"Speaker\":0,\"Content\":\"车专调车。\"}]"}
+{"id": "1/train_0303", "audio_id": "train_0303", "asr": "车长操作。", "correct": "车站操作", "raw": "[{\"Start\":0,\"End\":1.2,\"Speaker\":0,\"Content\":\"车长操作。\"}]"}
+{"id": "1/train_0304", "audio_id": "train_0304", "asr": "非常赞同。", "correct": "非常站控", "raw": "[{\"Start\":0.0,\"End\":1.44,\"Speaker\":0,\"Content\":\"非常赞同。\"}]"}
+{"id": "1/train_0305", "audio_id": "train_0305", "asr": "有效调度命令。", "correct": "有效调度命令", "raw": "[{\"Start\":0.0,\"End\":1.64,\"Speaker\":0,\"Content\":\"有效调度命令。\"}]"}
+{"id": "1/train_0306", "audio_id": "train_0306", "asr": "召唤成功。", "correct": "转换成功", "raw": "[{\"Start\":0.0,\"End\":1.4,\"Speaker\":0,\"Content\":\"召唤成功。\"}]"}
+{"id": "1/train_0307", "audio_id": "train_0307", "asr": "你认为车站操作", "correct": "已转为车站操作", "raw": "[{\"Start\":0.0,\"End\":1.64,\"Speaker\":0,\"Content\":\"你认为车站操作\"}]"}
+{"id": "1/train_0308", "audio_id": "train_0308", "asr": "人员继续采料，全部撤出往外安全区域。", "correct": "人员机具材料全部撤出网外安全区域", "raw": "[{\"Start\":0.0,\"End\":4.04,\"Speaker\":0,\"Content\":\"人员继续采料，全部撤出往外安全区域。\"}]"}
+{"id": "1/train_0309", "audio_id": "train_0309", "asr": "不影响行车，无限速。", "correct": "不影响行车、不限速", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"不影响行车，无限速。\"}]"}
+{"id": "1/train_0310", "audio_id": "train_0310", "asr": "请求开通。", "correct": "请求开通", "raw": "[{\"Start\":0,\"End\":1.16,\"Speaker\":0,\"Content\":\"请求开通。\"}]"}
+{"id": "1/train_0311", "audio_id": "train_0311", "asr": "暂停至正常使用。", "correct": "现停止正常使用", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"暂停至正常使用。\"}]"}
+{"id": "1/train_0312", "audio_id": "train_0312", "asr": "按非正常情况，下班。", "correct": "按非正常情况下办理", "raw": "[{\"Start\":0.0,\"End\":2.04,\"Speaker\":0,\"Content\":\"按非正常情况，下班。\"}]"}
+{"id": "1/train_0313", "audio_id": "train_0313", "asr": "진짜요?", "correct": "请求", "raw": "[{\"Start\":0,\"End\":1.28,\"Speaker\":0,\"Content\":\"진짜요?\"}]"}
+{"id": "1/train_0314", "audio_id": "train_0314", "asr": "처처", "correct": "抄收", "raw": "[{\"Start\":0.0,\"End\":1.4,\"Speaker\":0,\"Content\":\"처처\"}]"}
+{"id": "1/train_0315", "audio_id": "train_0315", "asr": "叫多米尼", "correct": "调度命令", "raw": "[{\"Start\":0.0,\"End\":1.36,\"Speaker\":0,\"Content\":\"叫多米尼\"}]"}
+{"id": "1/train_0316", "audio_id": "train_0316", "asr": "调到最小。", "correct": "调度命令核对正确", "raw": "[{\"Start\":0.0,\"End\":1.96,\"Speaker\":0,\"Content\":\"调到最小。\"}]"}
+{"id": "1/train_0317", "audio_id": "train_0317", "asr": "어, 데려다 줘.", "correct": "核对调度命令", "raw": "[{\"Start\":0,\"End\":1.36,\"Speaker\":0,\"Content\":\"어, 데려다 줘.\"}]"}
+{"id": "1/train_0318", "audio_id": "train_0318", "asr": "越过关闭的精湛信号机。", "correct": "越过关闭的进站信号机", "raw": "[{\"Start\":0.0,\"End\":2.16,\"Speaker\":0,\"Content\":\"越过关闭的精湛信号机。\"}]"}
+{"id": "1/train_0319", "audio_id": "train_0319", "asr": "유보권 비도 초장시 가지", "correct": "越过关闭的出站信号机", "raw": "[{\"Start\":0.0,\"End\":2.04,\"Speaker\":0,\"Content\":\"유보권 비도 초장시 가지\"}]"}
+{"id": "1/train_0320", "audio_id": "train_0320", "asr": "请调读命令进入。", "correct": "凭调度命令进入", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"请调读命令进入。\"}]"}
+{"id": "1/train_0321", "audio_id": "train_0321", "asr": "公布配合吧。", "correct": "工务配合", "raw": "[{\"Start\":0.0,\"End\":1.12,\"Speaker\":0,\"Content\":\"公布配合吧。\"}]"}
+{"id": "1/train_0322", "audio_id": "train_0322", "asr": "请求上行线开通。", "correct": "请求上行线开通", "raw": "[{\"Start\":0.0,\"End\":1.72,\"Speaker\":0,\"Content\":\"请求上行线开通。\"}]"}
+{"id": "1/train_0323", "audio_id": "train_0323", "asr": "你就下期先开头。", "correct": "请求下行线开通", "raw": "[{\"Start\":0.0,\"End\":1.6,\"Speaker\":0,\"Content\":\"你就下期先开头。\"}]"}
+{"id": "1/train_0324", "audio_id": "train_0324", "asr": "上学期恢复常数。", "correct": "上行线恢复常速", "raw": "[{\"Start\":0,\"End\":1.44,\"Speaker\":0,\"Content\":\"上学期恢复常数。\"}]"}
+{"id": "1/train_0325", "audio_id": "train_0325", "asr": "", "correct": "下行线恢复常速", "raw": "[{\"Start\":0.0,\"End\":2.8,\"Content\":\"[Silence]\"}]"}
+{"id": "1/train_0326", "audio_id": "train_0326", "asr": "有个车站操作，叫什么，就是进去操作。", "correct": "由车站操作转回中心操作", "raw": "[{\"Start\":0.0,\"End\":2.56,\"Speaker\":0,\"Content\":\"有个车站操作，叫什么，就是进去操作。\"}]"}
+{"id": "1/train_0327", "audio_id": "train_0327", "asr": "核对设备情况，车站操作方式下，没有正在执行的按钮操作。", "correct": "核对设备状况、车站操作方式下没有正在执行的按钮操作", "raw": "[{\"Start\":0.0,\"End\":5.76,\"Speaker\":0,\"Content\":\"核对设备情况，车站操作方式下，没有正在执行的按钮操作。\"}]"}
+{"id": "1/train_0328", "audio_id": "train_0328", "asr": "信号设备恢复常态。", "correct": "信号设备已恢复常态", "raw": "[{\"Start\":0.0,\"End\":2.32,\"Speaker\":0,\"Content\":\"信号设备恢复常态。\"}]"}
+{"id": "2/train_0001", "audio_id": "train_0001", "asr": "", "correct": "预告", "raw": "[{\"Start\":0,\"End\":3.68,\"Content\":\"[Silence]\"}]"}
+{"id": "2/train_0002", "audio_id": "train_0002", "asr": "", "correct": "48015次", "raw": "[{\"Start\":0.0,\"End\":2.8,\"Content\":\"[Silence]\"}]"}
+{"id": "2/train_0003", "audio_id": "train_0003", "asr": "四把东阳六次。", "correct": "48016次", "raw": "[{\"Start\":0.0,\"End\":2.76,\"Speaker\":0,\"Content\":\"四把东阳六次。\"}]"}
+{"id": "2/train_0004", "audio_id": "train_0004", "asr": "四八洞尿管子。", "correct": "48017次", "raw": "[{\"Start\":0.0,\"End\":3.16,\"Speaker\":0,\"Content\":\"四八洞尿管子。\"}]"}
+{"id": "2/train_0005", "audio_id": "train_0005", "asr": "", "correct": "48018次", "raw": "[{\"Start\":0.0,\"End\":3.2,\"Content\":\"[Silence]\"}]"}
+{"id": "2/train_0006", "audio_id": "train_0006", "asr": "你可不可以过来量一下我尺码？", "correct": "K235次", "raw": "[{\"Start\":0.0,\"End\":2.68,\"Speaker\":0,\"Content\":\"你可不可以过来量一下我尺码？\"}]"}
+{"id": "2/train_0007", "audio_id": "train_0007", "asr": "[Unintelligible Speech]", "correct": "K236次", "raw": "[{\"Start\":0,\"End\":2.84,\"Speaker\":0,\"Content\":\"[Unintelligible Speech]\"}]"}
+{"id": "2/train_0008", "audio_id": "train_0008", "asr": "按照列车运行计划和对车次时刻命令指示，必要时刻与列车调度员联系。", "correct": "按照列车运行计划核对车次、时刻、命令、指示，必要时与列车调度员联系", "raw": "[{\"Start\":0.0,\"End\":2.63,\"Content\":\"[Silence]\"},{\"Start\":2.63,\"End\":10.4,\"Speaker\":0,\"Content\":\"按照列车运行计划和对车次时刻命令指示，必要时刻与列车调度员联系。\"}]"}
+{"id": "2/train_0009", "audio_id": "train_0009", "asr": "21", "correct": "同意", "raw": "[{\"Start\":0,\"End\":2.12,\"Speaker\":0,\"Content\":\"21\"}]"}
+{"id": "2/train_0010", "audio_id": "train_0010", "asr": "请说。", "correct": "停车", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"请说。\"}]"}
+{"id": "2/train_0011", "audio_id": "train_0011", "asr": "一到。", "correct": "1道", "raw": "[{\"Start\":0,\"End\":2.16,\"Speaker\":0,\"Content\":\"一到。\"}]"}
+{"id": "2/train_0012", "audio_id": "train_0012", "asr": "[Unintelligible Speech]", "correct": "I道", "raw": "[{\"Start\":0.0,\"End\":2.8,\"Content\":\"[Unintelligible Speech]\"}]"}
+{"id": "2/train_0013", "audio_id": "train_0013", "asr": "yeah, I'm done.", "correct": "2道", "raw": "[{\"Start\":0,\"End\":1.56,\"Speaker\":0,\"Content\":\"yeah, I'm done.\"}]"}
+{"id": "2/train_0014", "audio_id": "train_0014", "asr": "ยัง", "correct": "II道", "raw": "[{\"Start\":0,\"End\":1.68,\"Speaker\":0,\"Content\":\"ยัง\"}]"}
+{"id": "2/train_0015", "audio_id": "train_0015", "asr": "Samba.", "correct": "3道", "raw": "[{\"Start\":0.0,\"End\":1.64,\"Speaker\":0,\"Content\":\"Samba.\"}]"}
+{"id": "2/train_0016", "audio_id": "train_0016", "asr": "Sanda.", "correct": "III道", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"Sanda.\"}]"}
+{"id": "2/train_0017", "audio_id": "train_0017", "asr": "是的。", "correct": "4道", "raw": "[{\"Start\":0,\"End\":1.88,\"Speaker\":0,\"Content\":\"是的。\"}]"}
+{"id": "2/train_0018", "audio_id": "train_0018", "asr": "نصباح مغلوط", "correct": "IV道", "raw": "[{\"Start\":0,\"End\":1.76,\"Speaker\":0,\"Content\":\"نصباح مغلوط\"}]"}
+{"id": "2/train_0019", "audio_id": "train_0019", "asr": "我打好了。", "correct": "5道", "raw": "[{\"Start\":0,\"End\":1.96,\"Speaker\":0,\"Content\":\"我打好了。\"}]"}
+{"id": "2/train_0020", "audio_id": "train_0020", "asr": "", "correct": "VI道", "raw": "[{\"Start\":0.0,\"End\":2.64,\"Content\":\"[Silence]\"}]"}
+{"id": "2/train_0021", "audio_id": "train_0021", "asr": "一号多少？", "correct": "1号道岔", "raw": "[{\"Start\":0.0,\"End\":1.92,\"Speaker\":0,\"Content\":\"一号多少？\"}]"}
+{"id": "2/train_0022", "audio_id": "train_0022", "asr": "两号倒茶。", "correct": "2号道岔", "raw": "[{\"Start\":0.0,\"End\":2.04,\"Speaker\":0,\"Content\":\"两号倒茶。\"}]"}
+{"id": "2/train_0023", "audio_id": "train_0023", "asr": "三号到。", "correct": "3号道岔", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"三号到。\"}]"}
+{"id": "2/train_0024", "audio_id": "train_0024", "asr": "四号多少？", "correct": "4号道岔", "raw": "[{\"Start\":0.0,\"End\":1.96,\"Speaker\":0,\"Content\":\"四号多少？\"}]"}
+{"id": "2/train_0025", "audio_id": "train_0025", "asr": "嗯，好的，走。", "correct": "5号道岔", "raw": "[{\"Start\":0,\"End\":2.4,\"Speaker\":0,\"Content\":\"嗯，好的，走。\"}]"}
+{"id": "2/train_0026", "audio_id": "train_0026", "asr": "2, 3.", "correct": "6号道岔", "raw": "[{\"Start\":0.0,\"End\":1.68,\"Speaker\":0,\"Content\":\"2, 3.\"}]"}
+{"id": "2/train_0027", "audio_id": "train_0027", "asr": "七号到三，拐后到四。", "correct": "7号道岔", "raw": "[{\"Start\":0.0,\"End\":3.44,\"Speaker\":0,\"Content\":\"七号到三，拐后到四。\"}]"}
+{"id": "2/train_0028", "audio_id": "train_0028", "asr": "八号多少？", "correct": "8号道岔", "raw": "[{\"Start\":0.0,\"End\":2.24,\"Speaker\":0,\"Content\":\"八号多少？\"}]"}
+{"id": "2/train_0029", "audio_id": "train_0029", "asr": "", "correct": "9号道岔", "raw": "[{\"Start\":0.0,\"End\":2.28,\"Content\":\"[Silence]\"}]"}
+{"id": "2/train_0030", "audio_id": "train_0030", "asr": "要懂好多茶。", "correct": "10号道岔", "raw": "[{\"Start\":0.0,\"End\":2.36,\"Speaker\":0,\"Content\":\"要懂好多茶。\"}]"}
+{"id": "2/train_0031", "audio_id": "train_0031", "asr": "十一号到厂。", "correct": "11号道岔", "raw": "[{\"Start\":0.0,\"End\":2.44,\"Speaker\":0,\"Content\":\"十一号到厂。\"}]"}
+{"id": "2/train_0032", "audio_id": "train_0032", "asr": "加2号到此。", "correct": "12号道岔", "raw": "[{\"Start\":0.0,\"End\":2.56,\"Speaker\":0,\"Content\":\"加2号到此。\"}]"}
+{"id": "2/train_0033", "audio_id": "train_0033", "asr": "有三号到这。", "correct": "13号道岔", "raw": "[{\"Start\":0.0,\"End\":2.0,\"Speaker\":0,\"Content\":\"有三号到这。\"}]"}
+{"id": "2/train_0034", "audio_id": "train_0034", "asr": "要四号多少？", "correct": "14号道岔", "raw": "[{\"Start\":0.0,\"End\":2.76,\"Speaker\":0,\"Content\":\"要四号多少？\"}]"}
+{"id": "2/train_0035", "audio_id": "train_0035", "asr": "1583", "correct": "15号道岔", "raw": "[{\"Start\":0,\"End\":2.48,\"Speaker\":0,\"Content\":\"1583\"}]"}
+{"id": "2/train_0036", "audio_id": "train_0036", "asr": "ย้อนยังหอดอศักดิ์", "correct": "16号道岔", "raw": "[{\"Start\":0,\"End\":1.84,\"Speaker\":0,\"Content\":\"ย้อนยังหอดอศักดิ์\"}]"}
+{"id": "2/train_0037", "audio_id": "train_0037", "asr": "", "correct": "17号道岔", "raw": "[{\"Start\":0.0,\"End\":2.36,\"Content\":\"[Silence]\"}]"}
+{"id": "2/train_0038", "audio_id": "train_0038", "asr": "有八号多通。", "correct": "18号道岔", "raw": "[{\"Start\":0,\"End\":2.48,\"Speaker\":0,\"Content\":\"有八号多通。\"}]"}
+{"id": "2/train_0039", "audio_id": "train_0039", "asr": "19号早上", "correct": "19号道岔", "raw": "[{\"Start\":0,\"End\":2.52,\"Speaker\":0,\"Content\":\"19号早上\"}]"}
+{"id": "2/train_0040", "audio_id": "train_0040", "asr": "", "correct": "20号道岔", "raw": "[{\"Start\":0.0,\"End\":2.48,\"Content\":\"[Silence]\"}]"}
+{"id": "2/train_0041", "audio_id": "train_0041", "asr": "两月号多少号？", "correct": "21号道岔", "raw": "[{\"Start\":0.0,\"End\":1.92,\"Speaker\":0,\"Content\":\"两月号多少号？\"}]"}
+{"id": "2/train_0042", "audio_id": "train_0042", "asr": "娘娘，好，早上。", "correct": "22号道岔", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"娘娘，好，早上。\"}]"}
+{"id": "2/train_0043", "audio_id": "train_0043", "asr": "03.00", "correct": "23号道岔", "raw": "[{\"Start\":0,\"End\":2.12,\"Speaker\":0,\"Content\":\"03.00\"}]"}
+{"id": "2/train_0044", "audio_id": "train_0044", "asr": "两四号到厂", "correct": "24号道岔", "raw": "[{\"Start\":0.0,\"End\":2.4,\"Speaker\":0,\"Content\":\"两四号到厂\"}]"}
+{"id": "2/train_0045", "audio_id": "train_0045", "asr": "下集。", "correct": "X1", "raw": "[{\"Start\":0,\"End\":1.72,\"Speaker\":0,\"Content\":\"下集。\"}]"}
+{"id": "2/train_0046", "audio_id": "train_0046", "asr": "Shower.", "correct": "X2", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"Shower.\"}]"}
+{"id": "2/train_0047", "audio_id": "train_0047", "asr": "吓死俺。", "correct": "X3", "raw": "[{\"Start\":0.0,\"End\":1.92,\"Speaker\":0,\"Content\":\"吓死俺。\"}]"}
+{"id": "2/train_0048", "audio_id": "train_0048", "asr": "下速,", "correct": "X4", "raw": "[{\"Start\":0.0,\"End\":1.72,\"Speaker\":0,\"Content\":\"下速,\"}]"}
+{"id": "2/train_0049", "audio_id": "train_0049", "asr": "上衣。", "correct": "S1", "raw": "[{\"Start\":0.0,\"End\":1.4,\"Speaker\":0,\"Content\":\"上衣。\"}]"}
+{"id": "2/train_0050", "audio_id": "train_0050", "asr": "三二。", "correct": "S2", "raw": "[{\"Start\":0,\"End\":1.44,\"Speaker\":0,\"Content\":\"三二。\"}]"}
+{"id": "2/train_0051", "audio_id": "train_0051", "asr": "3, 2, 1.", "correct": "S3", "raw": "[{\"Start\":0.0,\"End\":1.44,\"Speaker\":0,\"Content\":\"3, 2, 1.\"}]"}
+{"id": "2/train_0052", "audio_id": "train_0052", "asr": "上次", "correct": "S4", "raw": "[{\"Start\":0.0,\"End\":1.8,\"Speaker\":0,\"Content\":\"上次\"}]"}
+{"id": "2/train_0053", "audio_id": "train_0053", "asr": "调一。", "correct": "D1", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"调一。\"}]"}
+{"id": "2/train_0054", "audio_id": "train_0054", "asr": "Don't know.", "correct": "D2", "raw": "[{\"Start\":0.0,\"End\":1.8,\"Speaker\":0,\"Content\":\"Don't know.\"}]"}
+{"id": "2/train_0055", "audio_id": "train_0055", "asr": "调上。", "correct": "D3", "raw": "[{\"Start\":0,\"End\":1.92,\"Speaker\":0,\"Content\":\"调上。\"}]"}
+{"id": "2/train_0056", "audio_id": "train_0056", "asr": "调时。", "correct": "D4", "raw": "[{\"Start\":0.0,\"End\":1.92,\"Speaker\":0,\"Content\":\"调时。\"}]"}
+{"id": "2/train_0057", "audio_id": "train_0057", "asr": "就", "correct": "D5", "raw": "[{\"Start\":0.0,\"End\":1.8,\"Speaker\":0,\"Content\":\"就\"}]"}
+{"id": "2/train_0058", "audio_id": "train_0058", "asr": "Don't do it.", "correct": "D6", "raw": "[{\"Start\":0.0,\"End\":1.6,\"Speaker\":0,\"Content\":\"Don't do it.\"}]"}
+{"id": "2/train_0059", "audio_id": "train_0059", "asr": "Chào quan.", "correct": "D7", "raw": "[{\"Start\":0.0,\"End\":1.72,\"Speaker\":0,\"Content\":\"Chào quan.\"}]"}
+{"id": "2/train_0060", "audio_id": "train_0060", "asr": "điều 3", "correct": "D8", "raw": "[{\"Start\":0,\"End\":1.64,\"Speaker\":0,\"Content\":\"điều 3\"}]"}
+{"id": "2/train_0061", "audio_id": "train_0061", "asr": "じゃあ、いってみよう。", "correct": "D9", "raw": "[{\"Start\":0,\"End\":1.24,\"Speaker\":0,\"Content\":\"じゃあ、いってみよう。\"}]"}
+{"id": "2/train_0062", "audio_id": "train_0062", "asr": "じゃあ、やったほうがいい。", "correct": "D10", "raw": "[{\"Start\":0,\"End\":1.36,\"Speaker\":0,\"Content\":\"じゃあ、やったほうがいい。\"}]"}
+{"id": "2/train_0063", "audio_id": "train_0063", "asr": "yeah, yeah, yeah.", "correct": "D11", "raw": "[{\"Start\":0,\"End\":1.84,\"Speaker\":0,\"Content\":\"yeah, yeah, yeah.\"}]"}
+{"id": "2/train_0064", "audio_id": "train_0064", "asr": "Ты, Аня?", "correct": "D12", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"Ты, Аня?\"}]"}
+{"id": "2/train_0065", "audio_id": "train_0065", "asr": "对，要三。", "correct": "D13", "raw": "[{\"Start\":0,\"End\":1.48,\"Speaker\":0,\"Content\":\"对，要三。\"}]"}
+{"id": "2/train_0066", "audio_id": "train_0066", "asr": "Deus.", "correct": "D14", "raw": "[{\"Start\":0.0,\"End\":1.6,\"Speaker\":0,\"Content\":\"Deus.\"}]"}
+{"id": "2/train_0067", "audio_id": "train_0067", "asr": "加油。", "correct": "D15", "raw": "[{\"Start\":0,\"End\":1.64,\"Speaker\":0,\"Content\":\"加油。\"}]"}
+{"id": "2/train_0068", "audio_id": "train_0068", "asr": "で、あにょ", "correct": "D16", "raw": "[{\"Start\":0,\"End\":1.52,\"Speaker\":0,\"Content\":\"で、あにょ\"}]"}
+{"id": "2/train_0069", "audio_id": "train_0069", "asr": "对呀，关。", "correct": "D17", "raw": "[{\"Start\":0,\"End\":1.4,\"Speaker\":0,\"Content\":\"对呀，关。\"}]"}
+{"id": "2/train_0070", "audio_id": "train_0070", "asr": "不要吧", "correct": "D18", "raw": "[{\"Start\":0,\"End\":1.12,\"Speaker\":0,\"Content\":\"不要吧\"}]"}
+{"id": "2/train_0071", "audio_id": "train_0071", "asr": "Tayyip", "correct": "D19", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"Tayyip\"}]"}
+{"id": "2/train_0072", "audio_id": "train_0072", "asr": "Don't know, don't.", "correct": "D20", "raw": "[{\"Start\":0.0,\"End\":1.52,\"Speaker\":0,\"Content\":\"Don't know, don't.\"}]"}
+{"id": "2/train_0073", "audio_id": "train_0073", "asr": "等一下，等一下。", "correct": "D21", "raw": "[{\"Start\":0.0,\"End\":1.48,\"Speaker\":0,\"Content\":\"等一下，等一下。\"}]"}
+{"id": "2/train_0074", "audio_id": "train_0074", "asr": "Don't I know.", "correct": "D22", "raw": "[{\"Start\":0.0,\"End\":1.6,\"Speaker\":0,\"Content\":\"Don't I know.\"}]"}
+{"id": "2/train_0075", "audio_id": "train_0075", "asr": "Chào nào, sáng.", "correct": "D23", "raw": "[{\"Start\":0.0,\"End\":1.52,\"Speaker\":0,\"Content\":\"Chào nào, sáng.\"}]"}
+{"id": "2/train_0076", "audio_id": "train_0076", "asr": "Donnerwetter.", "correct": "D24", "raw": "[{\"Start\":0,\"End\":1.48,\"Speaker\":0,\"Content\":\"Donnerwetter.\"}]"}
+{"id": "2/train_0077", "audio_id": "train_0077", "asr": "channel.", "correct": "D25", "raw": "[{\"Start\":0,\"End\":2.04,\"Speaker\":0,\"Content\":\"channel.\"}]"}
+{"id": "2/train_0078", "audio_id": "train_0078", "asr": "Don't end up there.", "correct": "D26", "raw": "[{\"Start\":0.0,\"End\":1.4,\"Speaker\":0,\"Content\":\"Don't end up there.\"}]"}
+{"id": "2/train_0079", "audio_id": "train_0079", "asr": "ตั้งหน้ากวาง", "correct": "D27", "raw": "[{\"Start\":0.0,\"End\":1.48,\"Speaker\":0,\"Content\":\"ตั้งหน้ากวาง\"}]"}
+{"id": "2/train_0080", "audio_id": "train_0080", "asr": "ตัวน้ำบ้าง", "correct": "D28", "raw": "[{\"Start\":0,\"End\":1.8,\"Speaker\":0,\"Content\":\"ตัวน้ำบ้าง\"}]"}
+{"id": "2/train_0081", "audio_id": "train_0081", "asr": "Turn on you.", "correct": "D29", "raw": "[{\"Start\":0.0,\"End\":1.36,\"Speaker\":0,\"Content\":\"Turn on you.\"}]"}
+{"id": "2/train_0082", "audio_id": "train_0082", "asr": "じゃあ、お散歩。", "correct": "D30", "raw": "[{\"Start\":0,\"End\":1.72,\"Speaker\":0,\"Content\":\"じゃあ、お散歩。\"}]"}
+{"id": "2/train_0083", "audio_id": "train_0083", "asr": "你请住你这边。", "correct": "内勤助理值班员", "raw": "[{\"Start\":0.0,\"End\":2.48,\"Speaker\":0,\"Content\":\"你请住你这边。\"}]"}
+{"id": "2/train_0084", "audio_id": "train_0084", "asr": "外勤村里值班员。", "correct": "外勤助理值班员", "raw": "[{\"Start\":0.0,\"End\":2.48,\"Speaker\":0,\"Content\":\"外勤村里值班员。\"}]"}
+{"id": "2/train_0085", "audio_id": "train_0085", "asr": "[Unintelligible Speech]", "correct": "助理值班员外勤", "raw": "[{\"Start\":0.0,\"End\":1.96,\"Speaker\":0,\"Content\":\"[Unintelligible Speech]\"}]"}
+{"id": "2/train_0086", "audio_id": "train_0086", "asr": "祝你怎么样？", "correct": "助理值班员内勤", "raw": "[{\"Start\":0.0,\"End\":2.08,\"Speaker\":0,\"Content\":\"祝你怎么样？\"}]"}
+{"id": "2/train_0087", "audio_id": "train_0087", "asr": "[Unintelligible Speech]", "correct": "车站值班员", "raw": "[{\"Start\":0.0,\"End\":1.92,\"Speaker\":0,\"Content\":\"[Unintelligible Speech]\"}]"}
+{"id": "2/train_0088", "audio_id": "train_0088", "asr": "สิบแปดเก้าหก", "correct": "值班干部", "raw": "[{\"Start\":0,\"End\":1.44,\"Speaker\":0,\"Content\":\"สิบแปดเก้าหก\"}]"}
+{"id": "2/train_0089", "audio_id": "train_0089", "asr": "Yes, I did, man.", "correct": "列车调度员", "raw": "[{\"Start\":0,\"End\":1.72,\"Speaker\":0,\"Content\":\"Yes, I did, man.\"}]"}
+{"id": "2/train_0090", "audio_id": "train_0090", "asr": "一号班的", "correct": "1号扳道员", "raw": "[{\"Start\":0,\"End\":1.64,\"Speaker\":0,\"Content\":\"一号班的\"}]"}
+{"id": "2/train_0091", "audio_id": "train_0091", "asr": "2号半身人。", "correct": "2号扳道员", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"2号半身人。\"}]"}
+{"id": "2/train_0092", "audio_id": "train_0092", "asr": "三大安全生产调度指挥中心。", "correct": "站段安全生产调度指挥中心", "raw": "[{\"Start\":0,\"End\":4.36,\"Speaker\":0,\"Content\":\"三大安全生产调度指挥中心。\"}]"}
+{"id": "2/train_0093", "audio_id": "train_0093", "asr": "", "correct": "电务工区", "raw": "[{\"Start\":0.0,\"End\":2.72,\"Content\":\"[Silence]\"}]"}
+{"id": "2/train_0094", "audio_id": "train_0094", "asr": "공유공취", "correct": "工务工区", "raw": "[{\"Start\":0,\"End\":1.84,\"Speaker\":0,\"Content\":\"공유공취\"}]"}
+{"id": "2/train_0095", "audio_id": "train_0095", "asr": "电波在音乐。", "correct": "电务人员", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"电波在音乐。\"}]"}
+{"id": "2/train_0096", "audio_id": "train_0096", "asr": "工务人员。", "correct": "工务人员", "raw": "[{\"Start\":0.0,\"End\":1.92,\"Speaker\":0,\"Content\":\"工务人员。\"}]"}
+{"id": "2/train_0097", "audio_id": "train_0097", "asr": "[Unintelligible Speech]", "correct": "胜任人员", "raw": "[{\"Start\":0.0,\"End\":2.48,\"Speaker\":0,\"Content\":\"[Unintelligible Speech]\"}]"}
+{"id": "2/train_0098", "audio_id": "train_0098", "asr": "4G", "correct": "司机", "raw": "[{\"Start\":0,\"End\":1.72,\"Speaker\":0,\"Content\":\"4G\"}]"}
+{"id": "2/train_0099", "audio_id": "train_0099", "asr": "Aí tá.", "correct": "A站", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"Aí tá.\"}]"}
+{"id": "2/train_0100", "audio_id": "train_0100", "asr": "[Unintelligible Speech]", "correct": "B站", "raw": "[{\"Start\":0.0,\"End\":1.56,\"Speaker\":0,\"Content\":\"[Unintelligible Speech]\"}]"}
+{"id": "2/train_0101", "audio_id": "train_0101", "asr": "See that?", "correct": "C站", "raw": "[{\"Start\":0.0,\"End\":1.64,\"Speaker\":0,\"Content\":\"See that?\"}]"}
+{"id": "2/train_0102", "audio_id": "train_0102", "asr": "九海政策", "correct": "机外停车", "raw": "[{\"Start\":0.0,\"End\":1.68,\"Speaker\":0,\"Content\":\"九海政策\"}]"}
+{"id": "2/train_0103", "audio_id": "train_0103", "asr": "им, цитата,", "correct": "知道了", "raw": "[{\"Start\":0.0,\"End\":2.52,\"Speaker\":0,\"Content\":\"им, цитата,\"}]"}
+{"id": "2/train_0104", "audio_id": "train_0104", "asr": "明白。", "correct": "明白", "raw": "[{\"Start\":0.0,\"End\":1.72,\"Speaker\":0,\"Content\":\"明白。\"}]"}
+{"id": "2/train_0105", "audio_id": "train_0105", "asr": "好", "correct": "好", "raw": "[{\"Start\":0.0,\"End\":1.56,\"Speaker\":0,\"Content\":\"好\"}]"}
+{"id": "2/train_0106", "audio_id": "train_0106", "asr": "好了。", "correct": "好了", "raw": "[{\"Start\":0.0,\"End\":1.68,\"Speaker\":0,\"Content\":\"好了。\"}]"}
+{"id": "2/train_0107", "audio_id": "train_0107", "asr": "C'est ça.", "correct": "收到", "raw": "[{\"Start\":0,\"End\":1.92,\"Speaker\":0,\"Content\":\"C'est ça.\"}]"}
+{"id": "2/train_0108", "audio_id": "train_0108", "asr": "coding option is on.", "correct": "扣停后续列车", "raw": "[{\"Start\":0,\"End\":2.48,\"Speaker\":0,\"Content\":\"coding option is on.\"}]"}
+{"id": "2/train_0109", "audio_id": "train_0109", "asr": "转取放行后院内存", "correct": "准许放行后续列车", "raw": "[{\"Start\":0.0,\"End\":2.84,\"Speaker\":0,\"Content\":\"转取放行后院内存\"}]"}
+{"id": "2/train_0110", "audio_id": "train_0110", "asr": "下去。", "correct": "下行", "raw": "[{\"Start\":0,\"End\":1.56,\"Speaker\":0,\"Content\":\"下去。\"}]"}
+{"id": "2/train_0111", "audio_id": "train_0111", "asr": "start again.", "correct": "上行", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"start again.\"}]"}
+{"id": "2/train_0112", "audio_id": "train_0112", "asr": "现在", "correct": "进站", "raw": "[{\"Start\":0,\"End\":1.48,\"Speaker\":0,\"Content\":\"现在\"}]"}
+{"id": "2/train_0113", "audio_id": "train_0113", "asr": "Sousa.", "correct": "出站", "raw": "[{\"Start\":0,\"End\":1.96,\"Speaker\":0,\"Content\":\"Sousa.\"}]"}
+{"id": "2/train_0114", "audio_id": "train_0114", "asr": "信号机", "correct": "信号机", "raw": "[{\"Start\":0.0,\"End\":1.6,\"Speaker\":0,\"Content\":\"信号机\"}]"}
+{"id": "2/train_0115", "audio_id": "train_0115", "asr": "ตั้งความคิดให้", "correct": "灯光熄灭", "raw": "[{\"Start\":0,\"End\":2.36,\"Speaker\":0,\"Content\":\"ตั้งความคิดให้\"}]"}
+{"id": "2/train_0116", "audio_id": "train_0116", "asr": "Good time.", "correct": "故障", "raw": "[{\"Start\":0,\"End\":1.32,\"Speaker\":0,\"Content\":\"Good time.\"}]"}
+{"id": "2/train_0117", "audio_id": "train_0117", "asr": "一箱。", "correct": "影响", "raw": "[{\"Start\":0,\"End\":1.64,\"Speaker\":0,\"Content\":\"一箱。\"}]"}
+{"id": "2/train_0118", "audio_id": "train_0118", "asr": "结束。", "correct": "接车", "raw": "[{\"Start\":0.0,\"End\":1.52,\"Speaker\":0,\"Content\":\"结束。\"}]"}
+{"id": "2/train_0119", "audio_id": "train_0119", "asr": "Pato.", "correct": "发车", "raw": "[{\"Start\":0.0,\"End\":1.68,\"Speaker\":0,\"Content\":\"Pato.\"}]"}
+{"id": "2/train_0120", "audio_id": "train_0120", "asr": "I'm quitting bungee.", "correct": "按规定办理", "raw": "[{\"Start\":0.0,\"End\":1.92,\"Speaker\":0,\"Content\":\"I'm quitting bungee.\"}]"}
+{"id": "2/train_0121", "audio_id": "train_0121", "asr": "ตาก่อนกินข้ามไป", "correct": "到岗监控作业", "raw": "[{\"Start\":0,\"End\":2.4,\"Speaker\":0,\"Content\":\"ตาก่อนกินข้ามไป\"}]"}
+{"id": "2/train_0122", "audio_id": "train_0122", "asr": "到站，金黄贵人。", "correct": "到站监控作业", "raw": "[{\"Start\":0.0,\"End\":2.08,\"Speaker\":0,\"Content\":\"到站，金黄贵人。\"}]"}
+{"id": "2/train_0123", "audio_id": "train_0123", "asr": "到站厅。", "correct": "到站处理", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"到站厅。\"}]"}
+{"id": "2/train_0124", "audio_id": "train_0124", "asr": "大刚跟你", "correct": "到岗处理", "raw": "[{\"Start\":0,\"End\":1.72,\"Speaker\":0,\"Content\":\"大刚跟你\"}]"}
+{"id": "2/train_0125", "audio_id": "train_0125", "asr": "", "correct": "上岗监控", "raw": "[{\"Start\":0.0,\"End\":2.04,\"Content\":\"[Silence]\"}]"}
+{"id": "2/train_0126", "audio_id": "train_0126", "asr": "按下故障通知按钮。", "correct": "按下故障通知按钮", "raw": "[{\"Start\":0.0,\"End\":2.72,\"Speaker\":0,\"Content\":\"按下故障通知按钮。\"}]"}
+{"id": "2/train_0127", "audio_id": "train_0127", "asr": "一打中。", "correct": "已到岗", "raw": "[{\"Start\":0,\"End\":1.8,\"Speaker\":0,\"Content\":\"一打中。\"}]"}
+{"id": "2/train_0128", "audio_id": "train_0128", "asr": "听我说，被检查情况。", "correct": "电务设备检查情况", "raw": "[{\"Start\":0.0,\"End\":2.28,\"Speaker\":0,\"Content\":\"听我说，被检查情况。\"}]"}
+{"id": "2/train_0129", "audio_id": "train_0129", "asr": "เก่งอุ้ย โซเบต แซมเปิล น้องเว้ย", "correct": "电务设备暂不能恢复", "raw": "[{\"Start\":0,\"End\":3.16,\"Speaker\":0,\"Content\":\"เก่งอุ้ย โซเบต แซมเปิล น้องเว้ย\"}]"}
+{"id": "2/train_0130", "audio_id": "train_0130", "asr": "3分の1を", "correct": "暂不能修复", "raw": "[{\"Start\":0.0,\"End\":2.2,\"Speaker\":0,\"Content\":\"3分の1を\"}]"}
+{"id": "2/train_0131", "audio_id": "train_0131", "asr": "16.8.8.5", "correct": "线路设备检查情况", "raw": "[{\"Start\":0.0,\"End\":2.72,\"Speaker\":0,\"Content\":\"16.8.8.5\"}]"}
+{"id": "2/train_0132", "audio_id": "train_0132", "asr": "Como você pensa?", "correct": "工务设备正常", "raw": "[{\"Start\":0,\"End\":2.48,\"Speaker\":0,\"Content\":\"Como você pensa?\"}]"}
+{"id": "2/train_0133", "audio_id": "train_0133", "asr": "请求使用引导信号接触物。", "correct": "请求使用引导信号接车", "raw": "[{\"Start\":0,\"End\":3.76,\"Speaker\":0,\"Content\":\"请求使用引导信号接触物。\"}]"}
+{"id": "2/train_0134", "audio_id": "train_0134", "asr": "统一使用引导信号检测。", "correct": "同意使用引导信号接车", "raw": "[{\"Start\":0.0,\"End\":3.08,\"Speaker\":0,\"Content\":\"统一使用引导信号检测。\"}]"}
+{"id": "2/train_0135", "audio_id": "train_0135", "asr": "就这样。", "correct": "取消", "raw": "[{\"Start\":0.0,\"End\":1.84,\"Speaker\":0,\"Content\":\"就这样。\"}]"}
+{"id": "2/train_0136", "audio_id": "train_0136", "asr": "七十一零", "correct": "接车进路", "raw": "[{\"Start\":0,\"End\":2.12,\"Speaker\":0,\"Content\":\"七十一零\"}]"}
+{"id": "2/train_0137", "audio_id": "train_0137", "asr": "Passa de novo.", "correct": "发车进路", "raw": "[{\"Start\":0.0,\"End\":1.96,\"Speaker\":0,\"Content\":\"Passa de novo.\"}]"}
+{"id": "2/train_0138", "audio_id": "train_0138", "asr": "进入结束。", "correct": "进路解锁", "raw": "[{\"Start\":0.0,\"End\":1.8,\"Speaker\":0,\"Content\":\"进入结束。\"}]"}
+{"id": "2/train_0139", "audio_id": "train_0139", "asr": "准备进入", "correct": "准备进路", "raw": "[{\"Start\":0,\"End\":1.68,\"Speaker\":0,\"Content\":\"准备进入\"}]"}
+{"id": "2/train_0140", "audio_id": "train_0140", "asr": "执行。", "correct": "执行", "raw": "[{\"Start\":0.0,\"End\":1.64,\"Speaker\":0,\"Content\":\"执行。\"}]"}
+{"id": "2/train_0141", "audio_id": "train_0141", "asr": "จีนรูดมันไปหา", "correct": "进路准备好", "raw": "[{\"Start\":0,\"End\":2.2,\"Speaker\":0,\"Content\":\"จีนรูดมันไปหา\"}]"}
+{"id": "2/train_0142", "audio_id": "train_0142", "asr": "จิ้นรูดูมเบวานดี", "correct": "进路准备完毕", "raw": "[{\"Start\":0.0,\"End\":2.08,\"Speaker\":0,\"Content\":\"จิ้นรูดูมเบวานดี\"}]"}
+{"id": "2/train_0143", "audio_id": "train_0143", "asr": "10分準備、撮ろう、3分。", "correct": "进路准备妥当", "raw": "[{\"Start\":0.0,\"End\":2.24,\"Speaker\":0,\"Content\":\"10分準備、撮ろう、3分。\"}]"}
+{"id": "2/train_0144", "audio_id": "train_0144", "asr": "Trena", "correct": "确认", "raw": "[{\"Start\":0,\"End\":1.2,\"Speaker\":0,\"Content\":\"Trena\"}]"}
+{"id": "2/train_0145", "audio_id": "train_0145", "asr": "进路好。", "correct": "进路好", "raw": "[{\"Start\":0,\"End\":1.68,\"Speaker\":0,\"Content\":\"进路好。\"}]"}
+{"id": "2/train_0146", "audio_id": "train_0146", "asr": "信号好。", "correct": "信号好", "raw": "[{\"Start\":0.0,\"End\":1.8,\"Speaker\":0,\"Content\":\"信号好。\"}]"}
+{"id": "2/train_0147", "audio_id": "train_0147", "asr": "进路正确的。", "correct": "进路正确", "raw": "[{\"Start\":0,\"End\":2.12,\"Speaker\":0,\"Content\":\"进路正确的。\"}]"}
+{"id": "2/train_0148", "audio_id": "train_0148", "asr": "音大中说。", "correct": "引导总锁", "raw": "[{\"Start\":0,\"End\":1.64,\"Speaker\":0,\"Content\":\"音大中说。\"}]"}
+{"id": "2/train_0149", "audio_id": "train_0149", "asr": "开放引导信号。", "correct": "开放引导信号", "raw": "[{\"Start\":0,\"End\":2.48,\"Speaker\":0,\"Content\":\"开放引导信号。\"}]"}
+{"id": "2/train_0150", "audio_id": "train_0150", "asr": "OK, 放心了。", "correct": "开放信号", "raw": "[{\"Start\":0,\"End\":2.08,\"Speaker\":0,\"Content\":\"OK, 放心了。\"}]"}
+{"id": "2/train_0151", "audio_id": "train_0151", "asr": "ENDA", "correct": "引导", "raw": "[{\"Start\":0,\"End\":1.52,\"Speaker\":0,\"Content\":\"ENDA\"}]"}
+{"id": "2/train_0152", "audio_id": "train_0152", "asr": "引导信号好了。", "correct": "引导信号好了", "raw": "[{\"Start\":0.0,\"End\":2.16,\"Speaker\":0,\"Content\":\"引导信号好了。\"}]"}
+{"id": "2/train_0153", "audio_id": "train_0153", "asr": "引导接受", "correct": "引导接车", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"引导接受\"}]"}
+{"id": "2/train_0154", "audio_id": "train_0154", "asr": "注意引导信号。", "correct": "注意引导信号", "raw": "[{\"Start\":0.0,\"End\":2.16,\"Speaker\":0,\"Content\":\"注意引导信号。\"}]"}
+{"id": "2/train_0155", "audio_id": "train_0155", "asr": "接近", "correct": "接近", "raw": "[{\"Start\":0,\"End\":1.92,\"Speaker\":0,\"Content\":\"接近\"}]"}
+{"id": "2/train_0156", "audio_id": "train_0156", "asr": "按规定走动佩戴防窥用品，按规定走行进入处所，到达企业规定地点，检查接车线路风险。", "correct": "按规定着装佩戴防护用品按固定走行径路出务，到达企业规定地点检查接车线路空闲", "raw": "[{\"Start\":0.0,\"End\":9.16,\"Speaker\":0,\"Content\":\"按规定走动佩戴防窥用品，按规定走行进入处所，到达企业规定地点，检查接车线路风险。\"}]"}
+{"id": "2/train_0157", "audio_id": "train_0157", "asr": "通过信号操作终端监视进度，信号及列车进度。", "correct": "通过信号操作终端监视进路、信号及列车进站", "raw": "[{\"Start\":0.0,\"End\":5.52,\"Speaker\":0,\"Content\":\"通过信号操作终端监视进度，信号及列车进度。\"}]"}
+{"id": "2/train_0158", "audio_id": "train_0158", "asr": "面向左侧方向，接车，云接车，头部到达，地港，地点，转向，面向接车，云接车，尾部越过，地港，地点，转向，确认，接车，尾部标志完整。", "correct": "面向来车方向接车，于列车头部到达立岗地点转向、面向列车，于列车尾部越过立岗地点转向、确认列车尾部标志正确", "raw": "[{\"Start\":0,\"End\":13.16,\"Speaker\":0,\"Content\":\"面向左侧方向，接车，云接车，头部到达，地港，地点，转向，面向接车，云接车，尾部越过，地港，地点，转向，确认，接车，尾部标志完整。\"}]"}
+{"id": "2/train_0159", "audio_id": "train_0159", "asr": "面向来车方向接车，与列车到达A港地点转向，面向列车监视列车运行。", "correct": "面向来车方向接车，于列车到达立岗地点转向，面向列车，监视列车运行", "raw": "[{\"Start\":0,\"End\":8.16,\"Speaker\":0,\"Content\":\"面向来车方向接车，与列车到达A港地点转向，面向列车监视列车运行。\"}]"}
+{"id": "2/train_0160", "audio_id": "train_0160", "asr": "整列到档。", "correct": "整列到达", "raw": "[{\"Start\":0,\"End\":2.32,\"Speaker\":0,\"Content\":\"整列到档。\"}]"}
+{"id": "2/train_0161", "audio_id": "train_0161", "asr": "ฉันเรียกซั่น", "correct": "整列出站", "raw": "[{\"Start\":0,\"End\":2.0,\"Speaker\":0,\"Content\":\"ฉันเรียกซั่น\"}]"}
+{"id": "2/train_0162", "audio_id": "train_0162", "asr": "喂，不破电话。", "correct": "尾部过标", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"喂，不破电话。\"}]"}
+{"id": "2/train_0163", "audio_id": "train_0163", "asr": "解锁启动。", "correct": "列车起动", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"解锁启动。\"}]"}
+{"id": "2/train_0164", "audio_id": "train_0164", "asr": "接受引导进入。", "correct": "解锁引导进路", "raw": "[{\"Start\":0.0,\"End\":2.2,\"Speaker\":0,\"Content\":\"接受引导进入。\"}]"}
+{"id": "2/train_0165", "audio_id": "train_0165", "asr": "结束哈。", "correct": "解锁好", "raw": "[{\"Start\":0.0,\"End\":1.84,\"Speaker\":0,\"Content\":\"结束哈。\"}]"}
+{"id": "2/train_0166", "audio_id": "train_0166", "asr": "听我说，别听你情况。", "correct": "电务设备处理情况", "raw": "[{\"Start\":0.0,\"End\":3.08,\"Speaker\":0,\"Content\":\"听我说，别听你情况。\"}]"}
+{"id": "2/train_0167", "audio_id": "train_0167", "asr": "Съедено съветване, чико.", "correct": "线路设备处理情况", "raw": "[{\"Start\":0.0,\"End\":2.64,\"Speaker\":0,\"Content\":\"Съедено съветване, чико.\"}]"}
+{"id": "2/train_0168", "audio_id": "train_0168", "asr": "10.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.", "correct": "线路故障处理完毕", "raw": "[{\"Start\":0.0,\"End\":2.8,\"Speaker\":0,\"Content\":\"10.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.\"}]"}
+{"id": "2/train_0169", "audio_id": "train_0169", "asr": "听我的故事，咱们翻一翻。", "correct": "电务故障处理完毕", "raw": "[{\"Start\":0.0,\"End\":2.32,\"Speaker\":0,\"Content\":\"听我的故事，咱们翻一翻。\"}]"}
+{"id": "2/train_0170", "audio_id": "train_0170", "asr": "กดตามตัวนิวอันพี่", "correct": "故障处理完毕", "raw": "[{\"Start\":0.0,\"End\":2.08,\"Speaker\":0,\"Content\":\"กดตามตัวนิวอันพี่\"}]"}
+{"id": "2/train_0171", "audio_id": "train_0171", "asr": "佩服", "correct": "恢复", "raw": "[{\"Start\":0.0,\"End\":1.52,\"Speaker\":0,\"Content\":\"佩服\"}]"}
+{"id": "2/train_0172", "audio_id": "train_0172", "asr": "正常使用。", "correct": "正常使用", "raw": "[{\"Start\":0.0,\"End\":1.64,\"Speaker\":0,\"Content\":\"正常使用。\"}]"}
+{"id": "2/train_0173", "audio_id": "train_0173", "asr": "太过了啦。", "correct": "开过来了", "raw": "[{\"Start\":0.0,\"End\":1.68,\"Speaker\":0,\"Content\":\"太过了啦。\"}]"}
+{"id": "2/train_0174", "audio_id": "train_0174", "asr": "按淡季规定通知有关人员。", "correct": "按站细规定通知有关人员", "raw": "[{\"Start\":0.0,\"End\":2.88,\"Speaker\":0,\"Content\":\"按淡季规定通知有关人员。\"}]"}
+{"id": "2/train_0175", "audio_id": "train_0175", "asr": "空姐。", "correct": "空闲", "raw": "[{\"Start\":0.0,\"End\":1.52,\"Speaker\":0,\"Content\":\"空姐。\"}]"}
+{"id": "2/train_0176", "audio_id": "train_0176", "asr": "停止影响记录的调度队。", "correct": "停止影响进路的调车作业", "raw": "[{\"Start\":0.0,\"End\":3.08,\"Speaker\":0,\"Content\":\"停止影响记录的调度队。\"}]"}
+{"id": "2/train_0177", "audio_id": "train_0177", "asr": "等一下，我们调出会员。", "correct": "本站无调车作业", "raw": "[{\"Start\":0,\"End\":2.12,\"Speaker\":0,\"Content\":\"等一下，我们调出会员。\"}]"}
+{"id": "2/train_0178", "audio_id": "train_0178", "asr": "您想进入到教授会员已停止。", "correct": "影响进路的调车作业已停止", "raw": "[{\"Start\":0.0,\"End\":3.08,\"Speaker\":0,\"Content\":\"您想进入到教授会员已停止。\"}]"}
+{"id": "2/train_0179", "audio_id": "train_0179", "asr": "倒插40秒数", "correct": "道岔失去表示", "raw": "[{\"Start\":0,\"End\":2.12,\"Speaker\":0,\"Content\":\"倒插40秒数\"}]"}
+{"id": "2/train_0180", "audio_id": "train_0180", "asr": "到30去定返回表示", "correct": "道岔失去定反位表示", "raw": "[{\"Start\":0.0,\"End\":2.92,\"Speaker\":0,\"Content\":\"到30去定返回表示\"}]"}
+{"id": "2/train_0181", "audio_id": "train_0181", "asr": "倒计时结束。", "correct": "道岔失表", "raw": "[{\"Start\":0.0,\"End\":1.92,\"Speaker\":0,\"Content\":\"倒计时结束。\"}]"}
+{"id": "2/train_0182", "audio_id": "train_0182", "asr": "现场检查。", "correct": "现场检查", "raw": "[{\"Start\":0.0,\"End\":1.68,\"Speaker\":0,\"Content\":\"现场检查。\"}]"}
+{"id": "2/train_0183", "audio_id": "train_0183", "asr": "到茶几端。", "correct": "道岔区段", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"到茶几端。\"}]"}
+{"id": "2/train_0184", "audio_id": "train_0184", "asr": "回到前路。", "correct": "轨道电路", "raw": "[{\"Start\":0.0,\"End\":1.36,\"Speaker\":0,\"Content\":\"回到前路。\"}]"}
+{"id": "2/train_0185", "audio_id": "train_0185", "asr": "倒茶。", "correct": "道岔", "raw": "[{\"Start\":0.0,\"End\":1.56,\"Speaker\":0,\"Content\":\"倒茶。\"}]"}
+{"id": "2/train_0186", "audio_id": "train_0186", "asr": "金魚さんだけ今", "correct": "请求上道检查", "raw": "[{\"Start\":0,\"End\":2.0,\"Speaker\":0,\"Content\":\"金魚さんだけ今\"}]"}
+{"id": "2/train_0187", "audio_id": "train_0187", "asr": "新宿サンダホへ", "correct": "请求上道作业", "raw": "[{\"Start\":0.0,\"End\":1.8,\"Speaker\":0,\"Content\":\"新宿サンダホへ\"}]"}
+{"id": "2/train_0188", "audio_id": "train_0188", "asr": "[Unintelligible Speech]", "correct": "同意上道作业", "raw": "[{\"Start\":0,\"End\":2.12,\"Speaker\":0,\"Content\":\"[Unintelligible Speech]\"}]"}
+{"id": "2/train_0189", "audio_id": "train_0189", "asr": "21.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.", "correct": "同意上道检查", "raw": "[{\"Start\":0,\"End\":2.12,\"Speaker\":0,\"Content\":\"21.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.\"}]"}
+{"id": "2/train_0190", "audio_id": "train_0190", "asr": "空闲", "correct": "空闲", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"空闲\"}]"}
+{"id": "2/train_0191", "audio_id": "train_0191", "asr": "通过。", "correct": "通过", "raw": "[{\"Start\":0.0,\"End\":1.52,\"Speaker\":0,\"Content\":\"通过。\"}]"}
+{"id": "2/train_0192", "audio_id": "train_0192", "asr": "Oui, dis donc.", "correct": "无异状", "raw": "[{\"Start\":0,\"End\":1.4,\"Speaker\":0,\"Content\":\"Oui, dis donc.\"}]"}
+{"id": "2/train_0193", "audio_id": "train_0193", "asr": "一吓到", "correct": "已下道", "raw": "[{\"Start\":0,\"End\":1.68,\"Speaker\":0,\"Content\":\"一吓到\"}]"}
+{"id": "2/train_0194", "audio_id": "train_0194", "asr": "返回安全区域。", "correct": "返回安全区域", "raw": "[{\"Start\":0.0,\"End\":1.96,\"Speaker\":0,\"Content\":\"返回安全区域。\"}]"}
+{"id": "2/train_0195", "audio_id": "train_0195", "asr": "进现场检查。", "correct": "经现场检查", "raw": "[{\"Start\":0.0,\"End\":2.04,\"Speaker\":0,\"Content\":\"进现场检查。\"}]"}
+{"id": "2/train_0196", "audio_id": "train_0196", "asr": "确认。", "correct": "确认", "raw": "[{\"Start\":0.0,\"End\":1.48,\"Speaker\":0,\"Content\":\"确认。\"}]"}
+{"id": "2/train_0197", "audio_id": "train_0197", "asr": "再次确认。", "correct": "再次确认", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"再次确认。\"}]"}
+{"id": "2/train_0198", "audio_id": "train_0198", "asr": "现在好。", "correct": "确认好", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"现在好。\"}]"}
+{"id": "2/train_0199", "audio_id": "train_0199", "asr": "不影响正常就行车。", "correct": "不影响正常行车", "raw": "[{\"Start\":0.0,\"End\":2.88,\"Speaker\":0,\"Content\":\"不影响正常就行车。\"}]"}
+{"id": "2/train_0200", "audio_id": "train_0200", "asr": "convulsions are not yet normal, it may not be a normal car.", "correct": "工务线路设备正常不影响正常行车", "raw": "[{\"Start\":0.0,\"End\":4.04,\"Speaker\":0,\"Content\":\" convulsions are not yet normal, it may not be a normal car.\"}]"}
+{"id": "2/train_0201", "audio_id": "train_0201", "asr": "您주세요吧，多过期。", "correct": "领取手摇把、钩锁器", "raw": "[{\"Start\":0,\"End\":2.4,\"Speaker\":0,\"Content\":\"您주세요吧，多过期。\"}]"}
+{"id": "2/train_0202", "audio_id": "train_0202", "asr": "录完这个吧，录手机。", "correct": "归还手摇把、钩锁器", "raw": "[{\"Start\":0.0,\"End\":2.2,\"Speaker\":0,\"Content\":\"录完这个吧，录手机。\"}]"}
+{"id": "2/train_0203", "audio_id": "train_0203", "asr": "到下开通。", "correct": "道岔开通", "raw": "[{\"Start\":0.0,\"End\":1.68,\"Speaker\":0,\"Content\":\"到下开通。\"}]"}
+{"id": "2/train_0204", "audio_id": "train_0204", "asr": "到他加速", "correct": "现场加锁", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"到他加速\"}]"}
+{"id": "2/train_0205", "audio_id": "train_0205", "asr": "じゃあ、その", "correct": "加锁", "raw": "[{\"Start\":0.0,\"End\":1.44,\"Speaker\":0,\"Content\":\"じゃあ、その\"}]"}
+{"id": "2/train_0206", "audio_id": "train_0206", "asr": "一加上", "correct": "已加锁", "raw": "[{\"Start\":0,\"End\":1.52,\"Speaker\":0,\"Content\":\"一加上\"}]"}
+{"id": "2/train_0207", "audio_id": "train_0207", "asr": "已设置安全地点。", "correct": "已撤至安全地点", "raw": "[{\"Start\":0,\"End\":2.0,\"Speaker\":0,\"Content\":\"已设置安全地点。\"}]"}
+{"id": "2/train_0208", "audio_id": "train_0208", "asr": "你感觉车", "correct": "立岗接车", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"你感觉车\"}]"}
+{"id": "2/train_0209", "audio_id": "train_0209", "asr": "准备飞空山刀叉去关新路。", "correct": "准备非故障道岔区段进路", "raw": "[{\"Start\":0.0,\"End\":2.84,\"Speaker\":0,\"Content\":\"准备飞空山刀叉去关新路。\"}]"}
+{"id": "2/train_0210", "audio_id": "train_0210", "asr": "准备好了。", "correct": "准备好", "raw": "[{\"Start\":0,\"End\":1.28,\"Speaker\":0,\"Content\":\"准备好了。\"}]"}
+{"id": "2/train_0211", "audio_id": "train_0211", "asr": "正牌", "correct": "正排", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"正牌\"}]"}
+{"id": "2/train_0212", "audio_id": "train_0212", "asr": "调出信号。", "correct": "调车信号", "raw": "[{\"Start\":0.0,\"End\":1.92,\"Speaker\":0,\"Content\":\"调出信号。\"}]"}
+{"id": "2/train_0213", "audio_id": "train_0213", "asr": "到菜定位。", "correct": "道岔定位", "raw": "[{\"Start\":0.0,\"End\":1.56,\"Speaker\":0,\"Content\":\"到菜定位。\"}]"}
+{"id": "2/train_0214", "audio_id": "train_0214", "asr": "到茶房回", "correct": "道岔反位", "raw": "[{\"Start\":0,\"End\":2.0,\"Speaker\":0,\"Content\":\"到茶房回\"}]"}
+{"id": "2/train_0215", "audio_id": "train_0215", "asr": "解除单数。", "correct": "解除单锁", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"解除单数。\"}]"}
+{"id": "2/train_0216", "audio_id": "train_0216", "asr": "电话消机", "correct": "电务销记", "raw": "[{\"Start\":0,\"End\":1.8,\"Speaker\":0,\"Content\":\"电话消机\"}]"}
+{"id": "2/train_0217", "audio_id": "train_0217", "asr": "公務員社員", "correct": "工务销记", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"公務員社員\"}]"}
+{"id": "2/train_0218", "audio_id": "train_0218", "asr": "so, 被单位休息", "correct": "设备单位销记", "raw": "[{\"Start\":0,\"End\":2.48,\"Speaker\":0,\"Content\":\"so, 被单位休息\"}]"}
+{"id": "2/train_0219", "audio_id": "train_0219", "asr": "Jogging.", "correct": "销记", "raw": "[{\"Start\":0.0,\"End\":1.44,\"Speaker\":0,\"Content\":\"Jogging.\"}]"}
+{"id": "2/train_0220", "audio_id": "train_0220", "asr": "Yes, so, so, so.", "correct": "列车超长", "raw": "[{\"Start\":0.0,\"End\":1.92,\"Speaker\":0,\"Content\":\"Yes, so, so, so.\"}]"}
+{"id": "2/train_0221", "audio_id": "train_0221", "asr": "사선제설", "correct": "超长列车", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"사선제설\"}]"}
+{"id": "2/train_0222", "audio_id": "train_0222", "asr": "这头一遍过出站相机。", "correct": "车头越过出站信号机", "raw": "[{\"Start\":0.0,\"End\":2.52,\"Speaker\":0,\"Content\":\"这头一遍过出站相机。\"}]"}
+{"id": "2/train_0223", "audio_id": "train_0223", "asr": "加上 Susan 方面回到监督", "correct": "压上出站方面轨道电路", "raw": "[{\"Start\":0,\"End\":2.88,\"Speaker\":0,\"Content\":\"加上 Susan 方面回到监督\"}]"}
+{"id": "2/train_0224", "audio_id": "train_0224", "asr": "不能开放这段信号。", "correct": "不能开放出站信号", "raw": "[{\"Start\":0.0,\"End\":2.2,\"Speaker\":0,\"Content\":\"不能开放这段信号。\"}]"}
+{"id": "2/train_0225", "audio_id": "train_0225", "asr": "Senhores, tem alguma dúvida sobre o que aconteceu?", "correct": "请求使用绿色许可证发车", "raw": "[{\"Start\":0,\"End\":3.2,\"Speaker\":0,\"Content\":\"Senhores, tem alguma dúvida sobre o que aconteceu?\"}]"}
+{"id": "2/train_0226", "audio_id": "train_0226", "asr": "2120, c'est quand même pas mal.", "correct": "同意使用绿色许可证发车", "raw": "[{\"Start\":0.0,\"End\":2.96,\"Speaker\":0,\"Content\":\"2120, c'est quand même pas mal.\"}]"}
+{"id": "2/train_0227", "audio_id": "train_0227", "asr": "ต่อท้ายกระดูก", "correct": "道岔开通", "raw": "[{\"Start\":0,\"End\":1.44,\"Speaker\":0,\"Content\":\"ต่อท้ายกระดูก\"}]"}
+{"id": "2/train_0228", "audio_id": "train_0228", "asr": "Sotil", "correct": "锁闭", "raw": "[{\"Start\":0,\"End\":1.24,\"Speaker\":0,\"Content\":\"Sotil\"}]"}
+{"id": "2/train_0229", "audio_id": "train_0229", "asr": "绿色许可证一号。", "correct": "绿色许可证1号", "raw": "[{\"Start\":0.0,\"End\":2.36,\"Speaker\":0,\"Content\":\"绿色许可证一号。\"}]"}
+{"id": "2/train_0230", "audio_id": "train_0230", "asr": "在列车脱轨越过出站箱机的情况下。", "correct": "在列车头部越过出站信号机的情况下", "raw": "[{\"Start\":0.0,\"End\":3.8,\"Speaker\":0,\"Content\":\"在列车脱轨越过出站箱机的情况下。\"}]"}
+{"id": "2/train_0231", "audio_id": "train_0231", "asr": "Thank you.", "correct": "准许", "raw": "[{\"Start\":0,\"End\":1.36,\"Speaker\":0,\"Content\":\"Thank you.\"}]"}
+{"id": "2/train_0232", "audio_id": "train_0232", "asr": "Yes, sir.", "correct": "列车", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"Yes, sir.\"}]"}
+{"id": "2/train_0233", "audio_id": "train_0233", "asr": "线上话车。", "correct": "线上发车", "raw": "[{\"Start\":0,\"End\":1.32,\"Speaker\":0,\"Content\":\"线上话车。\"}]"}
+{"id": "2/train_0234", "audio_id": "train_0234", "asr": "在微视的头像，点击左上角，点关注。", "correct": "在未设出站信号机的情况下", "raw": "[{\"Start\":0,\"End\":2.72,\"Speaker\":0,\"Content\":\"在微视的头像，点击左上角，点关注。\"}]"}
+{"id": "2/train_0235", "audio_id": "train_0235", "asr": "在作战相机故障的情况下", "correct": "在出站信号机故障的情况下", "raw": "[{\"Start\":0,\"End\":2.92,\"Speaker\":0,\"Content\":\"在作战相机故障的情况下\"}]"}
+{"id": "2/train_0236", "audio_id": "train_0236", "asr": "在精度信号机故障的情况下", "correct": "在进路信号机故障的情况下", "raw": "[{\"Start\":0.0,\"End\":2.84,\"Speaker\":0,\"Content\":\"在精度信号机故障的情况下\"}]"}
+{"id": "2/train_0237", "audio_id": "train_0237", "asr": "在列车头部越过京，路信号机的情况下。", "correct": "在列车头部越过进路信号机的情况下", "raw": "[{\"Start\":0.0,\"End\":4.56,\"Speaker\":0,\"Content\":\"在列车头部越过京，路信号机的情况下。\"}]"}
+{"id": "2/train_0238", "audio_id": "train_0238", "asr": "加分绿色许可证。", "correct": "交付绿色许可证", "raw": "[{\"Start\":0.0,\"End\":2.2,\"Speaker\":0,\"Content\":\"加分绿色许可证。\"}]"}
+{"id": "2/train_0239", "audio_id": "train_0239", "asr": "so, then, do you search like that?", "correct": "核对绿色许可证", "raw": "[{\"Start\":0,\"End\":2.08,\"Speaker\":0,\"Content\":\"so, then, do you search like that?\"}]"}
+{"id": "2/train_0240", "audio_id": "train_0240", "asr": "和队伍。", "correct": "核对无误", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"和队伍。\"}]"}
+{"id": "2/train_0241", "audio_id": "train_0241", "asr": "你有手机可真已交付。", "correct": "绿色许可证已交付", "raw": "[{\"Start\":0.0,\"End\":2.6,\"Speaker\":0,\"Content\":\"你有手机可真已交付。\"}]"}
+{"id": "2/train_0242", "audio_id": "train_0242", "asr": "[Unintelligible Speech]", "correct": "使用绿色许可证发车", "raw": "[{\"Start\":0.0,\"End\":2.76,\"Speaker\":0,\"Content\":\"[Unintelligible Speech]\"}]"}
+{"id": "2/train_0243", "audio_id": "train_0243", "asr": "最绝的。", "correct": "注意确认", "raw": "[{\"Start\":0,\"End\":1.44,\"Speaker\":0,\"Content\":\"最绝的。\"}]"}
+{"id": "2/train_0244", "audio_id": "train_0244", "asr": "Podium.", "correct": "报点", "raw": "[{\"Start\":0.0,\"End\":1.48,\"Speaker\":0,\"Content\":\"Podium.\"}]"}
+{"id": "2/train_0245", "audio_id": "train_0245", "asr": "ผมกุมได้", "correct": "红光带", "raw": "[{\"Start\":0,\"End\":1.44,\"Speaker\":0,\"Content\":\"ผมกุมได้\"}]"}
+{"id": "2/train_0246", "audio_id": "train_0246", "asr": "立即停车。", "correct": "立即停车", "raw": "[{\"Start\":0.0,\"End\":1.52,\"Speaker\":0,\"Content\":\"立即停车。\"}]"}
+{"id": "2/train_0247", "audio_id": "train_0247", "asr": "紧急停车。", "correct": "紧急停车", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"紧急停车。\"}]"}
+{"id": "2/train_0248", "audio_id": "train_0248", "asr": "10,000.", "correct": "停车", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"10,000.\"}]"}
+{"id": "2/train_0249", "audio_id": "train_0249", "asr": "So, we're simple.", "correct": "走行部", "raw": "[{\"Start\":0,\"End\":1.52,\"Speaker\":0,\"Content\":\"So, we're simple.\"}]"}
+{"id": "2/train_0250", "audio_id": "train_0250", "asr": "爆炸", "correct": "抱闸", "raw": "[{\"Start\":0.0,\"End\":1.6,\"Speaker\":0,\"Content\":\"爆炸\"}]"}
+{"id": "2/train_0251", "audio_id": "train_0251", "asr": "不行。", "correct": "火星", "raw": "[{\"Start\":0.0,\"End\":1.48,\"Speaker\":0,\"Content\":\"不行。\"}]"}
+{"id": "2/train_0252", "audio_id": "train_0252", "asr": "Мир и бог.", "correct": "明火", "raw": "[{\"Start\":0,\"End\":1.28,\"Speaker\":0,\"Content\":\"Мир и бог.\"}]"}
+{"id": "2/train_0253", "audio_id": "train_0253", "asr": "Pump sensor, pull up.", "correct": "篷布绳索脱落", "raw": "[{\"Start\":0.0,\"End\":2.32,\"Speaker\":0,\"Content\":\"Pump sensor, pull up.\"}]"}
+{"id": "2/train_0254", "audio_id": "train_0254", "asr": "推开门，打开。", "correct": "对开门打开", "raw": "[{\"Start\":0.0,\"End\":1.92,\"Speaker\":0,\"Content\":\"推开门，打开。\"}]"}
+{"id": "2/train_0255", "audio_id": "train_0255", "asr": "Shout to the men back there.", "correct": "下侧门打开", "raw": "[{\"Start\":0.0,\"End\":1.8,\"Speaker\":0,\"Content\":\"Shout to the men back there.\"}]"}
+{"id": "2/train_0256", "audio_id": "train_0256", "asr": "มันดังไง", "correct": "门打开", "raw": "[{\"Start\":0,\"End\":1.44,\"Speaker\":0,\"Content\":\"มันดังไง\"}]"}
+{"id": "2/train_0257", "audio_id": "train_0257", "asr": "解锁线路了。", "correct": "接车线路", "raw": "[{\"Start\":0.0,\"End\":1.8,\"Speaker\":0,\"Content\":\"解锁线路了。\"}]"}
+{"id": "2/train_0258", "audio_id": "train_0258", "asr": "[Unintelligible Speech]", "correct": "轨行区", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"[Unintelligible Speech]\"}]"}
+{"id": "2/train_0259", "audio_id": "train_0259", "asr": "一五", "correct": "异物", "raw": "[{\"Start\":0,\"End\":1.48,\"Speaker\":0,\"Content\":\"一五\"}]"}
+{"id": "2/train_0260", "audio_id": "train_0260", "asr": "行了。", "correct": "行人", "raw": "[{\"Start\":0.0,\"End\":1.68,\"Speaker\":0,\"Content\":\"行了。\"}]"}
+{"id": "2/train_0261", "audio_id": "train_0261", "asr": "[{\"Start\":0,\",\"End\":1.32,\"Speaker\":0,\"Content\":\"东\"}]", "correct": "动物", "raw": "[{\"Start\":0,\",\"End\":1.32,\"Speaker\":0,\"Content\":\"东\"}]"}
+{"id": "2/train_0262", "audio_id": "train_0262", "asr": "什么？", "correct": "小猫", "raw": "[{\"Start\":0.0,\"End\":1.64,\"Speaker\":0,\"Content\":\"什么？\"}]"}
+{"id": "2/train_0263", "audio_id": "train_0263", "asr": "小哥。", "correct": "小狗", "raw": "[{\"Start\":0,\"End\":1.92,\"Speaker\":0,\"Content\":\"小哥。\"}]"}
+{"id": "2/train_0264", "audio_id": "train_0264", "asr": "接触网。", "correct": "接触网", "raw": "[{\"Start\":0.0,\"End\":1.92,\"Speaker\":0,\"Content\":\"接触网。\"}]"}
+{"id": "2/train_0265", "audio_id": "train_0265", "asr": "Time's up.", "correct": "敞车", "raw": "[{\"Start\":0.0,\"End\":1.68,\"Speaker\":0,\"Content\":\"Time's up.\"}]"}
+{"id": "2/train_0266", "audio_id": "train_0266", "asr": "Pomme", "correct": "棚车", "raw": "[{\"Start\":0.0,\"End\":1.56,\"Speaker\":0,\"Content\":\"Pomme\"}]"}
+{"id": "2/train_0267", "audio_id": "train_0267", "asr": "Hey, how are you doing?", "correct": "货物列车", "raw": "[{\"Start\":0,\"End\":1.52,\"Speaker\":0,\"Content\":\"Hey, how are you doing?\"}]"}
+{"id": "2/train_0268", "audio_id": "train_0268", "asr": "你困你也是", "correct": "旅客列车", "raw": "[{\"Start\":0.0,\"End\":1.8,\"Speaker\":0,\"Content\":\"你困你也是\"}]"}
+{"id": "2/train_0269", "audio_id": "train_0269", "asr": "步步惊险。", "correct": "货物倾斜", "raw": "[{\"Start\":0.0,\"End\":1.64,\"Speaker\":0,\"Content\":\"步步惊险。\"}]"}
+{"id": "2/train_0270", "audio_id": "train_0270", "asr": "Sawtaw.", "correct": "石头", "raw": "[{\"Start\":0.0,\"End\":1.6,\"Speaker\":0,\"Content\":\"Sawtaw.\"}]"}
+{"id": "2/train_0271", "audio_id": "train_0271", "asr": "どうする？", "correct": "落石", "raw": "[{\"Start\":0,\"End\":1.32,\"Speaker\":0,\"Content\":\"どうする？\"}]"}
+{"id": "2/train_0272", "audio_id": "train_0272", "asr": "[Noise]", "correct": "树枝", "raw": "[{\"Start\":0,\"End\":1.24,\"Speaker\":0,\"Content\":\"[Noise]\"}]"}
+{"id": "2/train_0273", "audio_id": "train_0273", "asr": "[Noise]", "correct": "树木", "raw": "[{\"Start\":0,\"End\":1.48,\"Speaker\":0,\"Content\":\"[Noise]\"}]"}
+{"id": "2/train_0274", "audio_id": "train_0274", "asr": "彩色编织袋。", "correct": "彩色编织袋", "raw": "[{\"Start\":0.0,\"End\":2.04,\"Speaker\":0,\"Content\":\"彩色编织袋。\"}]"}
+{"id": "2/train_0275", "audio_id": "train_0275", "asr": "Okay.", "correct": "布条", "raw": "[{\"Start\":0,\"End\":1.16,\"Speaker\":0,\"Content\":\"Okay.\"}]"}
+{"id": "2/train_0276", "audio_id": "train_0276", "asr": "放怎", "correct": "风筝", "raw": "[{\"Start\":0,\"End\":1.2,\"Speaker\":0,\"Content\":\"放怎\"}]"}
+{"id": "2/train_0277", "audio_id": "train_0277", "asr": "气球。", "correct": "气球", "raw": "[{\"Start\":0.0,\"End\":1.52,\"Speaker\":0,\"Content\":\"气球。\"}]"}
+{"id": "2/train_0278", "audio_id": "train_0278", "asr": "八十三元。", "correct": "扒车人员", "raw": "[{\"Start\":0.0,\"End\":1.52,\"Speaker\":0,\"Content\":\"八十三元。\"}]"}
+{"id": "2/train_0279", "audio_id": "train_0279", "asr": "Yeah, we built it.", "correct": "列尾标志", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"Yeah, we built it.\"}]"}
+{"id": "2/train_0280", "audio_id": "train_0280", "asr": "Hello.", "correct": "脱落", "raw": "[{\"Start\":0,\"End\":1.28,\"Speaker\":0,\"Content\":\"Hello.\"}]"}
+{"id": "2/train_0281", "audio_id": "train_0281", "asr": "这位就是", "correct": "列尾丢失", "raw": "[{\"Start\":0.0,\"End\":1.96,\"Speaker\":0,\"Content\":\"这位就是\"}]"}
+{"id": "2/train_0282", "audio_id": "train_0282", "asr": "香港之首。", "correct": "上岗值守", "raw": "[{\"Start\":0.0,\"End\":1.96,\"Speaker\":0,\"Content\":\"香港之首。\"}]"}
+{"id": "2/train_0283", "audio_id": "train_0283", "asr": "车站值班员上岗。", "correct": "车站值班员上岗", "raw": "[{\"Start\":0,\"End\":2.12,\"Speaker\":0,\"Content\":\"车站值班员上岗。\"}]"}
+{"id": "2/train_0284", "audio_id": "train_0284", "asr": "道上是否三个来回的操作？", "correct": "道岔是否三个来回的操作", "raw": "[{\"Start\":0.0,\"End\":3.48,\"Speaker\":0,\"Content\":\"道上是否三个来回的操作？\"}]"}
+{"id": "2/train_0285", "audio_id": "train_0285", "asr": "师傅，可以停。", "correct": "是否扣停", "raw": "[{\"Start\":0.0,\"End\":1.24,\"Speaker\":0,\"Content\":\"师傅，可以停。\"}]"}
+{"id": "2/train_0286", "audio_id": "train_0286", "asr": "三个来回操作。", "correct": "三个来回已操作", "raw": "[{\"Start\":0,\"End\":2.04,\"Speaker\":0,\"Content\":\"三个来回操作。\"}]"}
+{"id": "2/train_0287", "audio_id": "train_0287", "asr": "请祷告。", "correct": "请到岗", "raw": "[{\"Start\":0.0,\"End\":1.36,\"Speaker\":0,\"Content\":\"请祷告。\"}]"}
+{"id": "2/train_0288", "audio_id": "train_0288", "asr": "请签名。", "correct": "请处理", "raw": "[{\"Start\":0.0,\"End\":1.68,\"Speaker\":0,\"Content\":\"请签名。\"}]"}
+{"id": "2/train_0289", "audio_id": "train_0289", "asr": "上个星期你先封锁。", "correct": "上行线封锁", "raw": "[{\"Start\":0,\"End\":2.36,\"Speaker\":0,\"Content\":\"上个星期你先封锁。\"}]"}
+{"id": "2/train_0290", "audio_id": "train_0290", "asr": "下线先放松。", "correct": "下行线封锁", "raw": "[{\"Start\":0.0,\"End\":1.96,\"Speaker\":0,\"Content\":\"下线先放松。\"}]"}
+{"id": "2/train_0291", "audio_id": "train_0291", "asr": "下星期", "correct": "下行线", "raw": "[{\"Start\":0,\"End\":1.44,\"Speaker\":0,\"Content\":\"下星期\"}]"}
+{"id": "2/train_0292", "audio_id": "train_0292", "asr": "上新线。", "correct": "上行线", "raw": "[{\"Start\":0,\"End\":1.56,\"Speaker\":0,\"Content\":\"上新线。\"}]"}
+{"id": "2/train_0293", "audio_id": "train_0293", "asr": "[Noise]", "correct": "限速", "raw": "[{\"Start\":0,\"End\":1.36,\"Speaker\":0,\"Content\":\"[Noise]\"}]"}
+{"id": "2/train_0294", "audio_id": "train_0294", "asr": "3rd phase.", "correct": "上道检查", "raw": "[{\"Start\":0.0,\"End\":1.48,\"Speaker\":0,\"Content\":\"3rd phase.\"}]"}
+{"id": "2/train_0295", "audio_id": "train_0295", "asr": "请求转为车站操作方式。", "correct": "请求转为车站操作方式", "raw": "[{\"Start\":0,\"End\":2.8,\"Speaker\":0,\"Content\":\"请求转为车站操作方式。\"}]"}
+{"id": "2/train_0296", "audio_id": "train_0296", "asr": "到查库站", "correct": "道岔故障", "raw": "[{\"Start\":0.0,\"End\":1.92,\"Speaker\":0,\"Content\":\"到查库站\"}]"}
+{"id": "2/train_0297", "audio_id": "train_0297", "asr": "38 News, sir.", "correct": "站内停留车", "raw": "[{\"Start\":0,\"End\":2.0,\"Speaker\":0,\"Content\":\"38 News, sir.\"}]"}
+{"id": "2/train_0298", "audio_id": "train_0298", "asr": "你也可以运行计划。", "correct": "列车运行计划", "raw": "[{\"Start\":0.0,\"End\":1.84,\"Speaker\":0,\"Content\":\"你也可以运行计划。\"}]"}
+{"id": "2/train_0299", "audio_id": "train_0299", "asr": "您在控制模式。", "correct": "邻站控制模式", "raw": "[{\"Start\":0,\"End\":2.56,\"Speaker\":0,\"Content\":\"您在控制模式。\"}]"}
+{"id": "2/train_0300", "audio_id": "train_0300", "asr": "中心座座。", "correct": "中心操作", "raw": "[{\"Start\":0.0,\"End\":1.68,\"Speaker\":0,\"Content\":\"中心座座。\"}]"}
+{"id": "2/train_0301", "audio_id": "train_0301", "asr": "分身自虐。", "correct": "分散自律", "raw": "[{\"Start\":0.0,\"End\":1.52,\"Speaker\":0,\"Content\":\"分身自虐。\"}]"}
+{"id": "2/train_0302", "audio_id": "train_0302", "asr": "说删掉错。", "correct": "车站调车", "raw": "[{\"Start\":0,\"End\":1.72,\"Speaker\":0,\"Content\":\"说删掉错。\"}]"}
+{"id": "2/train_0303", "audio_id": "train_0303", "asr": "车单操作。", "correct": "车站操作", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"车单操作。\"}]"}
+{"id": "2/train_0304", "audio_id": "train_0304", "asr": "非常赞同。", "correct": "非常站控", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"非常赞同。\"}]"}
+{"id": "2/train_0305", "audio_id": "train_0305", "asr": "You should tell me.", "correct": "有效调度命令", "raw": "[{\"Start\":0,\"End\":1.8,\"Speaker\":0,\"Content\":\"You should tell me.\"}]"}
+{"id": "2/train_0306", "audio_id": "train_0306", "asr": "转换成功。", "correct": "转换成功", "raw": "[{\"Start\":0.0,\"End\":1.68,\"Speaker\":0,\"Content\":\"转换成功。\"}]"}
+{"id": "2/train_0307", "audio_id": "train_0307", "asr": "已转为车站操作。", "correct": "已转为车站操作", "raw": "[{\"Start\":0.0,\"End\":2.04,\"Speaker\":0,\"Content\":\"已转为车站操作。\"}]"}
+{"id": "2/train_0308", "audio_id": "train_0308", "asr": "人员继续参照全部撤出，往外安全区。", "correct": "人员机具材料全部撤出网外安全区域", "raw": "[{\"Start\":0.0,\"End\":4.16,\"Speaker\":0,\"Content\":\"人员继续参照全部撤出，往外安全区。\"}]"}
+{"id": "2/train_0309", "audio_id": "train_0309", "asr": "不影响行程，不谢烦。", "correct": "不影响行车、不限速", "raw": "[{\"Start\":0.0,\"End\":2.48,\"Speaker\":0,\"Content\":\"不影响行程，不谢烦。\"}]"}
+{"id": "2/train_0310", "audio_id": "train_0310", "asr": "请求开通。", "correct": "请求开通", "raw": "[{\"Start\":0.0,\"End\":1.68,\"Speaker\":0,\"Content\":\"请求开通。\"}]"}
+{"id": "2/train_0311", "audio_id": "train_0311", "asr": "现停止正常使用", "correct": "现停止正常使用", "raw": "[{\"Start\":0,\"End\":2.0,\"Speaker\":0,\"Content\":\"现停止正常使用\"}]"}
+{"id": "2/train_0312", "audio_id": "train_0312", "asr": "按非正常情况，下班。", "correct": "按非正常情况下办理", "raw": "[{\"Start\":0.0,\"End\":2.92,\"Speaker\":0,\"Content\":\"按非正常情况，下班。\"}]"}
+{"id": "2/train_0313", "audio_id": "train_0313", "asr": "", "correct": "请求", "raw": "[{\"Start\":0.0,\"End\":2.4,\"Content\":\"[Silence]\"}]"}
+{"id": "2/train_0314", "audio_id": "train_0314", "asr": "[Unintelligible Speech]", "correct": "抄收", "raw": "[{\"Start\":0.0,\"End\":1.6,\"Speaker\":0,\"Content\":\"[Unintelligible Speech]\"}]"}
+{"id": "2/train_0315", "audio_id": "train_0315", "asr": "Téu domínio.", "correct": "调度命令", "raw": "[{\"Start\":0,\"End\":1.56,\"Speaker\":0,\"Content\":\"Téu domínio.\"}]"}
+{"id": "2/train_0316", "audio_id": "train_0316", "asr": "Eu domínio, eu pretendo.", "correct": "调度命令核对正确", "raw": "[{\"Start\":0,\"End\":2.12,\"Speaker\":0,\"Content\":\"Eu domínio, eu pretendo.\"}]"}
+{"id": "2/train_0317", "audio_id": "train_0317", "asr": "Saudade é do mini.", "correct": "核对调度命令", "raw": "[{\"Start\":0,\"End\":1.92,\"Speaker\":0,\"Content\":\"Saudade é do mini.\"}]"}
+{"id": "2/train_0318", "audio_id": "train_0318", "asr": "越过关闭的进站信号机。", "correct": "越过关闭的进站信号机", "raw": "[{\"Start\":0.0,\"End\":2.48,\"Speaker\":0,\"Content\":\"越过关闭的进站信号机。\"}]"}
+{"id": "2/train_0319", "audio_id": "train_0319", "asr": "越过关闭的初代相机。", "correct": "越过关闭的出站信号机", "raw": "[{\"Start\":0,\"End\":2.4,\"Speaker\":0,\"Content\":\"越过关闭的初代相机。\"}]"}
+{"id": "2/train_0320", "audio_id": "train_0320", "asr": "Pintado mini incrível.", "correct": "凭调度命令进入", "raw": "[{\"Start\":0,\"End\":1.92,\"Speaker\":0,\"Content\":\"Pintado mini incrível.\"}]"}
+{"id": "2/train_0321", "audio_id": "train_0321", "asr": "ก็โอเคเหรอ", "correct": "工务配合", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"ก็โอเคเหรอ\"}]"}
+{"id": "2/train_0322", "audio_id": "train_0322", "asr": "请就上信息先开通。", "correct": "请求上行线开通", "raw": "[{\"Start\":0.0,\"End\":2.16,\"Speaker\":0,\"Content\":\"请就上信息先开通。\"}]"}
+{"id": "2/train_0323", "audio_id": "train_0323", "asr": "请留下信息给我。", "correct": "请求下行线开通", "raw": "[{\"Start\":0.0,\"End\":2.32,\"Speaker\":0,\"Content\":\"请留下信息给我。\"}]"}
+{"id": "2/train_0324", "audio_id": "train_0324", "asr": "三位先生，关于副厂长", "correct": "上行线恢复常速", "raw": "[{\"Start\":0.0,\"End\":2.6,\"Speaker\":0,\"Content\":\"三位先生，关于副厂长\"}]"}
+{"id": "2/train_0325", "audio_id": "train_0325", "asr": "下星期恢复常驻。", "correct": "下行线恢复常速", "raw": "[{\"Start\":0.0,\"End\":2.32,\"Speaker\":0,\"Content\":\"下星期恢复常驻。\"}]"}
+{"id": "2/train_0326", "audio_id": "train_0326", "asr": "右视图3操作转为中心操作", "correct": "由车站操作转回中心操作", "raw": "[{\"Start\":0.0,\"End\":3.0,\"Speaker\":0,\"Content\":\"右视图3操作转为中心操作\"}]"}
+{"id": "2/train_0327", "audio_id": "train_0327", "asr": "如图示，设备中，况，所挡操作方式下，没有正在执行的按钮操作。", "correct": "核对设备状况、车站操作方式下没有正在执行的按钮操作", "raw": "[{\"Start\":0,\"End\":6.72,\"Speaker\":0,\"Content\":\"如图示，设备中，况，所挡操作方式下，没有正在执行的按钮操作。\"}]"}
+{"id": "2/train_0328", "audio_id": "train_0328", "asr": "设备已恢复常态。", "correct": "信号设备已恢复常态", "raw": "[{\"Start\":0.0,\"End\":2.56,\"Speaker\":0,\"Content\":\"设备已恢复常态。\"}]"}
+{"id": "3/train_0001", "audio_id": "train_0001", "asr": "", "correct": "预告", "raw": "[{\"Start\":0.0,\"End\":2.24,\"Content\":\"[Silence]\"}]"}
+{"id": "3/train_0002", "audio_id": "train_0002", "asr": "", "correct": "48015次", "raw": "[{\"Start\":0,\"End\":3.8,\"Content\":\"[Silence]\"}]"}
+{"id": "3/train_0003", "audio_id": "train_0003", "asr": "十八里遥罗城。", "correct": "48016次", "raw": "[{\"Start\":0.0,\"End\":2.88,\"Speaker\":0,\"Content\":\"十八里遥罗城。\"}]"}
+{"id": "3/train_0004", "audio_id": "train_0004", "asr": "十八年以后，怪谁？", "correct": "48017次", "raw": "[{\"Start\":0.0,\"End\":2.92,\"Speaker\":0,\"Content\":\"十八年以后，怪谁？\"}]"}
+{"id": "3/train_0005", "audio_id": "train_0005", "asr": "八栋一百七。 K二三五七。", "correct": "48018次", "raw": "[{\"Start\":0.0,\"End\":2.4,\"Speaker\":0,\"Content\":\"八栋一百七。\"},{\"Start\":2.4,\"End\":4.71,\"Content\":\"[Silence]\"},{\"Start\":4.71,\"End\":7.76,\"Speaker\":0,\"Content\":\"K二三五七。\"}]"}
+{"id": "3/train_0007", "audio_id": "train_0007", "asr": "케이를 잔머리", "correct": "K236次", "raw": "[{\"Start\":0,\"End\":2.16,\"Speaker\":0,\"Content\":\"케이를 잔머리\"}]"}
+{"id": "3/train_0008", "audio_id": "train_0008", "asr": "按照列车运行计划，还得推迟10刻，明天提早12刻，表示与列车调度要联系。", "correct": "按照列车运行计划核对车次、时刻、命令、指示，必要时与列车调度员联系", "raw": "[{\"Start\":0.0,\"End\":8.68,\"Speaker\":0,\"Content\":\"按照列车运行计划，还得推迟10刻，明天提早12刻，表示与列车调度要联系。\"}]"}
+{"id": "3/train_0009", "audio_id": "train_0009", "asr": "同意。", "correct": "同意", "raw": "[{\"Start\":0,\"End\":1.44,\"Speaker\":0,\"Content\":\"同意。\"}]"}
+{"id": "3/train_0010", "audio_id": "train_0010", "asr": "ฉินเฉย", "correct": "停车", "raw": "[{\"Start\":0,\"End\":1.88,\"Speaker\":0,\"Content\":\"ฉินเฉย\"}]"}
+{"id": "3/train_0011", "audio_id": "train_0011", "asr": "一到", "correct": "1道", "raw": "[{\"Start\":0,\"End\":1.56,\"Speaker\":0,\"Content\":\"一到\"}]"}
+{"id": "3/train_0012", "audio_id": "train_0012", "asr": "", "correct": "I道", "raw": "[{\"Start\":0.0,\"End\":2.68,\"Content\":\"[Silence]\"}]"}
+{"id": "3/train_0013", "audio_id": "train_0013", "asr": "ยังด่า", "correct": "2道", "raw": "[{\"Start\":0,\"End\":1.68,\"Speaker\":0,\"Content\":\"ยังด่า\"}]"}
+{"id": "3/train_0014", "audio_id": "train_0014", "asr": "两道。", "correct": "II道", "raw": "[{\"Start\":0,\"End\":2.04,\"Speaker\":0,\"Content\":\"两道。\"}]"}
+{"id": "3/train_0015", "audio_id": "train_0015", "asr": "三道。", "correct": "3道", "raw": "[{\"Start\":0,\"End\":2.28,\"Speaker\":0,\"Content\":\"三道。\"}]"}
+{"id": "3/train_0016", "audio_id": "train_0016", "asr": "Sander.", "correct": "III道", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"Sander.\"}]"}
+{"id": "3/train_0017", "audio_id": "train_0017", "asr": "是的。", "correct": "4道", "raw": "[{\"Start\":0.0,\"End\":1.84,\"Speaker\":0,\"Content\":\"是的。\"}]"}
+{"id": "3/train_0018", "audio_id": "train_0018", "asr": "十到。", "correct": "IV道", "raw": "[{\"Start\":0,\"End\":1.76,\"Speaker\":0,\"Content\":\"十到。\"}]"}
+{"id": "3/train_0019", "audio_id": "train_0019", "asr": "五档。", "correct": "5道", "raw": "[{\"Start\":0,\"End\":1.68,\"Speaker\":0,\"Content\":\"五档。\"}]"}
+{"id": "3/train_0020", "audio_id": "train_0020", "asr": "Уда.", "correct": "VI道", "raw": "[{\"Start\":0,\"End\":1.52,\"Speaker\":0,\"Content\":\"Уда.\"}]"}
+{"id": "3/train_0021", "audio_id": "train_0021", "asr": "一号道岔。", "correct": "1号道岔", "raw": "[{\"Start\":0.0,\"End\":1.48,\"Speaker\":0,\"Content\":\"一号道岔。\"}]"}
+{"id": "3/train_0022", "audio_id": "train_0022", "asr": "然后，大家。", "correct": "2号道岔", "raw": "[{\"Start\":0.0,\"End\":1.68,\"Speaker\":0,\"Content\":\"然后，大家。\"}]"}
+{"id": "3/train_0023", "audio_id": "train_0023", "asr": "想喝豆茶。", "correct": "3号道岔", "raw": "[{\"Start\":0.0,\"End\":1.96,\"Speaker\":0,\"Content\":\"想喝豆茶。\"}]"}
+{"id": "3/train_0024", "audio_id": "train_0024", "asr": "十号到站。", "correct": "4号道岔", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"十号到站。\"}]"}
+{"id": "3/train_0025", "audio_id": "train_0025", "asr": "如果喝奶茶。", "correct": "5号道岔", "raw": "[{\"Start\":0.0,\"End\":1.56,\"Speaker\":0,\"Content\":\"如果喝奶茶。\"}]"}
+{"id": "3/train_0026", "audio_id": "train_0026", "asr": "落花倒茶。", "correct": "6号道岔", "raw": "[{\"Start\":0,\"End\":1.64,\"Speaker\":0,\"Content\":\"落花倒茶。\"}]"}
+{"id": "3/train_0027", "audio_id": "train_0027", "asr": "เชื่อเขาเท่าท่า", "correct": "7号道岔", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"เชื่อเขาเท่าท่า\"}]"}
+{"id": "3/train_0028", "audio_id": "train_0028", "asr": "[Noise]", "correct": "8号道岔", "raw": "[{\"Start\":0,\"End\":2.88,\"Content\":\"[Noise]\"}]"}
+{"id": "3/train_0029", "audio_id": "train_0029", "asr": "就喝早茶。", "correct": "9号道岔", "raw": "[{\"Start\":0,\"End\":1.08,\"Speaker\":0,\"Content\":\"就喝早茶。\"}]"}
+{"id": "3/train_0030", "audio_id": "train_0030", "asr": "谁喝多少？", "correct": "10号道岔", "raw": "[{\"Start\":0,\"End\":1.56,\"Speaker\":0,\"Content\":\"谁喝多少？\"}]"}
+{"id": "3/train_0031", "audio_id": "train_0031", "asr": "四一后多少？", "correct": "11号道岔", "raw": "[{\"Start\":0.0,\"End\":1.92,\"Speaker\":0,\"Content\":\"四一后多少？\"}]"}
+{"id": "3/train_0032", "audio_id": "train_0032", "asr": "セルカドーザ", "correct": "12号道岔", "raw": "[{\"Start\":0,\"End\":2.24,\"Speaker\":0,\"Content\":\"セルカドーザ\"}]"}
+{"id": "3/train_0033", "audio_id": "train_0033", "asr": "社長、はださん。", "correct": "13号道岔", "raw": "[{\"Start\":0,\"End\":1.32,\"Speaker\":0,\"Content\":\"社長、はださん。\"}]"}
+{"id": "3/train_0034", "audio_id": "train_0034", "asr": "试试，我倒下。", "correct": "14号道岔", "raw": "[{\"Start\":0,\"End\":1.28,\"Speaker\":0,\"Content\":\"试试，我倒下。\"}]"}
+{"id": "3/train_0035", "audio_id": "train_0035", "asr": "เซอร์วอร์รัช", "correct": "15号道岔", "raw": "[{\"Start\":0,\"End\":1.24,\"Speaker\":0,\"Content\":\"เซอร์วอร์รัช\"}]"}
+{"id": "3/train_0036", "audio_id": "train_0036", "asr": "selo rodada.", "correct": "16号道岔", "raw": "[{\"Start\":0,\"End\":1.56,\"Speaker\":0,\"Content\":\"selo rodada.\"}]"}
+{"id": "3/train_0037", "audio_id": "train_0037", "asr": "世界好多事。", "correct": "17号道岔", "raw": "[{\"Start\":0.0,\"End\":1.68,\"Speaker\":0,\"Content\":\"世界好多事。\"}]"}
+{"id": "3/train_0038", "audio_id": "train_0038", "asr": "对，不好找，就是。", "correct": "18号道岔", "raw": "[{\"Start\":0,\"End\":1.12,\"Speaker\":0,\"Content\":\"对，不好找，就是。\"}]"}
+{"id": "3/train_0039", "audio_id": "train_0039", "asr": "19号到站。", "correct": "19号道岔", "raw": "[{\"Start\":0.0,\"End\":1.48,\"Speaker\":0,\"Content\":\"19号到站。\"}]"}
+{"id": "3/train_0040", "audio_id": "train_0040", "asr": "うるさいわ、どうぞ。", "correct": "20号道岔", "raw": "[{\"Start\":0,\"End\":1.56,\"Speaker\":0,\"Content\":\"うるさいわ、どうぞ。\"}]"}
+{"id": "3/train_0041", "audio_id": "train_0041", "asr": "日记和多少？", "correct": "21号道岔", "raw": "[{\"Start\":0.0,\"End\":1.36,\"Speaker\":0,\"Content\":\"日记和多少？\"}]"}
+{"id": "3/train_0042", "audio_id": "train_0042", "asr": "二十三只核桃子", "correct": "22号道岔", "raw": "[{\"Start\":0,\"End\":1.24,\"Speaker\":0,\"Content\":\"二十三只核桃子\"}]"}
+{"id": "3/train_0043", "audio_id": "train_0043", "asr": "Resa, fala, Resa.", "correct": "23号道岔", "raw": "[{\"Start\":0,\"End\":0.88,\"Speaker\":0,\"Content\":\"Resa, fala, Resa.\"}]"}
+{"id": "3/train_0044", "audio_id": "train_0044", "asr": "二十七号到站。", "correct": "24号道岔", "raw": "[{\"Start\":0.0,\"End\":1.84,\"Speaker\":0,\"Content\":\"二十七号到站。\"}]"}
+{"id": "3/train_0045", "audio_id": "train_0045", "asr": "X十一。", "correct": "X1", "raw": "[{\"Start\":0.0,\"End\":1.08,\"Speaker\":0,\"Content\":\"X十一。\"}]"}
+{"id": "3/train_0046", "audio_id": "train_0046", "asr": "C'est laid.", "correct": "X2", "raw": "[{\"Start\":0,\"End\":1.04,\"Speaker\":0,\"Content\":\"C'est laid.\"}]"}
+{"id": "3/train_0047", "audio_id": "train_0047", "asr": "Okay, it's time.", "correct": "X3", "raw": "[{\"Start\":0,\"End\":1.04,\"Speaker\":0,\"Content\":\"Okay, it's time.\"}]"}
+{"id": "3/train_0048", "audio_id": "train_0048", "asr": "Say it.", "correct": "X4", "raw": "[{\"Start\":0,\"End\":0.96,\"Speaker\":0,\"Content\":\"Say it.\"}]"}
+{"id": "3/train_0049", "audio_id": "train_0049", "asr": "See you.", "correct": "S1", "raw": "[{\"Start\":0,\"End\":0.76,\"Speaker\":0,\"Content\":\"See you.\"}]"}
+{"id": "3/train_0050", "audio_id": "train_0050", "asr": "Es el de", "correct": "S2", "raw": "[{\"Start\":0,\"End\":1.56,\"Speaker\":0,\"Content\":\"Es el de\"}]"}
+{"id": "3/train_0051", "audio_id": "train_0051", "asr": "It's time.", "correct": "S3", "raw": "[{\"Start\":0,\"End\":1.0,\"Speaker\":0,\"Content\":\"It's time.\"}]"}
+{"id": "3/train_0052", "audio_id": "train_0052", "asr": "This is saying.", "correct": "S4", "raw": "[{\"Start\":0,\"End\":1.88,\"Speaker\":0,\"Content\":\"This is saying.\"}]"}
+{"id": "3/train_0053", "audio_id": "train_0053", "asr": "Yo.", "correct": "D1", "raw": "[{\"Start\":0,\"End\":1.64,\"Speaker\":0,\"Content\":\"Yo.\"}]"}
+{"id": "3/train_0054", "audio_id": "train_0054", "asr": "Diblè.", "correct": "D2", "raw": "[{\"Start\":0,\"End\":1.0,\"Speaker\":0,\"Content\":\"Diblè.\"}]"}
+{"id": "3/train_0055", "audio_id": "train_0055", "asr": "第三。", "correct": "D3", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"第三。\"}]"}
+{"id": "3/train_0056", "audio_id": "train_0056", "asr": "kiss day", "correct": "D4", "raw": "[{\"Start\":0,\"End\":1.8,\"Speaker\":0,\"Content\":\"kiss day\"}]"}
+{"id": "3/train_0057", "audio_id": "train_0057", "asr": "结果", "correct": "D5", "raw": "[{\"Start\":0.0,\"End\":1.32,\"Speaker\":0,\"Content\":\"结果\"}]"}
+{"id": "3/train_0058", "audio_id": "train_0058", "asr": "Get on.", "correct": "D6", "raw": "[{\"Start\":0,\"End\":0.76,\"Speaker\":0,\"Content\":\"Get on.\"}]"}
+{"id": "3/train_0059", "audio_id": "train_0059", "asr": "DJ", "correct": "D7", "raw": "[{\"Start\":0,\"End\":1.28,\"Speaker\":0,\"Content\":\"DJ\"}]"}
+{"id": "3/train_0060", "audio_id": "train_0060", "asr": "Au revoir.", "correct": "D8", "raw": "[{\"Start\":0.0,\"End\":1.28,\"Speaker\":0,\"Content\":\"Au revoir.\"}]"}
+{"id": "3/train_0061", "audio_id": "train_0061", "asr": "Tchau.", "correct": "D9", "raw": "[{\"Start\":0.0,\"End\":1.44,\"Speaker\":0,\"Content\":\"Tchau.\"}]"}
+{"id": "3/train_0062", "audio_id": "train_0062", "asr": "Qui c'est?", "correct": "D10", "raw": "[{\"Start\":0,\"End\":0.96,\"Speaker\":0,\"Content\":\"Qui c'est?\"}]"}
+{"id": "3/train_0063", "audio_id": "train_0063", "asr": "Yo, yo.", "correct": "D11", "raw": "[{\"Start\":0,\"End\":1.04,\"Speaker\":0,\"Content\":\"Yo, yo.\"}]"}
+{"id": "3/train_0064", "audio_id": "train_0064", "asr": "你是谁？", "correct": "D12", "raw": "[{\"Start\":0,\"End\":1.2,\"Speaker\":0,\"Content\":\"你是谁？\"}]"}
+{"id": "3/train_0065", "audio_id": "train_0065", "asr": "Dieses", "correct": "D13", "raw": "[{\"Start\":0.0,\"End\":1.08,\"Speaker\":0,\"Content\":\"Dieses\"}]"}
+{"id": "3/train_0066", "audio_id": "train_0066", "asr": "Qui c'est ?", "correct": "D14", "raw": "[{\"Start\":0.0,\"End\":1.36,\"Speaker\":0,\"Content\":\"Qui c'est ?\"}]"}
+{"id": "3/train_0067", "audio_id": "train_0067", "asr": "Je t'aime.", "correct": "D15", "raw": "[{\"Start\":0,\"End\":1.2,\"Speaker\":0,\"Content\":\"Je t'aime.\"}]"}
+{"id": "3/train_0068", "audio_id": "train_0068", "asr": "Qui c'est le nom ?", "correct": "D16", "raw": "[{\"Start\":0.0,\"End\":1.56,\"Speaker\":0,\"Content\":\"Qui c'est le nom ?\"}]"}
+{"id": "3/train_0069", "audio_id": "train_0069", "asr": "谢谢", "correct": "D17", "raw": "[{\"Start\":0,\"End\":0.92,\"Speaker\":0,\"Content\":\"谢谢\"}]"}
+{"id": "3/train_0070", "audio_id": "train_0070", "asr": "17番。", "correct": "D18", "raw": "[{\"Start\":0,\"End\":1.48,\"Speaker\":0,\"Content\":\"17番。\"}]"}
+{"id": "3/train_0071", "audio_id": "train_0071", "asr": "Tu sais, Joe.", "correct": "D19", "raw": "[{\"Start\":0,\"End\":1.04,\"Speaker\":0,\"Content\":\"Tu sais, Joe.\"}]"}
+{"id": "3/train_0072", "audio_id": "train_0072", "asr": "Get her to say it.", "correct": "D20", "raw": "[{\"Start\":0,\"End\":1.76,\"Speaker\":0,\"Content\":\"Get her to say it.\"}]"}
+{"id": "3/train_0073", "audio_id": "train_0073", "asr": "Get ready.", "correct": "D21", "raw": "[{\"Start\":0,\"End\":1.0,\"Speaker\":0,\"Content\":\"Get ready.\"}]"}
+{"id": "3/train_0074", "audio_id": "train_0074", "asr": "Girijale.", "correct": "D22", "raw": "[{\"Start\":0,\"End\":1.2,\"Speaker\":0,\"Content\":\"Girijale.\"}]"}
+{"id": "3/train_0075", "audio_id": "train_0075", "asr": "จีริจาร์", "correct": "D23", "raw": "[{\"Start\":0,\"End\":2.2,\"Speaker\":0,\"Content\":\"จีริจาร์\"}]"}
+{"id": "3/train_0076", "audio_id": "train_0076", "asr": "Did you say?", "correct": "D24", "raw": "[{\"Start\":0,\"End\":1.04,\"Speaker\":0,\"Content\":\"Did you say?\"}]"}
+{"id": "3/train_0077", "audio_id": "train_0077", "asr": "It is a war.", "correct": "D25", "raw": "[{\"Start\":0,\"End\":1.12,\"Speaker\":0,\"Content\":\"It is a war.\"}]"}
+{"id": "3/train_0078", "audio_id": "train_0078", "asr": "[Noise]", "correct": "D26", "raw": "[{\"Start\":0,\"End\":0.8,\"Speaker\":0,\"Content\":\"[Noise]\"}]"}
+{"id": "3/train_0079", "audio_id": "train_0079", "asr": "Жильчей.", "correct": "D27", "raw": "[{\"Start\":0,\"End\":0.88,\"Speaker\":0,\"Content\":\"Жильчей.\"}]"}
+{"id": "3/train_0080", "audio_id": "train_0080", "asr": "คิดหรือเปล่า", "correct": "D28", "raw": "[{\"Start\":0,\"End\":1.44,\"Speaker\":0,\"Content\":\"คิดหรือเปล่า\"}]"}
+{"id": "3/train_0081", "audio_id": "train_0081", "asr": "L'été, Joe.", "correct": "D29", "raw": "[{\"Start\":0,\"End\":2.04,\"Speaker\":0,\"Content\":\"L'été, Joe.\"}]"}
+{"id": "3/train_0082", "audio_id": "train_0082", "asr": "", "correct": "D30", "raw": "[{\"Start\":0,\"End\":2.52,\"Content\":\"[Silence]\"}]"}
+{"id": "3/train_0083", "audio_id": "train_0083", "asr": "1997 R.", "correct": "内勤助理值班员", "raw": "[{\"Start\":0,\"End\":2.6,\"Speaker\":0,\"Content\":\"1997 R.\"}]"}
+{"id": "3/train_0084", "audio_id": "train_0084", "asr": "欢迎收听 ZBR", "correct": "外勤助理值班员", "raw": "[{\"Start\":0.0,\"End\":1.8,\"Speaker\":0,\"Content\":\"欢迎收听 ZBR\"}]"}
+{"id": "3/train_0085", "audio_id": "train_0085", "asr": "祝你这边 alright 君。", "correct": "助理值班员外勤", "raw": "[{\"Start\":0,\"End\":2.16,\"Speaker\":0,\"Content\":\"祝你这边 alright 君。\"}]"}
+{"id": "3/train_0086", "audio_id": "train_0086", "asr": "Ladies and gentlemen, here's your", "correct": "助理值班员内勤", "raw": "[{\"Start\":0,\"End\":0.96,\"Speaker\":0,\"Content\":\"Ladies and gentlemen, here's your\"}]"}
+{"id": "3/train_0087", "audio_id": "train_0087", "asr": "现在在北园儿。", "correct": "车站值班员", "raw": "[{\"Start\":0.0,\"End\":1.36,\"Speaker\":0,\"Content\":\"现在在北园儿。\"}]"}
+{"id": "3/train_0088", "audio_id": "train_0088", "asr": "C'est pas grave.", "correct": "值班干部", "raw": "[{\"Start\":0,\"End\":0.88,\"Speaker\":0,\"Content\":\"C'est pas grave.\"}]"}
+{"id": "3/train_0089", "audio_id": "train_0089", "asr": "你身体要注意啊。", "correct": "列车调度员", "raw": "[{\"Start\":0,\"End\":1.28,\"Speaker\":0,\"Content\":\"你身体要注意啊。\"}]"}
+{"id": "3/train_0090", "audio_id": "train_0090", "asr": "yeah, how about now again?", "correct": "1号扳道员", "raw": "[{\"Start\":0,\"End\":1.72,\"Speaker\":0,\"Content\":\"yeah, how about now again?\"}]"}
+{"id": "3/train_0091", "audio_id": "train_0091", "asr": "Ronald Reagan.", "correct": "2号扳道员", "raw": "[{\"Start\":0.0,\"End\":1.56,\"Speaker\":0,\"Content\":\"Ronald Reagan.\"}]"}
+{"id": "3/train_0092", "audio_id": "train_0092", "asr": "斩掉安全神位，斩断安全神枪指挥中心。", "correct": "站段安全生产调度指挥中心", "raw": "[{\"Start\":0,\"End\":7.68,\"Speaker\":0,\"Content\":\"斩掉安全神位，斩断安全神枪指挥中心。\"}]"}
+{"id": "3/train_0093", "audio_id": "train_0093", "asr": "Go.", "correct": "电务工区", "raw": "[{\"Start\":0,\"End\":0.8,\"Speaker\":0,\"Content\":\"Go.\"}]"}
+{"id": "3/train_0094", "audio_id": "train_0094", "asr": "Hong Kong Hong Kong", "correct": "工务工区", "raw": "[{\"Start\":0,\"End\":1.0,\"Speaker\":0,\"Content\":\"Hong Kong Hong Kong\"}]"}
+{"id": "3/train_0095", "audio_id": "train_0095", "asr": "Yeah, I'm listening.", "correct": "电务人员", "raw": "[{\"Start\":0,\"End\":1.16,\"Speaker\":0,\"Content\":\"Yeah, I'm listening.\"}]"}
+{"id": "3/train_0096", "audio_id": "train_0096", "asr": "Com o link. 1.", "correct": "工务人员", "raw": "[{\"Start\":0,\"Speaker\":0,\"Content\":\"Com o link.\"},{\"Start\":0.04,\"End\":1.04,\"Speaker\":0,\"Content\":\"1.\"}]"}
+{"id": "3/train_0097", "audio_id": "train_0097", "asr": "You said it.", "correct": "胜任人员", "raw": "[{\"Start\":0,\"End\":0.88,\"Speaker\":0,\"Content\":\"You said it.\"}]"}
+{"id": "3/train_0098", "audio_id": "train_0098", "asr": "C'est dit.", "correct": "司机", "raw": "[{\"Start\":0,\"End\":0.84,\"Speaker\":0,\"Content\":\"C'est dit.\"}]"}
+{"id": "3/train_0099", "audio_id": "train_0099", "asr": "Peter.", "correct": "A站", "raw": "[{\"Start\":0,\"End\":0.92,\"Speaker\":0,\"Content\":\"Peter.\"}]"}
+{"id": "3/train_0100", "audio_id": "train_0100", "asr": "Fiza.", "correct": "B站", "raw": "[{\"Start\":0,\"End\":0.96,\"Speaker\":0,\"Content\":\"Fiza.\"}]"}
+{"id": "3/train_0101", "audio_id": "train_0101", "asr": "C'est ça.", "correct": "C站", "raw": "[{\"Start\":0,\"End\":1.32,\"Speaker\":0,\"Content\":\"C'est ça.\"}]"}
+{"id": "3/train_0102", "audio_id": "train_0102", "asr": "奇怪，听起来。", "correct": "机外停车", "raw": "[{\"Start\":0.0,\"End\":1.32,\"Speaker\":0,\"Content\":\"奇怪，听起来。\"}]"}
+{"id": "3/train_0103", "audio_id": "train_0103", "asr": "Zutara.", "correct": "知道了", "raw": "[{\"Start\":0,\"End\":1.2,\"Speaker\":0,\"Content\":\"Zutara.\"}]"}
+{"id": "3/train_0104", "audio_id": "train_0104", "asr": "MB.", "correct": "明白", "raw": "[{\"Start\":0,\"End\":1.32,\"Speaker\":0,\"Content\":\"MB.\"}]"}
+{"id": "3/train_0105", "audio_id": "train_0105", "asr": "好。", "correct": "好", "raw": "[{\"Start\":0,\"End\":1.16,\"Speaker\":0,\"Content\":\"好。\"}]"}
+{"id": "3/train_0106", "audio_id": "train_0106", "asr": "好了。", "correct": "好了", "raw": "[{\"Start\":0,\"End\":1.08,\"Speaker\":0,\"Content\":\"好了。\"}]"}
+{"id": "3/train_0107", "audio_id": "train_0107", "asr": "收到。", "correct": "收到", "raw": "[{\"Start\":0.0,\"End\":1.52,\"Speaker\":0,\"Content\":\"收到。\"}]"}
+{"id": "3/train_0108", "audio_id": "train_0108", "asr": "口天喉心别吃。", "correct": "扣停后续列车", "raw": "[{\"Start\":0,\"End\":1.4,\"Speaker\":0,\"Content\":\"口天喉心别吃。\"}]"}
+{"id": "3/train_0109", "audio_id": "train_0109", "asr": "遵循反寻和GBC", "correct": "准许放行后续列车", "raw": "[{\"Start\":0.0,\"End\":2.08,\"Speaker\":0,\"Content\":\"遵循反寻和GBC\"}]"}
+{"id": "3/train_0110", "audio_id": "train_0110", "asr": "杀人", "correct": "下行", "raw": "[{\"Start\":0,\"End\":1.4,\"Speaker\":0,\"Content\":\"杀人\"}]"}
+{"id": "3/train_0111", "audio_id": "train_0111", "asr": "上个心", "correct": "上行", "raw": "[{\"Start\":0.0,\"End\":1.32,\"Speaker\":0,\"Content\":\"上个心\"}]"}
+{"id": "3/train_0112", "audio_id": "train_0112", "asr": "紧张。", "correct": "进站", "raw": "[{\"Start\":0,\"End\":1.04,\"Speaker\":0,\"Content\":\"紧张。\"}]"}
+{"id": "3/train_0113", "audio_id": "train_0113", "asr": "ช่วยหน่อย", "correct": "出站", "raw": "[{\"Start\":0,\"End\":1.84,\"Speaker\":0,\"Content\":\"ช่วยหน่อย\"}]"}
+{"id": "3/train_0114", "audio_id": "train_0114", "asr": "ชื่อหอยเจ๊", "correct": "信号机", "raw": "[{\"Start\":0,\"End\":1.56,\"Speaker\":0,\"Content\":\"ชื่อหอยเจ๊\"}]"}
+{"id": "3/train_0115", "audio_id": "train_0115", "asr": "弁護はしめ", "correct": "灯光熄灭", "raw": "[{\"Start\":0,\"End\":1.4,\"Speaker\":0,\"Content\":\"弁護はしめ\"}]"}
+{"id": "3/train_0116", "audio_id": "train_0116", "asr": "鼓掌", "correct": "故障", "raw": "[{\"Start\":0.0,\"End\":1.6,\"Speaker\":0,\"Content\":\"鼓掌\"}]"}
+{"id": "3/train_0117", "audio_id": "train_0117", "asr": "音箱。", "correct": "影响", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"音箱。\"}]"}
+{"id": "3/train_0118", "audio_id": "train_0118", "asr": "Excuse me.", "correct": "接车", "raw": "[{\"Start\":0,\"End\":1.84,\"Speaker\":0,\"Content\":\"Excuse me.\"}]"}
+{"id": "3/train_0119", "audio_id": "train_0119", "asr": "Fase.", "correct": "发车", "raw": "[{\"Start\":0,\"End\":1.08,\"Speaker\":0,\"Content\":\"Fase.\"}]"}
+{"id": "3/train_0120", "audio_id": "train_0120", "asr": "I'm quitting.", "correct": "按规定办理", "raw": "[{\"Start\":0,\"End\":0.96,\"Speaker\":0,\"Content\":\"I'm quitting.\"}]"}
+{"id": "3/train_0121", "audio_id": "train_0121", "asr": "ต่อ ก้องเจียกงตุย", "correct": "到岗监控作业", "raw": "[{\"Start\":0,\"End\":1.64,\"Speaker\":0,\"Content\":\"ต่อ ก้องเจียกงตุย\"}]"}
+{"id": "3/train_0123", "audio_id": "train_0123", "asr": "保存图片。", "correct": "到站处理", "raw": "[{\"Start\":0,\"End\":1.24,\"Speaker\":0,\"Content\":\"保存图片。\"}]"}
+{"id": "3/train_0124", "audio_id": "train_0124", "asr": "倒装句型。", "correct": "到岗处理", "raw": "[{\"Start\":0.0,\"End\":1.24,\"Speaker\":0,\"Content\":\"倒装句型。\"}]"}
+{"id": "3/train_0125", "audio_id": "train_0125", "asr": "上工电话。", "correct": "上岗监控", "raw": "[{\"Start\":0.0,\"End\":1.28,\"Speaker\":0,\"Content\":\"上工电话。\"}]"}
+{"id": "3/train_0126", "audio_id": "train_0126", "asr": "哎呀，鼓掌，同志，安静。", "correct": "按下故障通知按钮", "raw": "[{\"Start\":0,\"End\":1.88,\"Speaker\":0,\"Content\":\"哎呀，鼓掌，同志，安静。\"}]"}
+{"id": "3/train_0127", "audio_id": "train_0127", "asr": "一到岗。", "correct": "已到岗", "raw": "[{\"Start\":0,\"End\":0.92,\"Speaker\":0,\"Content\":\"一到岗。\"}]"}
+{"id": "3/train_0128", "audio_id": "train_0128", "asr": "点五色笔尖，它情况。", "correct": "电务设备检查情况", "raw": "[{\"Start\":0.0,\"End\":2.76,\"Speaker\":0,\"Content\":\"点五色笔尖，它情况。\"}]"}
+{"id": "4/train_0001", "audio_id": "train_0001", "asr": "四八洞幺五七。", "correct": "预告", "raw": "[{\"Start\":0.0,\"End\":2.8,\"Speaker\":0,\"Content\":\"四八洞幺五七。\"}]"}
+{"id": "4/train_0002", "audio_id": "train_0002", "asr": "48动摇5次。", "correct": "48015次", "raw": "[{\"Start\":0.0,\"End\":2.68,\"Speaker\":0,\"Content\":\"48动摇5次。\"}]"}
+{"id": "4/train_0003", "audio_id": "train_0003", "asr": "四八东阳六七", "correct": "48016次", "raw": "[{\"Start\":0.0,\"End\":2.16,\"Speaker\":0,\"Content\":\"四八东阳六七\"}]"}
+{"id": "4/train_0004", "audio_id": "train_0004", "asr": "Se vai, a tua é a quarta.", "correct": "48017次", "raw": "[{\"Start\":0,\"End\":1.96,\"Speaker\":0,\"Content\":\"Se vai, a tua é a quarta.\"}]"}
+{"id": "4/train_0005", "audio_id": "train_0005", "asr": "48,800.", "correct": "48018次", "raw": "[{\"Start\":0.0,\"End\":2.24,\"Speaker\":0,\"Content\":\"48,800.\"}]"}
+{"id": "4/train_0006", "audio_id": "train_0006", "asr": "快，2354。", "correct": "K235次", "raw": "[{\"Start\":0,\"End\":2.6,\"Speaker\":0,\"Content\":\"快，2354。\"}]"}
+{"id": "4/train_0007", "audio_id": "train_0007", "asr": "快，2364。", "correct": "K236次", "raw": "[{\"Start\":0.0,\"End\":2.28,\"Speaker\":0,\"Content\":\"快，2364。\"}]"}
+{"id": "4/train_0008", "audio_id": "train_0008", "asr": "按照列车运行计划和对车次时刻的命令指示，必要时与列车调度员联系。", "correct": "按照列车运行计划核对车次、时刻、命令、指示，必要时与列车调度员联系", "raw": "[{\"Start\":0.0,\"End\":8.0,\"Speaker\":0,\"Content\":\"按照列车运行计划和对车次时刻的命令指示，必要时与列车调度员联系。\"}]"}
+{"id": "4/train_0009", "audio_id": "train_0009", "asr": "Oui.", "correct": "同意", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"Oui.\"}]"}
+{"id": "4/train_0010", "audio_id": "train_0010", "asr": "听错。", "correct": "停车", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"听错。\"}]"}
+{"id": "4/train_0011", "audio_id": "train_0011", "asr": "1位だ。", "correct": "1道", "raw": "[{\"Start\":0.0,\"End\":1.36,\"Speaker\":0,\"Content\":\"1位だ。\"}]"}
+{"id": "4/train_0012", "audio_id": "train_0012", "asr": "一到。", "correct": "I道", "raw": "[{\"Start\":0.0,\"End\":1.48,\"Speaker\":0,\"Content\":\"一到。\"}]"}
+{"id": "4/train_0013", "audio_id": "train_0013", "asr": "Lên ong to.", "correct": "2道", "raw": "[{\"Start\":0.0,\"End\":1.56,\"Speaker\":0,\"Content\":\"Lên ong to.\"}]"}
+{"id": "4/train_0014", "audio_id": "train_0014", "asr": "Nè, hôm ta.", "correct": "II道", "raw": "[{\"Start\":0,\"End\":1.4,\"Speaker\":0,\"Content\":\"Nè, hôm ta.\"}]"}
+{"id": "4/train_0015", "audio_id": "train_0015", "asr": "Santos", "correct": "3道", "raw": "[{\"Start\":0,\"End\":1.32,\"Speaker\":0,\"Content\":\"Santos\"}]"}
+{"id": "4/train_0016", "audio_id": "train_0016", "asr": "三到。", "correct": "III道", "raw": "[{\"Start\":0,\"End\":1.04,\"Speaker\":0,\"Content\":\"三到。\"}]"}
+{"id": "4/train_0017", "audio_id": "train_0017", "asr": "四道。", "correct": "4道", "raw": "[{\"Start\":0.0,\"End\":1.44,\"Speaker\":0,\"Content\":\"四道。\"}]"}
+{"id": "4/train_0018", "audio_id": "train_0018", "asr": "4th.", "correct": "IV道", "raw": "[{\"Start\":0,\"End\":1.44,\"Speaker\":0,\"Content\":\"4th.\"}]"}
+{"id": "4/train_0019", "audio_id": "train_0019", "asr": "武道", "correct": "5道", "raw": "[{\"Start\":0,\"End\":1.44,\"Speaker\":0,\"Content\":\"武道\"}]"}
+{"id": "4/train_0020", "audio_id": "train_0020", "asr": "六道。", "correct": "VI道", "raw": "[{\"Start\":0,\"End\":1.84,\"Speaker\":0,\"Content\":\"六道。\"}]"}
+{"id": "4/train_0021", "audio_id": "train_0021", "asr": "一号到场。", "correct": "1号道岔", "raw": "[{\"Start\":0,\"End\":1.92,\"Speaker\":0,\"Content\":\"一号到场。\"}]"}
+{"id": "4/train_0022", "audio_id": "train_0022", "asr": "二号到三号", "correct": "2号道岔", "raw": "[{\"Start\":0,\"End\":2.0,\"Speaker\":0,\"Content\":\"二号到三号\"}]"}
+{"id": "4/train_0023", "audio_id": "train_0023", "asr": "三号到厂", "correct": "3号道岔", "raw": "[{\"Start\":0,\"End\":1.72,\"Speaker\":0,\"Content\":\"三号到厂\"}]"}
+{"id": "4/train_0024", "audio_id": "train_0024", "asr": "四号到站。", "correct": "4号道岔", "raw": "[{\"Start\":0,\"End\":1.64,\"Speaker\":0,\"Content\":\"四号到站。\"}]"}
+{"id": "4/train_0025", "audio_id": "train_0025", "asr": "Вот, ха-ха, танцы.", "correct": "5号道岔", "raw": "[{\"Start\":0,\"End\":1.52,\"Speaker\":0,\"Content\":\"Вот, ха-ха, танцы.\"}]"}
+{"id": "4/train_0026", "audio_id": "train_0026", "asr": "六号到三。", "correct": "6号道岔", "raw": "[{\"Start\":0,\"End\":1.56,\"Speaker\":0,\"Content\":\"六号到三。\"}]"}
+{"id": "4/train_0027", "audio_id": "train_0027", "asr": "七号大厦。", "correct": "7号道岔", "raw": "[{\"Start\":0.0,\"End\":1.8,\"Speaker\":0,\"Content\":\"七号大厦。\"}]"}
+{"id": "4/train_0028", "audio_id": "train_0028", "asr": "А, ходу, сорок.", "correct": "8号道岔", "raw": "[{\"Start\":0,\"End\":1.52,\"Speaker\":0,\"Content\":\"А, ходу, сорок.\"}]"}
+{"id": "4/train_0029", "audio_id": "train_0029", "asr": "这个哈达萨", "correct": "9号道岔", "raw": "[{\"Start\":0,\"End\":1.44,\"Speaker\":0,\"Content\":\"这个哈达萨\"}]"}
+{"id": "4/train_0030", "audio_id": "train_0030", "asr": "你好，东方道场。", "correct": "10号道岔", "raw": "[{\"Start\":0,\"End\":1.76,\"Speaker\":0,\"Content\":\"你好，东方道场。\"}]"}
+{"id": "4/train_0031", "audio_id": "train_0031", "asr": "Joo, joo, haetaan se.", "correct": "11号道岔", "raw": "[{\"Start\":0,\"End\":1.72,\"Speaker\":0,\"Content\":\"Joo, joo, haetaan se.\"}]"}
+{"id": "4/train_0032", "audio_id": "train_0032", "asr": "一二三四。", "correct": "12号道岔", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"一二三四。\"}]"}
+{"id": "4/train_0033", "audio_id": "train_0033", "asr": "Ja, så er jeg færdig med at dræse.", "correct": "13号道岔", "raw": "[{\"Start\":0,\"End\":1.84,\"Speaker\":0,\"Content\":\"Ja, så er jeg færdig med at dræse.\"}]"}
+{"id": "4/train_0034", "audio_id": "train_0034", "asr": "幺四号大成。", "correct": "14号道岔", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"幺四号大成。\"}]"}
+{"id": "4/train_0035", "audio_id": "train_0035", "asr": "要五号套餐。", "correct": "15号道岔", "raw": "[{\"Start\":0,\"End\":1.88,\"Speaker\":0,\"Content\":\"要五号套餐。\"}]"}
+{"id": "4/train_0036", "audio_id": "train_0036", "asr": "Ja, det er jo hardt at", "correct": "16号道岔", "raw": "[{\"Start\":0,\"End\":1.56,\"Speaker\":0,\"Content\":\"Ja, det er jo hardt at\"}]"}
+{"id": "4/train_0037", "audio_id": "train_0037", "asr": "要七号早上。", "correct": "17号道岔", "raw": "[{\"Start\":0,\"End\":1.64,\"Speaker\":0,\"Content\":\"要七号早上。\"}]"}
+{"id": "4/train_0038", "audio_id": "train_0038", "asr": "Ja, och bara ha det här.", "correct": "18号道岔", "raw": "[{\"Start\":0,\"End\":1.68,\"Speaker\":0,\"Content\":\"Ja, och bara ha det här.\"}]"}
+{"id": "4/train_0039", "audio_id": "train_0039", "asr": "一九九二到三。", "correct": "19号道岔", "raw": "[{\"Start\":0,\"End\":1.4,\"Speaker\":0,\"Content\":\"一九九二到三。\"}]"}
+{"id": "4/train_0040", "audio_id": "train_0040", "asr": "二东哈大草", "correct": "20号道岔", "raw": "[{\"Start\":0,\"End\":1.8,\"Speaker\":0,\"Content\":\"二东哈大草\"}]"}
+{"id": "4/train_0041", "audio_id": "train_0041", "asr": "二十一号早上", "correct": "21号道岔", "raw": "[{\"Start\":0,\"End\":2.32,\"Speaker\":0,\"Content\":\"二十一号早上\"}]"}
+{"id": "4/train_0042", "audio_id": "train_0042", "asr": "二十二号到三。", "correct": "22号道岔", "raw": "[{\"Start\":0,\"End\":1.8,\"Speaker\":0,\"Content\":\"二十二号到三。\"}]"}
+{"id": "4/train_0043", "audio_id": "train_0043", "asr": "二十三号到三号。", "correct": "23号道岔", "raw": "[{\"Start\":0,\"End\":1.52,\"Speaker\":0,\"Content\":\"二十三号到三号。\"}]"}
+{"id": "4/train_0044", "audio_id": "train_0044", "asr": "二十四号打车。", "correct": "24号道岔", "raw": "[{\"Start\":0.0,\"End\":2.24,\"Speaker\":0,\"Content\":\"二十四号打车。\"}]"}
+{"id": "4/train_0045", "audio_id": "train_0045", "asr": "下一行", "correct": "X1", "raw": "[{\"Start\":0,\"End\":1.36,\"Speaker\":0,\"Content\":\"下一行\"}]"}
+{"id": "4/train_0046", "audio_id": "train_0046", "asr": "啊，行，这样儿的话", "correct": "X2", "raw": "[{\"Start\":0,\"End\":1.28,\"Speaker\":0,\"Content\":\"啊，行，这样儿的话\"}]"}
+{"id": "4/train_0047", "audio_id": "train_0047", "asr": "Ah, c'est, ah, c'est, c'est à ça.", "correct": "X3", "raw": "[{\"Start\":0,\"End\":3.64,\"Speaker\":0,\"Content\":\"Ah, c'est, ah, c'est, c'est à ça.\"}]"}
+{"id": "4/train_0048", "audio_id": "train_0048", "asr": "下次", "correct": "X4", "raw": "[{\"Start\":0,\"End\":3.2,\"Speaker\":0,\"Content\":\"下次\"}]"}
+{"id": "4/train_0049", "audio_id": "train_0049", "asr": "Samedi.", "correct": "S1", "raw": "[{\"Start\":0,\"End\":1.32,\"Speaker\":0,\"Content\":\"Samedi.\"}]"}
+{"id": "4/train_0050", "audio_id": "train_0050", "asr": "三二。", "correct": "S2", "raw": "[{\"Start\":0.0,\"End\":1.52,\"Speaker\":0,\"Content\":\"三二。\"}]"}
+{"id": "4/train_0051", "audio_id": "train_0051", "asr": "Sarasa", "correct": "S3", "raw": "[{\"Start\":0,\"End\":0.96,\"Speaker\":0,\"Content\":\"Sarasa\"}]"}
+{"id": "4/train_0052", "audio_id": "train_0052", "asr": "Sounds good.", "correct": "S4", "raw": "[{\"Start\":0,\"End\":1.24,\"Speaker\":0,\"Content\":\"Sounds good.\"}]"}
+{"id": "4/train_0053", "audio_id": "train_0053", "asr": "Yeah, yeah.", "correct": "D1", "raw": "[{\"Start\":0,\"End\":1.36,\"Speaker\":0,\"Content\":\"Yeah, yeah.\"}]"}
+{"id": "4/train_0054", "audio_id": "train_0054", "asr": "Yeah, R.", "correct": "D2", "raw": "[{\"Start\":0,\"End\":1.28,\"Speaker\":0,\"Content\":\"Yeah, R.\"}]"}
+{"id": "4/train_0055", "audio_id": "train_0055", "asr": "Tja, außer.", "correct": "D3", "raw": "[{\"Start\":0,\"End\":1.12,\"Speaker\":0,\"Content\":\"Tja, außer.\"}]"}
+{"id": "4/train_0056", "audio_id": "train_0056", "asr": "Yeah, I'll surf.", "correct": "D4", "raw": "[{\"Start\":0,\"End\":1.08,\"Speaker\":0,\"Content\":\"Yeah, I'll surf.\"}]"}
+{"id": "4/train_0057", "audio_id": "train_0057", "asr": "Teorema", "correct": "D5", "raw": "[{\"Start\":0,\"End\":1.32,\"Speaker\":0,\"Content\":\"Teorema\"}]"}
+{"id": "4/train_0058", "audio_id": "train_0058", "asr": "Ciao, Leo.", "correct": "D6", "raw": "[{\"Start\":0,\"End\":1.0,\"Speaker\":0,\"Content\":\"Ciao, Leo.\"}]"}
+{"id": "4/train_0059", "audio_id": "train_0059", "asr": "Ты окрас.", "correct": "D7", "raw": "[{\"Start\":0,\"End\":1.64,\"Speaker\":0,\"Content\":\"Ты окрас.\"}]"}
+{"id": "4/train_0060", "audio_id": "train_0060", "asr": "电话。", "correct": "D8", "raw": "[{\"Start\":0,\"End\":1.64,\"Speaker\":0,\"Content\":\"电话。\"}]"}
+{"id": "4/train_0061", "audio_id": "train_0061", "asr": "Ciao, ciao.", "correct": "D9", "raw": "[{\"Start\":0,\"End\":1.0,\"Speaker\":0,\"Content\":\"Ciao, ciao.\"}]"}
+{"id": "4/train_0062", "audio_id": "train_0062", "asr": "Yeah, yeah, I'll talk.", "correct": "D10", "raw": "[{\"Start\":0,\"End\":1.08,\"Speaker\":0,\"Content\":\"Yeah, yeah, I'll talk.\"}]"}
+{"id": "4/train_0063", "audio_id": "train_0063", "asr": "要要要。", "correct": "D11", "raw": "[{\"Start\":0.0,\"End\":1.64,\"Speaker\":0,\"Content\":\"要要要。\"}]"}
+{"id": "4/train_0064", "audio_id": "train_0064", "asr": "Yeah, how you are?", "correct": "D12", "raw": "[{\"Start\":0,\"End\":1.28,\"Speaker\":0,\"Content\":\"Yeah, how you are?\"}]"}
+{"id": "4/train_0065", "audio_id": "train_0065", "asr": "Yo, y'all trying?", "correct": "D13", "raw": "[{\"Start\":0,\"End\":1.0,\"Speaker\":0,\"Content\":\"Yo, y'all trying?\"}]"}
+{"id": "4/train_0066", "audio_id": "train_0066", "asr": "Ja, ja, så.", "correct": "D14", "raw": "[{\"Start\":0,\"End\":1.32,\"Speaker\":0,\"Content\":\"Ja, ja, så.\"}]"}
+{"id": "4/train_0067", "audio_id": "train_0067", "asr": "Yo, yo.", "correct": "D15", "raw": "[{\"Start\":0,\"End\":1.04,\"Speaker\":0,\"Content\":\"Yo, yo.\"}]"}
+{"id": "4/train_0068", "audio_id": "train_0068", "asr": "What's up, y'all?", "correct": "D16", "raw": "[{\"Start\":0,\"End\":0.76,\"Speaker\":0,\"Content\":\"What's up, y'all?\"}]"}
+{"id": "4/train_0069", "audio_id": "train_0069", "asr": "Yeah, I'm done.", "correct": "D17", "raw": "[{\"Start\":0,\"End\":1.0,\"Speaker\":0,\"Content\":\"Yeah, I'm done.\"}]"}
+{"id": "4/train_0070", "audio_id": "train_0070", "asr": "Yeah, we are, pal.", "correct": "D18", "raw": "[{\"Start\":0,\"End\":0.92,\"Speaker\":0,\"Content\":\"Yeah, we are, pal.\"}]"}
+{"id": "4/train_0071", "audio_id": "train_0071", "asr": "Yeah, I got you.", "correct": "D19", "raw": "[{\"Start\":0,\"End\":0.84,\"Speaker\":0,\"Content\":\"Yeah, I got you.\"}]"}
+{"id": "4/train_0072", "audio_id": "train_0072", "asr": "Yeah, I heard them.", "correct": "D20", "raw": "[{\"Start\":0,\"End\":1.32,\"Speaker\":0,\"Content\":\"Yeah, I heard them.\"}]"}
+{"id": "4/train_0073", "audio_id": "train_0073", "asr": "Daria.", "correct": "D21", "raw": "[{\"Start\":0,\"End\":1.96,\"Speaker\":0,\"Content\":\"Daria.\"}]"}
+{"id": "4/train_0074", "audio_id": "train_0074", "asr": "Vale, vale.", "correct": "D22", "raw": "[{\"Start\":0,\"End\":1.4,\"Speaker\":0,\"Content\":\"Vale, vale.\"}]"}
+{"id": "4/train_0075", "audio_id": "train_0075", "asr": "一二两三。", "correct": "D23", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"一二两三。\"}]"}
+{"id": "4/train_0076", "audio_id": "train_0076", "asr": "零二四。", "correct": "D24", "raw": "[{\"Start\":0.0,\"End\":1.52,\"Speaker\":0,\"Content\":\"零二四。\"}]"}
+{"id": "4/train_0077", "audio_id": "train_0077", "asr": "Terrible.", "correct": "D25", "raw": "[{\"Start\":0,\"End\":1.48,\"Speaker\":0,\"Content\":\"Terrible.\"}]"}
+{"id": "4/train_0078", "audio_id": "train_0078", "asr": "Yeah, I already know.", "correct": "D26", "raw": "[{\"Start\":0,\"End\":1.44,\"Speaker\":0,\"Content\":\"Yeah, I already know.\"}]"}
+{"id": "4/train_0079", "audio_id": "train_0079", "asr": "Terrible.", "correct": "D27", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"Terrible.\"}]"}
+{"id": "4/train_0080", "audio_id": "train_0080", "asr": "Chào, Rapa.", "correct": "D28", "raw": "[{\"Start\":0,\"End\":1.32,\"Speaker\":0,\"Content\":\"Chào, Rapa.\"}]"}
+{"id": "4/train_0081", "audio_id": "train_0081", "asr": "An hour or two.", "correct": "D29", "raw": "[{\"Start\":0,\"End\":1.84,\"Speaker\":0,\"Content\":\"An hour or two.\"}]"}
+{"id": "4/train_0082", "audio_id": "train_0082", "asr": "Ja, samme to.", "correct": "D30", "raw": "[{\"Start\":0,\"End\":1.44,\"Speaker\":0,\"Content\":\"Ja, samme to.\"}]"}
+{"id": "4/train_0083", "audio_id": "train_0083", "asr": "内勤助理自拍员。", "correct": "内勤助理值班员", "raw": "[{\"Start\":0.0,\"End\":2.36,\"Speaker\":0,\"Content\":\"内勤助理自拍员。\"}]"}
+{"id": "4/train_0084", "audio_id": "train_0084", "asr": "爱情这里是白羊。", "correct": "外勤助理值班员", "raw": "[{\"Start\":0.0,\"End\":2.56,\"Speaker\":0,\"Content\":\"爱情这里是白羊。\"}]"}
+{"id": "4/train_0085", "audio_id": "train_0085", "asr": "处理值班员外勤。", "correct": "助理值班员外勤", "raw": "[{\"Start\":0.0,\"End\":2.32,\"Speaker\":0,\"Content\":\"处理值班员外勤。\"}]"}
+{"id": "4/train_0086", "audio_id": "train_0086", "asr": "Что, Лиза, твоя ночь?", "correct": "助理值班员内勤", "raw": "[{\"Start\":0,\"End\":2.68,\"Speaker\":0,\"Content\":\"Что, Лиза, твоя ночь?\"}]"}
+{"id": "4/train_0087", "audio_id": "train_0087", "asr": "So, what are you doing?", "correct": "车站值班员", "raw": "[{\"Start\":0,\"End\":1.32,\"Speaker\":0,\"Content\":\"So, what are you doing?\"}]"}
+{"id": "4/train_0088", "audio_id": "train_0088", "asr": "值班干部。", "correct": "值班干部", "raw": "[{\"Start\":0.0,\"End\":1.92,\"Speaker\":0,\"Content\":\"值班干部。\"}]"}
+{"id": "4/train_0089", "audio_id": "train_0089", "asr": "네, 저기요.", "correct": "列车调度员", "raw": "[{\"Start\":0,\"End\":1.72,\"Speaker\":0,\"Content\":\"네, 저기요.\"}]"}
+{"id": "4/train_0090", "audio_id": "train_0090", "asr": "一号半多点。", "correct": "1号扳道员", "raw": "[{\"Start\":0,\"End\":1.52,\"Speaker\":0,\"Content\":\"一号半多点。\"}]"}
+{"id": "4/train_0091", "audio_id": "train_0091", "asr": "2号番組", "correct": "2号扳道员", "raw": "[{\"Start\":0.0,\"End\":1.84,\"Speaker\":0,\"Content\":\"2号番組\"}]"}
+{"id": "4/train_0092", "audio_id": "train_0092", "asr": "下一段安全生产之调度指挥中心。", "correct": "站段安全生产调度指挥中心", "raw": "[{\"Start\":0.0,\"End\":4.48,\"Speaker\":0,\"Content\":\"下一段安全生产之调度指挥中心。\"}]"}
+{"id": "4/train_0093", "audio_id": "train_0093", "asr": "Damn, we're going to win.", "correct": "电务工区", "raw": "[{\"Start\":0,\"End\":1.64,\"Speaker\":0,\"Content\":\"Damn, we're going to win.\"}]"}
+{"id": "4/train_0094", "audio_id": "train_0094", "asr": "Com o gongo.", "correct": "工务工区", "raw": "[{\"Start\":0,\"End\":2.0,\"Speaker\":0,\"Content\":\"Com o gongo.\"}]"}
+{"id": "4/train_0095", "audio_id": "train_0095", "asr": "电屋人", "correct": "电务人员", "raw": "[{\"Start\":0.0,\"End\":1.8,\"Speaker\":0,\"Content\":\"电屋人\"}]"}
+{"id": "4/train_0096", "audio_id": "train_0096", "asr": "Como usa aí, véi?", "correct": "工务人员", "raw": "[{\"Start\":0,\"End\":1.72,\"Speaker\":0,\"Content\":\"Como usa aí, véi?\"}]"}
+{"id": "4/train_0097", "audio_id": "train_0097", "asr": "四分零一来。", "correct": "胜任人员", "raw": "[{\"Start\":0,\"End\":2.44,\"Speaker\":0,\"Content\":\"四分零一来。\"}]"}
+{"id": "4/train_0098", "audio_id": "train_0098", "asr": "四阶。", "correct": "司机", "raw": "[{\"Start\":0,\"End\":1.84,\"Speaker\":0,\"Content\":\"四阶。\"}]"}
+{"id": "4/train_0099", "audio_id": "train_0099", "asr": "", "correct": "A站", "raw": "[{\"Start\":0.0,\"End\":2.16,\"Content\":\"[Silence]\"}]"}
+{"id": "4/train_0100", "audio_id": "train_0100", "asr": "B站。", "correct": "B站", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"B站。\"}]"}
+{"id": "4/train_0101", "audio_id": "train_0101", "asr": "See you then.", "correct": "C站", "raw": "[{\"Start\":0.0,\"End\":1.44,\"Speaker\":0,\"Content\":\"See you then.\"}]"}
+{"id": "4/train_0102", "audio_id": "train_0102", "asr": "区外通车。", "correct": "机外停车", "raw": "[{\"Start\":0,\"End\":1.48,\"Speaker\":0,\"Content\":\"区外通车。\"}]"}
+{"id": "4/train_0103", "audio_id": "train_0103", "asr": "", "correct": "知道了", "raw": "[{\"Start\":0.0,\"End\":2.2,\"Content\":\"[Silence]\"}]"}
+{"id": "4/train_0104", "audio_id": "train_0104", "asr": "Bien, je vous parle.", "correct": "明白", "raw": "[{\"Start\":0,\"End\":1.52,\"Speaker\":0,\"Content\":\"Bien, je vous parle.\"}]"}
+{"id": "4/train_0105", "audio_id": "train_0105", "asr": "好", "correct": "好", "raw": "[{\"Start\":0,\"End\":1.32,\"Speaker\":0,\"Content\":\"好\"}]"}
+{"id": "4/train_0106", "audio_id": "train_0106", "asr": "好了。", "correct": "好了", "raw": "[{\"Start\":0.0,\"End\":1.48,\"Speaker\":0,\"Content\":\"好了。\"}]"}
+{"id": "4/train_0107", "audio_id": "train_0107", "asr": "好啦。", "correct": "收到", "raw": "[{\"Start\":0,\"End\":1.2,\"Speaker\":0,\"Content\":\"好啦。\"}]"}
+{"id": "4/train_0108", "audio_id": "train_0108", "asr": "头顶后去列车", "correct": "扣停后续列车", "raw": "[{\"Start\":0,\"End\":2.68,\"Speaker\":0,\"Content\":\"头顶后去列车\"}]"}
+{"id": "4/train_0109", "audio_id": "train_0109", "asr": "[Unintelligible Speech]", "correct": "准许放行后续列车", "raw": "[{\"Start\":0,\"End\":3.2,\"Speaker\":0,\"Content\":\"[Unintelligible Speech]\"}]"}
+{"id": "4/train_0110", "audio_id": "train_0110", "asr": "Shashi.", "correct": "下行", "raw": "[{\"Start\":0,\"End\":1.44,\"Speaker\":0,\"Content\":\"Shashi.\"}]"}
+{"id": "4/train_0111", "audio_id": "train_0111", "asr": "Sancy.", "correct": "上行", "raw": "[{\"Start\":0,\"End\":1.28,\"Speaker\":0,\"Content\":\"Sancy.\"}]"}
+{"id": "4/train_0112", "audio_id": "train_0112", "asr": "Chinza.", "correct": "进站", "raw": "[{\"Start\":0.0,\"End\":1.32,\"Speaker\":0,\"Content\":\"Chinza.\"}]"}
+{"id": "4/train_0113", "audio_id": "train_0113", "asr": "收山。", "correct": "出站", "raw": "[{\"Start\":0,\"End\":1.28,\"Speaker\":0,\"Content\":\"收山。\"}]"}
+{"id": "4/train_0114", "audio_id": "train_0114", "asr": "谢娜，继续。", "correct": "信号机", "raw": "[{\"Start\":0,\"End\":1.56,\"Speaker\":0,\"Content\":\"谢娜，继续。\"}]"}
+{"id": "4/train_0115", "audio_id": "train_0115", "asr": "灯光熄灭", "correct": "灯光熄灭", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"灯光熄灭\"}]"}
+{"id": "4/train_0116", "audio_id": "train_0116", "asr": "Courage.", "correct": "故障", "raw": "[{\"Start\":0.0,\"End\":1.24,\"Speaker\":0,\"Content\":\"Courage.\"}]"}
+{"id": "4/train_0117", "audio_id": "train_0117", "asr": "音响", "correct": "影响", "raw": "[{\"Start\":0,\"End\":1.36,\"Speaker\":0,\"Content\":\"音响\"}]"}
+{"id": "4/train_0118", "audio_id": "train_0118", "asr": "Tschüss auch.", "correct": "接车", "raw": "[{\"Start\":0.0,\"End\":1.48,\"Speaker\":0,\"Content\":\"Tschüss auch.\"}]"}
+{"id": "4/train_0119", "audio_id": "train_0119", "asr": "Auto.", "correct": "发车", "raw": "[{\"Start\":0,\"End\":1.2,\"Speaker\":0,\"Content\":\"Auto.\"}]"}
+{"id": "4/train_0120", "audio_id": "train_0120", "asr": "按规定办理。", "correct": "按规定办理", "raw": "[{\"Start\":0.0,\"End\":2.36,\"Speaker\":0,\"Content\":\"按规定办理。\"}]"}
+{"id": "4/train_0121", "audio_id": "train_0121", "asr": "好，感觉今天看不多年。", "correct": "到岗监控作业", "raw": "[{\"Start\":0.0,\"End\":2.52,\"Speaker\":0,\"Content\":\"好，感觉今天看不多年。\"}]"}
+{"id": "4/train_0122", "audio_id": "train_0122", "asr": "到站监控作业。", "correct": "到站监控作业", "raw": "[{\"Start\":0,\"End\":2.4,\"Speaker\":0,\"Content\":\"到站监控作业。\"}]"}
+{"id": "4/train_0123", "audio_id": "train_0123", "asr": "到站处理。", "correct": "到站处理", "raw": "[{\"Start\":0,\"End\":2.36,\"Speaker\":0,\"Content\":\"到站处理。\"}]"}
+{"id": "4/train_0124", "audio_id": "train_0124", "asr": "", "correct": "到岗处理", "raw": "[{\"Start\":0.0,\"End\":2.92,\"Content\":\"[Silence]\"}]"}
+{"id": "4/train_0125", "audio_id": "train_0125", "asr": "上港监控", "correct": "上岗监控", "raw": "[{\"Start\":0.0,\"End\":2.4,\"Speaker\":0,\"Content\":\"上港监控\"}]"}
+{"id": "4/train_0126", "audio_id": "train_0126", "asr": "按下故障控制按钮。", "correct": "按下故障通知按钮", "raw": "[{\"Start\":0.0,\"End\":2.92,\"Speaker\":0,\"Content\":\"按下故障控制按钮。\"}]"}
+{"id": "4/train_0127", "audio_id": "train_0127", "asr": "2ヶ月", "correct": "已到岗", "raw": "[{\"Start\":0,\"End\":1.92,\"Speaker\":0,\"Content\":\"2ヶ月\"}]"}
+{"id": "4/train_0128", "audio_id": "train_0128", "asr": "电务设备检查情况。", "correct": "电务设备检查情况", "raw": "[{\"Start\":0.0,\"End\":2.96,\"Speaker\":0,\"Content\":\"电务设备检查情况。\"}]"}
+{"id": "4/train_0129", "audio_id": "train_0129", "asr": "电务设备暂过来恢复。", "correct": "电务设备暂不能恢复", "raw": "[{\"Start\":0.0,\"End\":3.52,\"Speaker\":0,\"Content\":\"电务设备暂过来恢复。\"}]"}
+{"id": "4/train_0130", "audio_id": "train_0130", "asr": "这样过来恢复。", "correct": "暂不能修复", "raw": "[{\"Start\":0,\"End\":2.0,\"Speaker\":0,\"Content\":\"这样过来恢复。\"}]"}
+{"id": "4/train_0131", "audio_id": "train_0131", "asr": "线路设备检查情况。", "correct": "线路设备检查情况", "raw": "[{\"Start\":0.0,\"End\":3.16,\"Speaker\":0,\"Content\":\"线路设备检查情况。\"}]"}
+{"id": "4/train_0132", "audio_id": "train_0132", "asr": "刚设备正常。", "correct": "工务设备正常", "raw": "[{\"Start\":0,\"End\":2.8,\"Speaker\":0,\"Content\":\"刚设备正常。\"}]"}
+{"id": "4/train_0133", "audio_id": "train_0133", "asr": "请94600打信号机车。", "correct": "请求使用引导信号接车", "raw": "[{\"Start\":0.0,\"End\":3.56,\"Speaker\":0,\"Content\":\"请94600打信号机车。\"}]"}
+{"id": "4/train_0134", "audio_id": "train_0134", "asr": "嗯，你使用引导信号计车。", "correct": "同意使用引导信号接车", "raw": "[{\"Start\":0.0,\"End\":3.8,\"Speaker\":0,\"Content\":\"嗯，你使用引导信号计车。\"}]"}
+{"id": "4/train_0135", "audio_id": "train_0135", "asr": "[Unintelligible Speech]", "correct": "取消", "raw": "[{\"Start\":0.0,\"End\":1.88,\"Speaker\":0,\"Content\":\"[Unintelligible Speech]\"}]"}
+{"id": "4/train_0136", "audio_id": "train_0136", "asr": "列车进入", "correct": "接车进路", "raw": "[{\"Start\":0.0,\"End\":2.24,\"Speaker\":0,\"Content\":\"列车进入\"}]"}
+{"id": "4/train_0137", "audio_id": "train_0137", "asr": "八车进入。", "correct": "发车进路", "raw": "[{\"Start\":0.0,\"End\":2.24,\"Speaker\":0,\"Content\":\"八车进入。\"}]"}
+{"id": "4/train_0138", "audio_id": "train_0138", "asr": "进入解锁。", "correct": "进路解锁", "raw": "[{\"Start\":0,\"End\":1.68,\"Speaker\":0,\"Content\":\"进入解锁。\"}]"}
+{"id": "4/train_0139", "audio_id": "train_0139", "asr": "进准备进入。", "correct": "准备进路", "raw": "[{\"Start\":0.0,\"End\":2.52,\"Speaker\":0,\"Content\":\"进准备进入。\"}]"}
+{"id": "4/train_0140", "audio_id": "train_0140", "asr": "So, that's it.", "correct": "执行", "raw": "[{\"Start\":0,\"End\":1.36,\"Speaker\":0,\"Content\":\"So, that's it.\"}]"}
+{"id": "4/train_0141", "audio_id": "train_0141", "asr": "进入准备好了。", "correct": "进路准备好", "raw": "[{\"Start\":0.0,\"End\":2.48,\"Speaker\":0,\"Content\":\"进入准备好了。\"}]"}
+{"id": "4/train_0142", "audio_id": "train_0142", "asr": "记录准备完毕。", "correct": "进路准备完毕", "raw": "[{\"Start\":0.0,\"End\":2.36,\"Speaker\":0,\"Content\":\"记录准备完毕。\"}]"}
+{"id": "4/train_0143", "audio_id": "train_0143", "asr": "ชิ้นนู้นส่วนเบสของมัน", "correct": "进路准备妥当", "raw": "[{\"Start\":0,\"End\":2.12,\"Speaker\":0,\"Content\":\"ชิ้นนู้นส่วนเบสของมัน\"}]"}
+{"id": "4/train_0144", "audio_id": "train_0144", "asr": "cheer the", "correct": "确认", "raw": "[{\"Start\":0,\"End\":1.96,\"Speaker\":0,\"Content\":\"cheer the\"}]"}
+{"id": "4/train_0145", "audio_id": "train_0145", "asr": "进入哈", "correct": "进路好", "raw": "[{\"Start\":0.0,\"End\":1.52,\"Speaker\":0,\"Content\":\"进入哈\"}]"}
+{"id": "4/train_0146", "audio_id": "train_0146", "asr": "新郎哈。", "correct": "信号好", "raw": "[{\"Start\":0,\"End\":4.28,\"Speaker\":0,\"Content\":\"新郎哈。\"}]"}
+{"id": "4/train_0147", "audio_id": "train_0147", "asr": "进入正片。", "correct": "进路正确", "raw": "[{\"Start\":0.0,\"End\":1.8,\"Speaker\":0,\"Content\":\"进入正片。\"}]"}
+{"id": "4/train_0148", "audio_id": "train_0148", "asr": "引导成所", "correct": "引导总锁", "raw": "[{\"Start\":0,\"End\":2.56,\"Speaker\":0,\"Content\":\"引导成所\"}]"}
+{"id": "4/train_0149", "audio_id": "train_0149", "asr": "开放引导性哈。", "correct": "开放引导信号", "raw": "[{\"Start\":0,\"End\":2.92,\"Speaker\":0,\"Content\":\"开放引导性哈。\"}]"}
+{"id": "4/train_0150", "audio_id": "train_0150", "asr": "开放性哈。", "correct": "开放信号", "raw": "[{\"Start\":0.0,\"End\":1.96,\"Speaker\":0,\"Content\":\"开放性哈。\"}]"}
+{"id": "4/train_0151", "audio_id": "train_0151", "asr": "好嘞，点个赞。", "correct": "引导", "raw": "[{\"Start\":0,\"End\":2.12,\"Speaker\":0,\"Content\":\"好嘞，点个赞。\"}]"}
+{"id": "4/train_0152", "audio_id": "train_0152", "asr": "音档信号好了。", "correct": "引导信号好了", "raw": "[{\"Start\":0.0,\"End\":2.04,\"Speaker\":0,\"Content\":\"音档信号好了。\"}]"}
+{"id": "4/train_0153", "audio_id": "train_0153", "asr": "引导接受。", "correct": "引导接车", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"引导接受。\"}]"}
+{"id": "4/train_0154", "audio_id": "train_0154", "asr": "注意引导信号灯", "correct": "注意引导信号", "raw": "[{\"Start\":0.0,\"End\":2.56,\"Speaker\":0,\"Content\":\"注意引导信号灯\"}]"}
+{"id": "4/train_0155", "audio_id": "train_0155", "asr": "谢谢。", "correct": "接近", "raw": "[{\"Start\":0,\"End\":1.32,\"Speaker\":0,\"Content\":\"谢谢。\"}]"}
+{"id": "4/train_0156", "audio_id": "train_0156", "asr": "按规定着装佩戴防护用品，按规定进入、行走。 行走、进入、出入，到达企业规定地点，检查接车线路、空闲。", "correct": "按规定着装佩戴防护用品按固定走行径路出务，到达企业规定地点检查接车线路空闲", "raw": "[{\"Start\":0.0,\"End\":5.56,\"Speaker\":0,\"Content\":\"按规定着装佩戴防护用品，按规定进入、行走。\"},{\"Start\":7.16,\"End\":13.32,\"Speaker\":0,\"Content\":\"行走、进入、出入，到达企业规定地点，检查接车线路、空闲。\"}]"}
+{"id": "4/train_0157", "audio_id": "train_0157", "asr": "", "correct": "通过信号操作终端监视进路、信号及列车进站", "raw": "[{\"Start\":0.0,\"End\":7.4,\"Content\":\"[Silence]\"}]"}
+{"id": "4/train_0158", "audio_id": "train_0158", "asr": "面向来车方向，停车，以列车头部到达 内障地点，转向，面向列车，以列车尾部越过内港，地量转地点，转向，确认列车尾部，标致正常，正确。", "correct": "面向来车方向接车，于列车头部到达立岗地点转向、面向列车，于列车尾部越过立岗地点转向、确认列车尾部标志正确", "raw": "[{\"Start\":0.0,\"End\":5.58,\"Speaker\":0,\"Content\":\"面向来车方向，停车，以列车头部到达\"},{\"Start\":5.58,\"End\":17.24,\"Speaker\":0,\"Content\":\"内障地点，转向，面向列车，以列车尾部越过内港，地量转地点，转向，确认列车尾部，标致正常，正确。\"}]"}
+{"id": "4/train_0159", "audio_id": "train_0159", "asr": "面向来车方向，列车，已列车到达，列车，列车，今天是列车运", "correct": "面向来车方向接车，于列车到达立岗地点转向，面向列车，监视列车运行", "raw": "[{\"Start\":0.0,\"End\":10.2,\"Speaker\":0,\"Content\":\"面向来车方向，列车，已列车到达，列车，列车，今天是列车运\"}]"}
+{"id": "4/train_0160", "audio_id": "train_0160", "asr": "Submit on.", "correct": "整列到达", "raw": "[{\"Start\":0,\"End\":1.68,\"Speaker\":0,\"Content\":\"Submit on.\"}]"}
+{"id": "4/train_0161", "audio_id": "train_0161", "asr": "C'est le meilleur chose à.", "correct": "整列出站", "raw": "[{\"Start\":0.0,\"End\":1.56,\"Speaker\":0,\"Content\":\"C'est le meilleur chose à.\"}]"}
+{"id": "4/train_0162", "audio_id": "train_0162", "asr": "Oui, bon, c'est bon.", "correct": "尾部过标", "raw": "[{\"Start\":0.0,\"End\":1.64,\"Speaker\":0,\"Content\":\"Oui, bon, c'est bon.\"}]"}
+{"id": "4/train_0163", "audio_id": "train_0163", "asr": "你哋收咗錢咁", "correct": "列车起动", "raw": "[{\"Start\":0,\"End\":2.52,\"Speaker\":0,\"Content\":\"你哋收咗錢咁\"}]"}
+{"id": "4/train_0164", "audio_id": "train_0164", "asr": "지에서 인가? 지금은?", "correct": "解锁引导进路", "raw": "[{\"Start\":0,\"End\":2.88,\"Speaker\":0,\"Content\":\"지에서 인가? 지금은?\"}]"}
+{"id": "4/train_0165", "audio_id": "train_0165", "asr": "结束哈。", "correct": "解锁好", "raw": "[{\"Start\":0.0,\"End\":1.6,\"Speaker\":0,\"Content\":\"结束哈。\"}]"}
+{"id": "4/train_0166", "audio_id": "train_0166", "asr": "嗯，我设备处理情况。", "correct": "电务设备处理情况", "raw": "[{\"Start\":0,\"End\":2.8,\"Speaker\":0,\"Content\":\"嗯，我设备处理情况。\"}]"}
+{"id": "4/train_0167", "audio_id": "train_0167", "asr": "So, um, let's have each one of these come up.", "correct": "线路设备处理情况", "raw": "[{\"Start\":0.0,\"End\":2.76,\"Speaker\":0,\"Content\":\"So, um, let's have each one of these come up.\"}]"}
+{"id": "4/train_0168", "audio_id": "train_0168", "asr": "先入故障处理完毕", "correct": "线路故障处理完毕", "raw": "[{\"Start\":0,\"End\":2.4,\"Speaker\":0,\"Content\":\"先入故障处理完毕\"}]"}
+{"id": "4/train_0169", "audio_id": "train_0169", "asr": "对，我我暂处理完毕。", "correct": "电务故障处理完毕", "raw": "[{\"Start\":0.0,\"End\":2.6,\"Speaker\":0,\"Content\":\"对，我我暂处理完毕。\"}]"}
+{"id": "4/train_0170", "audio_id": "train_0170", "asr": "我是安子狐狸完毕。", "correct": "故障处理完毕", "raw": "[{\"Start\":0,\"End\":3.2,\"Speaker\":0,\"Content\":\"我是安子狐狸完毕。\"}]"}
+{"id": "4/train_0171", "audio_id": "train_0171", "asr": "[Noise]", "correct": "恢复", "raw": "[{\"Start\":0,\"End\":2.08,\"Speaker\":0,\"Content\":\"[Noise]\"}]"}
+{"id": "4/train_0172", "audio_id": "train_0172", "asr": "正常使用。", "correct": "正常使用", "raw": "[{\"Start\":0,\"End\":1.44,\"Speaker\":0,\"Content\":\"正常使用。\"}]"}
+{"id": "4/train_0173", "audio_id": "train_0173", "asr": "开过了。", "correct": "开过来了", "raw": "[{\"Start\":0,\"End\":1.56,\"Speaker\":0,\"Content\":\"开过了。\"}]"}
+{"id": "4/train_0174", "audio_id": "train_0174", "asr": "按暂息规定，通知。 通知有关人员。", "correct": "按站细规定通知有关人员", "raw": "[{\"Start\":0.0,\"End\":3.0,\"Speaker\":0,\"Content\":\"按暂息规定，通知。\"},{\"Start\":3.0,\"End\":6.56,\"Speaker\":0,\"Content\":\"通知有关人员。\"}]"}
+{"id": "4/train_0175", "audio_id": "train_0175", "asr": "Kutcher", "correct": "空闲", "raw": "[{\"Start\":0,\"End\":1.12,\"Speaker\":0,\"Content\":\"Kutcher\"}]"}
+{"id": "4/train_0176", "audio_id": "train_0176", "asr": "亲自影响进入到第二次作业。", "correct": "停止影响进路的调车作业", "raw": "[{\"Start\":0.0,\"End\":2.76,\"Speaker\":0,\"Content\":\"亲自影响进入到第二次作业。\"}]"}
+{"id": "4/train_0177", "audio_id": "train_0177", "asr": "等一下，我调下声音。", "correct": "本站无调车作业", "raw": "[{\"Start\":0,\"End\":2.64,\"Speaker\":0,\"Content\":\"等一下，我调下声音。\"}]"}
+{"id": "4/train_0178", "audio_id": "train_0178", "asr": "您想进入的亚洲作业已停止。", "correct": "影响进路的调车作业已停止", "raw": "[{\"Start\":0.0,\"End\":2.8,\"Speaker\":0,\"Content\":\"您想进入的亚洲作业已停止。\"}]"}
+{"id": "4/train_0179", "audio_id": "train_0179", "asr": "倒车，失去表示。", "correct": "道岔失去表示", "raw": "[{\"Start\":0,\"End\":2.52,\"Speaker\":0,\"Content\":\"倒车，失去表示。\"}]"}
+{"id": "4/train_0180", "audio_id": "train_0180", "asr": "", "correct": "道岔失去定反位表示", "raw": "[{\"Start\":0.0,\"End\":4.8,\"Content\":\"[Silence]\"}]"}
+{"id": "4/train_0181", "audio_id": "train_0181", "asr": "[Unintelligible Speech]", "correct": "道岔失表", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"[Unintelligible Speech]\"}]"}
+{"id": "4/train_0182", "audio_id": "train_0182", "asr": "时间长检查。", "correct": "现场检查", "raw": "[{\"Start\":0.0,\"End\":2.16,\"Speaker\":0,\"Content\":\"时间长检查。\"}]"}
+{"id": "4/train_0183", "audio_id": "train_0183", "asr": "大差区段", "correct": "道岔区段", "raw": "[{\"Start\":0,\"End\":2.24,\"Speaker\":0,\"Content\":\"大差区段\"}]"}
+{"id": "4/train_0184", "audio_id": "train_0184", "asr": "[Unintelligible Speech]", "correct": "轨道电路", "raw": "[{\"Start\":0,\"End\":2.08,\"Speaker\":0,\"Content\":\"[Unintelligible Speech]\"}]"}
+{"id": "4/train_0185", "audio_id": "train_0185", "asr": "到站。", "correct": "道岔", "raw": "[{\"Start\":0,\"End\":1.96,\"Speaker\":0,\"Content\":\"到站。\"}]"}
+{"id": "4/train_0186", "audio_id": "train_0186", "asr": "请周上到铁塔。", "correct": "请求上道检查", "raw": "[{\"Start\":0.0,\"End\":2.2,\"Speaker\":0,\"Content\":\"请周上到铁塔。\"}]"}
+{"id": "4/train_0187", "audio_id": "train_0187", "asr": "请车上大作音", "correct": "请求上道作业", "raw": "[{\"Start\":0.0,\"End\":1.8,\"Speaker\":0,\"Content\":\"请车上大作音\"}]"}
+{"id": "4/train_0188", "audio_id": "train_0188", "asr": "ทางนี้ 3 ตาโอย", "correct": "同意上道作业", "raw": "[{\"Start\":0.0,\"End\":2.28,\"Speaker\":0,\"Content\":\"ทางนี้ 3 ตาโอย\"}]"}
+{"id": "4/train_0189", "audio_id": "train_0189", "asr": "容易上到警察。", "correct": "同意上道检查", "raw": "[{\"Start\":0.0,\"End\":1.96,\"Speaker\":0,\"Content\":\"容易上到警察。\"}]"}
+{"id": "4/train_0190", "audio_id": "train_0190", "asr": "Komm schon.", "correct": "空闲", "raw": "[{\"Start\":0,\"End\":1.44,\"Speaker\":0,\"Content\":\"Komm schon.\"}]"}
+{"id": "4/train_0191", "audio_id": "train_0191", "asr": "通义千问", "correct": "通过", "raw": "[{\"Start\":0.0,\"End\":1.44,\"Speaker\":0,\"Content\":\"通义千问\"}]"}
+{"id": "4/train_0192", "audio_id": "train_0192", "asr": "[Unintelligible Speech]", "correct": "无异状", "raw": "[{\"Start\":0,\"End\":1.68,\"Speaker\":0,\"Content\":\"[Unintelligible Speech]\"}]"}
+{"id": "4/train_0193", "audio_id": "train_0193", "asr": "你下课了", "correct": "已下道", "raw": "[{\"Start\":0.0,\"End\":1.6,\"Speaker\":0,\"Content\":\"你下课了\"}]"}
+{"id": "4/train_0194", "audio_id": "train_0194", "asr": "好，北洋请区域。", "correct": "返回安全区域", "raw": "[{\"Start\":0,\"End\":2.32,\"Speaker\":0,\"Content\":\"好，北洋请区域。\"}]"}
+{"id": "4/train_0195", "audio_id": "train_0195", "asr": "去现场检查。", "correct": "经现场检查", "raw": "[{\"Start\":0.0,\"End\":3.36,\"Speaker\":0,\"Content\":\"去现场检查。\"}]"}
+{"id": "4/train_0196", "audio_id": "train_0196", "asr": "Cheers.", "correct": "确认", "raw": "[{\"Start\":0,\"End\":1.04,\"Speaker\":0,\"Content\":\"Cheers.\"}]"}
+{"id": "4/train_0197", "audio_id": "train_0197", "asr": "再次确认。", "correct": "再次确认", "raw": "[{\"Start\":0.0,\"End\":2.04,\"Speaker\":0,\"Content\":\"再次确认。\"}]"}
+{"id": "4/train_0198", "audio_id": "train_0198", "asr": "Через рука.", "correct": "确认好", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"Через рука.\"}]"}
+{"id": "4/train_0199", "audio_id": "train_0199", "asr": "不影响正常行车。", "correct": "不影响正常行车", "raw": "[{\"Start\":0,\"End\":2.88,\"Speaker\":0,\"Content\":\"不影响正常行车。\"}]"}
+{"id": "4/train_0200", "audio_id": "train_0200", "asr": "那个，帮我先，我先回正常，录一下正常行车。", "correct": "工务线路设备正常不影响正常行车", "raw": "[{\"Start\":0.0,\"End\":5.28,\"Speaker\":0,\"Content\":\"那个，帮我先，我先回正常，录一下正常行车。\"}]"}
+{"id": "4/train_0201", "audio_id": "train_0201", "asr": "零七四六二八，哥，走，去。", "correct": "领取手摇把、钩锁器", "raw": "[{\"Start\":0.0,\"End\":3.6,\"Speaker\":0,\"Content\":\"零七四六二八，哥，走，去。\"}]"}
+{"id": "4/train_0202", "audio_id": "train_0202", "asr": "Yes, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm", "correct": "归还手摇把、钩锁器", "raw": "[{\"Start\":0.0,\"End\":3.84,\"Speaker\":0,\"Content\":\"Yes, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm\"}]"}
+{"id": "4/train_0203", "audio_id": "train_0203", "asr": "大茶开头", "correct": "道岔开通", "raw": "[{\"Start\":0,\"End\":1.28,\"Speaker\":0,\"Content\":\"大茶开头\"}]"}
+{"id": "4/train_0204", "audio_id": "train_0204", "asr": "Scheiße, ich hab's vergessen.", "correct": "现场加锁", "raw": "[{\"Start\":0,\"End\":1.52,\"Speaker\":0,\"Content\":\"Scheiße, ich hab's vergessen.\"}]"}
+{"id": "4/train_0205", "audio_id": "train_0205", "asr": "Ciao, ciao.", "correct": "加锁", "raw": "[{\"Start\":0,\"End\":1.08,\"Speaker\":0,\"Content\":\"Ciao, ciao.\"}]"}
+{"id": "4/train_0206", "audio_id": "train_0206", "asr": "一下，一下说。", "correct": "已加锁", "raw": "[{\"Start\":0,\"End\":1.76,\"Speaker\":0,\"Content\":\"一下，一下说。\"}]"}
+{"id": "4/train_0207", "audio_id": "train_0207", "asr": "已测试安全地点。", "correct": "已撤至安全地点", "raw": "[{\"Start\":0.0,\"End\":2.16,\"Speaker\":0,\"Content\":\"已测试安全地点。\"}]"}
+{"id": "4/train_0208", "audio_id": "train_0208", "asr": "Видали, писал?", "correct": "立岗接车", "raw": "[{\"Start\":0.0,\"End\":1.76,\"Speaker\":0,\"Content\":\"Видали, писал?\"}]"}
+{"id": "4/train_0209", "audio_id": "train_0209", "asr": "准备飞故障，大厦区段进入。", "correct": "准备非故障道岔区段进路", "raw": "[{\"Start\":0.0,\"End\":3.64,\"Speaker\":0,\"Content\":\"准备飞故障，大厦区段进入。\"}]"}
+{"id": "4/train_0210", "audio_id": "train_0210", "asr": "准备好了。", "correct": "准备好", "raw": "[{\"Start\":0,\"End\":1.04,\"Speaker\":0,\"Content\":\"准备好了。\"}]"}
+{"id": "4/train_0211", "audio_id": "train_0211", "asr": "真牌", "correct": "正排", "raw": "[{\"Start\":0,\"End\":0.88,\"Speaker\":0,\"Content\":\"真牌\"}]"}
+{"id": "4/train_0212", "audio_id": "train_0212", "asr": "对啊，车要新款。", "correct": "调车信号", "raw": "[{\"Start\":0,\"End\":1.48,\"Speaker\":0,\"Content\":\"对啊，车要新款。\"}]"}
+{"id": "4/train_0213", "audio_id": "train_0213", "asr": "道岔定位。", "correct": "道岔定位", "raw": "[{\"Start\":0.0,\"End\":2.0,\"Speaker\":0,\"Content\":\"道岔定位。\"}]"}
+{"id": "4/train_0214", "audio_id": "train_0214", "asr": "1000 yen off, buy now, buy now.", "correct": "道岔反位", "raw": "[{\"Start\":0,\"End\":2.04,\"Speaker\":0,\"Content\":\"1000 yen off, buy now, buy now.\"}]"}
+{"id": "4/train_0215", "audio_id": "train_0215", "asr": "这是说大说。", "correct": "解除单锁", "raw": "[{\"Start\":0,\"End\":1.64,\"Speaker\":0,\"Content\":\"这是说大说。\"}]"}
+{"id": "4/train_0216", "audio_id": "train_0216", "asr": "Hey, what's up, dude?", "correct": "电务销记", "raw": "[{\"Start\":0,\"End\":1.44,\"Speaker\":0,\"Content\":\"Hey, what's up, dude?\"}]"}
+{"id": "4/train_0217", "audio_id": "train_0217", "asr": "Com o Sealtin.", "correct": "工务销记", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"Com o Sealtin.\"}]"}
+{"id": "4/train_0218", "audio_id": "train_0218", "asr": "So, be it now, we're charging.", "correct": "设备单位销记", "raw": "[{\"Start\":0,\"End\":2.12,\"Speaker\":0,\"Content\":\"So, be it now, we're charging.\"}]"}
+{"id": "4/train_0219", "audio_id": "train_0219", "asr": "消气。", "correct": "销记", "raw": "[{\"Start\":0,\"End\":1.12,\"Speaker\":0,\"Content\":\"消气。\"}]"}
+{"id": "4/train_0220", "audio_id": "train_0220", "asr": "นี่เธอชอบอะไร", "correct": "列车超长", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"นี่เธอชอบอะไร\"}]"}
+{"id": "4/train_0221", "audio_id": "train_0221", "asr": "超长列车。", "correct": "超长列车", "raw": "[{\"Start\":0,\"End\":2.0,\"Speaker\":0,\"Content\":\"超长列车。\"}]"}
+{"id": "4/train_0222", "audio_id": "train_0222", "asr": "车头越过车站信号器。", "correct": "车头越过出站信号机", "raw": "[{\"Start\":0.0,\"End\":3.12,\"Speaker\":0,\"Content\":\"车头越过车站信号器。\"}]"}
+{"id": "4/train_0223", "audio_id": "train_0223", "asr": "压上，压上，出站方向，轨道电路。", "correct": "压上出站方面轨道电路", "raw": "[{\"Start\":0,\"End\":3.6,\"Speaker\":0,\"Content\":\"压上，压上，出站方向，轨道电路。\"}]"}
+{"id": "4/train_0224", "audio_id": "train_0224", "asr": "不，我开放存在性化。", "correct": "不能开放出站信号", "raw": "[{\"Start\":0,\"End\":2.88,\"Speaker\":0,\"Content\":\"不，我开放存在性化。\"}]"}
+{"id": "4/train_0225", "audio_id": "train_0225", "asr": "请九四零五绿色许可证发车。", "correct": "请求使用绿色许可证发车", "raw": "[{\"Start\":0.0,\"End\":3.88,\"Speaker\":0,\"Content\":\"请九四零五绿色许可证发车。\"}]"}
+{"id": "4/train_0226", "audio_id": "train_0226", "asr": "嗯，你是要绿色的许可证发车。", "correct": "同意使用绿色许可证发车", "raw": "[{\"Start\":0.0,\"End\":3.96,\"Speaker\":0,\"Content\":\"嗯，你是要绿色的许可证发车。\"}]"}
+{"id": "4/train_0227", "audio_id": "train_0227", "asr": "大厂开头", "correct": "道岔开通", "raw": "[{\"Start\":0,\"End\":1.24,\"Speaker\":0,\"Content\":\"大厂开头\"}]"}
+{"id": "4/train_0228", "audio_id": "train_0228", "asr": "Soviet", "correct": "锁闭", "raw": "[{\"Start\":0,\"End\":1.12,\"Speaker\":0,\"Content\":\"Soviet\"}]"}
+{"id": "4/train_0229", "audio_id": "train_0229", "asr": "你是不是喜欢这个行？", "correct": "绿色许可证1号", "raw": "[{\"Start\":0.0,\"End\":2.68,\"Speaker\":0,\"Content\":\"你是不是喜欢这个行？\"}]"}
+{"id": "4/train_0230", "audio_id": "train_0230", "asr": "在列车头部越过出站信号机的情况下，", "correct": "在列车头部越过出站信号机的情况下", "raw": "[{\"Start\":0.0,\"End\":4.04,\"Speaker\":0,\"Content\":\"在列车头部越过出站信号机的情况下，\"}]"}
+{"id": "4/train_0231", "audio_id": "train_0231", "asr": "Sorensen", "correct": "准许", "raw": "[{\"Start\":0.0,\"End\":1.36,\"Speaker\":0,\"Content\":\"Sorensen\"}]"}
+{"id": "4/train_0232", "audio_id": "train_0232", "asr": "3,2,1.", "correct": "列车", "raw": "[{\"Start\":0,\"End\":1.24,\"Speaker\":0,\"Content\":\"3,2,1.\"}]"}
+{"id": "4/train_0233", "audio_id": "train_0233", "asr": "Sim, é só um passo.", "correct": "线上发车", "raw": "[{\"Start\":0,\"End\":1.68,\"Speaker\":0,\"Content\":\"Sim, é só um passo.\"}]"}
+{"id": "4/train_0234", "audio_id": "train_0234", "asr": "在 resource 存在新二G的情况下", "correct": "在未设出站信号机的情况下", "raw": "[{\"Start\":0.0,\"End\":3.52,\"Speaker\":0,\"Content\":\"在 resource 存在新二G的情况下\"}]"}
+{"id": "4/train_0235", "audio_id": "train_0235", "asr": "在出站信号机故障的情况下", "correct": "在出站信号机故障的情况下", "raw": "[{\"Start\":0.0,\"End\":3.2,\"Speaker\":0,\"Content\":\"在出站信号机故障的情况下\"}]"}
+{"id": "4/train_0236", "audio_id": "train_0236", "asr": "在听在信号机故障的情况下", "correct": "在进路信号机故障的情况下", "raw": "[{\"Start\":0.0,\"End\":3.72,\"Speaker\":0,\"Content\":\"在听在信号机故障的情况下\"}]"}
+{"id": "4/train_0237", "audio_id": "train_0237", "asr": "在列车头部越过进站信号机的情况下，", "correct": "在列车头部越过进路信号机的情况下", "raw": "[{\"Start\":0.0,\"End\":3.84,\"Speaker\":0,\"Content\":\"在列车头部越过进站信号机的情况下，\"}]"}
+{"id": "4/train_0238", "audio_id": "train_0238", "asr": "Ciao, polizia, scusa, c'è un problema.", "correct": "交付绿色许可证", "raw": "[{\"Start\":0.0,\"End\":2.88,\"Speaker\":0,\"Content\":\"Ciao, polizia, scusa, c'è un problema.\"}]"}
+{"id": "4/train_0239", "audio_id": "train_0239", "asr": "あ、トイレにさ、しっぱな。", "correct": "核对绿色许可证", "raw": "[{\"Start\":0.0,\"End\":2.4,\"Speaker\":0,\"Content\":\"あ、トイレにさ、しっぱな。\"}]"}
+{"id": "4/train_0240", "audio_id": "train_0240", "asr": "Ну, а то я его у...", "correct": "核对无误", "raw": "[{\"Start\":0.0,\"End\":2.16,\"Speaker\":0,\"Content\":\"Ну, а то я его у...\"}]"}
+{"id": "4/train_0241", "audio_id": "train_0241", "asr": "И срочно, пацаны, идите в армию.", "correct": "绿色许可证已交付", "raw": "[{\"Start\":0,\"End\":3.12,\"Speaker\":0,\"Content\":\"И срочно, пацаны, идите в армию.\"}]"}
+{"id": "4/train_0242", "audio_id": "train_0242", "asr": "使用绿色许可证发射。", "correct": "使用绿色许可证发车", "raw": "[{\"Start\":0.0,\"End\":3.04,\"Speaker\":0,\"Content\":\"使用绿色许可证发射。\"}]"}
+{"id": "4/train_0243", "audio_id": "train_0243", "asr": "注意车。", "correct": "注意确认", "raw": "[{\"Start\":0.0,\"End\":2.24,\"Speaker\":0,\"Content\":\"注意车。\"}]"}
+{"id": "4/train_0244", "audio_id": "train_0244", "asr": "about it.", "correct": "报点", "raw": "[{\"Start\":0,\"End\":0.96,\"Speaker\":0,\"Content\":\"about it.\"}]"}
+{"id": "4/train_0245", "audio_id": "train_0245", "asr": "こんばんは。", "correct": "红光带", "raw": "[{\"Start\":0,\"End\":1.4,\"Speaker\":0,\"Content\":\"こんばんは。\"}]"}
+{"id": "4/train_0246", "audio_id": "train_0246", "asr": "DJ Kingstar.", "correct": "立即停车", "raw": "[{\"Start\":0,\"End\":2.0,\"Speaker\":0,\"Content\":\"DJ Kingstar.\"}]"}
+{"id": "4/train_0247", "audio_id": "train_0247", "asr": "请接听语音", "correct": "紧急停车", "raw": "[{\"Start\":0,\"End\":1.72,\"Speaker\":0,\"Content\":\"请接听语音\"}]"}
+{"id": "4/train_0248", "audio_id": "train_0248", "asr": "Team NATO", "correct": "停车", "raw": "[{\"Start\":0,\"End\":1.04,\"Speaker\":0,\"Content\":\"Team NATO\"}]"}
+{"id": "4/train_0249", "audio_id": "train_0249", "asr": "Ciao, ciao, ciao, ciao.", "correct": "走行部", "raw": "[{\"Start\":0.0,\"End\":1.8,\"Speaker\":0,\"Content\":\"Ciao, ciao, ciao, ciao.\"}]"}
+{"id": "4/train_0250", "audio_id": "train_0250", "asr": "好,早上好", "correct": "抱闸", "raw": "[{\"Start\":0.0,\"End\":1.32,\"Speaker\":0,\"Content\":\"好,早上好\"}]"}
+{"id": "4/train_0251", "audio_id": "train_0251", "asr": "Awesome.", "correct": "火星", "raw": "[{\"Start\":0,\"End\":1.08,\"Speaker\":0,\"Content\":\"Awesome.\"}]"}
+{"id": "4/train_0252", "audio_id": "train_0252", "asr": "Linsen", "correct": "明火", "raw": "[{\"Start\":0,\"End\":1.16,\"Speaker\":0,\"Content\":\"Linsen\"}]"}
+{"id": "4/train_0253", "audio_id": "train_0253", "asr": "홍보 쓰면서 토론", "correct": "篷布绳索脱落", "raw": "[{\"Start\":0,\"End\":2.52,\"Speaker\":0,\"Content\":\"홍보 쓰면서 토론\"}]"}
+{"id": "4/train_0254", "audio_id": "train_0254", "asr": "对开门打开。", "correct": "对开门打开", "raw": "[{\"Start\":0,\"End\":1.52,\"Speaker\":0,\"Content\":\"对开门打开。\"}]"}
+{"id": "4/train_0255", "audio_id": "train_0255", "asr": "下侧开门打开。", "correct": "下侧门打开", "raw": "[{\"Start\":0,\"End\":2.28,\"Speaker\":0,\"Content\":\"下侧开门打开。\"}]"}
+{"id": "4/train_0256", "audio_id": "train_0256", "asr": "มันด่าแท็ก", "correct": "门打开", "raw": "[{\"Start\":0,\"End\":1.56,\"Speaker\":0,\"Content\":\"มันด่าแท็ก\"}]"}
+{"id": "4/train_0257", "audio_id": "train_0257", "asr": "G H F N O", "correct": "接车线路", "raw": "[{\"Start\":0.0,\"End\":1.96,\"Speaker\":0,\"Content\":\"G H F N O\"}]"}
+{"id": "4/train_0258", "audio_id": "train_0258", "asr": "Where is he, actually?", "correct": "轨行区", "raw": "[{\"Start\":0,\"End\":2.24,\"Speaker\":0,\"Content\":\"Where is he, actually?\"}]"}
+{"id": "4/train_0259", "audio_id": "train_0259", "asr": "Нет", "correct": "异物", "raw": "[{\"Start\":0,\"End\":1.44,\"Speaker\":0,\"Content\":\"Нет\"}]"}
+{"id": "4/train_0260", "audio_id": "train_0260", "asr": "行了。", "correct": "行人", "raw": "[{\"Start\":0,\"End\":1.56,\"Speaker\":0,\"Content\":\"行了。\"}]"}
+{"id": "4/train_0261", "audio_id": "train_0261", "asr": "Oh, no.", "correct": "动物", "raw": "[{\"Start\":0,\"End\":1.08,\"Speaker\":0,\"Content\":\"Oh, no.\"}]"}
+{"id": "4/train_0262", "audio_id": "train_0262", "asr": "Salve.", "correct": "小猫", "raw": "[{\"Start\":0,\"End\":0.84,\"Speaker\":0,\"Content\":\"Salve.\"}]"}
+{"id": "4/train_0263", "audio_id": "train_0263", "asr": "Skal du?", "correct": "小狗", "raw": "[{\"Start\":0,\"End\":0.96,\"Speaker\":0,\"Content\":\"Skal du?\"}]"}
+{"id": "4/train_0264", "audio_id": "train_0264", "asr": "接触啊。", "correct": "接触网", "raw": "[{\"Start\":0,\"End\":1.36,\"Speaker\":0,\"Content\":\"接触啊。\"}]"}
+{"id": "4/train_0265", "audio_id": "train_0265", "asr": "Sonic.", "correct": "敞车", "raw": "[{\"Start\":0,\"End\":0.96,\"Speaker\":0,\"Content\":\"Sonic.\"}]"}
+{"id": "4/train_0266", "audio_id": "train_0266", "asr": "1, 2.", "correct": "棚车", "raw": "[{\"Start\":0,\"End\":1.2,\"Speaker\":0,\"Content\":\"1, 2.\"}]"}
+{"id": "4/train_0267", "audio_id": "train_0267", "asr": "我屋里车。", "correct": "货物列车", "raw": "[{\"Start\":0.0,\"End\":2.04,\"Speaker\":0,\"Content\":\"我屋里车。\"}]"}
+{"id": "4/train_0268", "audio_id": "train_0268", "asr": "Ну и колечко.", "correct": "旅客列车", "raw": "[{\"Start\":0.0,\"End\":2.04,\"Speaker\":0,\"Content\":\"Ну и колечко.\"}]"}
+{"id": "4/train_0269", "audio_id": "train_0269", "asr": "哦，对不起，谢谢。", "correct": "货物倾斜", "raw": "[{\"Start\":0,\"End\":1.8,\"Speaker\":0,\"Content\":\"哦，对不起，谢谢。\"}]"}
+{"id": "4/train_0270", "audio_id": "train_0270", "asr": "It's okay.", "correct": "石头", "raw": "[{\"Start\":0,\"End\":0.8,\"Speaker\":0,\"Content\":\"It's okay.\"}]"}
+{"id": "4/train_0271", "audio_id": "train_0271", "asr": "What's that?", "correct": "落石", "raw": "[{\"Start\":0,\"End\":1.2,\"Speaker\":0,\"Content\":\"What's that?\"}]"}
+{"id": "4/train_0272", "audio_id": "train_0272", "asr": "Sorta.", "correct": "树枝", "raw": "[{\"Start\":0,\"End\":1.2,\"Speaker\":0,\"Content\":\"Sorta.\"}]"}
+{"id": "4/train_0273", "audio_id": "train_0273", "asr": "Shlomo", "correct": "树木", "raw": "[{\"Start\":0,\"End\":1.28,\"Speaker\":0,\"Content\":\"Shlomo\"}]"}
+{"id": "4/train_0274", "audio_id": "train_0274", "asr": "It's high, it's up here, it's back.", "correct": "彩色编织袋", "raw": "[{\"Start\":0,\"End\":1.68,\"Speaker\":0,\"Content\":\"It's high, it's up here, it's back.\"}]"}
+{"id": "4/train_0275", "audio_id": "train_0275", "asr": "[Unintelligible Speech]", "correct": "布条", "raw": "[{\"Start\":0,\"End\":1.12,\"Speaker\":0,\"Content\":\"[Unintelligible Speech]\"}]"}
+{"id": "4/train_0276", "audio_id": "train_0276", "asr": "Onze.", "correct": "风筝", "raw": "[{\"Start\":0,\"End\":0.96,\"Speaker\":0,\"Content\":\"Onze.\"}]"}
+{"id": "4/train_0277", "audio_id": "train_0277", "asr": "Dicho.", "correct": "气球", "raw": "[{\"Start\":0,\"End\":0.72,\"Speaker\":0,\"Content\":\"Dicho.\"}]"}
+{"id": "4/train_0278", "audio_id": "train_0278", "asr": "That's good.", "correct": "扒车人员", "raw": "[{\"Start\":0.0,\"End\":1.56,\"Speaker\":0,\"Content\":\"That's good.\"}]"}
+{"id": "4/train_0279", "audio_id": "train_0279", "asr": "Ну и увидимся.", "correct": "列尾标志", "raw": "[{\"Start\":0.0,\"End\":1.84,\"Speaker\":0,\"Content\":\"Ну и увидимся.\"}]"}
+{"id": "4/train_0280", "audio_id": "train_0280", "asr": "Hold on.", "correct": "脱落", "raw": "[{\"Start\":0,\"End\":1.48,\"Speaker\":0,\"Content\":\"Hold on.\"}]"}
+{"id": "4/train_0281", "audio_id": "train_0281", "asr": "Leo, what are you doing?", "correct": "列尾丢失", "raw": "[{\"Start\":0,\"End\":1.4,\"Speaker\":0,\"Content\":\"Leo, what are you doing?\"}]"}
+{"id": "4/train_0282", "audio_id": "train_0282", "asr": "这样感不舒适？", "correct": "上岗值守", "raw": "[{\"Start\":0,\"End\":2.08,\"Speaker\":0,\"Content\":\"这样感不舒适？\"}]"}
+{"id": "4/train_0283", "audio_id": "train_0283", "asr": "So, how's that? It's a body of its own.", "correct": "车站值班员上岗", "raw": "[{\"Start\":0,\"End\":2.04,\"Speaker\":0,\"Content\":\"So, how's that? It's a body of its own.\"}]"}
+{"id": "4/train_0284", "audio_id": "train_0284", "asr": "到这设备参的来回的操操作。", "correct": "道岔是否三个来回的操作", "raw": "[{\"Start\":0.0,\"End\":3.84,\"Speaker\":0,\"Content\":\"到这设备参的来回的操操作。\"}]"}
+{"id": "4/train_0285", "audio_id": "train_0285", "asr": "Сегодня котлеты.", "correct": "是否扣停", "raw": "[{\"Start\":0,\"End\":2.2,\"Speaker\":0,\"Content\":\"Сегодня котлеты.\"}]"}
+{"id": "4/train_0286", "audio_id": "train_0286", "asr": "三个来回操作。", "correct": "三个来回已操作", "raw": "[{\"Start\":0.0,\"End\":2.4,\"Speaker\":0,\"Content\":\"三个来回操作。\"}]"}
+{"id": "4/train_0287", "audio_id": "train_0287", "asr": "请到岗", "correct": "请到岗", "raw": "[{\"Start\":0,\"End\":1.12,\"Speaker\":0,\"Content\":\"请到岗\"}]"}
+{"id": "4/train_0288", "audio_id": "train_0288", "asr": "Team Story.", "correct": "请处理", "raw": "[{\"Start\":0,\"End\":1.36,\"Speaker\":0,\"Content\":\"Team Story.\"}]"}
+{"id": "4/train_0289", "audio_id": "train_0289", "asr": "3, 2, 1, go.", "correct": "上行线封锁", "raw": "[{\"Start\":0,\"End\":1.52,\"Speaker\":0,\"Content\":\"3, 2, 1, go.\"}]"}
+{"id": "4/train_0290", "audio_id": "train_0290", "asr": "下星期见，黄总。", "correct": "下行线封锁", "raw": "[{\"Start\":0.0,\"End\":1.84,\"Speaker\":0,\"Content\":\"下星期见，黄总。\"}]"}
+{"id": "4/train_0291", "audio_id": "train_0291", "asr": "行了行了行了", "correct": "下行线", "raw": "[{\"Start\":0,\"End\":1.16,\"Speaker\":0,\"Content\":\"行了行了行了\"}]"}
+{"id": "4/train_0292", "audio_id": "train_0292", "asr": "Snow chief.", "correct": "上行线", "raw": "[{\"Start\":0,\"End\":0.84,\"Speaker\":0,\"Content\":\"Snow chief.\"}]"}
+{"id": "4/train_0293", "audio_id": "train_0293", "asr": "CFC.", "correct": "限速", "raw": "[{\"Start\":0,\"End\":1.2,\"Speaker\":0,\"Content\":\"CFC.\"}]"}
+{"id": "4/train_0294", "audio_id": "train_0294", "asr": "3, 2, 1.", "correct": "上道检查", "raw": "[{\"Start\":0,\"End\":1.64,\"Speaker\":0,\"Content\":\"3, 2, 1.\"}]"}
+{"id": "4/train_0295", "audio_id": "train_0295", "asr": "请求转为车站操作方式。", "correct": "请求转为车站操作方式", "raw": "[{\"Start\":0.0,\"End\":3.12,\"Speaker\":0,\"Content\":\"请求转为车站操作方式。\"}]"}
+{"id": "4/train_0296", "audio_id": "train_0296", "asr": "[Unintelligible Speech]", "correct": "道岔故障", "raw": "[{\"Start\":0,\"End\":1.12,\"Speaker\":0,\"Content\":\"[Unintelligible Speech]\"}]"}
+{"id": "4/train_0297", "audio_id": "train_0297", "asr": "Turn it 18 times.", "correct": "站内停留车", "raw": "[{\"Start\":0.0,\"End\":1.6,\"Speaker\":0,\"Content\":\"Turn it 18 times.\"}]"}
+{"id": "4/train_0298", "audio_id": "train_0298", "asr": "绿色运行计划。", "correct": "列车运行计划", "raw": "[{\"Start\":0.0,\"End\":2.36,\"Speaker\":0,\"Content\":\"绿色运行计划。\"}]"}
+{"id": "4/train_0299", "audio_id": "train_0299", "asr": "您暂控制模式。", "correct": "邻站控制模式", "raw": "[{\"Start\":0.0,\"End\":1.72,\"Speaker\":0,\"Content\":\"您暂控制模式。\"}]"}
+{"id": "4/train_0300", "audio_id": "train_0300", "asr": "中心操作。", "correct": "中心操作", "raw": "[{\"Start\":0,\"End\":1.08,\"Speaker\":0,\"Content\":\"中心操作。\"}]"}
+{"id": "4/train_0301", "audio_id": "train_0301", "asr": "Let me tell you something.", "correct": "分散自律", "raw": "[{\"Start\":0,\"End\":1.2,\"Speaker\":0,\"Content\":\"Let me tell you something.\"}]"}
+{"id": "4/train_0302", "audio_id": "train_0302", "asr": "车站调车。", "correct": "车站调车", "raw": "[{\"Start\":0.0,\"End\":2.04,\"Speaker\":0,\"Content\":\"车站调车。\"}]"}
+{"id": "4/train_0303", "audio_id": "train_0303", "asr": "[Unintelligible Speech]", "correct": "车站操作", "raw": "[{\"Start\":0.0,\"End\":2.08,\"Speaker\":0,\"Content\":\"[Unintelligible Speech]\"}]"}
+{"id": "4/train_0304", "audio_id": "train_0304", "asr": "一层蛋壳", "correct": "非常站控", "raw": "[{\"Start\":0,\"End\":2.24,\"Speaker\":0,\"Content\":\"一层蛋壳\"}]"}
+{"id": "4/train_0305", "audio_id": "train_0305", "asr": "有下个电话通知你。", "correct": "有效调度命令", "raw": "[{\"Start\":0.0,\"End\":1.24,\"Speaker\":0,\"Content\":\"有下个电话通知你。\"}]"}
+{"id": "4/train_0306", "audio_id": "train_0306", "asr": "John, where are you going?", "correct": "转换成功", "raw": "[{\"Start\":0,\"End\":1.68,\"Speaker\":0,\"Content\":\"John, where are you going?\"}]"}
+{"id": "4/train_0307", "audio_id": "train_0307", "asr": "嗯，加油，一起，好，早上，早，早。", "correct": "已转为车站操作", "raw": "[{\"Start\":0,\"End\":2.2,\"Speaker\":0,\"Content\":\"嗯，加油，一起，好，早上，早，早。\"}]"}
+{"id": "4/train_0308", "audio_id": "train_0308", "asr": "能源、机器、材料全部撤出往外，按批去运。", "correct": "人员机具材料全部撤出网外安全区域", "raw": "[{\"Start\":0.0,\"End\":4.44,\"Speaker\":0,\"Content\":\"能源、机器、材料全部撤出往外，按批去运。\"}]"}
+{"id": "4/train_0309", "audio_id": "train_0309", "asr": "录音暂停中，已结束。", "correct": "不影响行车、不限速", "raw": "[{\"Start\":0.0,\"End\":2.56,\"Speaker\":0,\"Content\":\"录音暂停中，已结束。\"}]"}
+{"id": "4/train_0310", "audio_id": "train_0310", "asr": "请就Apple", "correct": "请求开通", "raw": "[{\"Start\":0,\"End\":1.6,\"Speaker\":0,\"Content\":\"请就Apple\"}]"}
+{"id": "4/train_0311", "audio_id": "train_0311", "asr": "暂停几正常声音。", "correct": "现停止正常使用", "raw": "[{\"Start\":0.0,\"End\":2.76,\"Speaker\":0,\"Content\":\"暂停几正常声音。\"}]"}
+{"id": "4/train_0312", "audio_id": "train_0312", "asr": "嗯，可以正常上下班。", "correct": "按非正常情况下办理", "raw": "[{\"Start\":0,\"End\":2.4,\"Speaker\":0,\"Content\":\"嗯，可以正常上下班。\"}]"}
+{"id": "4/train_0313", "audio_id": "train_0313", "asr": "Chinchou.", "correct": "请求", "raw": "[{\"Start\":0,\"End\":1.04,\"Speaker\":0,\"Content\":\"Chinchou.\"}]"}
+{"id": "4/train_0314", "audio_id": "train_0314", "asr": "It's how it's up.", "correct": "抄收", "raw": "[{\"Start\":0.0,\"End\":1.12,\"Speaker\":0,\"Content\":\"It's how it's up.\"}]"}
+{"id": "4/train_0315", "audio_id": "train_0315", "asr": "Genau, so wie wir.", "correct": "调度命令", "raw": "[{\"Start\":0,\"End\":1.36,\"Speaker\":0,\"Content\":\"Genau, so wie wir.\"}]"}
+{"id": "4/train_0316", "audio_id": "train_0316", "asr": "Я вот умение, вот эти сучки.", "correct": "调度命令核对正确", "raw": "[{\"Start\":0,\"End\":1.76,\"Speaker\":0,\"Content\":\"Я вот умение, вот эти сучки.\"}]"}
+{"id": "4/train_0317", "audio_id": "train_0317", "asr": "あ、あと1つあるんで", "correct": "核对调度命令", "raw": "[{\"Start\":0,\"End\":2.0,\"Speaker\":0,\"Content\":\"あ、あと1つあるんで\"}]"}
+{"id": "4/train_0318", "audio_id": "train_0318", "asr": "音乐过关闭了，静下心耳机。", "correct": "越过关闭的进站信号机", "raw": "[{\"Start\":0.0,\"End\":2.52,\"Speaker\":0,\"Content\":\"音乐过关闭了，静下心耳机。\"}]"}
+{"id": "4/train_0319", "audio_id": "train_0319", "asr": "1.5.13.8", "correct": "越过关闭的出站信号机", "raw": "[{\"Start\":0,\"End\":2.32,\"Speaker\":0,\"Content\":\"1.5.13.8\"}]"}
+{"id": "4/train_0320", "audio_id": "train_0320", "asr": "请用道格米米记录。", "correct": "凭调度命令进入", "raw": "[{\"Start\":0.0,\"End\":2.28,\"Speaker\":0,\"Content\":\"请用道格米米记录。\"}]"}
+{"id": "4/train_0321", "audio_id": "train_0321", "asr": "Go, go, go.", "correct": "工务配合", "raw": "[{\"Start\":0,\"End\":2.12,\"Speaker\":0,\"Content\":\"Go, go, go.\"}]"}
+{"id": "4/train_0322", "audio_id": "train_0322", "asr": "请93号学员卡通。", "correct": "请求上行线开通", "raw": "[{\"Start\":0,\"End\":2.68,\"Speaker\":0,\"Content\":\"请93号学员卡通。\"}]"}
+{"id": "4/train_0323", "audio_id": "train_0323", "asr": "请就这行图片开头。", "correct": "请求下行线开通", "raw": "[{\"Start\":0.0,\"End\":2.64,\"Speaker\":0,\"Content\":\"请就这行图片开头。\"}]"}
+{"id": "4/train_0324", "audio_id": "train_0324", "asr": "场所，就是，就是，预付场所。", "correct": "上行线恢复常速", "raw": "[{\"Start\":0.0,\"End\":3.32,\"Speaker\":0,\"Content\":\"场所，就是，就是，预付场所。\"}]"}
+{"id": "4/train_0325", "audio_id": "train_0325", "asr": "下星期要回 Wisconsin。", "correct": "下行线恢复常速", "raw": "[{\"Start\":0.0,\"End\":2.92,\"Speaker\":0,\"Content\":\"下星期要回 Wisconsin。\"}]"}
+{"id": "4/train_0326", "audio_id": "train_0326", "asr": "由车站操作转为中心操作。", "correct": "由车站操作转回中心操作", "raw": "[{\"Start\":0.0,\"End\":3.56,\"Speaker\":0,\"Content\":\"由车站操作转为中心操作。\"}]"}
+{"id": "4/train_0327", "audio_id": "train_0327", "asr": "呃，对设备情况、车站操作方式下，没有正在执行的按钮操作。", "correct": "核对设备状况、车站操作方式下没有正在执行的按钮操作", "raw": "[{\"Start\":0.0,\"End\":7.0,\"Speaker\":0,\"Content\":\"呃，对设备情况、车站操作方式下，没有正在执行的按钮操作。\"}]"}
+{"id": "4/train_0328", "audio_id": "train_0328", "asr": "信号设备已恢复正常态。", "correct": "信号设备已恢复常态", "raw": "[{\"Start\":0.0,\"End\":3.84,\"Speaker\":0,\"Content\":\"信号设备已恢复正常态。\"}]"}
