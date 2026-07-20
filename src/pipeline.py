@@ -274,6 +274,21 @@ class PostCorrectionPipeline:
         except Exception:
             pass
 
+    def reload_aliases(self) -> None:
+        """热重载别名映射：刷新词典、上下文、RAG/Harness 各层."""
+        self.dictionary_corrector.reload()
+        # context_corrector 使用 phonetic_candidate 单例，单例已被全局重载
+        if self.rag_refiner is not None:
+            try:
+                self.rag_refiner.term_tool.reload()
+            except Exception:
+                pass
+        if self.harness_refiner is not None:
+            try:
+                self.harness_refiner.term_tool.reload()
+            except Exception:
+                pass
+
 
 # 全局流水线实例
 _pipeline = None

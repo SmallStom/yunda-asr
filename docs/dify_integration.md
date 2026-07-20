@@ -27,6 +27,7 @@ DIFY_BASE_URL=http://your-dify-server:5001
 DIFY_API_KEY=dataset-xxxxxxxx
 DIFY_HOTWORDS_DATASET_ID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 DIFY_PROMPTS_DATASET_ID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+DIFY_ALIASES_DATASET_ID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 DIFY_KNOWLEDGE_DATASET_ID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 DIFY_SYNC_INTERVAL_SECONDS=300
 ```
@@ -90,11 +91,82 @@ curl -X POST "http://localhost:8000/api/v1/dify-sync/prompts/pull" \
 
 同步后可通过 `/api/v1/prompts` 查看版本，通过 `/api/v1/prompts/{version}/set-default` 切换默认版本。
 
-## 5. Dify Workflow 配置（推荐）
+## 5. 正别名映射知识库
 
-### 5.1 创建 `asr-config-sync` Workflow
+### 5.1 Dify 侧
 
-1. **Start Node**：输入 `sync_type`（hotwords/prompts/knowledge）。
+1. 创建知识库 `asr-aliases`。
+2. 上传文档，支持两种格式：
+
+**格式 A：JSON 文件**（推荐批量管理）
+
+文档名：`aliases.json`
+
+内容：
+
+```json
+{
+  "道差": "道岔",
+  "新号机": "信号机",
+  "消记": "销记"
+}
+```
+
+**格式 B：文本文件**
+
+每行一个映射，支持 `->` 或 `|` 分隔：
+
+```text
+# 道岔相关
+道差 -> 道岔
+到岔 -> 道岔
+
+# 信号相关
+新号机 | 信号机
+信后机 | 信号机
+```
+
+### 5.2 同步
+
+```bash
+curl -X POST "http://localhost:8000/api/v1/dify-sync/aliases/pull" \
+  -H "Content-Type: application/json"
+```
+
+返回示例：
+
+```json
+{
+  "status": "ok",
+  "dataset_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+  "count": 1384,
+  "path": "data/lexicon/aliases.json"
+}
+```
+
+同步后会：
+
+- 备份原 `aliases.json` 到 `data/lexicon/backups/aliases.json.bak`
+- 覆盖本地 `data/lexicon/aliases.json`
+- 运行时热重载 `DictionaryCorrector`、`PhoneticCandidateGenerator` 以及 Pipeline 中的 `RAGRefiner` / `HarnessRefiner` 术语索引
+
+无需重启服务即可生效。
+
+## 6. 领域知识/场景知识库（DIFY_KNOWLEDGE_DATASET_ID）
+
+`DIFY_KNOWLEDGE_DATASET_ID` 设计用于存放**无法简单用“正别名映射”表达**的复杂领域知识，例如：
+
+- 历史 ASR 错误对（`asr_error_pairs.jsonl`）
+- 铁路调度场景规则说明
+- 特定作业流程的术语消歧说明
+
+注意：当前 `/api/v1/dify-sync/knowledge/pull` 仅返回文档预览，**尚未实现自动解析持久化**。若需要把场景规则也纳入 Dify 管理，建议先按“正别名映射知识库”的方式管理，或后续扩展 `knowledge/pull` 实现。
+
+## 7. Dify Workflow 配置（推荐）
+
+### 7.1 创建 `asr-config-sync` Workflow
+
+1. **Start Node**：输入 `sync_type`（hotwords/prompts/aliases/knowledge）。
 2. **HTTP Request Node**：
    - Method：`POST`
    - URL：`http://<asr-service>/api/v1/dify-sync/{{#start.sync_type#}}/pull`
@@ -103,7 +175,7 @@ curl -X POST "http://localhost:8000/api/v1/dify-sync/prompts/pull" \
 
 运营人员编辑完热词或 Prompt 后，点击运行该 Workflow 即可触发同步。
 
-### 5.2 可选：测试 Workflow
+### 7.2 可选：测试 Workflow
 
 创建 `asr-correction-test`：
 
@@ -114,7 +186,7 @@ curl -X POST "http://localhost:8000/api/v1/dify-sync/prompts/pull" \
    - Body：`{"text": "{{#start.text#}}", "layers": [1, 2, 3]}`
 3. **End Node**：展示纠错结果。
 
-## 6. 故障排查
+## 8. 故障排查
 
 | 现象 | 可能原因 | 排查方法 |
 |---|---|---|
@@ -122,8 +194,9 @@ curl -X POST "http://localhost:8000/api/v1/dify-sync/prompts/pull" \
 | 同步返回 400 | API Key 或 Dataset ID 错误 | 检查 Dify 控制台 |
 | 同步成功但热词未生效 | 未调用热词重载 | 调用 `/api/v1/hotwords/reload`，同步接口已自动重载 |
 | Prompt 同步后未生效 | 未切换默认版本 | 调用 `/api/v1/prompts/{version}/set-default` |
+| 别名同步后未生效 | 流水线缓存了旧结果 | 首次新请求即生效；如验证可调用 `/api/v1/correct` 测试 |
 
-## 7. 注意事项
+## 9. 注意事项
 
 - Dify 知识库中的文档更新后，可能需要等待索引完成才能被 Segment API 读取。
 - 建议先在测试环境验证 Dify Workflow，再接入生产。

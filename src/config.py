@@ -59,6 +59,7 @@ class Settings(BaseSettings):
     dify_api_key: Optional[str] = Field(default=None, alias="DIFY_API_KEY")
     dify_hotwords_dataset_id: Optional[str] = Field(default=None, alias="DIFY_HOTWORDS_DATASET_ID")
     dify_prompts_dataset_id: Optional[str] = Field(default=None, alias="DIFY_PROMPTS_DATASET_ID")
+    dify_aliases_dataset_id: Optional[str] = Field(default=None, alias="DIFY_ALIASES_DATASET_ID")
     dify_knowledge_dataset_id: Optional[str] = Field(default=None, alias="DIFY_KNOWLEDGE_DATASET_ID")
     dify_sync_interval_seconds: int = Field(default=300, alias="DIFY_SYNC_INTERVAL_SECONDS")
 

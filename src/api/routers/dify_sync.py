@@ -1,5 +1,7 @@
 """Dify 同步 API 路由."""
 
+import json
+from pathlib import Path
 from typing import Optional
 
 from fastapi import APIRouter, Depends, HTTPException
@@ -80,6 +82,69 @@ async def sync_prompts_from_dify(
         raise HTTPException(status_code=500, detail=f"sync failed: {e}")
 
 
+@router.post("/aliases/pull")
+async def sync_aliases_from_dify(
+    dataset_id: Optional[str] = None,
+    _=Depends(verify_api_key),
+) -> dict:
+    """从 Dify 拉取正别名映射并同步到本地."""
+    settings = get_settings()
+    if not settings.dify_enabled:
+        raise HTTPException(status_code=403, detail="Dify integration is disabled")
+
+    ds_id = _get_dataset_id("dify_aliases_dataset_id", dataset_id)
+    alias_file = settings.lexicon_dir / "aliases.json"
+
+    try:
+        client = DifyClient()
+        aliases = client.fetch_aliases(ds_id)
+        client.close()
+
+        # 备份原文件
+        if alias_file.exists():
+            backup_dir = settings.lexicon_dir / "backups"
+            backup_dir.mkdir(parents=True, exist_ok=True)
+            backup_path = backup_dir / f"aliases.json.bak"
+            try:
+                backup_path.write_text(
+                    alias_file.read_text(encoding="utf-8"),
+                    encoding="utf-8",
+                )
+            except Exception:
+                pass
+
+        # 持久化新别名
+        alias_file.parent.mkdir(parents=True, exist_ok=True)
+        with open(alias_file, "w", encoding="utf-8") as f:
+            json.dump(aliases, f, ensure_ascii=False, indent=2)
+
+        # 运行时热重载
+        from src import dictionary_corrector, phonetic_candidate
+
+        phonetic_candidate.reload_aliases()
+        dictionary_corrector.reload_aliases()
+
+        # 刷新 API 流水线中的 RAG/Harness TermTool 索引
+        try:
+            from src.api.dependencies import get_pipeline
+
+            get_pipeline().reload_aliases()
+        except Exception:
+            pass
+
+        return {
+            "status": "ok",
+            "dataset_id": ds_id,
+            "count": len(aliases),
+            "path": str(alias_file),
+        }
+    except DifyClientError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    except Exception as e:
+        logger.exception("failed to sync aliases from Dify")
+        raise HTTPException(status_code=500, detail=f"sync failed: {e}")
+
+
 @router.post("/knowledge/pull")
 async def sync_knowledge_from_dify(
     dataset_id: Optional[str] = None,
@@ -119,6 +184,7 @@ async def dify_sync_status(_=Depends(verify_api_key)) -> dict:
         "dify_base_url": settings.dify_base_url,
         "hotwords_dataset_id": settings.dify_hotwords_dataset_id,
         "prompts_dataset_id": settings.dify_prompts_dataset_id,
+        "aliases_dataset_id": settings.dify_aliases_dataset_id,
         "knowledge_dataset_id": settings.dify_knowledge_dataset_id,
         "sync_interval_seconds": settings.dify_sync_interval_seconds,
     }

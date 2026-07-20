@@ -242,3 +242,10 @@ def get_dictionary_corrector(lexicon_dir: Path | str | None = None) -> Dictionar
     if _corrector is None:
         _corrector = DictionaryCorrector(lexicon_dir)
     return _corrector
+
+
+def reload_aliases() -> None:
+    """重新加载别名映射（更新全局单例）."""
+    global _corrector
+    if _corrector is not None:
+        _corrector.reload()

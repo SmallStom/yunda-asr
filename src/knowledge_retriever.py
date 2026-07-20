@@ -13,7 +13,7 @@ from typing import Dict, List, Optional, Set, Tuple
 import jieba
 import pypinyin
 
-from src.phonetic_candidate import PhoneticCandidateGenerator
+from src.phonetic_candidate import get_phonetic_candidate_generator
 
 
 class KnowledgeRetriever:
@@ -45,8 +45,8 @@ class KnowledgeRetriever:
 
         # 层1数据：铁路术语库
         self.railway_terms: List[dict] = []
-        # 从 phonetic_candidate 实例获取铁路混淆映射表
-        self._candidate_gen = PhoneticCandidateGenerator()
+        # 从 phonetic_candidate 单例获取铁路混淆映射表
+        self._candidate_gen = get_phonetic_candidate_generator()
         self.word_confusion: Dict[str, str] = self._candidate_gen.railway_word_confusion
 
         # 层2数据：错误模式频率索引

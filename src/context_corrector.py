@@ -13,7 +13,7 @@ import jieba
 
 from src.collocation_rules import get_all_monitored_terms, get_collocation_rule
 from src.ngram_model import NgramModel, get_default_ngram_model
-from src.phonetic_candidate import PhoneticCandidateGenerator
+from src.phonetic_candidate import get_phonetic_candidate_generator
 
 
 @dataclass
@@ -44,7 +44,7 @@ class ContextCorrector:
         candidate_generator: Optional[PhoneticCandidateGenerator] = None,
     ):
         self.ngram = ngram_model or get_default_ngram_model()
-        self.candidate_gen = candidate_generator or PhoneticCandidateGenerator()
+        self.candidate_gen = candidate_generator or get_phonetic_candidate_generator()
         self.monitored_terms = get_all_monitored_terms()
 
         # 为 jieba 加载监控术语，确保不被切散

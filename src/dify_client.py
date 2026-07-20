@@ -166,6 +166,51 @@ class DifyClient:
         logger.info(f"fetched {len(prompts)} prompt files from Dify dataset {dataset_id}")
         return prompts
 
+    def fetch_aliases(self, dataset_id: str) -> Dict[str, str]:
+        """从 Dify 知识库拉取正别名映射.
+
+        约定：
+        - 文档名为 `aliases.json` 时，内容解析为完整的 JSON 字典。
+        - 其他文档每行一个映射，支持 `alias -> canonical` 或 `alias|canonical`。
+        - 以 `#` 开头的行为注释。
+        """
+        import json
+
+        documents = self.list_documents(dataset_id)
+        aliases: Dict[str, str] = {}
+        for doc in documents:
+            doc_data = doc.dict() if hasattr(doc, "dict") else doc
+            doc_id = doc_data.get("id") or doc_data.get("document", {}).get("id")
+            doc_name = doc_data.get("name") or doc_data.get("document", {}).get("name", "")
+            content = self.get_document_content(dataset_id, doc_id)
+
+            if doc_name.lower().endswith(".json"):
+                try:
+                    data = json.loads(content)
+                    if isinstance(data, dict):
+                        aliases.update(data)
+                except Exception:
+                    logger.warning(f"failed to parse aliases JSON from {doc_name}")
+                continue
+
+            for line in content.splitlines():
+                line = line.strip()
+                if not line or line.startswith("#"):
+                    continue
+                if "->" in line:
+                    alias, canonical = line.split("->", 1)
+                elif "|" in line:
+                    alias, canonical = line.split("|", 1)
+                else:
+                    continue
+                alias = alias.strip()
+                canonical = canonical.strip()
+                if alias and canonical:
+                    aliases[alias] = canonical
+
+        logger.info(f"fetched {len(aliases)} aliases from Dify dataset {dataset_id}")
+        return aliases
+
     def fetch_knowledge(self, dataset_id: str) -> List[Dict]:
         """从 Dify 知识库拉取领域知识/错误模式.
 

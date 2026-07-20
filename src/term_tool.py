@@ -69,6 +69,10 @@ class TermTool:
                 py = self._get_pinyin(hw)
                 self.pinyin_to_terms.setdefault(py, []).append(hw)
 
+    def reload(self) -> None:
+        """重新构建拼音索引（别名/热词变更后调用）."""
+        self._build_pinyin_index()
+
     def _get_pinyin(self, text: str) -> str:
         """获取文本的拼音序列（无音调，空格分隔）."""
         pys = pypinyin.lazy_pinyin(text, style=pypinyin.Style.NORMAL)

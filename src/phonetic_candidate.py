@@ -11,6 +11,23 @@ from typing import Dict, List, Optional, Set, Tuple
 import pypinyin
 
 
+_singleton_instance: Optional["PhoneticCandidateGenerator"] = None
+
+
+def get_phonetic_candidate_generator(
+    lexicon_dir: Optional[Path] = None,
+    confusion_file: Optional[Path] = None,
+) -> "PhoneticCandidateGenerator":
+    """获取全局单例拼音候选生成器."""
+    global _singleton_instance
+    if _singleton_instance is None:
+        _singleton_instance = PhoneticCandidateGenerator(
+            lexicon_dir=lexicon_dir,
+            confusion_file=confusion_file,
+        )
+    return _singleton_instance
+
+
 class PhoneticCandidateGenerator:
     """拼音混淆候选生成器."""
 
@@ -85,6 +102,11 @@ class PhoneticCandidateGenerator:
                 continue
             py = self._get_pinyin(alias)
             self.pinyin_index.setdefault(py, []).append(alias)
+
+    def reload(self) -> None:
+        """重新从磁盘加载别名及混淆规则并重建索引."""
+        self._load_data()
+        self._build_index()
 
     def _get_pinyin(self, text: str) -> str:
         """获取文本的拼音序列（无音调，空格分隔）."""
@@ -199,3 +221,10 @@ class PhoneticCandidateGenerator:
             offset += len(w)
 
         return results
+
+
+def reload_aliases() -> None:
+    """重新加载别名映射（更新全局单例）."""
+    global _singleton_instance
+    if _singleton_instance is not None:
+        _singleton_instance.reload()
