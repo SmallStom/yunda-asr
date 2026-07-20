@@ -43,19 +43,15 @@ DIFY_SYNC_INTERVAL_SECONDS=300
 ### 3.1 Dify 侧
 
 1. 创建知识库 `asr-hotwords`（**只需一个知识库**）。
-2. 在知识库内通过**文档名区分版本/场景**，命名规则：
-   - `{版本名}.txt` - 一个文档即一个版本，内容为该版本全部热词
-   - `{版本名}_{分类}.txt` - 一个版本拆成多个分类文档
+2. 在知识库内通过**文档名区分版本/场景**，**一个文档 = 一个版本**（精确匹配）：
 
-   例如同时管理"调度"、"检修"、"行车"三套热词：
+   | 文档名 | 版本名 | 说明 |
+   |---|---|---|
+   | `调度.txt` | 调度 | 调度场景全部热词 |
+   | `检修.txt` | 检修 | 检修场景全部热词 |
+   | `行车.txt` | 行车 | 行车场景全部热词 |
 
-   | 文档名 | 说明 |
-   |---|---|
-   | `调度.txt` | 调度场景全部热词 |
-   | `检修.txt` | 检修场景全部热词 |
-   | `行车.txt` | 行车场景全部热词 |
-   | `调度_机车.txt` | 调度场景-机车分类（可选拆分） |
-   | `调度_信号.txt` | 调度场景-信号分类（可选拆分） |
+   同步 `?version=调度` 时**只拉取 `调度.txt` 这一个文档**，不会匹配 `调度_xxx.txt`。
 
 3. 文档内容每行一个热词：
 
@@ -343,11 +339,15 @@ Dify Workflow 目前主要依赖手动点击运行。如果希望定时同步，
 
 ### 10.1 文档命名规范总览
 
-| 知识库 | 文档名格式 | 示例 |
+**精确匹配**：同步 `?version=调度` 时，只拉取文档名（去扩展名）**完全等于** "调度" 的文档。
+
+| 知识库 | 文档名 = 版本名 | 示例 |
 |---|---|---|
-| `asr-hotwords` | `{版本}.txt` 或 `{版本}_{分类}.txt` | `调度.txt`、`调度_机车.txt` |
+| `asr-hotwords` | `{版本}.txt` | `调度.txt`、`检修.txt`、`行车.txt` |
 | `asr-prompts` | `{版本}_system.txt` + `{版本}_user_template.txt` | `调度_system.txt`、`调度_user_template.txt` |
 | `asr-aliases` | `{版本}.json` 或 `{版本}.txt` | `调度.json`、`检修.txt` |
+
+注意：`调度.txt` 和 `调度_机车.txt` 是**两个不同版本**，不会互相匹配。一个版本对应一个文档（Prompt 除外，Prompt 一个版本对应两个文档）。
 
 ### 10.2 同步指定版本
 
@@ -428,17 +428,39 @@ LLM_PROMPT_VERSION=调度
    ```
 5. **如需回滚**：把 `version=` 改成其他版本名重新激活即可。
 
-### 10.6 Dify Workflow 配置（以"调度"为例）
+### 10.6 Dify Workflow 配置
 
-为每个场景创建一个 Workflow，固定 `version` 参数：
+**关键：Dify HTTP Request 节点支持动态参数**，用 `{{#start.变量名#}}` 引用 Start 节点定义的变量。所以只需建**一个 Workflow**，运行时输入版本名即可。
 
-**Workflow: `asr-sync-调度`**
+#### 方式一：一个 Workflow 同步全部三类（推荐）
 
-- Start Node：无输入变量
-- HTTP Request Node（可串联 3 个，或用条件分支）：
-  - `POST http://<asr-host>:8000/api/v1/dify-sync/hotwords/pull?version=调度`
-  - `POST http://<asr-host>:8000/api/v1/dify-sync/aliases/pull?version=调度`
-  - `POST http://<asr-host>:8000/api/v1/dify-sync/prompts/pull?version=调度`
-- End Node：返回结果
+**Start Node**：定义输入变量 `version`（string 类型，如 "调度"）
 
-运营人员编辑完"调度"文档后，运行该 Workflow 即可同步全部三类配置。
+**HTTP Request Node 1**（同步热词）：
+- Method：`POST`
+- URL：`http://<asr-host>:8000/api/v1/dify-sync/hotwords/pull?version={{#start.version#}}`
+- Headers：`Content-Type: application/json`
+
+**HTTP Request Node 2**（同步别名）：
+- Method：`POST`
+- URL：`http://<asr-host>:8000/api/v1/dify-sync/aliases/pull?version={{#start.version#}}`
+
+**HTTP Request Node 3**（同步 Prompt）：
+- Method：`POST`
+- URL：`http://<asr-host>:8000/api/v1/dify-sync/prompts/pull?version={{#start.version#}}`
+
+三个节点串联（Node 1 完成后连 Node 2，再连 Node 3）。
+
+**End Node**：返回三个请求的结果。
+
+运行时输入 `version=调度`，一键同步"调度"版本的热词+别名+Prompt。
+
+#### 方式二：只同步单个功能
+
+如果只想同步热词，Workflow 里只放一个 HTTP Request 节点即可：
+
+- Start Node：`version`（string）
+- HTTP Request Node：`POST .../dify-sync/hotwords/pull?version={{#start.version#}}`
+- End Node
+
+**不需要串联三个接口**。一个功能对应一个 HTTP 节点，按需添加。
