@@ -172,7 +172,7 @@ curl -X POST "http://localhost:8000/api/v1/dify-sync/aliases/pull" \
 ### 7.1 前置检查
 
 1. ASR 服务已启动，且 `.env` 中 `DIFY_ENABLED=true`。
-2. 如果 `.env` 中配置了 `API_KEY`，则 Workflow 的 HTTP 请求必须带请求头 `x-api-key: <your-internal-api-key>`。
+2. API 鉴权（可选）：`.env` 中 `API_KEY` **默认未配置（注释状态）**，服务开放无需鉴权。如果你出于安全考虑配置了 `API_KEY=xxx`，则 Workflow 的 HTTP 请求必须带请求头 `x-api-key: xxx`。不配置则无需此头。
 3. Dify 能访问到 ASR 服务的地址（内网 IP / 域名 + 端口）。
 
 ### 7.2 创建 `asr-config-sync` Workflow
@@ -299,3 +299,80 @@ Dify Workflow 目前主要依赖手动点击运行。如果希望定时同步，
 - Dify 知识库中的文档更新后，可能需要等待索引完成才能被 Segment API 读取。
 - 建议先在测试环境验证 Dify Workflow，再接入生产。
 - 若 Dify 不可用，服务会自动使用本地最新配置继续运行。
+
+## 10. 版本管理（热词 / 别名 / Prompt）
+
+当热词、别名、Prompt 存在多个版本时，可以保存为版本文件，运行时切换激活的版本。
+
+### 10.1 Prompt 版本
+
+Prompt 通过 `src/prompts/v1/`、`src/prompts/v2/` 等目录管理，Dify 同步时按 `{version}_system.txt` / `{version}_user_template.txt` 命名文档。
+
+切换默认版本：
+
+```bash
+curl -X POST "http://localhost:8000/api/v1/prompts/v2/set-default"
+```
+
+或通过环境变量 `LLM_PROMPT_VERSION=v2` 在启动时指定。
+
+### 10.2 热词版本
+
+**保存为版本文件**（不覆盖当前活跃文件）：
+
+```bash
+curl -X POST "http://localhost:8000/api/v1/dify-sync/hotwords/pull?version=v2"
+```
+
+会生成 `data/lexicon/hotwords_v2.json`，不影响当前运行的 `hotwords.json`。
+
+**列出所有版本**：
+
+```bash
+curl "http://localhost:8000/api/v1/hotwords/versions"
+```
+
+**切换激活版本**：
+
+```bash
+curl -X POST "http://localhost:8000/api/v1/hotwords/switch-version?version=v2"
+```
+
+会将 `hotwords_v2.json` 复制为 `hotwords.json` 并热重载。
+
+**启动时自动激活指定版本**：
+
+在 `.env` 中配置：
+
+```ini
+HOTWORDS_VERSION=v2
+```
+
+### 10.3 别名版本
+
+与热词类似：
+
+```bash
+# 保存为版本文件
+curl -X POST "http://localhost:8000/api/v1/dify-sync/aliases/pull?version=v2"
+
+# 列出所有版本
+curl "http://localhost:8000/api/v1/aliases/versions"
+
+# 切换激活版本
+curl -X POST "http://localhost:8000/api/v1/aliases/switch-version?version=v2"
+```
+
+启动时自动激活：
+
+```ini
+ALIASES_VERSION=v2
+```
+
+### 10.4 典型版本管理流程
+
+1. 在 Dify 知识库中编辑新版本内容。
+2. 调用 `?version=v2` 同步，生成版本文件（不影响线上）。
+3. 在测试环境验证 `v2` 效果。
+4. 验证通过后调用 `switch-version?v2` 激活。
+5. 如需回滚，调用 `switch-version?v1` 即可。

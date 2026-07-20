@@ -116,3 +116,27 @@ async def push_hotwords_to_asr(_=Depends(verify_api_key)) -> dict:
     # TODO: 调用上游 ASR 热词接口
     logger.info("prepared hotwords for ASR push", extra={"count": len(payload["hotwords"])})
     return {"status": "prepared", "count": len(payload["hotwords"]), "payload": payload}
+
+
+@router.get("/hotwords/versions")
+async def list_hotword_versions(_=Depends(verify_api_key)) -> dict:
+    """列出所有热词版本."""
+    manager = get_hotword_manager()
+    return {"versions": manager.list_versions()}
+
+
+@router.post("/hotwords/switch-version")
+async def switch_hotword_version(
+    version: str = Query(..., description="目标版本名，如 v2"),
+    _=Depends(verify_api_key),
+) -> dict:
+    """切换当前活跃热词版本."""
+    manager = get_hotword_manager()
+    ok = manager.switch_version(version)
+    if not ok:
+        raise HTTPException(status_code=404, detail=f"version '{version}' not found")
+    return {
+        "status": "ok",
+        "version": version,
+        "total": len(manager.list_all(enabled_only=False)),
+    }

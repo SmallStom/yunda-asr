@@ -37,7 +37,71 @@ class HotwordManager:
         self.hotwords_path = hotwords_path or self.settings.hotwords_path
         self._items: Dict[str, HotwordItem] = {}
         self._lock = Lock()
+        # 启动时若指定了 HOTWORDS_VERSION，自动激活该版本
+        if self.settings.hotwords_version:
+            self._activate_version(self.settings.hotwords_version)
         self.reload()
+
+    def _versioned_path(self, version: str) -> Path:
+        """获取版本化文件路径，如 hotwords_v2.json."""
+        return self.hotwords_path.with_name(
+            self.hotwords_path.stem + f"_{version}" + self.hotwords_path.suffix
+        )
+
+    def _activate_version(self, version: str) -> bool:
+        """将版本文件复制为当前活跃文件."""
+        src = self._versioned_path(version)
+        if not src.exists():
+            logger.warning(f"hotwords version file not found: {src}")
+            return False
+        self.hotwords_path.write_text(
+            src.read_text(encoding="utf-8"), encoding="utf-8"
+        )
+        logger.info(f"activated hotwords version '{version}' from {src}")
+        return True
+
+    def list_versions(self) -> List[Dict]:
+        """列出所有可用的热词版本."""
+        versions = []
+        for p in self.hotwords_path.parent.glob(
+            self.hotwords_path.stem + "_*" + self.hotwords_path.suffix
+        ):
+            # 提取版本名
+            suffix = p.stem[len(self.hotwords_path.stem) + 1:]
+            versions.append({
+                "version": suffix,
+                "path": str(p),
+                "size": p.stat().st_size,
+            })
+        return sorted(versions, key=lambda x: x["version"])
+
+    def switch_version(self, version: str) -> bool:
+        """切换当前活跃版本."""
+        with self._lock:
+            ok = self._activate_version(version)
+            if ok:
+                # 重新加载
+                try:
+                    data = json.loads(self.hotwords_path.read_text(encoding="utf-8"))
+                    if not isinstance(data, list):
+                        data = []
+                    items = self._migrate_legacy_format(data)
+                    self._items = {item.id: item for item in items}
+                    logger.info(f"switched to hotwords version '{version}', {len(self._items)} words loaded")
+                except Exception as e:
+                    logger.error(f"failed to reload after version switch: {e}")
+            return ok
+
+    def save_as_version(self, version: str, data: list) -> Path:
+        """将数据保存为版本文件."""
+        target = self._versioned_path(version)
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(
+            json.dumps(data, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+        logger.info(f"saved hotwords as version '{version}' -> {target}")
+        return target
 
     def _ensure_file(self) -> None:
         """确保文件存在."""
@@ -168,18 +232,19 @@ class HotwordManager:
             self._save()
             return True
 
-    def reload_from_dify(self, words: List[Dict]) -> Dict[str, int]:
+    def reload_from_dify(self, words: List[Dict], version: Optional[str] = None) -> Dict[str, int]:
         """从 Dify 同步热词.
 
         Args:
             words: 热词对象列表，每项至少包含 word，可选 category/enabled。
+            version: 若指定，保存为版本文件（hotwords_{version}.json），
+                     不覆盖当前活跃文件；需手动 switch_version 激活。
 
         Returns:
             {"updated": int, "deleted": int, "skipped": int}
         """
         with self._lock:
-            self._backup()
-
+            # 先在内存中构建新数据
             new_items: Dict[str, HotwordItem] = {}
             updated = 0
             skipped = 0
@@ -190,7 +255,6 @@ class HotwordManager:
                     skipped += 1
                     continue
 
-                # 尝试找到已有 ID（按 word + category 匹配）
                 existing_id = None
                 for item in self._items.values():
                     if item.word == word and item.category == entry.get("category"):
@@ -209,8 +273,24 @@ class HotwordManager:
             deleted = len(self._items) - len(
                 {k for k in self._items if k in new_items}
             )
-            self._items = new_items
-            self._save()
+
+            # 序列化数据
+            serialized = sorted(
+                [asdict(item) for item in new_items.values()],
+                key=lambda x: x["word"],
+            )
+
+            if version:
+                # 仅保存为版本文件，不动活跃文件
+                self.save_as_version(version, serialized)
+            else:
+                # 覆盖活跃文件
+                self._backup()
+                self.hotwords_path.write_text(
+                    json.dumps(serialized, ensure_ascii=False, indent=2),
+                    encoding="utf-8",
+                )
+                self._items = new_items
 
             return {"updated": updated, "deleted": deleted, "skipped": skipped}
 

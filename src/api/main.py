@@ -8,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 from src.api.dependencies import add_request_metadata, warmup_pipeline
-from src.api.routers import config, correction, dify_sync, health, hotwords, prompts
+from src.api.routers import aliases, config, correction, dify_sync, health, hotwords, prompts
 from src.config import get_settings
 from src.logging_config import get_logger, setup_logging
 from src.metrics import get_metrics
@@ -88,6 +88,7 @@ app.include_router(health.router)
 app.include_router(correction.router)
 app.include_router(config.router)
 app.include_router(hotwords.router)
+app.include_router(aliases.router)
 app.include_router(prompts.router)
 app.include_router(dify_sync.router)
 

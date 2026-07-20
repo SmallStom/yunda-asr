@@ -53,6 +53,10 @@ class Settings(BaseSettings):
     hotwords_path: Path = Field(default=PROJECT_ROOT / "data" / "lexicon" / "hotwords.json", alias="HOTWORDS_PATH")
     lexicon_dir: Path = Field(default=PROJECT_ROOT / "data" / "lexicon", alias="LEXICON_DIR")
 
+    # 版本配置（用于热词/别名多版本管理，可选）
+    hotwords_version: Optional[str] = Field(default=None, alias="HOTWORDS_VERSION")
+    aliases_version: Optional[str] = Field(default=None, alias="ALIASES_VERSION")
+
     # Dify 桥接配置
     dify_enabled: bool = Field(default=False, alias="DIFY_ENABLED")
     dify_base_url: str = Field(default="http://localhost:5001", alias="DIFY_BASE_URL")

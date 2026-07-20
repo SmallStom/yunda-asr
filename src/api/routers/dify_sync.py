@@ -35,9 +35,16 @@ def _get_dataset_id(setting_attr: str, request_dataset_id: Optional[str]) -> str
 @router.post("/hotwords/pull")
 async def sync_hotwords_from_dify(
     dataset_id: Optional[str] = None,
+    version: Optional[str] = None,
     _=Depends(verify_api_key),
 ) -> dict:
-    """从 Dify 拉取热词并同步到本地."""
+    """从 Dify 拉取热词并同步到本地.
+
+    Args:
+        dataset_id: 可选，覆盖 .env 中的 DIFY_HOTWORDS_DATASET_ID。
+        version: 可选，若指定则保存为版本文件 hotwords_{version}.json，
+                 不覆盖当前活跃文件；需调用 /hotwords/switch-version 激活。
+    """
     settings = get_settings()
     if not settings.dify_enabled:
         raise HTTPException(status_code=403, detail="Dify integration is disabled")
@@ -47,9 +54,9 @@ async def sync_hotwords_from_dify(
         client = DifyClient()
         words = client.fetch_hotwords(ds_id)
         manager = get_hotword_manager()
-        result = manager.reload_from_dify(words)
+        result = manager.reload_from_dify(words, version=version)
         client.close()
-        return {"status": "ok", "dataset_id": ds_id, **result}
+        return {"status": "ok", "dataset_id": ds_id, "version": version, **result}
     except DifyClientError as e:
         raise HTTPException(status_code=400, detail=str(e))
     except Exception as e:
@@ -85,58 +92,41 @@ async def sync_prompts_from_dify(
 @router.post("/aliases/pull")
 async def sync_aliases_from_dify(
     dataset_id: Optional[str] = None,
+    version: Optional[str] = None,
     _=Depends(verify_api_key),
 ) -> dict:
-    """从 Dify 拉取正别名映射并同步到本地."""
+    """从 Dify 拉取正别名映射并同步到本地.
+
+    Args:
+        dataset_id: 可选，覆盖 .env 中的 DIFY_ALIASES_DATASET_ID。
+        version: 可选，若指定则保存为版本文件 aliases_{version}.json，
+                 不覆盖当前活跃文件；需调用 /aliases/switch-version 激活。
+    """
     settings = get_settings()
     if not settings.dify_enabled:
         raise HTTPException(status_code=403, detail="Dify integration is disabled")
 
     ds_id = _get_dataset_id("dify_aliases_dataset_id", dataset_id)
-    alias_file = settings.lexicon_dir / "aliases.json"
 
     try:
         client = DifyClient()
         aliases = client.fetch_aliases(ds_id)
         client.close()
 
-        # 备份原文件
-        if alias_file.exists():
-            backup_dir = settings.lexicon_dir / "backups"
-            backup_dir.mkdir(parents=True, exist_ok=True)
-            backup_path = backup_dir / f"aliases.json.bak"
-            try:
-                backup_path.write_text(
-                    alias_file.read_text(encoding="utf-8"),
-                    encoding="utf-8",
-                )
-            except Exception:
-                pass
+        from src.alias_manager import get_alias_manager
 
-        # 持久化新别名
-        alias_file.parent.mkdir(parents=True, exist_ok=True)
-        with open(alias_file, "w", encoding="utf-8") as f:
-            json.dump(aliases, f, ensure_ascii=False, indent=2)
-
-        # 运行时热重载
-        from src import dictionary_corrector, phonetic_candidate
-
-        phonetic_candidate.reload_aliases()
-        dictionary_corrector.reload_aliases()
-
-        # 刷新 API 流水线中的 RAG/Harness TermTool 索引
-        try:
-            from src.api.dependencies import get_pipeline
-
-            get_pipeline().reload_aliases()
-        except Exception:
-            pass
+        manager = get_alias_manager()
+        if version:
+            path = manager.save_as_version(version, aliases)
+        else:
+            path = manager.save_as_active(aliases)
 
         return {
             "status": "ok",
             "dataset_id": ds_id,
+            "version": version,
             "count": len(aliases),
-            "path": str(alias_file),
+            "path": str(path),
         }
     except DifyClientError as e:
         raise HTTPException(status_code=400, detail=str(e))
