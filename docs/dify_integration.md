@@ -164,27 +164,125 @@ curl -X POST "http://localhost:8000/api/v1/dify-sync/aliases/pull" \
 
 ## 7. Dify Workflow 配置（推荐）
 
-### 7.1 创建 `asr-config-sync` Workflow
+下面给出两种常用 Workflow：
 
-1. **Start Node**：输入 `sync_type`（hotwords/prompts/aliases/knowledge）。
-2. **HTTP Request Node**：
-   - Method：`POST`
-   - URL：`http://<asr-service>/api/v1/dify-sync/{{#start.sync_type#}}/pull`
-   - Headers：`Content-Type: application/json`
-3. **End Node**：返回 HTTP 响应结果。
+- `asr-config-sync`：运营人员在 Dify 编辑完热词/Prompt/别名后，一键同步到 ASR 服务。
+- `asr-correction-test`：在 Dify 里快速测试纠错效果。
 
-运营人员编辑完热词或 Prompt 后，点击运行该 Workflow 即可触发同步。
+### 7.1 前置检查
 
-### 7.2 可选：测试 Workflow
+1. ASR 服务已启动，且 `.env` 中 `DIFY_ENABLED=true`。
+2. 如果 `.env` 中配置了 `API_KEY`，则 Workflow 的 HTTP 请求必须带请求头 `x-api-key: <your-internal-api-key>`。
+3. Dify 能访问到 ASR 服务的地址（内网 IP / 域名 + 端口）。
 
-创建 `asr-correction-test`：
+### 7.2 创建 `asr-config-sync` Workflow
 
-1. **Start Node**：输入原始 ASR 文本。
-2. **HTTP Request Node**：
-   - Method：`POST`
-   - URL：`http://<asr-service>/api/v1/correct`
-   - Body：`{"text": "{{#start.text#}}", "layers": [1, 2, 3]}`
-3. **End Node**：展示纠错结果。
+**步骤 1：新建 Workflow**
+
+进入 Dify → 工作室 → 创建空白应用 → 选择 **Workflow（工作流）** → 命名 `asr-config-sync`。
+
+**步骤 2：配置 Start Node**
+
+点击 **Start** 节点，添加一个输入变量：
+
+| 字段名 | 类型 | 必填 | 说明 |
+|---|---|---|---|
+| `sync_type` | `select` / `string` | 是 | 可选值：`hotwords`、`prompts`、`aliases`、`knowledge` |
+
+> 建议使用 `select` 类型，把四个选项写死，避免运营人员输错。
+
+**步骤 3：添加 HTTP Request Node**
+
+点击 **+** 添加节点 → 选择 **HTTP 请求**。
+
+配置如下：
+
+| 配置项 | 值 |
+|---|---|
+| 方法 | `POST` |
+| URL | `http://<asr-service-host>:8000/api/v1/dify-sync/{{#start.sync_type#}}/pull` |
+| Headers | `Content-Type: application/json` |
+| Headers（若启用了 API_KEY） | `x-api-key: <your-internal-api-key>` |
+| Body | 留空或 `{}` |
+| 超时 | 建议 30~60 秒（别名/热词较多时需要时间） |
+
+说明：
+
+- `{{#start.sync_type#}}` 是 Dify 的变量语法，会替换成 Start 节点输入的 `sync_type`。
+- `<asr-service-host>` 填写 ASR 服务实际地址，例如 `192.168.1.100` 或 `asr.yunda.local`。
+- 如果 Dify 与 ASR 在同一台 Docker 宿主机，且 ASR 映射了宿主机端口，通常用 `host.docker.internal:8000` 或宿主机内网 IP。
+
+**步骤 4：配置 End Node**
+
+添加 **End** 节点，输出字段可以绑定 HTTP 请求的响应：
+
+| 输出字段 | 值 |
+|---|---|
+| `status` | `{{#http.status_code#}}` |
+| `result` | `{{#http.response#}}` |
+
+**步骤 5：保存并发布**
+
+点击右上角 **发布**。
+
+**步骤 6：运行同步**
+
+运营人员在 Dify 知识库编辑完内容后：
+
+1. 进入 `asr-config-sync` Workflow。
+2. 在 **运行** 页面选择 `sync_type`（如 `aliases`）。
+3. 点击 **运行**。
+4. 观察返回结果中的 `status` 是否为 `ok`，`count` 是否符合预期。
+
+### 7.3 创建独立的同步 Workflow（可选）
+
+如果担心运营人员选错 `sync_type`，可以拆成 3 个独立 Workflow：
+
+| Workflow 名称 | URL |
+|---|---|
+| `asr-sync-hotwords` | `POST http://<asr-service>:8000/api/v1/dify-sync/hotwords/pull` |
+| `asr-sync-prompts` | `POST http://<asr-service>:8000/api/v1/dify-sync/prompts/pull` |
+| `asr-sync-aliases` | `POST http://<asr-service>:8000/api/v1/dify-sync/aliases/pull` |
+
+每个 Workflow 的 Start 节点不需要输入变量，直接固定 URL 即可。
+
+### 7.4 可选：创建 `asr-correction-test` 测试 Workflow
+
+用于在 Dify 里快速验证某句 ASR 文本的纠错效果。
+
+**Start Node**：
+
+| 字段名 | 类型 | 必填 | 说明 |
+|---|---|---|---|
+| `text` | string | 是 | ASR 原始文本 |
+| `semantic_mode` | select | 否 | 可选：`baseline`、`rag`、`harness`，默认 `baseline` |
+
+**HTTP Request Node**：
+
+| 配置项 | 值 |
+|---|---|
+| 方法 | `POST` |
+| URL | `http://<asr-service>:8000/api/v1/correct` |
+| Headers | `Content-Type: application/json` |
+| Headers（若启用了 API_KEY） | `x-api-key: <your-internal-api-key>` |
+| Body | `{"text": "{{#start.text#}}", "layers": [1, 2, 3], "enable_semantic": true, "semantic_mode": "{{#start.semantic_mode#}}"}` |
+
+**End Node**：
+
+| 输出字段 | 值 |
+|---|---|
+| `corrected` | `{{#http.response.corrected#}}` |
+| `layers_applied` | `{{#http.response.layers_applied#}}` |
+| `full_response` | `{{#http.response#}}` |
+
+### 7.5 进一步自动化（可选）
+
+Dify Workflow 目前主要依赖手动点击运行。如果希望定时同步，可以考虑：
+
+- 在 ASR 服务内部开启定时同步（基于 `DIFY_SYNC_INTERVAL_SECONDS` 的轮询任务）。
+- 使用外部定时任务（如 cron、K8s CronJob）调用 Dify Workflow 的 API 或 ASR 同步接口。
+
+当前项目尚未实现 ASR 服务内部的定时轮询，如有需要可后续扩展。
 
 ## 8. 故障排查
 
