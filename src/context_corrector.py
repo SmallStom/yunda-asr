@@ -13,7 +13,7 @@ import jieba
 
 from src.collocation_rules import get_all_monitored_terms, get_collocation_rule
 from src.ngram_model import NgramModel, get_default_ngram_model
-from src.phonetic_candidate import get_phonetic_candidate_generator
+from src.phonetic_candidate import PhoneticCandidateGenerator, get_phonetic_candidate_generator
 
 
 @dataclass
