@@ -1,6 +1,6 @@
 # 轨道交通 ASR 后处理纠错服务 Docker 镜像
 # 构建阶段
-FROM python:3.11-slim AS builder
+FROM python:3.12-slim-bookworm AS builder
 
 WORKDIR /app
 
@@ -15,7 +15,7 @@ RUN pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir -e ".[audio]" || pip install --no-cache-dir -e "."
 
 # 运行阶段
-FROM python:3.11-slim
+FROM python:3.12-slim-bookworm
 
 WORKDIR /app
 
@@ -25,15 +25,13 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 # 从构建阶段复制已安装的 Python 包
-COPY --from=builder /usr/local/lib/python3.11/site-packages /usr/local/lib/python3.11/site-packages
+COPY --from=builder /usr/local/lib/python3.12/site-packages /usr/local/lib/python3.12/site-packages
 COPY --from=builder /usr/local/bin /usr/local/bin
 
 # 复制项目代码
 COPY src ./src
 COPY scripts ./scripts
 COPY data ./data
-COPY tests ./tests
-COPY conftest.py ./
 COPY pyproject.toml ./
 
 # 创建非 root 用户
