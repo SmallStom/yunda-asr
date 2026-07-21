@@ -5,6 +5,7 @@ from pathlib import Path
 from typing import Optional
 
 from fastapi import APIRouter, Depends, HTTPException
+from pydantic import BaseModel
 
 from src.api.dependencies import verify_api_key
 from src.config import get_settings
@@ -16,6 +17,13 @@ from src.prompt_manager import get_prompt_manager
 
 router = APIRouter(prefix="/api/v1/dify-sync", tags=["dify-sync"])
 logger = get_logger(__name__)
+
+
+class SyncRequest(BaseModel):
+    """Dify 同步请求体."""
+
+    dataset_id: Optional[str] = None
+    version: Optional[str] = None
 
 
 def _get_dataset_id(setting_attr: str, request_dataset_id: Optional[str]) -> str:
@@ -32,31 +40,37 @@ def _get_dataset_id(setting_attr: str, request_dataset_id: Optional[str]) -> str
     return dataset_id
 
 
-@router.post("/hotwords/pull")
-async def sync_hotwords_from_dify(
-    dataset_id: Optional[str] = None,
-    version: Optional[str] = None,
-    _=Depends(verify_api_key),
-) -> dict:
-    """从 Dify 拉取热词并同步到本地.
-
-    Args:
-        dataset_id: 可选，覆盖 .env 中的 DIFY_HOTWORDS_DATASET_ID。
-        version: 可选，若指定则保存为版本文件 hotwords_{version}.json，
-                 不覆盖当前活跃文件；需调用 /hotwords/switch-version 激活。
-    """
+def _check_dify_enabled() -> None:
+    """检查 Dify 是否启用."""
     settings = get_settings()
     if not settings.dify_enabled:
         raise HTTPException(status_code=403, detail="Dify integration is disabled")
 
-    ds_id = _get_dataset_id("dify_hotwords_dataset_id", dataset_id)
+
+@router.post("/hotwords/pull")
+async def sync_hotwords_from_dify(
+    request: SyncRequest = SyncRequest(),
+    _=Depends(verify_api_key),
+) -> dict:
+    """从 Dify 拉取热词并同步到本地.
+
+    请求体（JSON）：
+    ```json
+    {"dataset_id": "xxx", "version": "调度"}
+    ```
+
+    - dataset_id: 可选，覆盖 .env 中的 DIFY_HOTWORDS_DATASET_ID
+    - version: 可选，若指定则保存为版本文件 hotwords_{version}.json
+    """
+    _check_dify_enabled()
+    ds_id = _get_dataset_id("dify_hotwords_dataset_id", request.dataset_id)
     try:
         client = DifyClient()
-        words = client.fetch_hotwords(ds_id, version=version)
+        words = client.fetch_hotwords(ds_id, version=request.version)
         manager = get_hotword_manager()
-        result = manager.reload_from_dify(words, version=version)
+        result = manager.reload_from_dify(words, version=request.version)
         client.close()
-        return {"status": "ok", "dataset_id": ds_id, "version": version, **result}
+        return {"status": "ok", "dataset_id": ds_id, "version": request.version, **result}
     except DifyClientError as e:
         raise HTTPException(status_code=400, detail=str(e))
     except Exception as e:
@@ -66,28 +80,25 @@ async def sync_hotwords_from_dify(
 
 @router.post("/prompts/pull")
 async def sync_prompts_from_dify(
-    dataset_id: Optional[str] = None,
-    version: Optional[str] = None,
+    request: SyncRequest = SyncRequest(),
     _=Depends(verify_api_key),
 ) -> dict:
     """从 Dify 拉取 Prompt 并同步到本地.
 
-    Args:
-        dataset_id: 可选，覆盖 .env 中的 DIFY_PROMPTS_DATASET_ID。
-        version: 可选版本名（如 "调度"），仅拉取该版本的 system/user_template 文档。
+    请求体（JSON）：
+    ```json
+    {"dataset_id": "xxx", "version": "调度"}
+    ```
     """
-    settings = get_settings()
-    if not settings.dify_enabled:
-        raise HTTPException(status_code=403, detail="Dify integration is disabled")
-
-    ds_id = _get_dataset_id("dify_prompts_dataset_id", dataset_id)
+    _check_dify_enabled()
+    ds_id = _get_dataset_id("dify_prompts_dataset_id", request.dataset_id)
     try:
         client = DifyClient()
-        prompts = client.fetch_prompts(ds_id, version=version)
+        prompts = client.fetch_prompts(ds_id, version=request.version)
         manager = get_prompt_manager()
         updated = manager.reload_from_dify(prompts)
         client.close()
-        return {"status": "ok", "dataset_id": ds_id, "version": version, "updated": updated}
+        return {"status": "ok", "dataset_id": ds_id, "version": request.version, "updated": updated}
     except DifyClientError as e:
         raise HTTPException(status_code=400, detail=str(e))
     except Exception as e:
@@ -97,40 +108,36 @@ async def sync_prompts_from_dify(
 
 @router.post("/aliases/pull")
 async def sync_aliases_from_dify(
-    dataset_id: Optional[str] = None,
-    version: Optional[str] = None,
+    request: SyncRequest = SyncRequest(),
     _=Depends(verify_api_key),
 ) -> dict:
     """从 Dify 拉取正别名映射并同步到本地.
 
-    Args:
-        dataset_id: 可选，覆盖 .env 中的 DIFY_ALIASES_DATASET_ID。
-        version: 可选，若指定则保存为版本文件 aliases_{version}.json，
-                 不覆盖当前活跃文件；需调用 /aliases/switch-version 激活。
+    请求体（JSON）：
+    ```json
+    {"dataset_id": "xxx", "version": "调度"}
+    ```
     """
-    settings = get_settings()
-    if not settings.dify_enabled:
-        raise HTTPException(status_code=403, detail="Dify integration is disabled")
-
-    ds_id = _get_dataset_id("dify_aliases_dataset_id", dataset_id)
+    _check_dify_enabled()
+    ds_id = _get_dataset_id("dify_aliases_dataset_id", request.dataset_id)
 
     try:
         client = DifyClient()
-        aliases = client.fetch_aliases(ds_id, version=version)
+        aliases = client.fetch_aliases(ds_id, version=request.version)
         client.close()
 
         from src.alias_manager import get_alias_manager
 
         manager = get_alias_manager()
-        if version:
-            path = manager.save_as_version(version, aliases)
+        if request.version:
+            path = manager.save_as_version(request.version, aliases)
         else:
             path = manager.save_as_active(aliases)
 
         return {
             "status": "ok",
             "dataset_id": ds_id,
-            "version": version,
+            "version": request.version,
             "count": len(aliases),
             "path": str(path),
         }

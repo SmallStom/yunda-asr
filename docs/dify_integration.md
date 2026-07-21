@@ -355,16 +355,26 @@ Dify Workflow 目前主要依赖手动点击运行。如果希望定时同步，
 1. **从 Dify 拉取哪些文档**：只拉取文档名匹配该版本的文档
 2. **本地保存为版本文件**：如 `hotwords_调度.json`，不覆盖活跃文件
 
+`dataset_id` 和 `version` 通过 **JSON 请求体**传入，不再依赖 `.env` 中的知识库 ID：
+
 ```bash
-# 同步"调度"版本的热词
-curl -X POST "http://localhost:8000/api/v1/dify-sync/hotwords/pull?version=调度"
+# 同步"调度"版本的热词（dataset_id 从 Dify 知识库页面获取）
+curl -X POST "http://localhost:8000/api/v1/dify-sync/hotwords/pull" \
+  -H "Content-Type: application/json" \
+  -d '{"dataset_id": "74d6ae75-5a28-443a-b8ab-56ce9cdb011b", "version": "调度"}'
 
 # 同步"检修"版本的别名
-curl -X POST "http://localhost:8000/api/v1/dify-sync/aliases/pull?version=检修"
+curl -X POST "http://localhost:8000/api/v1/dify-sync/aliases/pull" \
+  -H "Content-Type: application/json" \
+  -d '{"dataset_id": "别名知识库ID", "version": "检修"}'
 
 # 同步"行车"版本的 Prompt
-curl -X POST "http://localhost:8000/api/v1/dify-sync/prompts/pull?version=行车"
+curl -X POST "http://localhost:8000/api/v1/dify-sync/prompts/pull" \
+  -H "Content-Type: application/json" \
+  -d '{"dataset_id": "Prompt知识库ID", "version": "行车"}'
 ```
+
+> `dataset_id` 不传时回退到 `.env` 中的 `DIFY_*_DATASET_ID`，便于本地开发。生产环境建议通过请求体传入。
 
 ### 10.3 列出与切换版本
 
@@ -430,37 +440,74 @@ LLM_PROMPT_VERSION=调度
 
 ### 10.6 Dify Workflow 配置
 
-**关键：Dify HTTP Request 节点支持动态参数**，用 `{{#start.变量名#}}` 引用 Start 节点定义的变量。所以只需建**一个 Workflow**，运行时输入版本名即可。
+**关键：`dataset_id` 和 `version` 通过 JSON Body 传入**，Dify HTTP Request 节点的 Body 配置为 JSON 格式，用 `{{#start.变量名#}}` 引用 Start 节点变量。只需建**一个 Workflow**，运行时输入参数即可。
 
 #### 方式一：一个 Workflow 同步全部三类（推荐）
 
-**Start Node**：定义输入变量 `version`（string 类型，如 "调度"）
+**Start Node**：定义两个输入变量
+- `version`（string，如 "调度"）
+- `hotwords_dataset_id`（string，热词知识库 ID）
+- `aliases_dataset_id`（string，别名知识库 ID）
+- `prompts_dataset_id`（string，Prompt 知识库 ID）
 
 **HTTP Request Node 1**（同步热词）：
 - Method：`POST`
-- URL：`http://<asr-host>:8000/api/v1/dify-sync/hotwords/pull?version={{#start.version#}}`
+- URL：`http://<asr-host>:8000/api/v1/dify-sync/hotwords/pull`
 - Headers：`Content-Type: application/json`
+- Body (JSON)：
+```json
+{
+  "dataset_id": "{{#start.hotwords_dataset_id#}}",
+  "version": "{{#start.version#}}"
+}
+```
 
 **HTTP Request Node 2**（同步别名）：
 - Method：`POST`
-- URL：`http://<asr-host>:8000/api/v1/dify-sync/aliases/pull?version={{#start.version#}}`
+- URL：`http://<asr-host>:8000/api/v1/dify-sync/aliases/pull`
+- Headers：`Content-Type: application/json`
+- Body (JSON)：
+```json
+{
+  "dataset_id": "{{#start.aliases_dataset_id#}}",
+  "version": "{{#start.version#}}"
+}
+```
 
 **HTTP Request Node 3**（同步 Prompt）：
 - Method：`POST`
-- URL：`http://<asr-host>:8000/api/v1/dify-sync/prompts/pull?version={{#start.version#}}`
+- URL：`http://<asr-host>:8000/api/v1/dify-sync/prompts/pull`
+- Headers：`Content-Type: application/json`
+- Body (JSON)：
+```json
+{
+  "dataset_id": "{{#start.prompts_dataset_id#}}",
+  "version": "{{#start.version#}}"
+}
+```
 
 三个节点串联（Node 1 完成后连 Node 2，再连 Node 3）。
 
 **End Node**：返回三个请求的结果。
 
-运行时输入 `version=调度`，一键同步"调度"版本的热词+别名+Prompt。
+运行时输入 version 和三个 dataset_id，一键同步全部配置。
 
-#### 方式二：只同步单个功能
+#### 方式二：dataset_id 固定在 .env 中（简化）
 
-如果只想同步热词，Workflow 里只放一个 HTTP Request 节点即可：
+如果知识库 ID 不常变，可在 `.env` 中配置 `DIFY_HOTWORDS_DATASET_ID` 等，Workflow 的 Body 只传 `version`：
 
-- Start Node：`version`（string）
-- HTTP Request Node：`POST .../dify-sync/hotwords/pull?version={{#start.version#}}`
+```json
+{"version": "{{#start.version#}}"}
+```
+
+这样 Start Node 只需定义 `version` 一个变量。
+
+#### 方式三：只同步单个功能
+
+Workflow 里只放一个 HTTP Request 节点：
+
+- Start Node：`version`（string）、`dataset_id`（string）
+- HTTP Request Node：`POST .../dify-sync/hotwords/pull`，Body `{"dataset_id":"{{#start.dataset_id#}}","version":"{{#start.version#}}"}`
 - End Node
 
-**不需要串联三个接口**。一个功能对应一个 HTTP 节点，按需添加。
+按需添加，不强制串联三个。
