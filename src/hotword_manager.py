@@ -312,7 +312,7 @@ class HotwordManager:
                 except Exception:
                     pass
 
-            return {"updated": updated, "deleted": deleted, "skipped": skipped}
+            return {"count": updated, "deleted": deleted, "skipped": skipped}
 
     def to_asr_format(self) -> Dict:
         """转换为上期 ASR 服务可接收的格式.

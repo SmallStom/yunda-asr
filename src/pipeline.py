@@ -227,6 +227,10 @@ class PostCorrectionPipeline:
         Returns:
             SemanticRefineResult 或 None（无可用refiner时）
         """
+        # 规范化：无效模式回落到 rag
+        if semantic_mode not in ("baseline", "rag", "harness"):
+            semantic_mode = "rag"
+
         if semantic_mode == "rag" and self.rag_refiner is not None:
             return self.rag_refiner.process(
                 original_text=original_text,
@@ -239,8 +243,28 @@ class PostCorrectionPipeline:
                 layer3_text=layer3_text,
                 changes_history=changes_history,
             )
-        elif self.semantic_refiner is not None:
-            # 默认基线模式
+        elif semantic_mode == "rag" and self.rag_refiner is None:
+            # rag 不可用，回落 baseline
+            if self.semantic_refiner is not None:
+                return self.semantic_refiner.process(
+                    original_text=original_text,
+                    layer3_text=layer3_text,
+                    changes_history=changes_history,
+                )
+        elif semantic_mode == "baseline" and self.semantic_refiner is not None:
+            return self.semantic_refiner.process(
+                original_text=original_text,
+                layer3_text=layer3_text,
+                changes_history=changes_history,
+            )
+        # 最后兜底：尝试任何可用的 refiner
+        if self.rag_refiner is not None:
+            return self.rag_refiner.process(
+                original_text=original_text,
+                layer3_text=layer3_text,
+                changes_history=changes_history,
+            )
+        if self.semantic_refiner is not None:
             return self.semantic_refiner.process(
                 original_text=original_text,
                 layer3_text=layer3_text,

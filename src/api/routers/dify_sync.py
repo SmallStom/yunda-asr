@@ -86,7 +86,7 @@ async def sync_prompts_from_dify(
             get_pipeline().reload_prompts()
         except Exception:
             pass
-        return {"status": "ok", "dataset_id": request.dataset_id, "version": request.version, "updated": updated}
+        return {"status": "ok", "dataset_id": request.dataset_id, "version": request.version, "count": len(updated), "files": updated}
     except DifyClientError as e:
         raise HTTPException(status_code=400, detail=str(e))
     except Exception as e:
