@@ -11,7 +11,7 @@ class CorrectionRequest(BaseModel):
     text: str = Field(..., description="ASR 原始输出文本", min_length=1, max_length=4096)
     layers: Optional[List[int]] = Field(default=None, description="启用的层号列表，如 [1,2,3]")
     enable_semantic: bool = Field(default=True, description="是否启用 Layer 4 语义精修")
-    semantic_mode: str = Field(default="baseline", description="语义精修模式：baseline/rag/harness")
+    semantic_mode: str = Field(default="rag", description="语义精修模式：baseline/rag/harness")
     hotwords_override: Optional[List[str]] = Field(default=None, description="本次请求临时热词列表")
 
 

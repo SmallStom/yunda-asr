@@ -28,7 +28,7 @@ async def transcribe_and_correct(
     enable_denoise: bool = Form(default=False, description="是否开启 DeepFilterNet 降噪"),
     layers: Optional[str] = Form(default=None, description="启用的层号，逗号分隔，如 1,2,3"),
     enable_semantic: bool = Form(default=True, description="是否启用 Layer 4 语义精修"),
-    semantic_mode: str = Form(default="baseline", description="语义精修模式：baseline/rag/harness"),
+    semantic_mode: str = Form(default="rag", description="语义精修模式：baseline/rag/harness"),
     pipeline=Depends(get_pipeline),
     _=Depends(verify_api_key),
 ) -> dict:
@@ -83,7 +83,10 @@ async def transcribe_and_correct(
         # 4. 文本纠错
         layer_list = None
         if layers:
-            layer_list = [int(x.strip()) for x in layers.split(",") if x.strip()]
+            try:
+                layer_list = [int(x.strip()) for x in layers.split(",") if x.strip()]
+            except ValueError:
+                layer_list = None  # 解析失败，默认走全部层
 
         correct_start = time.perf_counter()
         result = pipeline.run(
