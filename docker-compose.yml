@@ -18,7 +18,8 @@ services:
       - ./data:/app/data
       - ./src/prompts:/app/src/prompts
     environment:
-      # 容器内使用绝对路径或保持默认
+      # 容器内固定监听 8000，API_PORT 仅控制宿主机映射端口
+      - API_PORT=8000
       - DATA_DIR=/app/data
       - PROMPTS_DIR=/app/src/prompts
       - HOTWORDS_PATH=/app/data/lexicon/hotwords.json
