@@ -35,7 +35,7 @@ class Settings(BaseSettings):
     llm_base_url: str = Field(default="http://192.168.1.119:8012/v1", alias="LLM_BASE_URL")
     llm_model: str = Field(default="Qwen3.6-27B", alias="LLM_MODEL")
     llm_api_key: str = Field(default="dummy-key-for-local", alias="LLM_API_KEY")
-    llm_prompt_version: str = Field(default="v1", alias="LLM_PROMPT_VERSION")
+    llm_prompt_version: str = Field(default="v2", alias="LLM_PROMPT_VERSION")
     llm_max_concurrency: int = Field(default=10, alias="LLM_MAX_CONCURRENCY")
     llm_timeout: float = Field(default=30.0, alias="LLM_TIMEOUT")
 

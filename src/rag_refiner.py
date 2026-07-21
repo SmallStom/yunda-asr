@@ -83,7 +83,7 @@ class RAGRefiner:
 
     def _load_versioned_system_prompt(self) -> str:
         """根据 LLM_PROMPT_VERSION 环境变量加载对应版本的 system prompt."""
-        version = os.getenv("LLM_PROMPT_VERSION", "v1")
+        version = os.getenv("LLM_PROMPT_VERSION", "v2")
         if version == "v1":
             return RAG_SYSTEM_PROMPT
         prompts_dir = Path(__file__).parent / "prompts"

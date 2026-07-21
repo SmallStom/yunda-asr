@@ -80,7 +80,7 @@ class PromptLoader:
         except Exception:
             pass
 
-        version = os.getenv("LLM_PROMPT_VERSION", "v1")
+        version = os.getenv("LLM_PROMPT_VERSION", "v2")
 
         # 尝试从文件加载
         if cls.REGISTRY_FILE.exists():
