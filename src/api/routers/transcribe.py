@@ -27,7 +27,7 @@ async def transcribe_and_correct(
     file: UploadFile = File(..., description="音频文件（wav/mp3/flac/m4a 等）"),
     enable_denoise: bool = Form(default=False, description="是否开启 DeepFilterNet 降噪"),
     layers: Optional[str] = Form(default=None, description="启用的层号，逗号分隔，如 1,2,3"),
-    enable_semantic: bool = Form(default=False, description="是否启用 Layer 4 语义精修"),
+    enable_semantic: bool = Form(default=True, description="是否启用 Layer 4 语义精修"),
     semantic_mode: str = Form(default="baseline", description="语义精修模式：baseline/rag/harness"),
     pipeline=Depends(get_pipeline),
     _=Depends(verify_api_key),

@@ -23,6 +23,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 # 复制依赖配置并安装
 COPY pyproject.toml ./
 RUN pip install --no-cache-dir --upgrade pip --index-url "$PIP_INDEX" && \
+    pip install --no-cache-dir -e ".[audio,dify,denoise]" --index-url "$PIP_INDEX" || \
     pip install --no-cache-dir -e ".[audio,dify]" --index-url "$PIP_INDEX" || \
     pip install --no-cache-dir -e ".[dify]" --index-url "$PIP_INDEX" || \
     pip install --no-cache-dir -e "." --index-url "$PIP_INDEX"

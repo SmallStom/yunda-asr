@@ -26,9 +26,11 @@ audio = [
     "librosa>=0.10",
     "soundfile>=0.12",
     "imageio-ffmpeg>=0.4",
+    "python-multipart>=0.0.9",
+]
+denoise = [
     "deepfilternet>=0.5",
     "torch>=2.0",
-    "python-multipart>=0.0.9",
 ]
 audio-gpu = [
     "noisereduce>=3.0",
