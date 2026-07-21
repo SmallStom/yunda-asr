@@ -8,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 from src.api.dependencies import add_request_metadata, warmup_pipeline
-from src.api.routers import aliases, config, correction, dify_sync, health, hotwords, prompts
+from src.api.routers import aliases, config, correction, dify_sync, health, hotwords, prompts, transcribe
 from src.config import get_settings
 from src.logging_config import get_logger, setup_logging
 from src.metrics import get_metrics
@@ -86,6 +86,7 @@ async def logging_middleware(request: Request, call_next):
 # 注册路由
 app.include_router(health.router)
 app.include_router(correction.router)
+app.include_router(transcribe.router)
 app.include_router(config.router)
 app.include_router(hotwords.router)
 app.include_router(aliases.router)
