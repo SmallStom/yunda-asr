@@ -47,18 +47,19 @@ async def sync_hotwords_from_dify(
     - version: 可选，若指定则保存为版本文件 hotwords_{version}.json
     """
     _check_dify_enabled()
+    client = DifyClient()
     try:
-        client = DifyClient()
         words = client.fetch_hotwords(request.dataset_id, version=request.version)
         manager = get_hotword_manager()
         result = manager.reload_from_dify(words, version=request.version)
-        client.close()
         return {"status": "ok", "dataset_id": request.dataset_id, "version": request.version, **result}
     except DifyClientError as e:
         raise HTTPException(status_code=400, detail=str(e))
     except Exception as e:
         logger.exception("failed to sync hotwords from Dify")
         raise HTTPException(status_code=500, detail=f"sync failed: {e}")
+    finally:
+        client.close()
 
 
 @router.post("/prompts/pull")
@@ -74,12 +75,11 @@ async def sync_prompts_from_dify(
     ```
     """
     _check_dify_enabled()
+    client = DifyClient()
     try:
-        client = DifyClient()
         prompts = client.fetch_prompts(request.dataset_id, version=request.version)
         manager = get_prompt_manager()
         updated = manager.reload_from_dify(prompts)
-        client.close()
         # 触发 pipeline 热重载（刷新 RAG/Harness 的 system prompt）
         try:
             from src.api.dependencies import get_pipeline
@@ -92,6 +92,8 @@ async def sync_prompts_from_dify(
     except Exception as e:
         logger.exception("failed to sync prompts from Dify")
         raise HTTPException(status_code=500, detail=f"sync failed: {e}")
+    finally:
+        client.close()
 
 
 @router.post("/aliases/pull")
@@ -107,10 +109,9 @@ async def sync_aliases_from_dify(
     ```
     """
     _check_dify_enabled()
+    client = DifyClient()
     try:
-        client = DifyClient()
         aliases = client.fetch_aliases(request.dataset_id, version=request.version)
-        client.close()
 
         from src.alias_manager import get_alias_manager
 
@@ -133,6 +134,8 @@ async def sync_aliases_from_dify(
     except Exception as e:
         logger.exception("failed to sync aliases from Dify")
         raise HTTPException(status_code=500, detail=f"sync failed: {e}")
+    finally:
+        client.close()
 
 
 @router.get("/status")

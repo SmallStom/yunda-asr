@@ -276,6 +276,8 @@ class PostCorrectionPipeline:
 
     def reload_aliases(self) -> None:
         """热重载别名映射：刷新词典、上下文、RAG/Harness 各层."""
+        self._cache.clear()
+        self._cache_order.clear()
         self.dictionary_corrector.reload()
         # context_corrector 使用 phonetic_candidate 单例，单例已被全局重载
         if self.rag_refiner is not None:
@@ -291,6 +293,8 @@ class PostCorrectionPipeline:
 
     def reload_hotwords(self) -> None:
         """热重载热词：刷新 RAG/Harness 的 TermTool 拼音索引."""
+        self._cache.clear()
+        self._cache_order.clear()
         if self.rag_refiner is not None:
             try:
                 self.rag_refiner.term_tool.reload()
@@ -308,6 +312,8 @@ class PostCorrectionPipeline:
         SemanticRefiner 通过 property 动态加载，无需手动刷新。
         RAGRefiner 在 init 时缓存了 system_prompt，需要手动刷新。
         """
+        self._cache.clear()
+        self._cache_order.clear()
         if self.rag_refiner is not None:
             try:
                 self.rag_refiner.reload_prompt()

@@ -4,6 +4,7 @@
 可对接 Qwen3-ASR (vLLM)、VibeVoice 等本地部署的 ASR 服务。
 """
 
+import json
 import os
 import time
 from pathlib import Path
@@ -73,5 +74,13 @@ class ASRClient:
                 latency = (time.perf_counter() - start) * 1000
 
             text = resp.text.strip()
+            # 某些 ASR 服务忽略 response_format=text，返回 JSON，需要提取 text 字段
+            if text.startswith("{"):
+                try:
+                    data = json.loads(text)
+                    if isinstance(data, dict) and "text" in data:
+                        text = data["text"].strip()
+                except json.JSONDecodeError:
+                    pass  # 不是合法 JSON，按纯文本处理
             logger.info("ASR done", extra={"latency_ms": latency, "text_len": len(text)})
             return text

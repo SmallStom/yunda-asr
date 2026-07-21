@@ -61,9 +61,9 @@ async def transcribe_and_correct(
                 audio_path.unlink()
                 audio_path = denoised_path
                 steps["denoise"] = {"method": "deepfilternet", "atten_lim_db": DF_ATTEN_LIM_DB}
-            except ImportError:
-                logger.warning("deepfilternet not installed, skipping denoise")
-                steps["denoise"] = {"skipped": "deepfilternet not installed"}
+            except Exception as e:
+                logger.warning(f"denoise failed, skipping: {e}")
+                steps["denoise"] = {"skipped": str(e)}
             steps["denoise_latency_ms"] = (time.perf_counter() - denoise_start) * 1000
 
         # 3. ASR 转文本
