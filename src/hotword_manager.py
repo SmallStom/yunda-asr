@@ -263,12 +263,8 @@ class HotwordManager:
             {"updated": int, "deleted": int, "skipped": int}
         """
         with self._lock:
-            # 确定比较基准：版本同步时对比上一次的版本文件，否则对比当前活跃文件
-            if version:
-                version_path = self._versioned_path(version)
-                base_items = self._load_items_from_file(version_path) if version_path.exists() else {}
-            else:
-                base_items = self._items
+            # deleted = 上一次同步操作写入的数量（不论版本）
+            deleted = getattr(self, "_last_sync_count", 0)
 
             new_items: Dict[str, HotwordItem] = {}
             updated = 0
@@ -280,13 +276,7 @@ class HotwordManager:
                     skipped += 1
                     continue
 
-                existing_id = None
-                for item in base_items.values():
-                    if item.word == word and item.category == entry.get("category"):
-                        existing_id = item.id
-                        break
-
-                item_id = existing_id or str(uuid.uuid4())
+                item_id = str(uuid.uuid4())
                 new_items[item_id] = HotwordItem(
                     id=item_id,
                     word=word,
@@ -295,8 +285,8 @@ class HotwordManager:
                 )
                 updated += 1
 
-            # 全量替换：deleted = 上一个版本的总数量
-            deleted = len(base_items)
+            # 更新 _last_sync_count 供下次同步使用
+            self._last_sync_count = updated
 
             # 序列化数据
             serialized = sorted(

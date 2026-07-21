@@ -76,23 +76,17 @@ class AliasManager:
         """将别名数据保存为版本文件（不覆盖活跃文件）.
 
         Returns:
-            (path, deleted) - 保存路径和上一个版本的数量
+            (path, deleted) - 保存路径和上一次同步操作的数量
         """
         target = self._versioned_path(version)
-        # 统计上一个版本的数量
-        deleted = 0
-        if target.exists():
-            try:
-                old = json.loads(target.read_text(encoding="utf-8"))
-                if isinstance(old, dict):
-                    deleted = len(old)
-            except Exception:
-                pass
+        # deleted = 上一次同步操作写入的数量
+        deleted = getattr(self, "_last_sync_count", 0)
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(
             json.dumps(aliases, ensure_ascii=False, indent=2),
             encoding="utf-8",
         )
+        self._last_sync_count = len(aliases)
         logger.info(f"saved aliases as version '{version}' -> {target} (deleted {deleted})")
         return target, deleted
 
@@ -100,17 +94,10 @@ class AliasManager:
         """覆盖活跃文件并热重载.
 
         Returns:
-            (path, deleted) - 保存路径和上一个版本的数量
+            (path, deleted) - 保存路径和上一次同步操作的数量
         """
-        # 统计上一个版本的数量
-        deleted = 0
-        if self.alias_path.exists():
-            try:
-                old = json.loads(self.alias_path.read_text(encoding="utf-8"))
-                if isinstance(old, dict):
-                    deleted = len(old)
-            except Exception:
-                pass
+        # deleted = 上一次同步操作写入的数量
+        deleted = getattr(self, "_last_sync_count", 0)
         # 备份
         if self.alias_path.exists():
             backup_dir = self.lexicon_dir / "backups"
@@ -120,6 +107,7 @@ class AliasManager:
             json.dumps(aliases, ensure_ascii=False, indent=2),
             encoding="utf-8",
         )
+        self._last_sync_count = len(aliases)
         # 热重载
         from src import dictionary_corrector, phonetic_candidate
 
