@@ -295,9 +295,8 @@ class HotwordManager:
                 )
                 updated += 1
 
-            deleted = len(base_items) - len(
-                {k for k in base_items if k in new_items}
-            )
+            # 全量替换：deleted = 上一个版本的总数量
+            deleted = len(base_items)
 
             # 序列化数据
             serialized = sorted(

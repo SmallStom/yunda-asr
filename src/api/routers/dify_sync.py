@@ -116,15 +116,16 @@ async def sync_aliases_from_dify(
 
         manager = get_alias_manager()
         if request.version:
-            path = manager.save_as_version(request.version, aliases)
+            path, deleted = manager.save_as_version(request.version, aliases)
         else:
-            path = manager.save_as_active(aliases)
+            path, deleted = manager.save_as_active(aliases)
 
         return {
             "status": "ok",
             "dataset_id": request.dataset_id,
             "version": request.version,
             "count": len(aliases),
+            "deleted": deleted,
             "path": str(path),
         }
     except DifyClientError as e:

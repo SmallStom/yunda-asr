@@ -72,19 +72,45 @@ class AliasManager:
         logger.info(f"switched to aliases version '{version}'")
         return True
 
-    def save_as_version(self, version: str, aliases: Dict[str, str]) -> Path:
-        """将别名数据保存为版本文件（不覆盖活跃文件）."""
+    def save_as_version(self, version: str, aliases: Dict[str, str]) -> tuple:
+        """将别名数据保存为版本文件（不覆盖活跃文件）.
+
+        Returns:
+            (path, deleted) - 保存路径和上一个版本的数量
+        """
         target = self._versioned_path(version)
+        # 统计上一个版本的数量
+        deleted = 0
+        if target.exists():
+            try:
+                old = json.loads(target.read_text(encoding="utf-8"))
+                if isinstance(old, dict):
+                    deleted = len(old)
+            except Exception:
+                pass
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(
             json.dumps(aliases, ensure_ascii=False, indent=2),
             encoding="utf-8",
         )
-        logger.info(f"saved aliases as version '{version}' -> {target}")
-        return target
+        logger.info(f"saved aliases as version '{version}' -> {target} (deleted {deleted})")
+        return target, deleted
 
-    def save_as_active(self, aliases: Dict[str, str]) -> Path:
-        """覆盖活跃文件并热重载."""
+    def save_as_active(self, aliases: Dict[str, str]) -> tuple:
+        """覆盖活跃文件并热重载.
+
+        Returns:
+            (path, deleted) - 保存路径和上一个版本的数量
+        """
+        # 统计上一个版本的数量
+        deleted = 0
+        if self.alias_path.exists():
+            try:
+                old = json.loads(self.alias_path.read_text(encoding="utf-8"))
+                if isinstance(old, dict):
+                    deleted = len(old)
+            except Exception:
+                pass
         # 备份
         if self.alias_path.exists():
             backup_dir = self.lexicon_dir / "backups"
@@ -105,7 +131,7 @@ class AliasManager:
             get_pipeline().reload_aliases()
         except Exception:
             pass
-        return self.alias_path
+        return self.alias_path, deleted
 
 
 _singleton: Optional[AliasManager] = None
