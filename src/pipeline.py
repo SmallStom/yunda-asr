@@ -227,43 +227,35 @@ class PostCorrectionPipeline:
         Returns:
             SemanticRefineResult 或 None（无可用refiner时）
         """
-        # 规范化：无效模式回落到 rag
+        # 规范化：无效模式默认 rag
         if semantic_mode not in ("baseline", "rag", "harness"):
             semantic_mode = "rag"
 
-        if semantic_mode == "rag" and self.rag_refiner is not None:
-            return self.rag_refiner.process(
-                original_text=original_text,
-                layer3_text=layer3_text,
-                changes_history=changes_history,
-            )
-        elif semantic_mode == "harness" and self.harness_refiner is not None:
-            return self.harness_refiner.process(
-                original_text=original_text,
-                layer3_text=layer3_text,
-                changes_history=changes_history,
-            )
-        elif semantic_mode == "rag" and self.rag_refiner is None:
-            # rag 不可用，回落 baseline
-            if self.semantic_refiner is not None:
-                return self.semantic_refiner.process(
-                    original_text=original_text,
-                    layer3_text=layer3_text,
-                    changes_history=changes_history,
-                )
-        elif semantic_mode == "baseline" and self.semantic_refiner is not None:
+        # 只有显式传 baseline 才走 baseline
+        if semantic_mode == "baseline" and self.semantic_refiner is not None:
             return self.semantic_refiner.process(
                 original_text=original_text,
                 layer3_text=layer3_text,
                 changes_history=changes_history,
             )
-        # 最后兜底：尝试任何可用的 refiner
+
+        # harness 显式请求时优先用 harness
+        if semantic_mode == "harness" and self.harness_refiner is not None:
+            return self.harness_refiner.process(
+                original_text=original_text,
+                layer3_text=layer3_text,
+                changes_history=changes_history,
+            )
+
+        # 所有其他情况（rag、harness不可用、无效值）都走 rag
         if self.rag_refiner is not None:
             return self.rag_refiner.process(
                 original_text=original_text,
                 layer3_text=layer3_text,
                 changes_history=changes_history,
             )
+
+        # rag 也不可用，最后兜底 baseline
         if self.semantic_refiner is not None:
             return self.semantic_refiner.process(
                 original_text=original_text,
