@@ -57,15 +57,10 @@ class Settings(BaseSettings):
     hotwords_version: Optional[str] = Field(default=None, alias="HOTWORDS_VERSION")
     aliases_version: Optional[str] = Field(default=None, alias="ALIASES_VERSION")
 
-    # Dify 桥接配置
+    # Dify 桥接配置（dataset_id 通过请求体传入，无需在 .env 配置）
     dify_enabled: bool = Field(default=False, alias="DIFY_ENABLED")
     dify_base_url: str = Field(default="http://localhost:5001", alias="DIFY_BASE_URL")
     dify_api_key: Optional[str] = Field(default=None, alias="DIFY_API_KEY")
-    dify_hotwords_dataset_id: Optional[str] = Field(default=None, alias="DIFY_HOTWORDS_DATASET_ID")
-    dify_prompts_dataset_id: Optional[str] = Field(default=None, alias="DIFY_PROMPTS_DATASET_ID")
-    dify_aliases_dataset_id: Optional[str] = Field(default=None, alias="DIFY_ALIASES_DATASET_ID")
-    dify_knowledge_dataset_id: Optional[str] = Field(default=None, alias="DIFY_KNOWLEDGE_DATASET_ID")
-    dify_sync_interval_seconds: int = Field(default=300, alias="DIFY_SYNC_INTERVAL_SECONDS")
 
     # 功能开关
     enable_entity_guard: bool = Field(default=True, alias="ENABLE_ENTITY_GUARD")
