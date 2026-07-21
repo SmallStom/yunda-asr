@@ -150,6 +150,18 @@ class HotwordManager:
             self._items = {item.id: item for item in items}
             logger.info(f"loaded {len(self._items)} hotwords from {self.hotwords_path}")
 
+    def _load_items_from_file(self, path: Path) -> Dict[str, HotwordItem]:
+        """从指定文件加载热词条目（不修改 self._items）."""
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except Exception as e:
+            logger.warning(f"failed to load {path}: {e}")
+            return {}
+        if not isinstance(data, list):
+            return {}
+        items = self._migrate_legacy_format(data)
+        return {item.id: item for item in items}
+
     def _backup(self) -> None:
         """同步前备份原文件."""
         if self.hotwords_path.exists():
@@ -244,7 +256,13 @@ class HotwordManager:
             {"updated": int, "deleted": int, "skipped": int}
         """
         with self._lock:
-            # 先在内存中构建新数据
+            # 确定比较基准：版本同步时对比上一次的版本文件，否则对比当前活跃文件
+            if version:
+                version_path = self._versioned_path(version)
+                base_items = self._load_items_from_file(version_path) if version_path.exists() else {}
+            else:
+                base_items = self._items
+
             new_items: Dict[str, HotwordItem] = {}
             updated = 0
             skipped = 0
@@ -256,7 +274,7 @@ class HotwordManager:
                     continue
 
                 existing_id = None
-                for item in self._items.values():
+                for item in base_items.values():
                     if item.word == word and item.category == entry.get("category"):
                         existing_id = item.id
                         break
@@ -270,8 +288,8 @@ class HotwordManager:
                 )
                 updated += 1
 
-            deleted = len(self._items) - len(
-                {k for k in self._items if k in new_items}
+            deleted = len(base_items) - len(
+                {k for k in base_items if k in new_items}
             )
 
             # 序列化数据
