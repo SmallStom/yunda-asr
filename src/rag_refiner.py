@@ -72,8 +72,14 @@ class RAGRefiner:
         self.client = client or LLMClient()
         self.retriever = retriever or KnowledgeRetriever()
         self.guard = EntityGuard()
+        self._fixed_system_prompt = system_prompt
         self.system_prompt = system_prompt or self._load_versioned_system_prompt()
         self.term_tool = TermTool(self.retriever)
+
+    def reload_prompt(self) -> None:
+        """重新加载 system prompt（Dify 同步后调用）."""
+        if not self._fixed_system_prompt:
+            self.system_prompt = self._load_versioned_system_prompt()
 
     def _load_versioned_system_prompt(self) -> str:
         """根据 LLM_PROMPT_VERSION 环境变量加载对应版本的 system prompt."""

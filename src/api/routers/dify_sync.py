@@ -80,6 +80,12 @@ async def sync_prompts_from_dify(
         manager = get_prompt_manager()
         updated = manager.reload_from_dify(prompts)
         client.close()
+        # 触发 pipeline 热重载（刷新 RAG/Harness 的 system prompt）
+        try:
+            from src.api.dependencies import get_pipeline
+            get_pipeline().reload_prompts()
+        except Exception:
+            pass
         return {"status": "ok", "dataset_id": request.dataset_id, "version": request.version, "updated": updated}
     except DifyClientError as e:
         raise HTTPException(status_code=400, detail=str(e))

@@ -289,6 +289,36 @@ class PostCorrectionPipeline:
             except Exception:
                 pass
 
+    def reload_hotwords(self) -> None:
+        """热重载热词：刷新 RAG/Harness 的 TermTool 拼音索引."""
+        if self.rag_refiner is not None:
+            try:
+                self.rag_refiner.term_tool.reload()
+            except Exception:
+                pass
+        if self.harness_refiner is not None:
+            try:
+                self.harness_refiner.term_tool.reload()
+            except Exception:
+                pass
+
+    def reload_prompts(self) -> None:
+        """热重载 Prompt：刷新 RAG/Harness 的 system prompt.
+
+        SemanticRefiner 通过 property 动态加载，无需手动刷新。
+        RAGRefiner 在 init 时缓存了 system_prompt，需要手动刷新。
+        """
+        if self.rag_refiner is not None:
+            try:
+                self.rag_refiner.reload_prompt()
+            except Exception:
+                pass
+        if self.harness_refiner is not None:
+            try:
+                self.harness_refiner.strategy_b.reload_prompt()
+            except Exception:
+                pass
+
 
 # 全局流水线实例
 _pipeline = None

@@ -76,7 +76,7 @@ class HotwordManager:
         return sorted(versions, key=lambda x: x["version"])
 
     def switch_version(self, version: str) -> bool:
-        """切换当前活跃版本."""
+        """切换当前活跃版本并热重载."""
         with self._lock:
             ok = self._activate_version(version)
             if ok:
@@ -90,7 +90,14 @@ class HotwordManager:
                     logger.info(f"switched to hotwords version '{version}', {len(self._items)} words loaded")
                 except Exception as e:
                     logger.error(f"failed to reload after version switch: {e}")
-            return ok
+        # 触发 pipeline 热重载（刷新 TermTool 拼音索引）
+        if ok:
+            try:
+                from src.api.dependencies import get_pipeline
+                get_pipeline().reload_hotwords()
+            except Exception:
+                pass
+        return ok
 
     def save_as_version(self, version: str, data: list) -> Path:
         """将数据保存为版本文件."""
@@ -309,6 +316,12 @@ class HotwordManager:
                     encoding="utf-8",
                 )
                 self._items = new_items
+                # 触发 pipeline 热重载（刷新 TermTool 拼音索引）
+                try:
+                    from src.api.dependencies import get_pipeline
+                    get_pipeline().reload_hotwords()
+                except Exception:
+                    pass
 
             return {"updated": updated, "deleted": deleted, "skipped": skipped}
 
